@@ -1,26 +1,29 @@
-import type { Component } from 'solid-js';
+import { createResource, type Component, Show, createEffect, createSignal } from 'solid-js';
 
-import logo from './logo.svg';
-import styles from './App.module.css';
+const API_URL = 'http://localhost:8080'
 
 const App: Component = () => {
+  const [response] = createResource<{ Hello: string }>(() => fetch(`${API_URL}`, {  }).then((res) => res.json()))
+  const [repo, setRepo] = createSignal<string>('')
+
+  const submitRepo = async () => {
+    const res = await fetch(`${API_URL}/repos?url=${repo()}`, {
+      method: 'POST',
+    })
+  
+    console.log(await res.json())
+  }
+
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
+    <main>
+      <p>
+        <Show when={!response.loading} fallback="loading...">
+          Hello, {response()?.Hello}!
+        </Show>
+        <input type="text" value={repo()} onInput={(e) => setRepo(e.currentTarget.value)} />
+        <button onClick={submitRepo}>Submit</button>
+      </p>
+    </main>
   );
 };
 

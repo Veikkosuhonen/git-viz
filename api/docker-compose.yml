@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: .
+    image: api
+    volumes:
+      - ./tmp:/app/data
+    ports:
+      - 8080:8080

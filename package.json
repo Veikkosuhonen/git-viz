@@ -6,7 +6,8 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "api": "docker compose -f ./api/docker-compose.yml up"
   },
   "license": "MIT",
   "devDependencies": {
