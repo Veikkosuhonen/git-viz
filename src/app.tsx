@@ -16,7 +16,7 @@ const App: Component = () => {
   //}
 
   return (
-    <main>
+    <main style={{ margin: "2rem" }}>
       {/* <p>
         <Show when={!response.loading} fallback="loading...">
           Hello, {response()?.Hello}!

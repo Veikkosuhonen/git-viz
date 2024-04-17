@@ -120,8 +120,8 @@ const drag = (simulation: d3.Simulation<d3.HierarchyNode<any>, undefined>) => {
 
 const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
   // Specify the chart’s dimensions.
-  const width = window.innerWidth * 0.9;
-  const height = window.innerHeight * 0.9;
+  const width = window.innerWidth * 0.8;
+  const height = window.innerHeight * 0.8;
 
   const mapNodes = (node: any) => {
     if (node.children) {
@@ -139,9 +139,9 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
   const nodes = root.descendants();
 
   const simulation = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id(d => d.index ?? 0).distance(0).strength(0.35))
+      .force("link", d3.forceLink(links).id(d => d.index ?? 0).distance(0).strength(0.5))
       .force("charge", d3.forceManyBody().strength(d => 
-        2 * -Math.min(nodes[d.index].data.lines ?? 100, 500))
+        3 * -Math.min(nodes[d.index].data.lines ?? 100, 500))
       )
       .force("x", d3.forceX())
       .force("y", d3.forceY());
@@ -171,7 +171,7 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
     .data(adjacencyLinks)
     .join("line")
       .attr("stroke-width", d => Math.sqrt(d.value))
-      .attr("stroke-opacity", d => d.value / 30)
+      .attr("stroke-opacity", d => d.value / 50)
       .attr("x1", d => d.source.x)
       .attr("y1", d => d.source.y)
       .attr("x2", d => d.target.x)
@@ -196,10 +196,22 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
     .join("circle")
       .attr("fill", d => d.children ? null : "#000")
       .attr("stroke", d => d.children ? null : "#fff")
-      .attr("r", d => d.data.importance ? Math.sqrt(d.data.importance) : 3)
+      .attr("r", d => d.children?.length ? 10 : (Math.sqrt(d.data.importance + 2)))
       .call(drag(simulation));
 
   node.append("title")
+      .text(d => d.data.name);
+
+  // Append the text labels.
+  const label = svg.append("g")
+      .style("font", "10px sans-serif")
+      .attr("pointer-events", "none")
+      .attr("selectable", "false")
+      .attr("text-anchor", "begin")
+    .selectAll("text")
+    .data(root.descendants())
+    .join("text")
+      .style("fill-opacity", d => d.children?.length ? 1 : d.data.importance / 10)
       .text(d => d.data.name);
 
   simulation.on("tick", () => {
@@ -218,13 +230,24 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
     node
         .attr("cx", d => d.x)
         .attr("cy", d => d.y);
+
+    label
+        .attr("x", d => d.x)
+        .attr("y", d => d.y);
   });
 
   simulation.on("end", () => {
     console.log("Simulation ended")
-
-    
   })
+
+  const zoom = d3.zoom()
+      .scaleExtent([0.5, 32])
+      .on("zoom", event => {
+        const {transform} = event;
+        svg.attr("transform", transform);
+      });
+
+  svg.call(zoom).call(zoom.transform, d3.zoomIdentity);
 
   onCleanup(() => simulation.stop());
 
@@ -257,14 +280,20 @@ export const Visualization = () => {
   const [type, setType] = createSignal('fdg')
 
   return (
-    <main>
+    <>
       <h1>Visualization</h1>
       <div>
         <select value={type()} onChange={(e) => setType(e.currentTarget.value)}>
           <option value="pack">Pack</option>
           <option value="fdg">Force-Directed Graph</option>
         </select>
-        <section>
+        <section style={{
+          "margin-top": "2rem",
+          "border-radius": "3rem",
+          "box-shadow": "0 5px 1rem 0 rgba(0, 0, 1, 0.3)",
+          "border": "1px solid rgba(0, 0, 0, 0.3)",
+          "overflow": "hidden",
+        }}>
           <Show when={data() && adjacencyData()}>
             <Switch>
               <Match when={type() === 'fdg'}>
@@ -277,6 +306,6 @@ export const Visualization = () => {
           </Show>
         </section>
       </div>
-    </main>
+    </>
   )
 }
