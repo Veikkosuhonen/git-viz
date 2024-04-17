@@ -1,0 +1,876 @@
+{
+  "name": "/",
+  "children": [
+    {
+      "name": "tsconfig.node.json",
+      "lines": 9
+    },
+    {
+      "name": "index.html",
+      "lines": 13
+    },
+    {
+      "name": "compose.ci.yaml",
+      "lines": 30
+    },
+    {
+      "name": "Containerfile",
+      "lines": 27
+    },
+    {
+      "name": "README.md",
+      "lines": 10
+    },
+    {
+      "name": "dev.Containerfile",
+      "lines": 12
+    },
+    {
+      "name": ".env.template",
+      "lines": 9
+    },
+    {
+      "name": ".gitignore",
+      "lines": 14
+    },
+    {
+      "name": "package-lock.json",
+      "lines": 11926
+    },
+    {
+      "name": "package.json",
+      "lines": 143
+    },
+    {
+      "name": "compose.yaml",
+      "lines": 32
+    },
+    {
+      "name": "tsconfig.json",
+      "lines": 33
+    },
+    {
+      "name": "playwright.config.ts",
+      "lines": 83
+    },
+    {
+      "name": "vite.config.ts",
+      "lines": 47
+    },
+    {
+      "name": ".env.development",
+      "lines": 3
+    },
+    {
+      "name": ".husky",
+      "children": [
+        {
+          "name": ".husky/pre-commit",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "children": [
+        {
+          "name": "public/hy_favicon.ico",
+          "lines": 0
+        }
+      ]
+    },
+    {
+      "name": "scripts",
+      "children": [
+        {
+          "name": "scripts/get_prod_db.sh",
+          "lines": 64
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "children": [
+        {
+          "name": ".github/workflows",
+          "children": [
+            {
+              "name": ".github/workflows/staging.yaml",
+              "lines": 108
+            },
+            {
+              "name": ".github/workflows/production.yaml",
+              "lines": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e2e",
+      "children": [
+        {
+          "name": "e2e/healthcheck.spec.ts",
+          "lines": 0
+        },
+        {
+          "name": "e2e/basic.spec.ts",
+          "lines": 12
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "children": [
+        {
+          "name": "src/config.ts",
+          "lines": 38
+        },
+        {
+          "name": "src/server",
+          "children": [
+            {
+              "name": "src/server/types.ts",
+              "lines": 132
+            },
+            {
+              "name": "src/server/index.ts",
+              "lines": 41
+            },
+            {
+              "name": "src/server/middleware",
+              "children": [
+                {
+                  "name": "src/server/middleware/access.ts",
+                  "lines": 41
+                },
+                {
+                  "name": "src/server/middleware/shibboleth.ts",
+                  "lines": 6
+                },
+                {
+                  "name": "src/server/middleware/error.ts",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/middleware/user.ts",
+                  "lines": 61
+                }
+              ]
+            },
+            {
+              "name": "src/server/util",
+              "children": [
+                {
+                  "name": "src/server/util/sentry.ts",
+                  "lines": 20
+                },
+                {
+                  "name": "src/server/util/redis.ts",
+                  "lines": 21
+                },
+                {
+                  "name": "src/server/util/openai.ts",
+                  "lines": 60
+                },
+                {
+                  "name": "src/server/util/hash.ts",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/util/parser.ts",
+                  "lines": 5
+                },
+                {
+                  "name": "src/server/util/logger.ts",
+                  "lines": 63
+                },
+                {
+                  "name": "src/server/util/jami.ts",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/util/tiktoken.ts",
+                  "lines": 7
+                },
+                {
+                  "name": "src/server/util/azure.ts",
+                  "lines": 66
+                },
+                {
+                  "name": "src/server/util/pate.ts",
+                  "lines": 34
+                },
+                {
+                  "name": "src/server/util/cron.ts",
+                  "lines": 43
+                },
+                {
+                  "name": "src/server/util/util.ts",
+                  "lines": 48
+                },
+                {
+                  "name": "src/server/util/importer.ts",
+                  "lines": 83
+                },
+                {
+                  "name": "src/server/util/config.ts",
+                  "lines": 59
+                }
+              ]
+            },
+            {
+              "name": "src/server/updater",
+              "children": [
+                {
+                  "name": "src/server/updater/mangleData.ts",
+                  "lines": 115
+                },
+                {
+                  "name": "src/server/updater/courses.ts",
+                  "lines": 99
+                },
+                {
+                  "name": "src/server/updater/enrolments.ts",
+                  "lines": 51
+                },
+                {
+                  "name": "src/server/updater/responsibilities.ts",
+                  "lines": 91
+                },
+                {
+                  "name": "src/server/updater/util.ts",
+                  "lines": 86
+                },
+                {
+                  "name": "src/server/updater/users.ts",
+                  "lines": 44
+                },
+                {
+                  "name": "src/server/updater/index.ts",
+                  "lines": 27
+                },
+                {
+                  "name": "src/server/updater/importerClient.ts",
+                  "lines": 43
+                }
+              ]
+            },
+            {
+              "name": "src/server/db",
+              "children": [
+                {
+                  "name": "src/server/db/connection.ts",
+                  "lines": 57
+                },
+                {
+                  "name": "src/server/db/migrations",
+                  "children": [
+                    {
+                      "name": "src/server/db/migrations/20230320_00_init_users.ts",
+                      "lines": 30
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230724_01_add_reset_cron_to_services.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240322_00_rename_service_to_chat_instance.ts",
+                      "lines": 21
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230320_02_init_user_service_usages.ts",
+                      "lines": 39
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230726_00_get_rid_of_bigint.ts",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240206_00_remove_service_access_groups.ts",
+                      "lines": 46
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230912_01_add_name_to_prompts.ts",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230724_00_init_service_access_groups.ts",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230817_00_add_course_id_and_prompt_to_services.ts",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240205_00_add_usage_to_users.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240404_00_rename_columns_in_new_tables.ts",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230425_00_add_is_admin_to_users.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240309_00_add_total_usage_to_users.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230821_01_remove_prompt_from_services.ts",
+                      "lines": 21
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230414_00_switch_usage_limit_and_count_to_bigint.ts",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230912_00_add_hidden_to_prompts.ts",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230724_03_add_model_to_services.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240326_00_init_responsibilities.ts",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230724_02_add_iam_group_to_service_access_groups.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230818_00_add_default_uuid_to_service_id.ts",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/server/db/migrations/20231211_00_remove_gpt-3.5-turbo-16k_from_models.ts",
+                      "lines": 17
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230605_00_add_iam_groups_to_users.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230817_01_add_active_course_ids_to_user.ts",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240325_00_rename_user_service_usage_to_user_chat_instance_usage.ts",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240206_01_remove_chat_service.ts",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/server/db/migrations/20231204_00_change_prompt_system_message_to_text.ts",
+                      "lines": 17
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240404_01_add_foregn_key_constraints_to_new_tables.ts",
+                      "lines": 64
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240404_00_add_uniq_index_to_chat_instance_course_id.ts",
+                      "lines": 17
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240325_01_init_enrolments.ts",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230821_00_init_prompts.ts",
+                      "lines": 37
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230320_01_init_services.ts",
+                      "lines": 38
+                    },
+                    {
+                      "name": "src/server/db/migrations/20240207_00_add_is_power_user_to_users.ts",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/server/db/migrations/20230831_00_add_activity_period_to_services.ts",
+                      "lines": 15
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/db/models",
+                  "children": [
+                    {
+                      "name": "src/server/db/models/enrolment.ts",
+                      "lines": 45
+                    },
+                    {
+                      "name": "src/server/db/models/prompt.ts",
+                      "lines": 66
+                    },
+                    {
+                      "name": "src/server/db/models/responsibilities.ts",
+                      "lines": 45
+                    },
+                    {
+                      "name": "src/server/db/models/userChatInstanceUsage.ts",
+                      "lines": 52
+                    },
+                    {
+                      "name": "src/server/db/models/index.ts",
+                      "lines": 51
+                    },
+                    {
+                      "name": "src/server/db/models/chatInstance.ts",
+                      "lines": 82
+                    },
+                    {
+                      "name": "src/server/db/models/user.ts",
+                      "lines": 77
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/db/seeders",
+                  "children": [
+                    {
+                      "name": "src/server/db/seeders/index.ts",
+                      "lines": 19
+                    },
+                    {
+                      "name": "src/server/db/seeders/chatInstance.ts",
+                      "lines": 40
+                    },
+                    {
+                      "name": "src/server/db/seeders/user.ts",
+                      "lines": 27
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/server/routes",
+              "children": [
+                {
+                  "name": "src/server/routes/faculty.ts",
+                  "lines": 35
+                },
+                {
+                  "name": "src/server/routes/prompt.ts",
+                  "lines": 53
+                },
+                {
+                  "name": "src/server/routes/email.ts",
+                  "lines": 15
+                },
+                {
+                  "name": "src/server/routes/admin.ts",
+                  "lines": 183
+                },
+                {
+                  "name": "src/server/routes/openai.ts",
+                  "lines": 428
+                },
+                {
+                  "name": "src/server/routes/index.ts",
+                  "lines": 48
+                },
+                {
+                  "name": "src/server/routes/course.ts",
+                  "lines": 76
+                },
+                {
+                  "name": "src/server/routes/chatInstance.ts",
+                  "lines": 65
+                },
+                {
+                  "name": "src/server/routes/user.ts",
+                  "lines": 69
+                }
+              ]
+            },
+            {
+              "name": "src/server/chatInstances",
+              "children": [
+                {
+                  "name": "src/server/chatInstances/usage.ts",
+                  "lines": 141
+                },
+                {
+                  "name": "src/server/chatInstances/access.ts",
+                  "lines": 77
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "src/client",
+          "children": [
+            {
+              "name": "src/client/index.tsx",
+              "lines": 64
+            },
+            {
+              "name": "src/client/App.tsx",
+              "lines": 66
+            },
+            {
+              "name": "src/client/styles.css",
+              "lines": 21
+            },
+            {
+              "name": "src/client/types.ts",
+              "lines": 87
+            },
+            {
+              "name": "src/client/Router.tsx",
+              "lines": 36
+            },
+            {
+              "name": "src/client/vite-env.d.ts",
+              "lines": 1
+            },
+            {
+              "name": "src/client/theme.ts",
+              "lines": 94
+            },
+            {
+              "name": "src/client/locales",
+              "children": [
+                {
+                  "name": "src/client/locales/fi.json",
+                  "lines": 107
+                },
+                {
+                  "name": "src/client/locales/en.json",
+                  "lines": 101
+                },
+                {
+                  "name": "src/client/locales/sv.json",
+                  "lines": 96
+                }
+              ]
+            },
+            {
+              "name": "src/client/util",
+              "children": [
+                {
+                  "name": "src/client/util/sentry.ts",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/util/i18n.ts",
+                  "lines": 29
+                },
+                {
+                  "name": "src/client/util/email.ts",
+                  "lines": 17
+                },
+                {
+                  "name": "src/client/util/queryClient.ts",
+                  "lines": 5
+                },
+                {
+                  "name": "src/client/util/apiClient.ts",
+                  "lines": 48
+                }
+              ]
+            },
+            {
+              "name": "src/client/components",
+              "children": [
+                {
+                  "name": "src/client/components/NoAccess",
+                  "children": [
+                    {
+                      "name": "src/client/components/NoAccess/index.tsx",
+                      "lines": 18
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/NavBar",
+                  "children": [
+                    {
+                      "name": "src/client/components/NavBar/index.tsx",
+                      "lines": 176
+                    },
+                    {
+                      "name": "src/client/components/NavBar/styles.ts",
+                      "lines": 52
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Footer",
+                  "children": [
+                    {
+                      "name": "src/client/components/Footer/index.tsx",
+                      "lines": 72
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Course",
+                  "children": [
+                    {
+                      "name": "src/client/components/Course/Chat",
+                      "children": [
+                        {
+                          "name": "src/client/components/Course/Chat/index.tsx",
+                          "lines": 178
+                        },
+                        {
+                          "name": "src/client/components/Course/Chat/PromptSelector.tsx",
+                          "lines": 47
+                        },
+                        {
+                          "name": "src/client/components/Course/Chat/Status.tsx",
+                          "lines": 90
+                        },
+                        {
+                          "name": "src/client/components/Course/Chat/util.ts",
+                          "lines": 29
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Chat",
+                  "children": [
+                    {
+                      "name": "src/client/components/Chat/index.tsx",
+                      "lines": 193
+                    },
+                    {
+                      "name": "src/client/components/Chat/Email.tsx",
+                      "lines": 72
+                    },
+                    {
+                      "name": "src/client/components/Chat/Conversation.tsx",
+                      "lines": 87
+                    },
+                    {
+                      "name": "src/client/components/Chat/Status.tsx",
+                      "lines": 70
+                    },
+                    {
+                      "name": "src/client/components/Chat/util.ts",
+                      "lines": 26
+                    },
+                    {
+                      "name": "src/client/components/Chat/SendMessage.tsx",
+                      "lines": 99
+                    },
+                    {
+                      "name": "src/client/components/Chat/SystemMessage.tsx",
+                      "lines": 51
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Admin",
+                  "children": [
+                    {
+                      "name": "src/client/components/Admin/index.tsx",
+                      "lines": 55
+                    },
+                    {
+                      "name": "src/client/components/Admin/Updater.tsx",
+                      "lines": 27
+                    },
+                    {
+                      "name": "src/client/components/Admin/Usage",
+                      "children": [
+                        {
+                          "name": "src/client/components/Admin/Usage/FacultyTable.tsx",
+                          "lines": 91
+                        },
+                        {
+                          "name": "src/client/components/Admin/Usage/index.tsx",
+                          "lines": 38
+                        },
+                        {
+                          "name": "src/client/components/Admin/Usage/CourseTable.tsx",
+                          "lines": 92
+                        },
+                        {
+                          "name": "src/client/components/Admin/Usage/UserTable.tsx",
+                          "lines": 133
+                        },
+                        {
+                          "name": "src/client/components/Admin/Usage/UserSearch.tsx",
+                          "lines": 81
+                        },
+                        {
+                          "name": "src/client/components/Admin/Usage/UserAccordion.tsx",
+                          "lines": 69
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/components/Admin/ChatInstances",
+                      "children": [
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/index.tsx",
+                          "lines": 39
+                        },
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/ChatInstanceTable.tsx",
+                          "lines": 49
+                        },
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/EditChatInstance.tsx",
+                          "lines": 183
+                        },
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/useChatInstances.ts",
+                          "lines": 31
+                        },
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/ChatInstanceTableV2.tsx",
+                          "lines": 205
+                        },
+                        {
+                          "name": "src/client/components/Admin/ChatInstances/CreateChatInstance.tsx",
+                          "lines": 171
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Courses",
+                  "children": [
+                    {
+                      "name": "src/client/components/Courses/index.tsx",
+                      "lines": 160
+                    },
+                    {
+                      "name": "src/client/components/Courses/useEnableCourse.ts",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/components/Courses/util.ts",
+                      "lines": 23
+                    },
+                    {
+                      "name": "src/client/components/Courses/EditCourse",
+                      "children": [
+                        {
+                          "name": "src/client/components/Courses/EditCourse/index.tsx",
+                          "lines": 255
+                        },
+                        {
+                          "name": "src/client/components/Courses/EditCourse/Prompt.tsx",
+                          "lines": 88
+                        },
+                        {
+                          "name": "src/client/components/Courses/EditCourse/EditActivityPeriod.tsx",
+                          "lines": 75
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Banner",
+                  "children": [
+                    {
+                      "name": "src/client/components/Banner/index.tsx",
+                      "lines": 29
+                    },
+                    {
+                      "name": "src/client/components/Banner/Markdown.tsx",
+                      "lines": 53
+                    },
+                    {
+                      "name": "src/client/components/Banner/ShowMore.tsx",
+                      "lines": 37
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/client/hooks",
+              "children": [
+                {
+                  "name": "src/client/hooks/useCourse.ts",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useChatInstanceUsage.ts",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useCurrentUser.ts",
+                  "lines": 24
+                },
+                {
+                  "name": "src/client/hooks/useUserStatus.ts",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/usePrompts.ts",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useUsers.ts",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useResetUsageMutation.ts",
+                  "lines": 25
+                },
+                {
+                  "name": "src/client/hooks/useChatInstanceUsageMutation.ts",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useUserCourses.ts",
+                  "lines": 34
+                },
+                {
+                  "name": "src/client/hooks/usePromptMutation.ts",
+                  "lines": 52
+                },
+                {
+                  "name": "src/client/hooks/useChatInstanceMutation.ts",
+                  "lines": 79
+                },
+                {
+                  "name": "src/client/hooks/useCourseMutation.ts",
+                  "lines": 29
+                },
+                {
+                  "name": "src/client/hooks/useFaculties.ts",
+                  "lines": 22
+                }
+              ]
+            },
+            {
+              "name": "src/client/assets",
+              "children": [
+                {
+                  "name": "src/client/assets/hy_logo.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/toscalogo_color.svg",
+                  "lines": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
