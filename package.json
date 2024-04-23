@@ -1,6 +1,7 @@
 {
-  "name": "vite-template-solid",
+  "name": "git-viz",
   "version": "0.0.0",
+  "author": "Veikkosuhonen",
   "description": "",
   "author": "Veikko Suhonen",
   "type": "module",
