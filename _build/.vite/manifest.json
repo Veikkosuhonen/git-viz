@@ -1,0 +1,106 @@
+{
+  "_components-BbbugXpe.js": {
+    "file": "assets/components-BbbugXpe.js",
+    "name": "components",
+    "imports": [
+      "_web-DQAYnutL.js",
+      "_routing-koWbw_QW.js"
+    ]
+  },
+  "_preload-helper-CBfY8fPV.js": {
+    "file": "assets/preload-helper-CBfY8fPV.js",
+    "name": "preload-helper"
+  },
+  "_routing-koWbw_QW.js": {
+    "file": "assets/routing-koWbw_QW.js",
+    "name": "routing",
+    "imports": [
+      "_web-DQAYnutL.js"
+    ]
+  },
+  "_transform-Dm26MUf-.js": {
+    "file": "assets/transform-Dm26MUf-.js",
+    "name": "transform"
+  },
+  "_web-DQAYnutL.js": {
+    "file": "assets/web-DQAYnutL.js",
+    "name": "web"
+  },
+  "src/components/FDG.tsx": {
+    "file": "assets/FDG-CDkpmCEx.js",
+    "name": "FDG",
+    "src": "src/components/FDG.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DQAYnutL.js",
+      "_transform-Dm26MUf-.js"
+    ]
+  },
+  "src/components/Pack.tsx": {
+    "file": "assets/Pack-UyyFLdPr.js",
+    "name": "Pack",
+    "src": "src/components/Pack.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_transform-Dm26MUf-.js"
+    ]
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-CvgaCL1u.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DQAYnutL.js",
+      "_components-BbbugXpe.js",
+      "_routing-koWbw_QW.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "assets/about-sGHtxVbM.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DQAYnutL.js",
+      "_components-BbbugXpe.js",
+      "_routing-koWbw_QW.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-BFwHWSwm.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DQAYnutL.js",
+      "_preload-helper-CBfY8fPV.js"
+    ],
+    "dynamicImports": [
+      "src/components/FDG.tsx",
+      "src/components/Pack.tsx"
+    ]
+  },
+  "virtual:#vinxi/handler/client": {
+    "file": "assets/client-CGtH5Hb7.js",
+    "name": "client",
+    "src": "virtual:#vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper-CBfY8fPV.js",
+      "_web-DQAYnutL.js",
+      "_routing-koWbw_QW.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-DoiR3Vbk.css"
+    ]
+  }
+}

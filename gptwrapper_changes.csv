@@ -1,0 +1,1278 @@
+commit,file,insertions,deletions,author,date
+83916bff5214b9267042e128331e0456173116cd,.github/workflows/staging.yaml,2,2,Veikko Suhonen,2024-04-16 14:40:26+03:00
+d0179fba64a73f0ae4646e18c94253b4609a7ca8,.github/workflows/staging.yaml,3,12,Veikkosuhonen,2024-04-16 12:58:47+03:00
+a2659d6e50274d82b141b046fc745b32839d6bfc,.github/workflows/staging.yaml,9,0,Veikkosuhonen,2024-04-16 12:51:15+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/App.tsx,2,1,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/assets/hy_logo.svg,1,1,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/components/Courses/index.tsx,111,20,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/components/Courses/useEnableCourse.ts,20,0,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/components/NavBar/styles.ts,0,1,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/index.tsx,1,4,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/locales/fi.json,8,0,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/client/theme.ts,9,3,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/config.ts,2,0,Veikkosuhonen,2024-04-16 12:37:24+03:00
+d8ef9d789610dccbf5d0b4599d1a47f3670de376,src/server/routes/chatInstance.ts,23,0,Veikkosuhonen,2024-04-16 12:37:24+03:00
+3161bb8809e8631c31d8de3a31f82a857bd8b814,src/client/components/Courses/index.tsx,11,15,Veikkosuhonen,2024-04-15 20:55:58+03:00
+3161bb8809e8631c31d8de3a31f82a857bd8b814,src/client/hooks/useUserCourses.ts,2,1,Veikkosuhonen,2024-04-15 20:55:58+03:00
+3161bb8809e8631c31d8de3a31f82a857bd8b814,src/server/routes/course.ts,10,13,Veikkosuhonen,2024-04-15 20:55:58+03:00
+e1924931b5ff694273c6ad2399841a81ffd01970,src/client/components/Admin/Usage/CourseTable.tsx,4,1,Veikkosuhonen,2024-04-15 19:53:09+03:00
+e1924931b5ff694273c6ad2399841a81ffd01970,src/client/components/Courses/index.tsx,19,25,Veikkosuhonen,2024-04-15 19:53:09+03:00
+e1924931b5ff694273c6ad2399841a81ffd01970,src/client/hooks/useUserCourses.ts,15,7,Veikkosuhonen,2024-04-15 19:53:09+03:00
+e1924931b5ff694273c6ad2399841a81ffd01970,src/server/routes/course.ts,12,2,Veikkosuhonen,2024-04-15 19:53:09+03:00
+0adbcf2cd35f430d8137d10329e37c9e00c7a299,src/client/hooks/useCurrentUser.ts,1,1,Veikkosuhonen,2024-04-15 19:14:06+03:00
+0adbcf2cd35f430d8137d10329e37c9e00c7a299,src/client/hooks/useFaculties.ts,1,1,Veikkosuhonen,2024-04-15 19:14:06+03:00
+0adbcf2cd35f430d8137d10329e37c9e00c7a299,src/client/hooks/useUserCourses.ts,1,1,Veikkosuhonen,2024-04-15 19:14:06+03:00
+955bfec1803d989c496b0845c8206d2e05917388,src/server/routes/openai.ts,181,176,Veikkosuhonen,2024-04-15 17:01:58+03:00
+ee3997b150d15a82be8809742acdba839f317297,package-lock.json,3,3,Veikkosuhonen,2024-04-15 16:41:10+03:00
+16d6150d9e3dbdeef150ccd9b55171c21d45519d,package-lock.json,221,301,Veikkosuhonen,2024-04-15 16:38:24+03:00
+d0324b78dc860bca80bc3c05773cf1ab81fa3522,src/client/components/Admin/ChatInstances/ChatInstanceTableV2.tsx,101,74,Veikkosuhonen,2024-04-15 16:28:40+03:00
+d0324b78dc860bca80bc3c05773cf1ab81fa3522,src/client/components/Admin/ChatInstances/useChatInstances.ts,13,6,Veikkosuhonen,2024-04-15 16:28:40+03:00
+d0324b78dc860bca80bc3c05773cf1ab81fa3522,src/server/routes/chatInstance.ts,15,8,Veikkosuhonen,2024-04-15 16:28:40+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/components/Admin/ChatInstances/ChatInstanceTable.tsx,11,109,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/components/Admin/ChatInstances/ChatInstanceTableV2.tsx,178,0,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/components/Admin/ChatInstances/index.tsx,3,7,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/components/Admin/ChatInstances/useChatInstances.ts,24,0,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/components/Admin/index.tsx,1,1,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/client/hooks/useChatInstanceMutation.ts,3,4,Veikkosuhonen,2024-04-15 15:53:20+03:00
+690b19a08b3e0f0c524314b1774e80625d2a8431,src/server/routes/chatInstance.ts,14,2,Veikkosuhonen,2024-04-15 15:53:20+03:00
+8babaa04df9ddca360668569f883af898718e79b,src/client/components/Chat/Conversation.tsx,4,1,Veikkosuhonen,2024-04-12 16:37:35+03:00
+8babaa04df9ddca360668569f883af898718e79b,src/client/styles.css,4,0,Veikkosuhonen,2024-04-12 16:37:35+03:00
+30090767d04fb43b463a86456e46a29215e1c57e,src/client/components/Chat/Conversation.tsx,7,5,Veikkosuhonen,2024-04-12 16:31:19+03:00
+30090767d04fb43b463a86456e46a29215e1c57e,src/client/locales/en.json,2,1,Veikkosuhonen,2024-04-12 16:31:19+03:00
+30090767d04fb43b463a86456e46a29215e1c57e,src/client/locales/fi.json,2,1,Veikkosuhonen,2024-04-12 16:31:19+03:00
+30090767d04fb43b463a86456e46a29215e1c57e,src/client/locales/sv.json,2,1,Veikkosuhonen,2024-04-12 16:31:19+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,.env.development,3,0,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/components/Chat/SystemMessage.tsx,3,3,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/components/Chat/index.tsx,63,49,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/components/Courses/EditCourse/EditActivityPeriod.tsx,5,2,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/components/Courses/EditCourse/Prompt.tsx,2,2,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/components/Courses/EditCourse/index.tsx,2,2,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/index.tsx,4,0,Veikkosuhonen,2024-04-12 16:22:22+03:00
+ee9e11de187dc2068f017cff93135fcb1fe79029,src/client/types.ts,1,1,Veikkosuhonen,2024-04-12 16:22:22+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/App.tsx,4,2,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/Banner/index.tsx,1,3,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/Chat/SendMessage.tsx,37,35,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/Chat/Status.tsx,1,1,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/Course/Chat/index.tsx,2,14,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/NavBar/index.tsx,7,2,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/client/components/NavBar/styles.ts,4,5,Veikkosuhonen,2024-04-12 16:11:18+03:00
+99319c4f9bf49372ec51e4b843a5a19ffd783f39,src/server/index.ts,4,2,Veikkosuhonen,2024-04-12 16:11:18+03:00
+e56d83d530d5eeb90da5facaa5c90523249332ff,package-lock.json,9,0,Veikkosuhonen,2024-04-12 14:33:14+03:00
+e56d83d530d5eeb90da5facaa5c90523249332ff,package.json,1,0,Veikkosuhonen,2024-04-12 14:33:14+03:00
+e56d83d530d5eeb90da5facaa5c90523249332ff,src/server/index.ts,1,0,Veikkosuhonen,2024-04-12 14:33:14+03:00
+e56d83d530d5eeb90da5facaa5c90523249332ff,src/server/util/importer.ts,18,12,Veikkosuhonen,2024-04-12 14:33:14+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/App.tsx,33,2,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Admin/Updater.tsx,3,5,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Admin/Usage/UserAccordion.tsx,69,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Admin/Usage/UserSearch.tsx,81,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Admin/index.tsx,4,1,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Chat/util.ts,4,19,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Course/Chat/index.tsx,1,1,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/components/Course/Chat/util.ts,16,30,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useChatInstanceMutation.ts,6,19,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useChatInstanceUsage.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useChatInstanceUsageMutation.ts,2,7,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useCourse.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useCourseMutation.ts,3,7,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useCurrentUser.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useFaculties.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/usePromptMutation.ts,4,10,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/usePrompts.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useResetUsageMutation.ts,2,4,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useUserCourses.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useUserStatus.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/hooks/useUsers.ts,3,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/index.tsx,6,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/client/util/apiClient.ts,48,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/config.ts,2,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/middleware/user.ts,16,3,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/routes/admin.ts,36,0,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/routes/openai.ts,61,55,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/routes/user.ts,4,1,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/types.ts,3,2,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+9b7d28aa15176da3451a36e9f391fa7d41f45885,src/server/util/cron.ts,3,6,AlexanderEngelhardt,2024-04-15 11:06:03+03:00
+378c3fe0efb531a299418f8c0561fdd13649cf56,compose.yaml,3,3,AlexanderEngelhardt,2024-04-15 11:01:38+03:00
+378c3fe0efb531a299418f8c0561fdd13649cf56,package-lock.json,3,3,AlexanderEngelhardt,2024-04-15 11:01:38+03:00
+378c3fe0efb531a299418f8c0561fdd13649cf56,src/server/index.ts,2,2,AlexanderEngelhardt,2024-04-15 11:01:38+03:00
+378c3fe0efb531a299418f8c0561fdd13649cf56,src/server/routes/openai.ts,13,1,AlexanderEngelhardt,2024-04-15 11:01:38+03:00
+28334310a5e9b90b2cf549ce269e12bac29542bc,src/server/routes/openai.ts,215,0,AlexanderEngelhardt,2024-04-10 19:02:13+03:00
+d47c88037a47037ac4010d0c8cbb0f600b826e6b,src/client/components/Course/Chat/index.tsx,1,1,Veikkosuhonen,2024-04-09 16:43:10+03:00
+8784aaaa673423cec4ed6b9902b45d0547f845fe,src/client/components/Chat/util.ts,4,19,Veikkosuhonen,2024-04-09 16:13:58+03:00
+8784aaaa673423cec4ed6b9902b45d0547f845fe,src/client/components/Course/Chat/util.ts,16,30,Veikkosuhonen,2024-04-09 16:13:58+03:00
+8784aaaa673423cec4ed6b9902b45d0547f845fe,src/client/util/apiClient.ts,26,0,Veikkosuhonen,2024-04-09 16:13:58+03:00
+8784aaaa673423cec4ed6b9902b45d0547f845fe,src/server/middleware/user.ts,1,1,Veikkosuhonen,2024-04-09 16:13:58+03:00
+8784aaaa673423cec4ed6b9902b45d0547f845fe,src/server/routes/openai.ts,58,54,Veikkosuhonen,2024-04-09 16:13:58+03:00
+4fb245a9c41f90736411c663a943ca856e435c5e,src/server/util/cron.ts,1,1,Tereshchenko Aleksandr,2024-04-09 15:38:39+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/client/App.tsx,33,2,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/client/components/Admin/Usage/UserAccordion.tsx,69,0,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/client/components/Admin/Usage/UserSearch.tsx,81,0,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/client/components/Admin/index.tsx,4,1,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/client/index.tsx,6,0,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/server/middleware/user.ts,16,3,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/server/routes/admin.ts,36,0,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/server/routes/openai.ts,5,3,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/server/routes/user.ts,4,1,Veikkosuhonen,2024-04-09 14:59:45+03:00
+8330cce742a5241125c6958a974954191aaed5d6,src/server/types.ts,3,2,Veikkosuhonen,2024-04-09 14:59:45+03:00
+b6cc5770d36dbf975716161414bbea11c0f88136,src/client/components/Admin/Updater.tsx,2,2,Tereshchenko Aleksandr,2024-04-09 14:47:14+03:00
+b6cc5770d36dbf975716161414bbea11c0f88136,src/client/util/apiClient.ts,3,0,Tereshchenko Aleksandr,2024-04-09 14:47:14+03:00
+73fd660dc5819563a432eb465099e34a9d532783,src/config.ts,2,0,Tereshchenko Aleksandr,2024-04-09 13:19:44+03:00
+73fd660dc5819563a432eb465099e34a9d532783,src/server/util/cron.ts,3,6,Tereshchenko Aleksandr,2024-04-09 13:19:44+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/components/Admin/Updater.tsx,3,5,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useChatInstanceMutation.ts,6,19,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useChatInstanceUsage.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useChatInstanceUsageMutation.ts,2,7,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useCourse.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useCourseMutation.ts,3,7,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useCurrentUser.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useFaculties.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/usePromptMutation.ts,4,10,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/usePrompts.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useResetUsageMutation.ts,2,4,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useUserCourses.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useUserStatus.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/hooks/useUsers.ts,3,3,Veikkosuhonen,2024-04-09 12:41:34+03:00
+920dd01ee6fdab158745f0f46809e69e6d558950,src/client/util/apiClient.ts,19,0,Veikkosuhonen,2024-04-09 12:41:34+03:00
+556e0211a0d457d92864eaf4ccf5272505e0d736,src/server/updater/enrolments.ts,1,1,Tereshchenko Aleksandr,2024-04-08 15:53:45+03:00
+556e0211a0d457d92864eaf4ccf5272505e0d736,src/server/util/cron.ts,4,1,Tereshchenko Aleksandr,2024-04-08 15:53:45+03:00
+8a171c1567a82629ba1c5170cf54adffe5f04acc,src/client/components/Admin/Updater.tsx,2,1,Tereshchenko Aleksandr,2024-04-08 14:40:53+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/routes/admin.ts,1,1,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/courses.ts,99,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/enrolments.ts,51,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/importerClient.ts,43,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/index.ts,27,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/mangleData.ts,115,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/responsibilities.ts,91,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/users.ts,44,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/updater/util.ts,86,0,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+66674753d593a8dd16dbb2f163d8717e1e2616b0,src/server/util/cron.ts,8,19,Tereshchenko Aleksandr,2024-04-05 11:09:14+03:00
+20e714d78900ceae88b37b0313fb7eed0c730d90,src/server/db/migrations/20240404_00_add_uniq_index_to_chat_instance_course_id.ts,3,1,Tereshchenko Aleksandr,2024-04-05 09:29:30+03:00
+70acade1b2a1aadb6c19cc43ffbcfcf96498476c,src/server/util/cron.ts,4,3,Tereshchenko Aleksandr,2024-04-04 16:21:45+03:00
+63cec24780f375c8f2db1c116eff9c501e46eac7,src/client/Router.tsx,1,1,Veikkosuhonen,2024-04-04 15:47:18+03:00
+63cec24780f375c8f2db1c116eff9c501e46eac7,src/client/components/Admin/Updater.tsx,28,0,Veikkosuhonen,2024-04-04 15:47:18+03:00
+63cec24780f375c8f2db1c116eff9c501e46eac7,src/client/components/Admin/index.tsx,34,13,Veikkosuhonen,2024-04-04 15:47:18+03:00
+63cec24780f375c8f2db1c116eff9c501e46eac7,src/server/routes/admin.ts,6,0,Veikkosuhonen,2024-04-04 15:47:18+03:00
+63cec24780f375c8f2db1c116eff9c501e46eac7,src/server/util/cron.ts,5,0,Veikkosuhonen,2024-04-04 15:47:18+03:00
+7a4b52705f8e6f3c04a93de9ef94a53601503122,package-lock.json,8,0,Tereshchenko Aleksandr,2024-04-04 15:12:51+03:00
+7a4b52705f8e6f3c04a93de9ef94a53601503122,package.json,2,0,Tereshchenko Aleksandr,2024-04-04 15:12:51+03:00
+7a4b52705f8e6f3c04a93de9ef94a53601503122,src/server/index.ts,0,2,Tereshchenko Aleksandr,2024-04-04 15:12:51+03:00
+7a4b52705f8e6f3c04a93de9ef94a53601503122,src/server/types.ts,11,0,Tereshchenko Aleksandr,2024-04-04 15:12:51+03:00
+7a4b52705f8e6f3c04a93de9ef94a53601503122,src/server/util/cron.ts,4,4,Tereshchenko Aleksandr,2024-04-04 15:12:51+03:00
+177465a7c6517c288dc46179abd5be60d00134af,src/server/db/migrations/20240404_00_rename_columns_in_new_tables.ts,31,0,Tereshchenko Aleksandr,2024-04-04 14:35:38+03:00
+177465a7c6517c288dc46179abd5be60d00134af,src/server/db/migrations/20240404_01_add_foregn_key_constraints_to_new_tables.ts,64,0,Tereshchenko Aleksandr,2024-04-04 14:35:38+03:00
+2dde06c7c2df5fa8f41fb1ee1414459a571a3a43,src/server/index.ts,1,1,Veikkosuhonen,2024-04-04 13:53:34+03:00
+2dde06c7c2df5fa8f41fb1ee1414459a571a3a43,src/server/types.ts,7,1,Veikkosuhonen,2024-04-04 13:53:34+03:00
+b92bd36eb92e30fedeeed305c2dd7727eedb2c74,.gitignore,1,0,Veikkosuhonen,2024-04-04 13:51:04+03:00
+b92bd36eb92e30fedeeed305c2dd7727eedb2c74,src/server/db/migrations/20240404_00_add_uniq_index_to_chat_instance_course_id.ts,15,0,Veikkosuhonen,2024-04-04 13:51:04+03:00
+b92bd36eb92e30fedeeed305c2dd7727eedb2c74,src/server/index.ts,2,0,Veikkosuhonen,2024-04-04 13:51:04+03:00
+23b81530454f77f26764c820e7a08eb4cac8777c,src/client/locales/en.json,3,1,Veikkosuhonen,2024-04-04 12:36:32+03:00
+23b81530454f77f26764c820e7a08eb4cac8777c,src/client/locales/fi.json,1,3,Veikkosuhonen,2024-04-04 12:36:32+03:00
+3fcbb8fbd0c9d2201dc0e57b7d5992a8b09b165b,src/client/components/NavBar/index.tsx,1,0,Veikkosuhonen,2024-04-04 12:16:41+03:00
+3fcbb8fbd0c9d2201dc0e57b7d5992a8b09b165b,src/client/locales/fi.json,3,1,Veikkosuhonen,2024-04-04 12:16:41+03:00
+9b53905c80738762427070faa1e349fd63392201,src/client/components/NavBar/index.tsx,3,2,Veikkosuhonen,2024-04-04 11:41:52+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,.gitignore,1,0,Veikkosuhonen,2024-04-04 11:35:38+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,e2e/basic.spec.ts,1,1,Veikkosuhonen,2024-04-04 11:35:38+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,e2e/healthcheck.spec.ts,0,0,Veikkosuhonen,2024-04-04 11:35:38+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,package-lock.json,33,7,Veikkosuhonen,2024-04-04 11:35:38+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,package.json,1,0,Veikkosuhonen,2024-04-04 11:35:38+03:00
+f6acd6f224693a3ad97c11faa20f69ec9af85e11,src/client/index.tsx,37,2,Veikkosuhonen,2024-04-04 11:35:38+03:00
+553310b55b80ca9bceb92d3c7c625b4d18404671,src/server/routes/course.ts,1,1,Tereshchenko Aleksandr,2024-04-04 10:18:44+03:00
+814cc837d1fac2b66a7bc99da9812648101e1f1d,package-lock.json,48,0,Tereshchenko Aleksandr,2024-04-03 15:02:13+03:00
+814cc837d1fac2b66a7bc99da9812648101e1f1d,package.json,1,0,Tereshchenko Aleksandr,2024-04-03 15:02:13+03:00
+814cc837d1fac2b66a7bc99da9812648101e1f1d,src/server/types.ts,9,0,Tereshchenko Aleksandr,2024-04-03 15:02:13+03:00
+814cc837d1fac2b66a7bc99da9812648101e1f1d,src/server/util/cron.ts,13,0,Tereshchenko Aleksandr,2024-04-03 15:02:13+03:00
+ca5a233e5a91f189b05b55ffb8310be24515ac49,e2e/basic.spec.ts,3,4,Veikkosuhonen,2024-04-02 15:57:58+03:00
+ca5a233e5a91f189b05b55ffb8310be24515ac49,src/server/index.ts,0,2,Veikkosuhonen,2024-04-02 15:57:58+03:00
+3fc279c87c150c0c386e10b32e82fc03b322f4ab,src/client/Router.tsx,2,1,Tereshchenko Aleksandr,2024-04-02 15:56:07+03:00
+3fc279c87c150c0c386e10b32e82fc03b322f4ab,src/client/components/Course/Chat/index.tsx,7,3,Tereshchenko Aleksandr,2024-04-02 15:56:07+03:00
+a714e7ff094ee88c4f494772e6ca14b41042d79a,Containerfile,3,0,Veikkosuhonen,2024-04-02 15:37:52+03:00
+4470c1741ac246e03077e1f218479ab31fda1c3a,src/server/index.ts,3,0,Veikkosuhonen,2024-04-02 15:28:40+03:00
+4470c1741ac246e03077e1f218479ab31fda1c3a,vite.config.ts,18,7,Veikkosuhonen,2024-04-02 15:28:40+03:00
+c6db9b5069fd0032b775dc25af99ecb9821f68bc,.github/workflows/staging.yaml,28,4,Veikkosuhonen,2024-04-02 15:17:58+03:00
+c6db9b5069fd0032b775dc25af99ecb9821f68bc,compose.ci.yaml,2,1,Veikkosuhonen,2024-04-02 15:17:58+03:00
+c6db9b5069fd0032b775dc25af99ecb9821f68bc,src/config.ts,2,0,Veikkosuhonen,2024-04-02 15:17:58+03:00
+c6db9b5069fd0032b775dc25af99ecb9821f68bc,src/server/middleware/user.ts,2,2,Veikkosuhonen,2024-04-02 15:17:58+03:00
+c6db9b5069fd0032b775dc25af99ecb9821f68bc,vite.config.ts,8,2,Veikkosuhonen,2024-04-02 15:17:58+03:00
+7f7d3bb6989df315af761cdf32bd2181c2fa049a,src/client/Router.tsx,1,2,Tereshchenko Aleksandr,2024-03-28 10:04:35+02:00
+ba522c7dd40a1019c3ce731c4dc64dd033af2cb0,e2e/basic.spec.ts,4,1,Veikkosuhonen,2024-03-27 13:55:57+02:00
+ba522c7dd40a1019c3ce731c4dc64dd033af2cb0,playwright.config.ts,5,1,Veikkosuhonen,2024-03-27 13:55:57+02:00
+fa49bead17905eab6968517dae37cd76acdc98a1,.github/workflows/staging.yaml,7,0,Veikkosuhonen,2024-03-27 13:41:26+02:00
+fa49bead17905eab6968517dae37cd76acdc98a1,e2e/basic.spec.ts,1,0,Veikkosuhonen,2024-03-27 13:41:26+02:00
+678568d7732e87b3cf4b2451d35316d7cc167e6b,e2e/basic.spec.ts,1,3,Veikkosuhonen,2024-03-27 13:25:55+02:00
+cdb9dc223d12eda8ec8c4421eb8df155493c0829,e2e/basic.spec.ts,3,3,Veikkosuhonen,2024-03-26 18:01:47+02:00
+53cfef92de4df23a3e4492ec27cd3dee58db1eef,src/server/db/migrations/20240326_00_init_responsibilities.ts,31,0,Tereshchenko Aleksandr,2024-03-26 15:09:24+02:00
+53cfef92de4df23a3e4492ec27cd3dee58db1eef,src/server/db/models/index.ts,17,1,Tereshchenko Aleksandr,2024-03-26 15:09:24+02:00
+53cfef92de4df23a3e4492ec27cd3dee58db1eef,src/server/db/models/responsibilities.ts,45,0,Tereshchenko Aleksandr,2024-03-26 15:09:24+02:00
+58dbff8db7328e38aee4893de98fbc8b5bb7a552,package-lock.json,0,0,Tereshchenko Aleksandr,2024-03-26 14:37:53+02:00
+0031c4dc433f871dc9f1c6e579d1808d39086e7c,e2e/basic.spec.ts,3,1,Veikkosuhonen,2024-03-26 13:31:28+02:00
+0031c4dc433f871dc9f1c6e579d1808d39086e7c,package.json,9,0,Veikkosuhonen,2024-03-26 13:31:28+02:00
+0031c4dc433f871dc9f1c6e579d1808d39086e7c,playwright.config.ts,1,0,Veikkosuhonen,2024-03-26 13:31:28+02:00
+8c022f41403433a29539eb6b485e6079545c5401,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-26 13:18:41+02:00
+8c022f41403433a29539eb6b485e6079545c5401,e2e/basic.spec.ts,1,1,Veikkosuhonen,2024-03-26 13:18:41+02:00
+1d4b7592c1f931621834a576810d7fcb7b996127,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-26 13:01:22+02:00
+c89d2c7773f1189dfe7ca7dd71c055e0b087c35e,.github/workflows/staging.yaml,9,9,Veikkosuhonen,2024-03-26 12:58:30+02:00
+c89d2c7773f1189dfe7ca7dd71c055e0b087c35e,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-26 12:58:30+02:00
+68a24a44fea6a408194879a1136dcd325514fdf2,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-26 12:55:24+02:00
+c846cf0151be046067eb511ef1e6f4e396a47fab,.github/workflows/staging.yaml,43,84,Veikkosuhonen,2024-03-26 12:50:58+02:00
+c846cf0151be046067eb511ef1e6f4e396a47fab,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-26 12:50:58+02:00
+4d6b948f8718c9dbd10634a7f93ba7d7628be743,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-26 12:43:17+02:00
+4b1828ac0cf17adb8005d35990aef9277cc73ebb,.github/workflows/staging.yaml,30,19,Veikkosuhonen,2024-03-26 12:40:30+02:00
+4b1828ac0cf17adb8005d35990aef9277cc73ebb,compose.ci.yaml,3,1,Veikkosuhonen,2024-03-26 12:40:30+02:00
+b292f479be083cda84404919a788068cc199430c,package.json,2,2,Tereshchenko Aleksandr,2024-03-26 12:12:37+02:00
+81da955445e786a7024fdf6289a3cbc635d84730,.github/workflows/staging.yaml,37,37,Tereshchenko Aleksandr,2024-03-26 12:03:00+02:00
+a285967e8daf22576feb4cc1e23cfb352bbec0f7,src/server/index.ts,6,1,Tereshchenko Aleksandr,2024-03-26 11:54:33+02:00
+a285967e8daf22576feb4cc1e23cfb352bbec0f7,tsconfig.json,2,1,Tereshchenko Aleksandr,2024-03-26 11:54:33+02:00
+8acc72a054578b040cde9dddeeae3a9f263db2da,.github/workflows/staging.yaml,1,1,Tereshchenko Aleksandr,2024-03-26 11:28:39+02:00
+c0e39d03a56c61fa6222ab88bfb15519c7110a5f,package-lock.json,38,9,Tereshchenko Aleksandr,2024-03-26 11:19:34+02:00
+c0e39d03a56c61fa6222ab88bfb15519c7110a5f,package.json,5,4,Tereshchenko Aleksandr,2024-03-26 11:19:34+02:00
+c0e39d03a56c61fa6222ab88bfb15519c7110a5f,tsconfig.json,8,4,Tereshchenko Aleksandr,2024-03-26 11:19:34+02:00
+b66924d3305492c726f64e422ba6e1dbe2d91d74,.github/workflows/staging.yaml,3,0,Veikkosuhonen,2024-03-25 16:04:54+02:00
+b66924d3305492c726f64e422ba6e1dbe2d91d74,package-lock.json,0,0,Veikkosuhonen,2024-03-25 16:04:54+02:00
+cd567704d1ccb50fdf0c432deed8b5f45bb86b72,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 15:50:09+02:00
+bf9b549690c078d9a82893ed042f146d2621a9cd,.github/workflows/staging.yaml,5,1,Veikkosuhonen,2024-03-25 15:47:11+02:00
+bf9b549690c078d9a82893ed042f146d2621a9cd,Containerfile,1,1,Veikkosuhonen,2024-03-25 15:47:11+02:00
+bf9b549690c078d9a82893ed042f146d2621a9cd,compose.ci.yaml,0,2,Veikkosuhonen,2024-03-25 15:47:11+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,package-lock.json,132,74,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,package.json,7,5,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/client/components/Chat/Conversation.tsx,2,2,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/client/components/Chat/SendMessage.tsx,1,1,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/client/components/Course/Chat/index.tsx,3,2,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/server/db/connection.ts,0,1,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/server/index.ts,4,8,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/server/middleware/error.ts,1,1,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,src/server/routes/openai.ts,3,2,Veikkosuhonen,2024-03-25 15:29:53+02:00
+2b338d391815625a0614040e25cfe9edaa4598dd,tsconfig.json,6,1,Veikkosuhonen,2024-03-25 15:29:53+02:00
+cab7d35e7365923bf4c31e97bc38e34a91854ffd,src/server/db/migrations/20240325_01_init_enrolments.ts,31,0,Henri Remonen,2024-03-25 14:17:31+02:00
+cab7d35e7365923bf4c31e97bc38e34a91854ffd,src/server/db/models/enrolment.ts,45,0,Henri Remonen,2024-03-25 14:17:31+02:00
+cab7d35e7365923bf4c31e97bc38e34a91854ffd,src/server/db/models/index.ts,15,0,Henri Remonen,2024-03-25 14:17:31+02:00
+76fba48e416c7acc948304d7ac54d6afee3f2b05,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 14:14:51+02:00
+76fba48e416c7acc948304d7ac54d6afee3f2b05,Containerfile,1,1,Veikkosuhonen,2024-03-25 14:14:51+02:00
+6c00e896140a4c7c8f927cbc514d30978e4921d6,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 13:34:33+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,package-lock.json,834,15,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,package.json,1,0,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,src/server/chatInstances/usage.ts,4,4,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,src/server/db/migrations/20240325_00_rename_user_service_usage_to_user_chat_instance_usage.ts,15,0,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,src/server/db/models/index.ts,10,7,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,src/server/db/models/userChatInstanceUsage.ts,52,0,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+e2f01409c9fb94594aeb01e39f820d8795aa7e11,src/server/routes/admin.ts,4,4,Tereshchenko Aleksandr,2024-03-25 13:33:18+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/components/Admin/ChatInstances/ChatInstanceTable.tsx,147,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/components/Admin/ChatInstances/CreateChatInstance.tsx,171,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/components/Admin/ChatInstances/EditChatInstance.tsx,183,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/components/Admin/ChatInstances/index.tsx,43,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/components/Admin/index.tsx,2,2,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/hooks/useChatInstanceMutation.ts,93,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/hooks/useChatInstanceUsage.ts,1,1,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/hooks/useUserCourses.ts,1,1,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/locales/en.json,4,4,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/locales/fi.json,4,4,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/client/locales/sv.json,4,4,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/chatInstances/access.ts,77,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/chatInstances/usage.ts,141,0,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/admin.ts,4,3,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/chatInstance.ts,5,5,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/course.ts,8,8,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/openai.ts,1,1,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/prompt.ts,2,2,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/routes/user.ts,2,2,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+678c88d4bf6a3488b1646b4b49aedf240d2aed87,src/server/util/util.ts,2,2,Tereshchenko Aleksandr,2024-03-25 13:15:27+02:00
+3c452a66553a3d4c3024421fe93ff6d55a46005f,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 13:19:04+02:00
+6d169bd4472a43f27d3193b8613769e4115a8dff,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 13:10:50+02:00
+6d169bd4472a43f27d3193b8613769e4115a8dff,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-25 13:10:50+02:00
+e37318a357ed0b6e0437f52e6ad47c0a2e91edbf,.github/workflows/staging.yaml,2,5,Veikkosuhonen,2024-03-25 13:03:57+02:00
+e37318a357ed0b6e0437f52e6ad47c0a2e91edbf,.gitignore,1,0,Veikkosuhonen,2024-03-25 13:03:57+02:00
+6b3e4e0078212d78dfa2ce5bf009dadfe1f98c34,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 12:50:51+02:00
+6b3e4e0078212d78dfa2ce5bf009dadfe1f98c34,compose.ci.yaml,1,1,Veikkosuhonen,2024-03-25 12:50:51+02:00
+a2129f21b2a71cb144cb71f463aa78faaa0cdb0b,.github/workflows/staging.yaml,1,1,Veikkosuhonen,2024-03-25 12:44:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,.github/workflows/staging.yaml,68,0,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,.gitignore,4,0,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,compose.ci.yaml,29,0,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,e2e/basic.spec.ts,9,0,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,package-lock.json,63,3,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,package.json,1,1,Veikkosuhonen,2024-03-25 12:41:39+02:00
+4599f9a5073a111468a94e3c84b9d428fdb198ac,playwright.config.ts,78,0,Veikkosuhonen,2024-03-25 12:41:39+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/components/Courses/EditCourse/index.tsx,1,1,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/hooks/useChatInstanceUsage.ts,1,1,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/hooks/useChatInstanceUsageMutation.ts,6,3,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/hooks/usePromptMutation.ts,1,1,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/hooks/usePrompts.ts,2,2,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/hooks/useUserStatus.ts,3,3,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/client/types.ts,1,1,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/server/routes/admin.ts,5,5,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/server/routes/index.ts,2,2,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+f9824a23381cd797dad5fac67b53cfba954a26d3,src/server/routes/prompt.ts,1,1,Tereshchenko Aleksandr,2024-03-25 10:34:23+02:00
+199fb4c22742ff69507b219ae5476a6ab1990abb,src/client/components/Admin/Usage/CourseTable.tsx,11,6,Tereshchenko Aleksandr,2024-03-25 09:58:32+02:00
+199fb4c22742ff69507b219ae5476a6ab1990abb,src/client/components/Admin/Usage/UserTable.tsx,15,13,Tereshchenko Aleksandr,2024-03-25 09:58:32+02:00
+199fb4c22742ff69507b219ae5476a6ab1990abb,src/client/hooks/useChatInstanceUsage.ts,22,0,Tereshchenko Aleksandr,2024-03-25 09:58:32+02:00
+199fb4c22742ff69507b219ae5476a6ab1990abb,src/client/hooks/useChatInstanceUsageMutation.ts,25,0,Tereshchenko Aleksandr,2024-03-25 09:58:32+02:00
+199fb4c22742ff69507b219ae5476a6ab1990abb,src/client/types.ts,2,2,Tereshchenko Aleksandr,2024-03-25 09:58:32+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/client/components/Admin/Usage/UserTable.tsx,3,3,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/client/types.ts,3,3,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/db/models/chatInstance.ts,82,0,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/db/models/index.ts,11,8,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/db/models/prompt.ts,2,2,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/db/seeders/chatInstance.ts,40,0,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/db/seeders/index.ts,2,2,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/routes/admin.ts,23,23,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/routes/chatInstance.ts,23,0,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/routes/course.ts,6,6,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/routes/index.ts,1,1,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/routes/prompt.ts,3,3,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/types.ts,2,2,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/util/importer.ts,13,1,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+5eb77fbe5d08d21420f4c6c736ad069810d6f00f,src/server/util/util.ts,2,2,Tereshchenko Aleksandr,2024-03-25 09:34:43+02:00
+31a27f5347a08ac0d2cddd4ef0f19738d3e2c430,src/server/db/migrations/20240322_00_rename_service_to_chat_instance.ts,21,0,Tereshchenko Aleksandr,2024-03-22 16:25:18+02:00
+c5fdf0351eb3b5f120b81bee3148c07983ac0de0,src/client/components/Chat/Conversation.tsx,18,2,erikao1998,2024-03-18 16:02:02+02:00
+c5fdf0351eb3b5f120b81bee3148c07983ac0de0,src/client/components/Chat/index.tsx,12,2,erikao1998,2024-03-18 16:02:02+02:00
+e95973223818b14c1b045383c4fd7e8ae7635644,src/client/components/Chat/index.tsx,7,5,erikao1998,2024-03-18 13:57:39+02:00
+9ca39e4e984dbb4ba34f5525fe63bc4c2a6b680d,src/client/components/Chat/index.tsx,1,1,erikao1998,2024-03-15 10:26:30+02:00
+9ca39e4e984dbb4ba34f5525fe63bc4c2a6b680d,src/client/locales/en.json,2,1,erikao1998,2024-03-15 10:26:30+02:00
+9ca39e4e984dbb4ba34f5525fe63bc4c2a6b680d,src/client/locales/fi.json,2,1,erikao1998,2024-03-15 10:26:30+02:00
+6587514b73b35b08042a92acead66d2d297ae161,src/client/components/Chat/SendMessage.tsx,1,1,erikao1998,2024-03-15 09:59:42+02:00
+6587514b73b35b08042a92acead66d2d297ae161,src/client/components/Chat/index.tsx,6,1,erikao1998,2024-03-15 09:59:42+02:00
+a846cc8704e2474c2df1b43fc6301ae9a03e33e3,src/client/components/Chat/SendMessage.tsx,18,17,Miko Keskimäki,2024-03-14 14:44:01+02:00
+a846cc8704e2474c2df1b43fc6301ae9a03e33e3,src/client/components/Chat/index.tsx,1,3,Miko Keskimäki,2024-03-14 14:44:01+02:00
+16c87236a71fe219324f794231f305e69c731392,package-lock.json,0,27,Miko Keskimäki,2024-03-14 14:11:38+02:00
+16c87236a71fe219324f794231f305e69c731392,package.json,0,1,Miko Keskimäki,2024-03-14 14:11:38+02:00
+16c87236a71fe219324f794231f305e69c731392,src/server/routes/openai.ts,0,4,Miko Keskimäki,2024-03-14 14:11:38+02:00
+8bfbd6a9eb8ea3e4782a0547fedd17d403af419b,.github/workflows/production.yaml,1,0,Miko Keskimäki,2024-03-14 14:07:49+02:00
+d3318ca93bd98fd59167db4b7cad8b500f65867b,src/client/components/Chat/index.tsx,3,1,Miko Keskimäki,2024-03-14 13:51:30+02:00
+889eba0806c638966831ea57a84ca370b19e204f,src/server/routes/openai.ts,16,14,Miko Keskimäki,2024-03-14 13:34:42+02:00
+369f72f5d10638a524811e5389d6814fffadd8c1,src/client/components/Admin/Usage/FacultyTable.tsx,1,1,Miko Keskimäki,2024-03-14 13:26:09+02:00
+369f72f5d10638a524811e5389d6814fffadd8c1,src/client/components/Admin/Usage/UserTable.tsx,25,9,Miko Keskimäki,2024-03-14 13:26:09+02:00
+369f72f5d10638a524811e5389d6814fffadd8c1,src/client/hooks/useResetUsageMutation.ts,27,0,Miko Keskimäki,2024-03-14 13:26:09+02:00
+369f72f5d10638a524811e5389d6814fffadd8c1,src/client/hooks/useUsers.ts,22,0,Miko Keskimäki,2024-03-14 13:26:09+02:00
+369f72f5d10638a524811e5389d6814fffadd8c1,src/server/routes/admin.ts,14,0,Miko Keskimäki,2024-03-14 13:26:09+02:00
+20fc984b292de588c34f1e4af473d64eb0ee440b,src/client/components/Chat/SendMessage.tsx,20,15,Miko Keskimäki,2024-03-14 13:16:14+02:00
+8338588adac4353280ee6f118dbf9c90d9cbbf4d,src/server/routes/openai.ts,35,26,Miko Keskimäki,2024-03-14 13:05:38+02:00
+b7c3bf044941da3cc275132cc477082774cc60d9,src/server/routes/openai.ts,26,35,Miko Keskimäki,2024-03-13 11:56:33+02:00
+b1736e9ff406346b7209a141e28339f8e90e19ef,README.md,1,1,Matti Luukkainen,2024-03-13 11:54:40+02:00
+d799aed8895d2335cafb9ef5de37931ad48b375f,src/server/routes/openai.ts,35,26,AlexanderEngelhardt,2024-03-08 15:24:11+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,Containerfile,1,1,erikao1998,2024-03-08 14:40:20+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,dev.Containerfile,1,1,erikao1998,2024-03-08 14:40:20+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,src/client/components/Admin/Usage/UserTable.tsx,1,1,erikao1998,2024-03-08 14:40:20+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,src/client/components/Courses/index.tsx,1,1,erikao1998,2024-03-08 14:40:20+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,src/client/components/NavBar/index.tsx,1,1,erikao1998,2024-03-08 14:40:20+02:00
+23c57ada2067d96b6581a6419442bd5a8fc3175f,src/client/locales/sv.json,79,71,erikao1998,2024-03-08 14:40:20+02:00
+0378ef6b1d4dcf9374f7cd95f2adfccd0537f1c0,src/client/components/Chat/index.tsx,7,1,erikao1998,2024-03-08 14:39:20+02:00
+0378ef6b1d4dcf9374f7cd95f2adfccd0537f1c0,src/client/locales/en.json,3,1,erikao1998,2024-03-08 14:39:20+02:00
+0378ef6b1d4dcf9374f7cd95f2adfccd0537f1c0,src/client/locales/fi.json,3,1,erikao1998,2024-03-08 14:39:20+02:00
+0378ef6b1d4dcf9374f7cd95f2adfccd0537f1c0,src/server/routes/openai.ts,21,16,erikao1998,2024-03-08 14:39:20+02:00
+65cbea6455ed89c8abeed2b2e060c75b7c1755b6,src/client/components/Chat/index.tsx,2,0,erikao1998,2024-03-08 12:43:58+02:00
+65cbea6455ed89c8abeed2b2e060c75b7c1755b6,src/client/styles.css,17,0,erikao1998,2024-03-08 12:43:58+02:00
+2fd0151bf43b778c117769e15a8d1de5a24ff07f,src/config.ts,2,2,erikao1998,2024-03-08 12:42:40+02:00
+e884f0c02c3de6d47da132e377ec12d06410e164,src/client/components/NavBar/index.tsx,1,1,Miko Keskimäki,2024-03-08 09:56:58+02:00
+e884f0c02c3de6d47da132e377ec12d06410e164,src/client/locales/sv.json,79,71,Miko Keskimäki,2024-03-08 09:56:58+02:00
+eac595f8b869e4e4664d2ea9cc2dcaad316bd0e9,Containerfile,1,1,Miko Keskimäki,2024-03-08 09:27:44+02:00
+eac595f8b869e4e4664d2ea9cc2dcaad316bd0e9,dev.Containerfile,1,1,Miko Keskimäki,2024-03-08 09:27:44+02:00
+eac595f8b869e4e4664d2ea9cc2dcaad316bd0e9,src/client/components/Admin/Usage/UserTable.tsx,1,1,Miko Keskimäki,2024-03-08 09:27:44+02:00
+eac595f8b869e4e4664d2ea9cc2dcaad316bd0e9,src/client/components/Courses/index.tsx,1,1,Miko Keskimäki,2024-03-08 09:27:44+02:00
+49fbc99c5b087f34f048c78ac808312a1d185bc0,src/client/components/Chat/Email.tsx,1,1,erikao1998,2024-03-01 13:28:55+02:00
+82c31967ada5372376dc4099df32a81245bb9418,src/client/components/Chat/index.tsx,7,1,erikao1998,2024-02-29 15:57:39+02:00
+82c31967ada5372376dc4099df32a81245bb9418,src/client/locales/en.json,2,1,erikao1998,2024-02-29 15:57:39+02:00
+82c31967ada5372376dc4099df32a81245bb9418,src/client/locales/fi.json,2,1,erikao1998,2024-02-29 15:57:39+02:00
+7b0aa9a01ce9c540d3f9d21ed2b24177cfd95cb4,src/client/components/Chat/SendMessage.tsx,36,2,erikao1998,2024-02-29 10:50:36+02:00
+7b0aa9a01ce9c540d3f9d21ed2b24177cfd95cb4,src/client/components/Chat/index.tsx,5,0,erikao1998,2024-02-29 10:50:36+02:00
+7b0aa9a01ce9c540d3f9d21ed2b24177cfd95cb4,src/client/locales/en.json,2,1,erikao1998,2024-02-29 10:50:36+02:00
+7b0aa9a01ce9c540d3f9d21ed2b24177cfd95cb4,src/client/locales/fi.json,2,1,erikao1998,2024-02-29 10:50:36+02:00
+82e7cf9532299075ce834d21d9d86457c015929d,src/server/routes/openai.ts,11,2,erikao1998,2024-02-29 10:46:05+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,package-lock.json,136,39,Miko Keskimäki,2024-02-29 09:35:26+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,package.json,3,2,Miko Keskimäki,2024-02-29 09:35:26+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,src/client/components/Chat/SendMessage.tsx,3,0,Miko Keskimäki,2024-02-29 09:35:26+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,src/client/components/Chat/index.tsx,14,3,Miko Keskimäki,2024-02-29 09:35:26+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,src/client/components/Chat/util.ts,18,16,Miko Keskimäki,2024-02-29 09:35:26+02:00
+11cea6750f5285767fceaf9420ebc3d371adb602,src/server/routes/openai.ts,21,4,Miko Keskimäki,2024-02-29 09:35:26+02:00
+e5df0287c42f03560274af0918c749df0b12888f,src/client/components/Chat/Conversation.tsx,1,1,Miko Keskimäki,2024-02-29 09:31:00+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,package-lock.json,39,136,Miko Keskimäki,2024-02-29 09:30:38+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,package.json,2,3,Miko Keskimäki,2024-02-29 09:30:38+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,src/client/components/Chat/SendMessage.tsx,0,3,Miko Keskimäki,2024-02-29 09:30:38+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,src/client/components/Chat/index.tsx,3,14,Miko Keskimäki,2024-02-29 09:30:38+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,src/client/components/Chat/util.ts,16,18,Miko Keskimäki,2024-02-29 09:30:38+02:00
+3de9b29671e345f4e31ddb64f57f4cbf9947cf1c,src/server/routes/openai.ts,4,21,Miko Keskimäki,2024-02-29 09:30:38+02:00
+8825c57f073f2dc9e9fe7b2e4275892449f52f50,package-lock.json,20,26,Miko Keskimäki,2024-02-26 14:01:42+02:00
+8825c57f073f2dc9e9fe7b2e4275892449f52f50,package.json,1,2,Miko Keskimäki,2024-02-26 14:01:42+02:00
+7685913416017518163debfa2e6f35ae293210cd,src/client/components/Chat/SendMessage.tsx,3,7,erikao1998,2024-02-23 14:09:14+02:00
+7685913416017518163debfa2e6f35ae293210cd,src/client/components/Chat/index.tsx,6,3,erikao1998,2024-02-23 14:09:14+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,package-lock.json,116,13,erikao1998,2024-02-23 12:55:27+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,package.json,2,0,erikao1998,2024-02-23 12:55:27+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,src/client/components/Chat/SendMessage.tsx,7,0,erikao1998,2024-02-23 12:55:27+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,src/client/components/Chat/index.tsx,10,2,erikao1998,2024-02-23 12:55:27+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,src/client/components/Chat/util.ts,18,16,erikao1998,2024-02-23 12:55:27+02:00
+243e694156642e9d66a2d3071ec586bfd1fa2de5,src/server/routes/openai.ts,21,4,erikao1998,2024-02-23 12:55:27+02:00
+4cfcbcc3cd415034f151a3760633aff8e1eef5eb,src/server/routes/user.ts,1,1,Miko Keskimäki,2024-02-16 12:03:17+02:00
+4cfcbcc3cd415034f151a3760633aff8e1eef5eb,src/server/util/config.ts,5,1,Miko Keskimäki,2024-02-16 12:03:17+02:00
+ae93ccaf895585f8f72271cbe6d02d369e221ab3,src/client/locales/en.json,1,1,Miko Keskimäki,2024-02-09 14:36:42+02:00
+ae93ccaf895585f8f72271cbe6d02d369e221ab3,src/client/locales/fi.json,1,1,Miko Keskimäki,2024-02-09 14:36:42+02:00
+1527986ac7434e82b8a935c124a1c6b3b45d131d,src/server/util/config.ts,1,1,Miko Keskimäki,2024-02-09 14:24:34+02:00
+de858176e03b1b362d0c367c85449178f43efae1,src/server/routes/user.ts,2,1,Miko Keskimäki,2024-02-09 14:16:02+02:00
+1d49aff5b5f8dccfb3fa436dc1130faf8735b5c7,src/server/middleware/access.ts,1,0,Miko Keskimäki,2024-02-09 13:46:23+02:00
+1d49aff5b5f8dccfb3fa436dc1130faf8735b5c7,src/server/routes/user.ts,4,1,Miko Keskimäki,2024-02-09 13:46:23+02:00
+85f55b17d7e05bffa4a2bbd88aa76c9ba34a7cd2,src/client/components/NavBar/index.tsx,4,3,Miko Keskimäki,2024-02-09 12:20:36+02:00
+7a0372b9fd09e624da5543bf4e4d474450098829,src/server/util/cron.ts,16,9,Miko Keskimäki,2024-02-09 10:04:11+02:00
+faf4f3a847f0c9214a62028e7039c06b0307eb93,src/server/db/migrations/20240309_00_add_total_usage_to_users.ts,14,0,Miko Keskimäki,2024-02-09 09:56:36+02:00
+faf4f3a847f0c9214a62028e7039c06b0307eb93,src/server/db/models/user.ts,6,0,Miko Keskimäki,2024-02-09 09:56:36+02:00
+7822749db3ee968c076ffe7015d6e6096b5790c0,package-lock.json,33,0,Miko Keskimäki,2024-02-08 10:47:44+02:00
+7822749db3ee968c076ffe7015d6e6096b5790c0,package.json,2,0,Miko Keskimäki,2024-02-08 10:47:44+02:00
+b8846ff522fda4413a310a2b313e3fe6a22dd171,src/server/util/config.ts,13,10,erikao1998,2024-02-08 13:43:30+02:00
+80bef072ee4fe1ff752669b60f9ad4322bcc46d6,scripts/get_prod_db.sh,3,3,erikao1998,2024-02-08 13:42:49+02:00
+b41a46fb23a693f0319d60da9f1c593736f60492,src/client/locales/en.json,1,1,Miko Keskimäki,2024-02-08 10:47:44+02:00
+b41a46fb23a693f0319d60da9f1c593736f60492,src/client/locales/fi.json,1,1,Miko Keskimäki,2024-02-08 10:47:44+02:00
+b41a46fb23a693f0319d60da9f1c593736f60492,src/config.ts,1,1,Miko Keskimäki,2024-02-08 10:47:44+02:00
+337b4edcf33090d5bdbd6e1cc2f5cd55e0035723,.github/workflows/production.yaml,26,0,Miko Keskimäki,2024-02-08 09:25:43+02:00
+e65dacb179ac26b5f777526375b79b573353db26,package-lock.json,118,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,package.json,2,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,src/client/index.tsx,2,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,src/client/util/sentry.ts,16,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,src/server/middleware/error.ts,13,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,src/server/routes/index.ts,11,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+e65dacb179ac26b5f777526375b79b573353db26,src/server/util/sentry.ts,20,0,Miko Keskimäki,2024-02-08 09:24:10+02:00
+df14c435140cea1eb4df07a4eb54519233de046c,.github/workflows/production.yaml,1,0,Miko Keskimäki,2024-02-08 09:23:24+02:00
+df14c435140cea1eb4df07a4eb54519233de046c,.github/workflows/staging.yaml,1,0,Miko Keskimäki,2024-02-08 09:23:24+02:00
+df14c435140cea1eb4df07a4eb54519233de046c,Containerfile,3,0,Miko Keskimäki,2024-02-08 09:23:24+02:00
+df14c435140cea1eb4df07a4eb54519233de046c,src/config.ts,2,0,Miko Keskimäki,2024-02-08 09:23:24+02:00
+b9000fb4d2fae3a1852a39f195347bdea266e92c,src/client/locales/en.json,1,1,Miko Keskimaki,2024-02-07 13:05:23+02:00
+b9000fb4d2fae3a1852a39f195347bdea266e92c,src/client/locales/fi.json,1,1,Miko Keskimaki,2024-02-07 13:05:23+02:00
+d2469a2cedcf852b5b661487a3c3fad66610330d,src/client/components/Chat/Status.tsx,2,3,Miko Keskimaki,2024-02-07 13:01:16+02:00
+d2469a2cedcf852b5b661487a3c3fad66610330d,src/client/components/Chat/index.tsx,7,2,Miko Keskimaki,2024-02-07 13:01:16+02:00
+d2469a2cedcf852b5b661487a3c3fad66610330d,src/client/components/Course/Chat/Status.tsx,2,4,Miko Keskimaki,2024-02-07 13:01:16+02:00
+d2469a2cedcf852b5b661487a3c3fad66610330d,src/client/components/Course/Chat/index.tsx,7,2,Miko Keskimaki,2024-02-07 13:01:16+02:00
+d2469a2cedcf852b5b661487a3c3fad66610330d,src/server/routes/openai.ts,2,2,Miko Keskimaki,2024-02-07 13:01:16+02:00
+ececf2640fe0b5f1b6772b7215bb4c578cb046ca,src/server/util/cron.ts,2,0,Miko Keskimaki,2024-02-07 09:48:58+02:00
+179647da0cb8962c251a96d8561846aa6f162765,src/client/components/Course/Chat/index.tsx,1,1,Miko Keskimaki,2024-02-07 09:41:13+02:00
+179647da0cb8962c251a96d8561846aa6f162765,src/client/components/Course/Chat/util.ts,2,2,Miko Keskimaki,2024-02-07 09:41:13+02:00
+179647da0cb8962c251a96d8561846aa6f162765,src/client/hooks/useUserStatus.ts,1,1,Miko Keskimaki,2024-02-07 09:41:13+02:00
+179647da0cb8962c251a96d8561846aa6f162765,src/server/routes/openai.ts,1,1,Miko Keskimaki,2024-02-07 09:41:13+02:00
+179647da0cb8962c251a96d8561846aa6f162765,src/server/routes/user.ts,3,3,Miko Keskimaki,2024-02-07 09:41:13+02:00
+dca8752cb2ffa88c5bba1bc3c791d0b2dfa743e0,src/server/routes/openai.ts,2,1,Miko Keskimaki,2024-02-07 08:44:50+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/client/components/Chat/Status.tsx,4,2,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/client/components/Chat/index.tsx,8,2,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/client/types.ts,1,0,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/server/db/migrations/20240207_00_add_is_power_user_to_users.ts,14,0,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/server/db/models/user.ts,6,0,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/server/middleware/user.ts,4,1,Miko Keskimaki,2024-02-07 08:34:28+02:00
+ae8e64d82c024e1b61f39174f6114ac708cb40b7,src/server/types.ts,1,0,Miko Keskimaki,2024-02-07 08:34:28+02:00
+a915cb45463373b87661a3a0419dabac079e8d00,src/server/db/migrations/20240206_01_remove_chat_service.ts,22,0,Miko Keskimäki,2024-02-06 11:38:45+02:00
+e16cd6eade78048ddd93ebbb2610599ddbe69ab8,src/server/db/migrations/20240206_00_remove_service_access_groups.ts,46,0,Miko Keskimäki,2024-02-06 11:21:46+02:00
+e16cd6eade78048ddd93ebbb2610599ddbe69ab8,src/server/db/models/index.ts,1,5,Miko Keskimäki,2024-02-06 11:21:46+02:00
+3a4d53b171921151778b9e8c35fe02480d01f16e,src/server/routes/openai.ts,19,5,Miko Keskimäki,2024-02-06 10:47:51+02:00
+3a4d53b171921151778b9e8c35fe02480d01f16e,src/server/util/util.ts,3,42,Miko Keskimäki,2024-02-06 10:47:51+02:00
+44c7eea2701fa993bee0560738cc3c921946e2a4,src/client/hooks/useUserStatus.ts,1,1,Miko Keskimäki,2024-02-06 10:39:30+02:00
+44c7eea2701fa993bee0560738cc3c921946e2a4,src/server/routes/admin.ts,1,72,Miko Keskimäki,2024-02-06 10:39:30+02:00
+ffc4d19fda0e2a384389bd511454926d8ffd523f,src/client/components/Admin/Usage/FacultyTable.tsx,8,8,Miko Keskimäki,2024-02-06 10:36:12+02:00
+aab1fff63e87887a7d0078cc172544fe12faba2b,src/client/components/Admin/Usage/UserTable.tsx,28,10,Miko Keskimäki,2024-02-06 10:28:09+02:00
+aab1fff63e87887a7d0078cc172544fe12faba2b,src/server/routes/admin.ts,9,1,Miko Keskimäki,2024-02-06 10:28:09+02:00
+06e2bbfb1c00d849e9dad47d64fbd55fd07093af,src/client/components/Admin/index.tsx,2,5,Miko Keskimäki,2024-02-06 10:03:06+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/Router.tsx,2,1,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Chat/Email.tsx,1,1,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Chat/util.ts,0,16,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Course/Chat/PromptSelector.tsx,47,0,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Course/Chat/Status.tsx,92,0,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Course/Chat/index.tsx,180,0,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/components/Course/Chat/util.ts,43,0,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/hooks/useCourse.ts,0,2,Miko Keskimäki,2024-02-06 09:58:25+02:00
+f2a83f813622f59802a26e85e85ed598ec5e5ab4,src/client/util/email.ts,17,0,Miko Keskimäki,2024-02-06 09:58:25+02:00
+2bd6718ef9d7fb8bb2ac376448c0a9911572891f,src/client/components/Chat/Status.tsx,5,28,Miko Keskimäki,2024-02-06 09:39:16+02:00
+2bd6718ef9d7fb8bb2ac376448c0a9911572891f,src/client/components/Chat/index.tsx,15,74,Miko Keskimäki,2024-02-06 09:39:16+02:00
+2bd6718ef9d7fb8bb2ac376448c0a9911572891f,src/client/components/Chat/util.ts,1,5,Miko Keskimäki,2024-02-06 09:39:16+02:00
+412d336448f71221b4210cdf30a12851eb035456,src/client/types.ts,1,0,Miko Keskimäki,2024-02-06 09:20:18+02:00
+412d336448f71221b4210cdf30a12851eb035456,src/server/routes/user.ts,3,1,Miko Keskimäki,2024-02-06 09:20:18+02:00
+81318392758964db51722e1eae847e8f6e98bfa4,src/server/util/cron.ts,14,39,Miko Keskimäki,2024-02-06 09:13:45+02:00
+1c0665ea62ba3b8c4fe36042b77b1d62eed186ca,src/server/routes/openai.ts,4,19,Miko Keskimäki,2024-02-06 09:08:39+02:00
+1c0665ea62ba3b8c4fe36042b77b1d62eed186ca,src/server/util/openai.ts,34,2,Miko Keskimäki,2024-02-06 09:08:39+02:00
+d9fbbd1999ce238995a37e4ce2b5bebca8450ffe,src/server/routes/openai.ts,17,43,Miko Keskimaki,2024-02-05 18:11:53+02:00
+d9fbbd1999ce238995a37e4ce2b5bebca8450ffe,src/server/util/azure.ts,39,2,Miko Keskimaki,2024-02-05 18:11:53+02:00
+7c57540a73cfb634daf5a8563568920625d08663,src/server/routes/openai.ts,76,3,Miko Keskimaki,2024-02-05 18:02:47+02:00
+7c57540a73cfb634daf5a8563568920625d08663,src/server/types.ts,6,0,Miko Keskimaki,2024-02-05 18:02:47+02:00
+c65eb058fbaa58eb3b1cbb02a4966fddfec7e516,src/server/routes/openai.ts,7,20,Miko Keskimaki,2024-02-05 17:55:22+02:00
+c65eb058fbaa58eb3b1cbb02a4966fddfec7e516,src/server/types.ts,0,1,Miko Keskimaki,2024-02-05 17:55:22+02:00
+4f5ba759c63d2917126a05955aca94a678185361,README.md,2,2,Miko Keskimaki,2024-02-05 17:44:18+02:00
+c961c523ddfa616c1f1d7461132c07fd9906a341,src/server/db/migrations/20240205_00_add_usage_to_users.ts,14,0,Miko Keskimäki,2024-02-05 15:20:03+02:00
+c961c523ddfa616c1f1d7461132c07fd9906a341,src/server/db/models/index.ts,1,1,Miko Keskimäki,2024-02-05 15:20:03+02:00
+c961c523ddfa616c1f1d7461132c07fd9906a341,src/server/db/models/user.ts,6,0,Miko Keskimäki,2024-02-05 15:20:03+02:00
+c961c523ddfa616c1f1d7461132c07fd9906a341,src/server/routes/openai.ts,16,32,Miko Keskimäki,2024-02-05 15:20:03+02:00
+edc0d3f5c8b58d1b4295956dde30e4d1261d8549,src/server/routes/openai.ts,1,2,Miko Keskimäki,2024-02-05 14:25:21+02:00
+edc0d3f5c8b58d1b4295956dde30e4d1261d8549,src/server/routes/user.ts,1,1,Miko Keskimäki,2024-02-05 14:25:21+02:00
+edc0d3f5c8b58d1b4295956dde30e4d1261d8549,src/server/util/config.ts,6,0,Miko Keskimäki,2024-02-05 14:25:21+02:00
+1e3f1cdc24b4913df8dbe6c28408076538a9d859,src/client/components/Courses/util.ts,2,0,Miko Keskimaki,2024-02-04 12:44:24+02:00
+5757d94096b8f0fc0ae1d17c53619f52f8b19044,src/client/components/Courses/index.tsx,4,2,Miko Keskimaki,2024-02-04 12:37:32+02:00
+5757d94096b8f0fc0ae1d17c53619f52f8b19044,src/client/components/Courses/util.ts,8,1,Miko Keskimaki,2024-02-04 12:37:32+02:00
+80d9d46c0abbaf020b7c15ca4f5efad6472b72b1,package-lock.json,22,12,Miko Keskimaki,2024-02-04 12:28:09+02:00
+80d9d46c0abbaf020b7c15ca4f5efad6472b72b1,package.json,1,1,Miko Keskimaki,2024-02-04 12:28:09+02:00
+80d9d46c0abbaf020b7c15ca4f5efad6472b72b1,src/client/App.tsx,1,1,Miko Keskimaki,2024-02-04 12:28:09+02:00
+6463d86af09228c8d91eb40893b4e26054f37eeb,package-lock.json,653,495,Miko Keskimaki,2024-02-04 12:18:28+02:00
+6463d86af09228c8d91eb40893b4e26054f37eeb,package.json,3,3,Miko Keskimaki,2024-02-04 12:18:28+02:00
+6463d86af09228c8d91eb40893b4e26054f37eeb,src/client/components/Banner/Markdown.tsx,0,1,Miko Keskimaki,2024-02-04 12:18:28+02:00
+5bca07c03a09c5f2021ce46a90ebea49441ec9f8,Containerfile,1,1,Miko Keskimaki,2024-02-04 12:01:01+02:00
+5bca07c03a09c5f2021ce46a90ebea49441ec9f8,dev.Containerfile,1,1,Miko Keskimaki,2024-02-04 12:01:01+02:00
+431fc524aebbf012a5a8f5e515c974cacbf4a0d2,src/client/components/Courses/EditCourse/index.tsx,2,1,Miko Keskimaki,2024-02-04 11:54:40+02:00
+31031055d144e2eb0564b5d2a02a0bef364ef82d,package-lock.json,464,240,Miko Keskimaki,2024-02-04 11:53:57+02:00
+31031055d144e2eb0564b5d2a02a0bef364ef82d,package.json,2,2,Miko Keskimaki,2024-02-04 11:53:57+02:00
+31031055d144e2eb0564b5d2a02a0bef364ef82d,src/client/components/Banner/index.tsx,1,1,Miko Keskimaki,2024-02-04 11:53:57+02:00
+9b184f8eda8dd41e0157d980439241b7c306ba2d,package-lock.json,0,11,Miko Keskimaki,2024-02-04 11:42:31+02:00
+9b184f8eda8dd41e0157d980439241b7c306ba2d,package.json,0,1,Miko Keskimaki,2024-02-04 11:42:31+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,package-lock.json,9,28,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,package.json,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/useCourse.ts,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/useCourseMutation.ts,2,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/useCurrentUser.ts,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/useFaculties.ts,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/usePromptMutation.ts,4,2,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/usePrompts.ts,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+627b7a8b0659683ddfebef8459bec0ad4406f345,src/client/hooks/useUserStatus.ts,1,1,Miko Keskimaki,2024-02-04 11:30:55+02:00
+210c36b6714c37be7f3f41a8704458765f5c1d65,package-lock.json,1384,1143,Miko Keskimaki,2024-02-04 11:24:20+02:00
+210c36b6714c37be7f3f41a8704458765f5c1d65,package.json,37,37,Miko Keskimaki,2024-02-04 11:24:20+02:00
+26621ce299752d62cd522b1b78211959b4edb553,scripts/get_prod_db.sh,1,1,Miko Keskimaki,2024-02-04 11:15:01+02:00
+65ede948d099538a8dd2ce0169b9cb63cafa72fb,src/server/util/logger.ts,1,1,Miko Keskimaki,2024-01-29 17:17:20+02:00
+a3b0aab1ed6db2debe564f4c491c8763434e98a9,README.md,1,1,Miko Keskimäki,2024-01-29 17:13:16+02:00
+07784ff132f82ac40537fa09ccbd24efc512d54a,src/server/index.ts,8,4,Miko Keskimaki,2024-01-29 17:04:57+02:00
+def6885ca56829f9a60075e5f88c22aca009422d,src/client/components/Chat/index.tsx,8,1,Miko Keskimaki,2024-01-29 16:54:11+02:00
+def6885ca56829f9a60075e5f88c22aca009422d,src/client/components/Chat/util.ts,4,1,Miko Keskimaki,2024-01-29 16:54:11+02:00
+4b6a5094b2d9a819af52cac1e056d2a95a78d43c,package-lock.json,26,56,Miko Keskimaki,2024-01-29 15:46:17+02:00
+4b6a5094b2d9a819af52cac1e056d2a95a78d43c,package.json,1,1,Miko Keskimaki,2024-01-29 15:46:17+02:00
+4b6a5094b2d9a819af52cac1e056d2a95a78d43c,src/server/routes/openai.ts,4,2,Miko Keskimaki,2024-01-29 15:46:17+02:00
+4b6a5094b2d9a819af52cac1e056d2a95a78d43c,src/server/types.ts,6,0,Miko Keskimaki,2024-01-29 15:46:17+02:00
+4b6a5094b2d9a819af52cac1e056d2a95a78d43c,src/server/util/azure.ts,3,5,Miko Keskimaki,2024-01-29 15:46:17+02:00
+dc9ba8f355634c0c08b50f04d4d65c86a8251f03,package-lock.json,287,134,Miko Keskimaki,2024-01-29 15:01:16+02:00
+dc9ba8f355634c0c08b50f04d4d65c86a8251f03,package.json,3,3,Miko Keskimaki,2024-01-29 15:01:16+02:00
+dc9ba8f355634c0c08b50f04d4d65c86a8251f03,src/server/db/connection.ts,1,0,Miko Keskimaki,2024-01-29 15:01:16+02:00
+dc9ba8f355634c0c08b50f04d4d65c86a8251f03,tsconfig.json,1,6,Miko Keskimaki,2024-01-29 15:01:16+02:00
+afee9d2e619d573a61b68ab460b9f29cc3a5a1b1,src/client/components/Courses/EditCourse/index.tsx,5,1,Miko Keskimaki,2023-12-14 09:20:44+02:00
+14af255acb91da679de601c71d7b6a81575fdb94,src/client/locales/en.json,1,1,Miko Keskimaki,2023-12-14 09:16:32+02:00
+dd295a3b381e125ac3fa6afd85c2c59276054953,src/client/components/Courses/EditCourse/index.tsx,19,2,Miko Keskimaki,2023-12-14 09:14:05+02:00
+dd295a3b381e125ac3fa6afd85c2c59276054953,src/client/locales/en.json,3,1,Miko Keskimaki,2023-12-14 09:14:05+02:00
+dd295a3b381e125ac3fa6afd85c2c59276054953,src/client/locales/fi.json,3,1,Miko Keskimaki,2023-12-14 09:14:05+02:00
+52fc6dc2a3443f3d7c9c61e1d4263551413a7904,src/server/util/pate.ts,2,2,Miko Keskimaki,2023-12-11 13:02:21+02:00
+db15ad8407756cd0b119baaa413d337d96ad4e58,src/server/db/migrations/20231211_00_remove_gpt-3.5-turbo-16k_from_models.ts,17,0,Miko Keskimaki,2023-12-11 08:25:28+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,.env.template,0,1,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/client/locales/en.json,1,1,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/client/locales/fi.json,1,1,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/config.ts,0,5,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/server/routes/openai.ts,1,1,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/server/util/tiktoken.ts,2,6,Miko Keskimaki,2023-12-11 08:00:01+02:00
+438d82445d9938b5f176b51bc855f0a0efdd300f,src/server/util/util.ts,1,4,Miko Keskimaki,2023-12-11 08:00:01+02:00
+d63408756b4accc21299155b0c8b374b269b1de3,src/config.ts,1,1,Miko Keskimäki,2023-12-05 10:53:12+02:00
+97825836a831fb276696c155eaab2f38972c855a,src/server/db/migrations/20231204_00_change_prompt_system_message_to_text.ts,17,0,Miko Keskimäki,2023-12-04 10:00:48+02:00
+97825836a831fb276696c155eaab2f38972c855a,src/server/db/models/prompt.ts,1,1,Miko Keskimäki,2023-12-04 10:00:48+02:00
+a3f19726878b4498a0df8a4776700f16f03d5bed,src/server/util/config.ts,11,0,Miko Keskimäki,2023-11-20 11:41:16+02:00
+a3f19726878b4498a0df8a4776700f16f03d5bed,src/server/util/importer.ts,8,1,Miko Keskimäki,2023-11-20 11:41:16+02:00
+81311e7e39099485691510452202ffc15453051f,src/client/types.ts,1,0,Miko Keskimäki,2023-11-14 17:29:22+02:00
+81311e7e39099485691510452202ffc15453051f,src/server/util/util.ts,5,3,Miko Keskimäki,2023-11-14 17:29:22+02:00
+d8a382e706a95ae4a8fc79b26e21c3945e491e54,src/client/components/Chat/Status.tsx,5,1,Miko Keskimäki,2023-11-14 17:27:54+02:00
+d8a382e706a95ae4a8fc79b26e21c3945e491e54,src/server/routes/openai.ts,10,1,Miko Keskimäki,2023-11-14 17:27:54+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/client/components/Chat/Status.tsx,64,4,Miko Keskimäki,2023-11-14 15:58:34+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/client/components/Chat/index.tsx,16,3,Miko Keskimäki,2023-11-14 15:58:34+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/client/components/Chat/util.ts,2,0,Miko Keskimäki,2023-11-14 15:58:34+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/client/types.ts,1,0,Miko Keskimäki,2023-11-14 15:58:34+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/server/routes/user.ts,2,1,Miko Keskimäki,2023-11-14 15:58:34+02:00
+9715b685ce18c0fbbbc78bc1857b5486fc6ddb81,src/server/util/util.ts,10,0,Miko Keskimäki,2023-11-14 15:58:34+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,index.html,1,1,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,src/client/components/Footer/index.tsx,1,1,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,src/client/locales/en.json,1,1,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,src/client/locales/fi.json,2,2,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,src/server/routes/openai.ts,0,2,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b06745ea21295d754379fd18d060a1623fa4c68a,src/server/util/azure.ts,0,2,Miko Keskimäki,2023-11-14 13:31:54+02:00
+b4abcde6326572d8f810d5bb28810030e674372e,src/client/locales/fi.json,1,1,Miko Keskimäki,2023-11-10 14:16:47+02:00
+b4abcde6326572d8f810d5bb28810030e674372e,src/server/routes/openai.ts,1,1,Miko Keskimäki,2023-11-10 14:16:47+02:00
+f91e491db57868bef72e9f94a2c5ff2c741e2e81,.env.template,4,0,Miko Keskimäki,2023-11-10 12:46:27+02:00
+f91e491db57868bef72e9f94a2c5ff2c741e2e81,src/config.ts,3,3,Miko Keskimäki,2023-11-10 12:46:27+02:00
+c6e13cab2eced27ed6838545d1d50420c9bb9f22,src/server/db/seeders/index.ts,2,2,Miko Keskimäki,2023-10-30 09:46:19+02:00
+c6e13cab2eced27ed6838545d1d50420c9bb9f22,src/server/routes/openai.ts,14,2,Miko Keskimäki,2023-10-30 09:46:19+02:00
+c6e13cab2eced27ed6838545d1d50420c9bb9f22,src/server/util/util.ts,4,0,Miko Keskimäki,2023-10-30 09:46:19+02:00
+c265ac797d6ee0ea4050f67e46f9cbbf7d0a9934,src/server/util/util.ts,7,2,Miko Keskimäki,2023-10-25 10:05:12+03:00
+b468db79e24c6944528ec44d1fe0576a96af71a5,.env.template,0,1,Miko Keskimäki,2023-10-24 13:33:51+03:00
+b468db79e24c6944528ec44d1fe0576a96af71a5,src/server/routes/openai.ts,1,1,Miko Keskimäki,2023-10-24 13:33:51+03:00
+b468db79e24c6944528ec44d1fe0576a96af71a5,src/server/util/config.ts,0,2,Miko Keskimäki,2023-10-24 13:33:51+03:00
+b468db79e24c6944528ec44d1fe0576a96af71a5,src/server/util/openai.ts,3,10,Miko Keskimäki,2023-10-24 13:33:51+03:00
+f5733cc23e07ce55ee55dc23a27ed53e1f8a15cf,src/server/routes/openai.ts,3,5,Miko Keskimäki,2023-10-24 13:25:11+03:00
+f5733cc23e07ce55ee55dc23a27ed53e1f8a15cf,src/server/util/azure.ts,17,9,Miko Keskimäki,2023-10-24 13:25:11+03:00
+3b8c0f6e2b6fc034c4ffb2fc037629043e910351,src/server/util/azure.ts,25,0,Miko Keskimäki,2023-10-24 13:07:08+03:00
+97f6fae5b3cf982905129c382cea63fa1836df50,src/config.ts,2,6,Miko Keskimäki,2023-10-23 14:43:54+03:00
+97f6fae5b3cf982905129c382cea63fa1836df50,src/server/routes/openai.ts,36,14,Miko Keskimäki,2023-10-23 14:43:54+03:00
+97f6fae5b3cf982905129c382cea63fa1836df50,src/server/util/util.ts,1,1,Miko Keskimäki,2023-10-23 14:43:54+03:00
+06f202b329a204ad17fb80625e5e7e7c231eac99,.env.template,5,1,Miko Keskimäki,2023-10-23 13:15:07+03:00
+06f202b329a204ad17fb80625e5e7e7c231eac99,package-lock.json,196,2,Miko Keskimäki,2023-10-23 13:15:07+03:00
+06f202b329a204ad17fb80625e5e7e7c231eac99,package.json,1,0,Miko Keskimäki,2023-10-23 13:15:07+03:00
+06f202b329a204ad17fb80625e5e7e7c231eac99,src/config.ts,7,0,Miko Keskimäki,2023-10-23 13:15:07+03:00
+06f202b329a204ad17fb80625e5e7e7c231eac99,src/server/util/config.ts,4,0,Miko Keskimäki,2023-10-23 13:15:07+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/components/Admin/Usage/CourseTable.tsx,84,0,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/components/Admin/Usage/FacultyTable.tsx,91,0,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/components/Admin/Usage/UserTable.tsx,97,0,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/components/Admin/Usage/index.tsx,21,4,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/locales/en.json,3,1,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/locales/fi.json,3,1,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/locales/sv.json,3,1,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/client/types.ts,2,1,Miko Keskimäki,2023-10-18 10:32:22+03:00
+9ca060046fbfe140cead3c80a37c4f955c8753ee,src/server/util/config.ts,4,4,Miko Keskimäki,2023-10-18 10:32:22+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/client/hooks/useFaculties.ts,22,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/client/types.ts,11,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/server/routes/faculty.ts,35,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/server/types.ts,20,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/server/util/config.ts,4,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+d403a28eae1bf5775febe7c71b8013a80884be47,src/server/util/jami.ts,12,0,Miko Keskimäki,2023-10-18 09:21:20+03:00
+8fef0073c3de8c11fbccc2b8b4a826f2c655f81c,src/server/util/util.ts,1,1,Miko Keskimäki,2023-10-17 12:56:05+03:00
+8fef0073c3de8c11fbccc2b8b4a826f2c655f81c,tsconfig.json,2,1,Miko Keskimäki,2023-10-17 12:56:05+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/components/Chat/Status.tsx,28,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/components/Chat/index.tsx,13,1,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/hooks/useUserStatus.ts,22,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/locales/en.json,4,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/locales/fi.json,4,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/client/types.ts,6,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+5342a5ac60f0114e41d8c39c2223f42f3d4e424e,src/server/routes/user.ts,18,0,Miko Keskimäki,2023-10-17 12:13:17+03:00
+ead41f6b5cd00cde607796c0ca1cc462abcfc302,src/client/locales/en.json,1,1,Miko Keskimäki,2023-10-06 10:13:34+03:00
+ead41f6b5cd00cde607796c0ca1cc462abcfc302,src/client/locales/fi.json,1,1,Miko Keskimäki,2023-10-06 10:13:34+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/components/Admin/Usage/index.tsx,21,0,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/components/Admin/index.tsx,4,1,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/locales/en.json,5,1,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/locales/fi.json,5,1,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/locales/sv.json,5,1,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/client/types.ts,7,0,Miko Keskimäki,2023-10-03 16:45:57+03:00
+4ab4bc226b462c5c680129b38a7571902b13ed55,src/server/routes/admin.ts,35,1,Miko Keskimäki,2023-10-03 16:45:57+03:00
+f6320f53e7acf53e6216bcdf836a7a16a36d5205,src/server/routes/openai.ts,1,0,Miko Keskimäki,2023-09-15 12:27:09+03:00
+7d69be7f88a2618ff653eb841d39ddb551e4e457,package-lock.json,286,0,Miko Keskimäki,2023-09-15 12:23:21+03:00
+7d69be7f88a2618ff653eb841d39ddb551e4e457,package.json,1,0,Miko Keskimäki,2023-09-15 12:23:21+03:00
+7d69be7f88a2618ff653eb841d39ddb551e4e457,src/client/components/Chat/Conversation.tsx,4,1,Miko Keskimäki,2023-09-15 12:23:21+03:00
+1d4c9b6cbe6c8f028f1fc3dafb96b19e199e125c,src/client/locales/en.json,3,3,Miko Keskimäki,2023-09-12 13:15:54+03:00
+ca3839c389721ec8fca90a4c48957f7b0c537fc0,src/client/components/Courses/util.ts,5,1,Miko Keskimäki,2023-09-12 13:09:19+03:00
+a999fe24de413ad6c075001d6fcd7a175ed8fde3,src/client/components/Courses/index.tsx,1,1,Miko Keskimäki,2023-09-12 12:23:11+03:00
+478f4c1d4032f5d55d2e06e809be899bdf628611,src/client/components/Courses/EditCourse/index.tsx,2,0,Miko Keskimäki,2023-09-12 12:12:56+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/components/Chat/SystemMessage.tsx,4,1,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/components/Courses/EditCourse/Prompt.tsx,14,11,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/components/Courses/EditCourse/index.tsx,10,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/hooks/usePromptMutation.ts,1,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/locales/en.json,3,2,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/locales/fi.json,3,2,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/client/types.ts,1,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/server/db/migrations/20230912_01_add_name_to_prompts.ts,15,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/server/db/models/prompt.ts,6,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+f4f4e895a3fe26da1d58267d936bc54ee455972a,src/server/routes/prompt.ts,1,0,Miko Keskimäki,2023-09-12 11:58:15+03:00
+37651aad77a987d3e5b7c21a79894fd40881988f,src/client/components/Chat/index.tsx,24,10,Miko Keskimäki,2023-09-12 10:47:56+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/components/Courses/EditCourse/Prompt.tsx,25,7,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/components/Courses/EditCourse/index.tsx,25,3,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/hooks/usePromptMutation.ts,1,0,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/locales/en.json,4,1,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/locales/fi.json,4,1,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/locales/sv.json,4,1,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/client/types.ts,1,0,Miko Keskimäki,2023-09-12 10:25:49+03:00
+b055bab812efd09ffae69beea2aa49b5a78233eb,src/server/routes/prompt.ts,1,0,Miko Keskimäki,2023-09-12 10:25:49+03:00
+d9dd5fddd1a223ecfa67546fbfec60f0f6726360,src/server/db/migrations/20230912_00_add_hidden_to_prompts.ts,15,0,Miko Keskimäki,2023-09-12 09:38:10+03:00
+d9dd5fddd1a223ecfa67546fbfec60f0f6726360,src/server/db/models/prompt.ts,7,0,Miko Keskimäki,2023-09-12 09:38:10+03:00
+6cff6ff914730fac087ccdc236f15d570cbaa9ff,src/server/routes/openai.ts,1,1,Miko Keskimäki,2023-09-08 16:19:18+03:00
+1a8657ebd287a592871295e9b9ad7f658db0852b,src/server/routes/openai.ts,6,0,Miko Keskimäki,2023-09-08 16:12:05+03:00
+706a12832caf8c12fdeeedd56bda06f513abfdd4,src/client/components/Courses/index.tsx,3,1,Miko Keskimäki,2023-09-07 17:59:45+03:00
+9134ca64334b81ecb816a61ad7ff8c2d78405a0c,src/server/util/importer.ts,1,1,Miko Keskimäki,2023-09-06 08:56:34+03:00
+db297043d6275a5c6bd76eed9d37d7f4415325f9,src/client/components/Chat/index.tsx,1,1,Miko Keskimäki,2023-09-05 12:49:53+03:00
+db297043d6275a5c6bd76eed9d37d7f4415325f9,src/client/locales/en.json,2,1,Miko Keskimäki,2023-09-05 12:49:53+03:00
+db297043d6275a5c6bd76eed9d37d7f4415325f9,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-09-05 12:49:53+03:00
+db297043d6275a5c6bd76eed9d37d7f4415325f9,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-09-05 12:49:53+03:00
+108feefc1211a070f5167f07c6ac553bd98256c7,src/client/components/Chat/Conversation.tsx,7,1,Miko Keskimäki,2023-09-05 12:22:30+03:00
+108feefc1211a070f5167f07c6ac553bd98256c7,src/client/components/Courses/EditCourse/Prompt.tsx,34,29,Miko Keskimäki,2023-09-05 12:22:30+03:00
+b793e250166ec1ebbe515ead8429829be2b14034,src/client/components/Courses/EditCourse/index.tsx,2,1,Miko Keskimäki,2023-09-05 11:46:47+03:00
+b793e250166ec1ebbe515ead8429829be2b14034,src/client/locales/en.json,2,1,Miko Keskimäki,2023-09-05 11:46:47+03:00
+b793e250166ec1ebbe515ead8429829be2b14034,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-09-05 11:46:47+03:00
+b793e250166ec1ebbe515ead8429829be2b14034,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-09-05 11:46:47+03:00
+0c9cb380257caa8296ba7c3b0f32eec35220e52a,src/client/components/Courses/EditCourse/index.tsx,3,0,Miko Keskimäki,2023-09-05 10:57:47+03:00
+0c9cb380257caa8296ba7c3b0f32eec35220e52a,src/client/locales/en.json,2,1,Miko Keskimäki,2023-09-05 10:57:47+03:00
+0c9cb380257caa8296ba7c3b0f32eec35220e52a,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-09-05 10:57:47+03:00
+0c9cb380257caa8296ba7c3b0f32eec35220e52a,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-09-05 10:57:47+03:00
+0b18a863fb9f6d7b8960eddab4a666609eccfd4c,src/client/components/Courses/EditCourse/Prompt.tsx,31,6,Miko Keskimäki,2023-09-05 10:54:19+03:00
+5d0558ddd2cf5ed3defb6b09b2937298ba1bf522,src/client/components/Courses/EditCourse/Prompt.tsx,37,0,Miko Keskimäki,2023-09-05 10:36:46+03:00
+5d0558ddd2cf5ed3defb6b09b2937298ba1bf522,src/client/components/Courses/EditCourse/index.tsx,5,20,Miko Keskimäki,2023-09-05 10:36:46+03:00
+854f030f058706d0498172fc1bff0c9992a1dcee,src/client/components/Courses/EditCourse/EditActivityPeriod.tsx,54,53,Miko Keskimäki,2023-09-05 10:28:34+03:00
+854f030f058706d0498172fc1bff0c9992a1dcee,src/client/components/Courses/EditCourse/index.tsx,41,8,Miko Keskimäki,2023-09-05 10:28:34+03:00
+854f030f058706d0498172fc1bff0c9992a1dcee,src/client/components/Courses/index.tsx,3,10,Miko Keskimäki,2023-09-05 10:28:34+03:00
+854f030f058706d0498172fc1bff0c9992a1dcee,src/client/components/Courses/util.ts,10,0,Miko Keskimäki,2023-09-05 10:28:34+03:00
+854f030f058706d0498172fc1bff0c9992a1dcee,src/client/hooks/useCourseMutation.ts,7,1,Miko Keskimäki,2023-09-05 10:28:34+03:00
+327094fdaad68969efd9d73c948efc188da31637,src/client/components/Courses/index.tsx,20,10,Miko Keskimäki,2023-09-05 10:02:39+03:00
+327094fdaad68969efd9d73c948efc188da31637,src/client/hooks/useUserCourses.ts,2,2,Miko Keskimäki,2023-09-05 10:02:39+03:00
+327094fdaad68969efd9d73c948efc188da31637,src/client/types.ts,1,1,Miko Keskimäki,2023-09-05 10:02:39+03:00
+7d7de852c8ba0ea135dac4adf5310f6306c9b885,src/server/middleware/user.ts,1,13,Miko Keskimäki,2023-09-05 09:50:44+03:00
+7d7de852c8ba0ea135dac4adf5310f6306c9b885,src/server/routes/user.ts,12,2,Miko Keskimäki,2023-09-05 09:50:44+03:00
+260d48a26740b758dda0d51f893e93f3e1a41e6c,src/server/middleware/user.ts,13,1,Miko Keskimäki,2023-09-04 13:20:12+03:00
+260d48a26740b758dda0d51f893e93f3e1a41e6c,src/server/routes/user.ts,2,12,Miko Keskimäki,2023-09-04 13:20:12+03:00
+6063096e50d85b578585bf65d2996e7a8e6d3b6f,src/server/routes/openai.ts,1,0,Miko Keskimäki,2023-09-04 12:55:00+03:00
+16f958a64f799c366606530651f26e8ee3ce1fc1,src/client/components/Courses/EditCourse/index.tsx,6,6,Miko Keskimäki,2023-09-01 12:54:10+03:00
+b12d9064f4f26f58c3320765204c3490a87d1e6a,src/client/components/NavBar/index.tsx,3,1,Miko Keskimäki,2023-09-01 12:10:27+03:00
+b12d9064f4f26f58c3320765204c3490a87d1e6a,src/client/types.ts,1,0,Miko Keskimäki,2023-09-01 12:10:27+03:00
+b12d9064f4f26f58c3320765204c3490a87d1e6a,src/server/util/importer.ts,1,9,Miko Keskimäki,2023-09-01 12:10:27+03:00
+22b5107ed999bba9e79ce190f4d5967640dcf2ab,src/server/routes/openai.ts,1,1,Miko Keskimäki,2023-09-01 11:50:17+03:00
+22b5107ed999bba9e79ce190f4d5967640dcf2ab,src/server/util/util.ts,3,1,Miko Keskimäki,2023-09-01 11:50:17+03:00
+f534970d1c1b4c7b988cad56af9d46b283db5c2c,src/client/hooks/useCourseMutation.ts,26,0,Miko Keskimäki,2023-08-31 14:03:01+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/App.tsx,2,1,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/components/Courses/EditCourse/EditActivityPeriod.tsx,25,5,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/components/Courses/EditCourse/index.tsx,1,1,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/hooks/useCourse.ts,2,4,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/locales/en.json,4,1,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/locales/fi.json,4,1,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/client/locales/sv.json,4,1,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/server/routes/admin.ts,5,0,Miko Keskimäki,2023-08-31 13:13:50+03:00
+9983a270256389620b7408c080649a964c17f074,src/server/routes/course.ts,15,10,Miko Keskimäki,2023-08-31 13:13:50+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,package-lock.json,99,22,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,package.json,2,0,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/client/App.tsx,11,7,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/client/components/Courses/EditCourse/EditActivityPeriod.tsx,51,0,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/client/components/Courses/EditCourse/index.tsx,5,3,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/client/types.ts,6,4,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/server/db/migrations/20230831_00_add_activity_period_to_services.ts,15,0,Miko Keskimäki,2023-08-31 12:35:31+03:00
+5c5407314158e165a90307a6c1ec7be2adc20f1c,src/server/types.ts,6,4,Miko Keskimäki,2023-08-31 12:35:31+03:00
+c28c65daa6ef9e19423e3602c179727a887a5f16,src/client/components/Courses/EditCourse/index.tsx,1,1,Miko Keskimäki,2023-08-31 11:24:30+03:00
+c28c65daa6ef9e19423e3602c179727a887a5f16,src/client/hooks/useCourse.ts,4,2,Miko Keskimäki,2023-08-31 11:24:30+03:00
+c28c65daa6ef9e19423e3602c179727a887a5f16,src/client/types.ts,1,1,Miko Keskimäki,2023-08-31 11:24:30+03:00
+c28c65daa6ef9e19423e3602c179727a887a5f16,src/server/routes/course.ts,10,6,Miko Keskimäki,2023-08-31 11:24:30+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/client/components/Chat/index.tsx,5,5,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/client/components/Courses/EditCourse/index.tsx,3,3,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/client/components/Courses/index.tsx,2,2,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/client/hooks/useCourse.ts,6,6,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/client/types.ts,8,0,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/server/routes/course.ts,9,1,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/server/routes/prompt.ts,11,4,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/server/types.ts,11,9,Miko Keskimäki,2023-08-31 11:17:43+03:00
+89a624fe4ea229ab4f74239689c5602475ae5ad1,src/server/util/importer.ts,12,1,Miko Keskimäki,2023-08-31 11:17:43+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,compose.yaml,4,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,package-lock.json,79,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,package.json,1,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,src/server/util/config.ts,2,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,src/server/util/importer.ts,15,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+cba54b36e3b358000a23f13077685a46f47faab1,src/server/util/redis.ts,21,0,Miko Keskimäki,2023-08-31 09:50:34+03:00
+2d16a4e2425cba844e0e172521530445fcc46d78,src/server/routes/openai.ts,4,1,Miko Keskimäki,2023-08-31 09:17:46+03:00
+796e2f4bb7cbc426121f0c9f188f84d9369f8fca,src/client/components/Courses/index.tsx,2,4,Miko Keskimäki,2023-08-29 13:15:03+03:00
+796e2f4bb7cbc426121f0c9f188f84d9369f8fca,src/client/hooks/useUserCourses.ts,2,3,Miko Keskimäki,2023-08-29 13:15:03+03:00
+796e2f4bb7cbc426121f0c9f188f84d9369f8fca,src/server/routes/course.ts,17,31,Miko Keskimäki,2023-08-29 13:15:03+03:00
+ab0ab591be8d369a1f69e810c002e6e23e828be1,src/client/components/NavBar/index.tsx,12,13,Miko Keskimäki,2023-08-29 13:15:03+03:00
+ab0ab591be8d369a1f69e810c002e6e23e828be1,src/client/hooks/useUserCourses.ts,0,1,Miko Keskimäki,2023-08-29 13:15:03+03:00
+ab0ab591be8d369a1f69e810c002e6e23e828be1,src/server/routes/user.ts,12,4,Miko Keskimäki,2023-08-29 13:15:03+03:00
+ab0ab591be8d369a1f69e810c002e6e23e828be1,src/server/types.ts,1,0,Miko Keskimäki,2023-08-29 13:15:03+03:00
+f631074febad39acfa712dc4fc42d0009cbc4bc1,src/client/components/Courses/index.tsx,5,3,Miko Keskimäki,2023-08-29 12:50:42+03:00
+f631074febad39acfa712dc4fc42d0009cbc4bc1,src/client/hooks/useUserCourses.ts,27,0,Miko Keskimäki,2023-08-29 12:50:42+03:00
+f631074febad39acfa712dc4fc42d0009cbc4bc1,src/server/routes/course.ts,38,1,Miko Keskimäki,2023-08-29 12:50:42+03:00
+f631074febad39acfa712dc4fc42d0009cbc4bc1,src/server/util/importer.ts,8,1,Miko Keskimäki,2023-08-29 12:50:42+03:00
+31e9b704fa334ba8c27800d6941ab508d838e811,src/server/routes/openai.ts,5,1,Miko Keskimäki,2023-08-29 12:41:39+03:00
+a5733c405b1dca7c7e1fda5eba42c3a104a82aa8,.gitignore,2,0,Miko Keskimäki,2023-08-29 12:37:35+03:00
+a5733c405b1dca7c7e1fda5eba42c3a104a82aa8,scripts/get_prod_db.sh,64,0,Miko Keskimäki,2023-08-29 12:37:35+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/client/components/Chat/index.tsx,2,2,Miko Keskimäki,2023-08-29 11:11:29+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/client/components/Courses/index.tsx,2,4,Miko Keskimäki,2023-08-29 11:11:29+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/client/hooks/useCourse.ts,24,0,Miko Keskimäki,2023-08-29 11:11:29+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/server/routes/course.ts,29,0,Miko Keskimäki,2023-08-29 11:11:29+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-08-29 11:11:29+03:00
+c3ec0adbed2f618a7b7983fe233c4d478687b46a,src/server/util/importer.ts,1,1,Miko Keskimäki,2023-08-29 11:11:29+03:00
+e0fc800fee562a452d911aefe5955c9c2ec88dad,src/client/components/Courses/EditCourse/index.tsx,4,2,Miko Keskimäki,2023-08-29 10:27:26+03:00
+27c29109eb61ec67f64f32b9ceaa953900fce724,src/client/components/Courses/EditCourse/index.tsx,1,1,Miko Keskimäki,2023-08-29 10:19:03+03:00
+27c29109eb61ec67f64f32b9ceaa953900fce724,src/config.ts,16,1,Miko Keskimäki,2023-08-29 10:19:03+03:00
+27c29109eb61ec67f64f32b9ceaa953900fce724,src/server/routes/openai.ts,3,3,Miko Keskimäki,2023-08-29 10:19:03+03:00
+27c29109eb61ec67f64f32b9ceaa953900fce724,src/server/util/util.ts,9,1,Miko Keskimäki,2023-08-29 10:19:03+03:00
+74b790cd59a9402a1ddbfea615bffd9503d2bfd7,src/client/Router.tsx,2,2,Miko Keskimäki,2023-08-29 09:59:42+03:00
+74b790cd59a9402a1ddbfea615bffd9503d2bfd7,src/client/components/Courses/EditCourse/index.tsx,173,0,Miko Keskimäki,2023-08-29 09:59:42+03:00
+74b790cd59a9402a1ddbfea615bffd9503d2bfd7,src/client/locales/fi.json,1,1,Miko Keskimäki,2023-08-29 09:59:42+03:00
+4fde3d1ca41b023015fb5be9446ce294d78a0df7,src/client/locales/en.json,3,1,Miko Keskimäki,2023-08-22 21:32:38+03:00
+4fde3d1ca41b023015fb5be9446ce294d78a0df7,src/client/locales/fi.json,3,1,Miko Keskimäki,2023-08-22 21:32:38+03:00
+4fde3d1ca41b023015fb5be9446ce294d78a0df7,src/client/locales/sv.json,3,1,Miko Keskimäki,2023-08-22 21:32:38+03:00
+2b7c7e8c1fab7051236e4c1bfa94bcbee702af42,src/client/hooks/usePromptMutation.ts,27,1,Miko Keskimäki,2023-08-22 21:16:02+03:00
+2b7c7e8c1fab7051236e4c1bfa94bcbee702af42,src/client/hooks/usePrompts.ts,22,0,Miko Keskimäki,2023-08-22 21:16:02+03:00
+2b7c7e8c1fab7051236e4c1bfa94bcbee702af42,src/server/routes/prompt.ts,22,1,Miko Keskimäki,2023-08-22 21:16:02+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/client/components/Courses/index.tsx,3,2,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/client/hooks/usePromptMutation.ts,28,0,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/client/locales/en.json,2,1,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-08-22 20:51:59+03:00
+d3e83e34156a4c4df3108aeb94c508d74c95316b,src/server/routes/prompt.ts,23,0,Miko Keskimäki,2023-08-22 20:51:59+03:00
+3cfe9453f59bad2b80514f981464368e777e1237,src/client/Router.tsx,2,0,Miko Keskimäki,2023-08-22 20:29:20+03:00
+3cfe9453f59bad2b80514f981464368e777e1237,src/client/locales/en.json,3,1,Miko Keskimäki,2023-08-22 20:29:20+03:00
+3cfe9453f59bad2b80514f981464368e777e1237,src/client/locales/fi.json,3,1,Miko Keskimäki,2023-08-22 20:29:20+03:00
+3cfe9453f59bad2b80514f981464368e777e1237,src/client/locales/sv.json,3,1,Miko Keskimäki,2023-08-22 20:29:20+03:00
+631c5755d69d75f2741eedcded6d511d7ec5f21c,src/client/components/Courses/index.tsx,37,18,Miko Keskimäki,2023-08-22 19:48:47+03:00
+631c5755d69d75f2741eedcded6d511d7ec5f21c,src/server/routes/admin.ts,0,6,Miko Keskimäki,2023-08-22 19:48:47+03:00
+4657ee2edebae8c92dd01e2e183b7362d476b7a6,src/client/Router.tsx,2,0,Miko Keskimäki,2023-08-22 19:35:10+03:00
+4657ee2edebae8c92dd01e2e183b7362d476b7a6,src/client/components/Courses/index.tsx,54,0,Miko Keskimäki,2023-08-22 19:35:10+03:00
+272aa6782fa6e456cef24edb22edcd87150e2d2a,src/client/components/NavBar/index.tsx,18,6,Miko Keskimäki,2023-08-22 19:24:43+03:00
+272aa6782fa6e456cef24edb22edcd87150e2d2a,src/client/locales/en.json,2,1,Miko Keskimäki,2023-08-22 19:24:43+03:00
+272aa6782fa6e456cef24edb22edcd87150e2d2a,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-08-22 19:24:43+03:00
+272aa6782fa6e456cef24edb22edcd87150e2d2a,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-08-22 19:24:43+03:00
+2d983df6e9525cd2a6de1b2df6bf3a1a03fbeec3,src/server/db/migrations/20230821_00_init_prompts.ts,37,0,Miko Keskimäki,2023-08-21 20:03:14+03:00
+2d983df6e9525cd2a6de1b2df6bf3a1a03fbeec3,src/server/db/migrations/20230821_01_remove_prompt_from_services.ts,21,0,Miko Keskimäki,2023-08-21 20:03:14+03:00
+ea24a42e8a4d8be0a28a1afe3e41df38d2545623,src/client/components/Chat/index.tsx,13,2,Miko Keskimäki,2023-08-21 19:50:00+03:00
+955c76e3278c69609ceed4ecb53e441372a81cf3,src/client/components/Chat/index.tsx,11,0,Miko Keskimäki,2023-08-21 19:36:04+03:00
+955c76e3278c69609ceed4ecb53e441372a81cf3,src/client/types.ts,8,0,Miko Keskimäki,2023-08-21 19:36:04+03:00
+5b0b12942ac13fa2393d8299fbbdb9d98154739b,src/server/db/models/prompt.ts,3,2,Miko Keskimäki,2023-08-21 19:09:03+03:00
+5b0b12942ac13fa2393d8299fbbdb9d98154739b,src/server/types.ts,7,0,Miko Keskimäki,2023-08-21 19:09:03+03:00
+ef0f991f7baddb46fadc9a63681f148abbcef064,src/client/components/Chat/index.tsx,8,25,Miko Keskimäki,2023-08-21 18:53:15+03:00
+ef0f991f7baddb46fadc9a63681f148abbcef064,src/client/types.ts,0,1,Miko Keskimäki,2023-08-21 18:53:15+03:00
+ef0f991f7baddb46fadc9a63681f148abbcef064,src/server/routes/admin.ts,3,7,Miko Keskimäki,2023-08-21 18:53:15+03:00
+1120d63018a16e87ccf4693a00e093e656f057fc,src/server/db/models/index.ts,4,1,Miko Keskimäki,2023-08-21 18:37:42+03:00
+1120d63018a16e87ccf4693a00e093e656f057fc,src/server/db/models/prompt.ts,52,0,Miko Keskimäki,2023-08-21 18:37:42+03:00
+90cb855dbba515d8979b176803a6678ed58b3d7f,src/client/components/NavBar/index.tsx,11,11,Miko Keskimäki,2023-08-21 09:15:00+03:00
+9364f63fa3a19e032dd1771766219f06d5e1b45a,src/client/locales/en.json,1,1,Miko Keskimäki,2023-08-21 08:56:30+03:00
+9364f63fa3a19e032dd1771766219f06d5e1b45a,src/client/locales/fi.json,1,1,Miko Keskimäki,2023-08-21 08:56:30+03:00
+b323f163cca5917128949670159d9090a1b63185,src/server/routes/admin.ts,5,1,Miko Keskimäki,2023-08-18 15:09:32+03:00
+fc160d41694391624d77afed7a49f335ae29642e,src/client/components/NavBar/index.tsx,1,3,Miko Keskimäki,2023-08-18 14:49:32+03:00
+ea3ad3882c7409f79a69125983efd04464f7b558,src/client/components/Chat/index.tsx,14,13,Miko Keskimäki,2023-08-18 14:47:23+03:00
+ea3ad3882c7409f79a69125983efd04464f7b558,src/client/components/Chat/util.ts,2,1,Miko Keskimäki,2023-08-18 14:47:23+03:00
+0816b2c94b590d2410e9195619bd082ce39589c0,src/client/components/Chat/index.tsx,4,4,Miko Keskimäki,2023-08-18 14:30:33+03:00
+0816b2c94b590d2410e9195619bd082ce39589c0,src/client/components/NavBar/index.tsx,17,6,Miko Keskimäki,2023-08-18 14:30:33+03:00
+c07329d663e3193c97e5c023de79fef86d4b67db,src/client/locales/en.json,12,1,Miko Keskimäki,2023-08-18 14:11:30+03:00
+c07329d663e3193c97e5c023de79fef86d4b67db,src/client/locales/fi.json,12,1,Miko Keskimäki,2023-08-18 14:11:30+03:00
+c07329d663e3193c97e5c023de79fef86d4b67db,src/client/locales/sv.json,12,1,Miko Keskimäki,2023-08-18 14:11:30+03:00
+23990496cf0354d0c388d4586362e18b1fb4b552,src/client/types.ts,1,1,Miko Keskimäki,2023-08-18 14:00:38+03:00
+23990496cf0354d0c388d4586362e18b1fb4b552,src/server/routes/admin.ts,30,0,Miko Keskimäki,2023-08-18 14:00:38+03:00
+585471ffe92fcfc304d45710fdbbae35aa09224b,src/client/components/Admin/index.tsx,26,7,Miko Keskimäki,2023-08-18 12:11:40+03:00
+585471ffe92fcfc304d45710fdbbae35aa09224b,src/client/types.ts,2,1,Miko Keskimäki,2023-08-18 12:11:40+03:00
+bee4b014abb15cc192eb9910ab816fa5f81d70b7,src/client/components/Admin/index.tsx,8,39,Miko Keskimäki,2023-08-18 11:45:45+03:00
+fe7430151130bdf0683035eeb579ca9987643b88,src/server/routes/admin.ts,45,2,Miko Keskimäki,2023-08-18 11:39:31+03:00
+3c8ff00e22d89404fe61ae3fe181593b87202d74,src/server/db/migrations/20230818_00_add_default_uuid_to_service_id.ts,20,0,Miko Keskimäki,2023-08-18 11:39:11+03:00
+c34e4121c201e28c709f0654463a97639be3f4f8,src/client/components/NavBar/index.tsx,9,7,Miko Keskimäki,2023-08-18 11:29:37+03:00
+0e9d0ea1f703f215a7f318d17783fda23b50c0bc,src/client/components/Chat/SendMessage.tsx,5,1,Miko Keskimäki,2023-08-18 10:10:23+03:00
+0e9d0ea1f703f215a7f318d17783fda23b50c0bc,src/client/components/Chat/index.tsx,30,8,Miko Keskimäki,2023-08-18 10:10:23+03:00
+0e9d0ea1f703f215a7f318d17783fda23b50c0bc,src/client/components/NavBar/index.tsx,4,2,Miko Keskimäki,2023-08-18 10:10:23+03:00
+0e9d0ea1f703f215a7f318d17783fda23b50c0bc,src/client/types.ts,1,0,Miko Keskimäki,2023-08-18 10:10:23+03:00
+c698c678e613972089f365543d5595fe67849853,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-08-18 09:04:38+03:00
+3763c6643d2f603591486dbac3b1d353f3661719,src/server/routes/admin.ts,2,2,Miko Keskimäki,2023-08-18 08:59:21+03:00
+3763c6643d2f603591486dbac3b1d353f3661719,src/server/types.ts,5,2,Miko Keskimäki,2023-08-18 08:59:21+03:00
+d52fae2762b7c621c1278b6e87d3451fc62bd077,src/client/components/NavBar/index.tsx,6,1,Miko Keskimäki,2023-08-17 15:15:38+03:00
+d52fae2762b7c621c1278b6e87d3451fc62bd077,src/client/types.ts,2,0,Miko Keskimäki,2023-08-17 15:15:38+03:00
+d52fae2762b7c621c1278b6e87d3451fc62bd077,src/server/routes/user.ts,8,3,Miko Keskimäki,2023-08-17 15:15:38+03:00
+d11af7fdcb279b2df1e11fad5e98a29e87dd4fcd,src/server/routes/openai.ts,3,2,Miko Keskimäki,2023-08-17 14:55:18+03:00
+d11af7fdcb279b2df1e11fad5e98a29e87dd4fcd,src/server/util/tiktoken.ts,6,2,Miko Keskimäki,2023-08-17 14:55:18+03:00
+924a503e8ccd0b52a0794d3293bd6d5476d160ba,src/client/Router.tsx,1,0,Miko Keskimäki,2023-08-17 14:46:02+03:00
+924a503e8ccd0b52a0794d3293bd6d5476d160ba,src/client/components/Chat/index.tsx,5,1,Miko Keskimäki,2023-08-17 14:46:02+03:00
+924a503e8ccd0b52a0794d3293bd6d5476d160ba,src/client/components/Chat/util.ts,3,1,Miko Keskimäki,2023-08-17 14:46:02+03:00
+096d6dcfe42eff0c201234e05bfc51ae7800fd03,src/server/routes/openai.ts,1,1,Miko Keskimäki,2023-08-17 14:24:25+03:00
+096d6dcfe42eff0c201234e05bfc51ae7800fd03,src/server/util/util.ts,1,3,Miko Keskimäki,2023-08-17 14:24:25+03:00
+e5735afa3db5a95cbd799726d72f24d6b04780fb,src/server/routes/openai.ts,2,2,Miko Keskimäki,2023-08-17 14:09:48+03:00
+e5735afa3db5a95cbd799726d72f24d6b04780fb,src/server/types.ts,1,0,Miko Keskimäki,2023-08-17 14:09:48+03:00
+e5735afa3db5a95cbd799726d72f24d6b04780fb,src/server/util/util.ts,20,2,Miko Keskimäki,2023-08-17 14:09:48+03:00
+038e44e928298bec2af51e609b6feb5f1b0f4552,src/server/db/migrations/20230817_01_add_active_course_ids_to_user.ts,15,0,Miko Keskimäki,2023-08-17 13:36:51+03:00
+038e44e928298bec2af51e609b6feb5f1b0f4552,src/server/db/models/user.ts,7,0,Miko Keskimäki,2023-08-17 13:36:51+03:00
+038e44e928298bec2af51e609b6feb5f1b0f4552,src/server/middleware/user.ts,0,3,Miko Keskimäki,2023-08-17 13:36:51+03:00
+038e44e928298bec2af51e609b6feb5f1b0f4552,src/server/routes/user.ts,7,3,Miko Keskimäki,2023-08-17 13:36:51+03:00
+038e44e928298bec2af51e609b6feb5f1b0f4552,src/server/types.ts,1,0,Miko Keskimäki,2023-08-17 13:36:51+03:00
+e3c4b1872ca6a49b3558296c6d286e314cd404a4,src/server/util/importer.ts,21,1,Miko Keskimäki,2023-08-17 13:19:37+03:00
+7c1afd8badcb5a09e73ddba59aa661d3dd58a9d9,src/server/routes/user.ts,6,4,Miko Keskimäki,2023-08-17 13:02:51+03:00
+013f3c467232b5f6d90b9c28a95c7d811d944677,src/server/types.ts,15,0,Miko Keskimäki,2023-08-17 13:02:19+03:00
+013f3c467232b5f6d90b9c28a95c7d811d944677,src/server/util/config.ts,7,1,Miko Keskimäki,2023-08-17 13:02:19+03:00
+013f3c467232b5f6d90b9c28a95c7d811d944677,src/server/util/importer.ts,13,0,Miko Keskimäki,2023-08-17 13:02:19+03:00
+013f3c467232b5f6d90b9c28a95c7d811d944677,src/server/util/pate.ts,2,2,Miko Keskimäki,2023-08-17 13:02:19+03:00
+e63da3f33a9cc717c78beb22a070b137cda3f2d9,src/server/db/migrations/20230817_00_add_course_id_and_prompt_to_services.ts,22,0,Miko Keskimäki,2023-08-17 13:01:31+03:00
+e0fdf0cb8d98e239f997a69496c549a03ea43f04,package-lock.json,192,37,Miko Keskimäki,2023-08-15 08:21:02+03:00
+e0fdf0cb8d98e239f997a69496c549a03ea43f04,package.json,1,1,Miko Keskimäki,2023-08-15 08:21:02+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/client/components/Chat/util.ts,0,1,Miko Keskimäki,2023-08-14 16:26:50+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/server/routes/openai.ts,23,35,Miko Keskimäki,2023-08-14 16:26:50+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/server/types.ts,15,9,Miko Keskimäki,2023-08-14 16:26:50+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/server/util/openai.ts,14,28,Miko Keskimäki,2023-08-14 16:26:50+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/server/util/parser.ts,2,2,Miko Keskimäki,2023-08-14 16:26:50+03:00
+86642960b67ae0ca1d0bfbb0fabd3b7eea66bd69,src/server/util/util.ts,2,4,Miko Keskimäki,2023-08-14 16:26:50+03:00
+adee79a58f0d3a04305bc1037bc5663843beecca,src/client/App.tsx,2,2,Miko Keskimäki,2023-08-14 15:23:04+03:00
+adee79a58f0d3a04305bc1037bc5663843beecca,src/client/Router.tsx,21,7,Miko Keskimäki,2023-08-14 15:23:04+03:00
+adee79a58f0d3a04305bc1037bc5663843beecca,src/client/index.tsx,4,8,Miko Keskimäki,2023-08-14 15:23:04+03:00
+2120eab726c1ffeff46e6ef27d5fbcac1c91835c,src/client/locales/en.json,2,1,Miko Keskimäki,2023-07-26 15:14:44+03:00
+2120eab726c1ffeff46e6ef27d5fbcac1c91835c,src/client/locales/fi.json,3,2,Miko Keskimäki,2023-07-26 15:14:44+03:00
+2120eab726c1ffeff46e6ef27d5fbcac1c91835c,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-07-26 15:14:44+03:00
+e0442364e853daf4f0231d08fa904350ccb2ea77,src/server/routes/index.ts,0,2,Miko Keskimäki,2023-07-26 14:42:19+03:00
+a5e19dff70fabb56f38d73a1e38bb8c91e03708b,src/client/hooks/useCurrentUser.ts,2,1,Miko Keskimäki,2023-07-26 14:40:55+03:00
+883cbe932145c6cff8459b19221dca41a2a6b24f,src/server/util/config.ts,0,15,Miko Keskimäki,2023-07-26 14:23:58+03:00
+431e86dad193d56e0cc4ab30bb360e0dbc1217d9,src/client/components/Chat/util.ts,0,1,Miko Keskimäki,2023-07-26 14:16:12+03:00
+431e86dad193d56e0cc4ab30bb360e0dbc1217d9,src/server/routes/openai.ts,2,1,Miko Keskimäki,2023-07-26 14:16:12+03:00
+431e86dad193d56e0cc4ab30bb360e0dbc1217d9,src/server/util/util.ts,28,0,Miko Keskimäki,2023-07-26 14:16:12+03:00
+d8f75b96dbade8d6e3a6cef8c27c6f17fb4a7219,src/server/routes/user.ts,4,2,Miko Keskimäki,2023-07-26 13:59:53+03:00
+5a15416f6259802bf4b04c1e6efe9917da8c59c8,src/server/util/cron.ts,36,34,Miko Keskimäki,2023-07-26 13:54:41+03:00
+10ae5b640176992f87fa3c0f7c401d10ef7d3047,src/server/db/migrations/20230726_00_get_rid_of_bigint.ts,42,0,Miko Keskimäki,2023-07-26 13:03:30+03:00
+10ae5b640176992f87fa3c0f7c401d10ef7d3047,src/server/routes/admin.ts,5,5,Miko Keskimäki,2023-07-26 13:03:30+03:00
+10ae5b640176992f87fa3c0f7c401d10ef7d3047,src/server/types.ts,1,1,Miko Keskimäki,2023-07-26 13:03:30+03:00
+db505de4d2d00106e02583911d83703cf8cd35dd,src/client/components/Admin/index.tsx,7,0,Miko Keskimäki,2023-07-25 14:12:47+03:00
+7739a59a7a659be19f679c3a48fbc4857ae6afc2,src/client/components/Admin/index.tsx,4,1,Miko Keskimäki,2023-07-25 14:09:22+03:00
+7739a59a7a659be19f679c3a48fbc4857ae6afc2,src/client/locales/en.json,20,1,Miko Keskimäki,2023-07-25 14:09:22+03:00
+7739a59a7a659be19f679c3a48fbc4857ae6afc2,src/client/locales/fi.json,20,1,Miko Keskimäki,2023-07-25 14:09:22+03:00
+7739a59a7a659be19f679c3a48fbc4857ae6afc2,src/client/locales/sv.json,24,1,Miko Keskimäki,2023-07-25 14:09:22+03:00
+f04dd2ce2eae13b99508017512f34e4479c61fa8,src/client/components/Admin/index.tsx,1,5,Miko Keskimäki,2023-07-25 14:07:38+03:00
+f04dd2ce2eae13b99508017512f34e4479c61fa8,src/client/theme.ts,1,1,Miko Keskimäki,2023-07-25 14:07:38+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,package.json,1,1,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/App.tsx,2,1,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Admin/index.tsx,19,15,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Chat/Conversation.tsx,18,10,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Chat/Email.tsx,19,7,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Chat/SendMessage.tsx,4,14,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Chat/SystemMessage.tsx,1,1,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/Chat/index.tsx,39,30,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/NavBar/index.tsx,9,8,Miko Keskimäki,2023-07-25 13:31:18+03:00
+b148172e0c2b58bf4e9b4a68a7de6d720e393d2a,src/client/components/NoAccess/index.tsx,3,1,Miko Keskimäki,2023-07-25 13:31:18+03:00
+0b9321ec73311a49bccbb4f4eb7b432f8c2aca9e,src/client/components/Admin/index.tsx,3,2,Miko Keskimäki,2023-07-25 13:21:58+03:00
+0b9321ec73311a49bccbb4f4eb7b432f8c2aca9e,src/client/types.ts,1,1,Miko Keskimäki,2023-07-25 13:21:58+03:00
+0b9321ec73311a49bccbb4f4eb7b432f8c2aca9e,src/server/routes/admin.ts,3,3,Miko Keskimäki,2023-07-25 13:21:58+03:00
+7e4329394d7ef9c4ebd3b51e6756ab1e39d38388,src/server/routes/admin.ts,2,2,Miko Keskimäki,2023-07-25 12:59:53+03:00
+8f0aebe2f5ae91d37305bbcd9be59ef5d2f390ea,src/client/components/Admin/index.tsx,1,3,Miko Keskimäki,2023-07-25 10:40:28+03:00
+8f0aebe2f5ae91d37305bbcd9be59ef5d2f390ea,src/config.ts,10,0,Miko Keskimäki,2023-07-25 10:40:28+03:00
+a911eaa2bb83aa09c027d770c523501da859fa9f,src/client/components/Admin/index.tsx,6,4,Miko Keskimäki,2023-07-25 10:27:32+03:00
+6f979d651db82dc1ef3fabeca2dac9ace4a3d3e3,src/client/components/Admin/index.tsx,2,8,Miko Keskimäki,2023-07-25 10:13:09+03:00
+6f979d651db82dc1ef3fabeca2dac9ace4a3d3e3,src/client/types.ts,8,0,Miko Keskimäki,2023-07-25 10:13:09+03:00
+e6bf0e594064ca3e2f6b38a826d13661b41a54cf,src/client/components/Admin/index.tsx,11,3,Miko Keskimäki,2023-07-25 09:28:40+03:00
+3bd99b0ca4d7b0f075a75a0118f188525eca6d20,package-lock.json,0,16,Miko Keskimäki,2023-07-24 15:27:30+03:00
+3bd99b0ca4d7b0f075a75a0118f188525eca6d20,package.json,0,1,Miko Keskimäki,2023-07-24 15:27:30+03:00
+3bd99b0ca4d7b0f075a75a0118f188525eca6d20,src/server/util/pate.ts,7,10,Miko Keskimäki,2023-07-24 15:27:30+03:00
+8ae12dce1b2b1ec8746ddd35076b1071ce74f486,src/client/components/Admin/index.tsx,22,4,Miko Keskimäki,2023-07-24 15:06:33+03:00
+8ae12dce1b2b1ec8746ddd35076b1071ce74f486,src/client/components/NavBar/index.tsx,2,2,Miko Keskimäki,2023-07-24 15:06:33+03:00
+8ae12dce1b2b1ec8746ddd35076b1071ce74f486,src/client/types.ts,9,0,Miko Keskimäki,2023-07-24 15:06:33+03:00
+8ae12dce1b2b1ec8746ddd35076b1071ce74f486,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-07-24 15:06:33+03:00
+8da7f472811c5f40cf0b82fff00fb77c4c812123,src/server/db/migrations/20230724_03_add_model_to_services.ts,14,0,Miko Keskimäki,2023-07-24 15:05:12+03:00
+8da7f472811c5f40cf0b82fff00fb77c4c812123,src/server/routes/admin.ts,2,2,Miko Keskimäki,2023-07-24 15:05:12+03:00
+0193ace1fc9fa503d5642407682668bb041e5698,src/server/routes/admin.ts,83,0,Miko Keskimäki,2023-07-24 13:43:16+03:00
+0193ace1fc9fa503d5642407682668bb041e5698,src/server/routes/index.ts,2,0,Miko Keskimäki,2023-07-24 13:43:16+03:00
+a6a2e0b515195beb1515a121e1989d893754a08b,src/server/db/migrations/20230724_02_add_iam_group_to_service_access_groups.ts,14,0,Miko Keskimäki,2023-07-24 13:42:19+03:00
+a6a2e0b515195beb1515a121e1989d893754a08b,src/server/db/models/index.ts,4,4,Miko Keskimäki,2023-07-24 13:42:19+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/client/components/Chat/util.ts,1,1,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/client/hooks/useCurrentUser.ts,1,1,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/server/index.ts,1,1,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/server/routes/email.ts,15,0,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/server/routes/index.ts,27,0,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/server/routes/openai.ts,88,0,Miko Keskimäki,2023-07-24 13:04:39+03:00
+26361506b895e7e6e07b2480f5b7eef7efdbed54,src/server/routes/user.ts,20,0,Miko Keskimäki,2023-07-24 13:04:39+03:00
+bc96d4407a0ecf357ea9d1964e7cee9ceb554548,src/client/components/Admin/index.tsx,3,1,Miko Keskimäki,2023-07-24 13:04:02+03:00
+bc96d4407a0ecf357ea9d1964e7cee9ceb554548,src/client/components/NavBar/index.tsx,3,3,Miko Keskimäki,2023-07-24 13:04:02+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,package-lock.json,44,0,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,package.json,1,0,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,src/client/components/Chat/Email.tsx,7,17,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,src/client/components/NavBar/index.tsx,8,17,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,src/client/hooks/useCurrentUser.ts,23,0,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,src/client/index.tsx,9,5,Miko Keskimäki,2023-07-24 11:06:29+03:00
+d395253f6e6e26502c968799a2bbd0a0fd92ddac,src/client/util/queryClient.ts,5,0,Miko Keskimäki,2023-07-24 11:06:29+03:00
+865f56120c0b251971fa27a1d000ffc8e59a7ba3,src/server/db/migrations/20230724_01_add_reset_cron_to_services.ts,14,0,Miko Keskimäki,2023-07-24 10:22:58+03:00
+ad48a4540ca61bdbfb04a1b3b13a885b476809bf,src/server/db/migrations/20230724_00_init_service_access_groups.ts,42,0,Miko Keskimäki,2023-07-24 10:19:33+03:00
+ad48a4540ca61bdbfb04a1b3b13a885b476809bf,src/server/db/models/index.ts,3,0,Miko Keskimäki,2023-07-24 10:19:33+03:00
+60c706f634d7faa3160bbef0fc8457588264a15e,src/client/components/Chat/util.ts,0,18,Miko Keskimäki,2023-07-24 09:42:53+03:00
+60c706f634d7faa3160bbef0fc8457588264a15e,src/server/types.ts,1,6,Miko Keskimäki,2023-07-24 09:42:53+03:00
+60c706f634d7faa3160bbef0fc8457588264a15e,src/server/util/openai.ts,1,28,Miko Keskimäki,2023-07-24 09:42:53+03:00
+b946ab5dd61fbba149da7840c3ee7f3dd40ec33c,src/server/util/logger.ts,1,1,Miko Keskimäki,2023-06-26 12:29:52+03:00
+8f2dbdcaa3560bd673613ba6de4a810353fe5e2d,src/client/components/Banner/ShowMore.tsx,8,1,Miko Keskimäki,2023-06-26 11:37:51+03:00
+8f2dbdcaa3560bd673613ba6de4a810353fe5e2d,src/client/components/Banner/index.tsx,3,1,Miko Keskimäki,2023-06-26 11:37:51+03:00
+3897b3dd47d31e933bcce3e65560f485ccaaee54,src/client/components/Chat/index.tsx,1,0,Miko Keskimäki,2023-06-26 10:18:54+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,package-lock.json,54,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,package.json,1,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/components/Banner/Markdown.tsx,54,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/components/Banner/ShowMore.tsx,30,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/components/Banner/index.tsx,29,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/components/Chat/Conversation.tsx,1,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/components/Chat/index.tsx,29,27,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/locales/en.json,4,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/locales/fi.json,4,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+1e97f7c00fafb41293d1345765c700a41bbe0342,src/client/locales/sv.json,4,0,Miko Keskimäki,2023-06-26 10:11:48+03:00
+84fb9714a9e41457b05adbf8027e4e6ff6eb6526,src/client/components/Chat/Conversation.tsx,1,1,Miko Keskimäki,2023-06-19 13:54:30+03:00
+68cb9df72ba45b2adaf998aff36aafa0fb8415f3,src/client/components/Chat/util.ts,1,1,Miko Keskimäki,2023-06-15 10:45:24+03:00
+68cb9df72ba45b2adaf998aff36aafa0fb8415f3,src/server/util/tiktoken.ts,3,2,Miko Keskimäki,2023-06-15 10:45:24+03:00
+7ef9cf1924d66859a5fefcf52ed59c13e9560331,package-lock.json,8,8,Miko Keskimäki,2023-06-15 10:44:42+03:00
+7ef9cf1924d66859a5fefcf52ed59c13e9560331,package.json,2,2,Miko Keskimäki,2023-06-15 10:44:42+03:00
+7ef9cf1924d66859a5fefcf52ed59c13e9560331,src/server/types.ts,0,5,Miko Keskimäki,2023-06-15 10:44:42+03:00
+7ef9cf1924d66859a5fefcf52ed59c13e9560331,src/server/util/util.ts,4,2,Miko Keskimäki,2023-06-15 10:44:42+03:00
+7a5cca7fdbc3f0fbabf79f528143f785b80237e9,src/server/util/config.ts,1,1,Miko Keskimäki,2023-06-12 11:08:37+03:00
+1b53b6ebd773cf251ce14abc868eb5f23a5307d8,.env.template,2,0,Miko Keskimäki,2023-06-12 10:47:03+03:00
+1b53b6ebd773cf251ce14abc868eb5f23a5307d8,src/server/util/config.ts,5,0,Miko Keskimäki,2023-06-12 10:47:03+03:00
+1b53b6ebd773cf251ce14abc868eb5f23a5307d8,src/server/util/openai.ts,14,5,Miko Keskimäki,2023-06-12 10:47:03+03:00
+8989adc76d73fd41272468b0d0489fed02d1cae4,src/client/components/NavBar/index.tsx,5,4,Miko Keskimäki,2023-06-09 09:58:09+03:00
+a6ec19ac3792f99b1bd4020ea8fe162f75902849,src/client/Router.tsx,2,0,Miko Keskimäki,2023-06-08 12:40:33+03:00
+a6ec19ac3792f99b1bd4020ea8fe162f75902849,src/client/components/NavBar/index.tsx,10,9,Miko Keskimäki,2023-06-08 12:40:33+03:00
+a6ec19ac3792f99b1bd4020ea8fe162f75902849,src/client/components/NoAccess/index.tsx,16,0,Miko Keskimäki,2023-06-08 12:40:33+03:00
+a6ec19ac3792f99b1bd4020ea8fe162f75902849,src/client/locales/en.json,4,0,Miko Keskimäki,2023-06-08 12:40:33+03:00
+a6ec19ac3792f99b1bd4020ea8fe162f75902849,src/client/locales/fi.json,4,0,Miko Keskimäki,2023-06-08 12:40:33+03:00
+33acb11b2ef188a765a5ef2584ac8259797a8884,src/server/types.ts,7,0,Miko Keskimäki,2023-06-08 12:03:04+03:00
+33acb11b2ef188a765a5ef2584ac8259797a8884,src/server/util/util.ts,15,0,Miko Keskimäki,2023-06-08 12:03:04+03:00
+22b78c43dbf4461041d2b66df3d7e4ff351f8936,.env.template,0,2,Miko Keskimäki,2023-06-07 21:52:49+03:00
+22b78c43dbf4461041d2b66df3d7e4ff351f8936,src/server/util/config.ts,0,5,Miko Keskimäki,2023-06-07 21:52:49+03:00
+22b78c43dbf4461041d2b66df3d7e4ff351f8936,src/server/util/openai.ts,5,14,Miko Keskimäki,2023-06-07 21:52:49+03:00
+48bb99dbc7284cfaf2a758dff9cf33b4a8006603,src/server/util/config.ts,2,0,Miko Keskimäki,2023-06-07 21:51:46+03:00
+a85e4b7ec599ce471289f2c24cfdd00ab790a0fd,.env.template,2,0,Miko Keskimäki,2023-06-07 12:06:25+03:00
+a85e4b7ec599ce471289f2c24cfdd00ab790a0fd,src/server/util/config.ts,5,0,Miko Keskimäki,2023-06-07 12:06:25+03:00
+a85e4b7ec599ce471289f2c24cfdd00ab790a0fd,src/server/util/openai.ts,14,5,Miko Keskimäki,2023-06-07 12:06:25+03:00
+74f7a1bf910d46cf2d90c695011e4dc8101ccb66,src/server/middleware/user.ts,2,3,Miko Keskimäki,2023-06-05 12:44:18+03:00
+74f7a1bf910d46cf2d90c695011e4dc8101ccb66,src/server/util/config.ts,14,0,Miko Keskimäki,2023-06-05 12:44:18+03:00
+74f7a1bf910d46cf2d90c695011e4dc8101ccb66,src/server/util/cron.ts,2,1,Miko Keskimäki,2023-06-05 12:44:18+03:00
+9fab3414b4e587d14b046ae20869a63615e4db10,src/server/util/cron.ts,15,13,Miko Keskimäki,2023-06-05 12:25:40+03:00
+f6021404addbdc22910e5f9daeb414b30fc6c8c6,src/server/util/cron.ts,31,1,Miko Keskimäki,2023-06-05 12:16:50+03:00
+011e805d2c79e28ffa47b99e5b1bde23cb235fb1,src/server/db/migrations/20230605_00_add_iam_groups_to_users.ts,14,0,Miko Keskimäki,2023-06-05 12:04:00+03:00
+011e805d2c79e28ffa47b99e5b1bde23cb235fb1,src/server/db/models/user.ts,6,0,Miko Keskimäki,2023-06-05 12:04:00+03:00
+011e805d2c79e28ffa47b99e5b1bde23cb235fb1,src/server/db/seeders/user.ts,1,0,Miko Keskimäki,2023-06-05 12:04:00+03:00
+979951604b6a7f5cfd38f2ebbdc8051ab1dd2584,package-lock.json,19,0,Miko Keskimäki,2023-06-01 12:03:36+03:00
+979951604b6a7f5cfd38f2ebbdc8051ab1dd2584,package.json,2,0,Miko Keskimäki,2023-06-01 12:03:36+03:00
+979951604b6a7f5cfd38f2ebbdc8051ab1dd2584,src/server/index.ts,2,0,Miko Keskimäki,2023-06-01 12:03:36+03:00
+979951604b6a7f5cfd38f2ebbdc8051ab1dd2584,src/server/util/cron.ts,16,0,Miko Keskimäki,2023-06-01 12:03:36+03:00
+eaa421bc4a01143d272cf49ca3a548c5cfa7c102,src/client/components/Chat/Email.tsx,1,1,Miko Keskimäki,2023-05-21 15:18:40+03:00
+37c382807b33464172dd0e15452f9e21ea4b8080,src/server/types.ts,1,1,Miko Keskimäki,2023-05-11 13:50:53+03:00
+c26579e36ed12e0ad087a520fa377f0e245316b3,src/client/App.tsx,1,1,Miko Keskimäki,2023-05-05 13:16:06+03:00
+c26579e36ed12e0ad087a520fa377f0e245316b3,src/client/components/Chat/Email.tsx,1,1,Miko Keskimäki,2023-05-05 13:16:06+03:00
+c26579e36ed12e0ad087a520fa377f0e245316b3,src/client/components/Footer/index.tsx,1,2,Miko Keskimäki,2023-05-05 13:16:06+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,package-lock.json,16,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,package.json,1,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/components/Chat/Email.tsx,70,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/components/Chat/SystemMessage.tsx,3,3,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/components/Chat/index.tsx,2,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/components/Chat/util.ts,16,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/locales/en.json,7,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/locales/fi.json,7,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/locales/sv.json,7,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/client/types.ts,1,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/server/middleware/user.ts,3,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/server/types.ts,1,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/server/util/config.ts,6,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+b3d3d0c0929a576e669f6698e6c240144833ff35,src/server/util/pate.ts,37,0,Miko Keskimäki,2023-05-04 16:44:18+03:00
+d728a84f1a279f72d2c33f82cc8f16aae2fe7ba1,package-lock.json,0,16,Miko Keskimäki,2023-04-25 18:07:18+03:00
+d728a84f1a279f72d2c33f82cc8f16aae2fe7ba1,package.json,0,1,Miko Keskimäki,2023-04-25 18:07:18+03:00
+d728a84f1a279f72d2c33f82cc8f16aae2fe7ba1,src/client/components/Chat/util.ts,0,22,Miko Keskimäki,2023-04-25 18:07:18+03:00
+d728a84f1a279f72d2c33f82cc8f16aae2fe7ba1,src/client/util/apiClient.ts,0,7,Miko Keskimäki,2023-04-25 18:07:18+03:00
+80fa7f248e2db00b684277eae7fe9220b7f779d9,vite.config.ts,5,2,Miko Keskimäki,2023-04-25 17:33:12+03:00
+7dcba47ed0fefc90a08ce1f6160cb4957d8ef39e,src/client/components/Chat/SendMessage.tsx,11,0,Miko Keskimäki,2023-04-25 10:26:18+03:00
+7dcba47ed0fefc90a08ce1f6160cb4957d8ef39e,src/client/components/Chat/index.tsx,9,0,Miko Keskimäki,2023-04-25 10:26:18+03:00
+7dcba47ed0fefc90a08ce1f6160cb4957d8ef39e,src/client/locales/en.json,2,1,Miko Keskimäki,2023-04-25 10:26:18+03:00
+7dcba47ed0fefc90a08ce1f6160cb4957d8ef39e,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-04-25 10:26:18+03:00
+7dcba47ed0fefc90a08ce1f6160cb4957d8ef39e,src/client/locales/sv.json,3,1,Miko Keskimäki,2023-04-25 10:26:18+03:00
+3aafbca1e0c756a023a83a1144bc05005623c124,src/server/db/seeders/index.ts,2,1,Miko Keskimäki,2023-04-25 09:44:10+03:00
+3aafbca1e0c756a023a83a1144bc05005623c124,src/server/index.ts,1,1,Miko Keskimäki,2023-04-25 09:44:10+03:00
+d1a08439431ef816d556825bf428fe9f334f8d7b,src/client/components/NavBar/index.tsx,13,7,Miko Keskimäki,2023-04-25 09:38:01+03:00
+d1a08439431ef816d556825bf428fe9f334f8d7b,src/client/types.ts,8,0,Miko Keskimäki,2023-04-25 09:38:01+03:00
+4092e364e359eac50a5b654006c513a0e119b7fb,src/client/App.tsx,2,3,Miko Keskimäki,2023-04-25 08:32:08+03:00
+4092e364e359eac50a5b654006c513a0e119b7fb,src/client/Router.tsx,14,0,Miko Keskimäki,2023-04-25 08:32:08+03:00
+4092e364e359eac50a5b654006c513a0e119b7fb,src/client/index.tsx,8,4,Miko Keskimäki,2023-04-25 08:32:08+03:00
+6eba404e411b06ed7eb02ca90d988b7bc7c8e06e,src/server/db/migrations/20230425_00_add_is_admin_to_users.ts,14,0,Miko Keskimäki,2023-04-25 08:31:32+03:00
+6eba404e411b06ed7eb02ca90d988b7bc7c8e06e,src/server/types.ts,1,0,Miko Keskimäki,2023-04-25 08:31:32+03:00
+db74c769633f707767a83c031301849813bd1984,src/server/db/connection.ts,1,1,Miko Keskimäki,2023-04-25 08:13:59+03:00
+db74c769633f707767a83c031301849813bd1984,src/server/db/models/user.ts,6,0,Miko Keskimäki,2023-04-25 08:13:59+03:00
+db74c769633f707767a83c031301849813bd1984,src/server/db/seeders/user.ts,1,0,Miko Keskimäki,2023-04-25 08:13:59+03:00
+db74c769633f707767a83c031301849813bd1984,src/server/middleware/user.ts,6,0,Miko Keskimäki,2023-04-25 08:13:59+03:00
+a294b26ab79c80c9bf8564757592c4a688cf5e71,src/client/locales/en.json,1,1,Miko Keskimäki,2023-04-24 16:34:57+03:00
+4e94f282244c1c99054650d7c5c9d74479e8e2fb,README.md,1,43,Miko Keskimäki,2023-04-24 16:36:35+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/components/Chat/Conversation.tsx,22,11,Miko Keskimäki,2023-04-24 16:29:07+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/components/Chat/SendMessage.tsx,4,1,Miko Keskimäki,2023-04-24 16:29:07+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/components/Chat/index.tsx,2,1,Miko Keskimäki,2023-04-24 16:29:07+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/locales/en.json,2,1,Miko Keskimäki,2023-04-24 16:29:07+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-04-24 16:29:07+03:00
+d501d487aefe614de7b7ab214f447194d1f7e58b,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-04-24 16:29:07+03:00
+ccc62fe8db5dad813fd41d40c0502b1ccfae3b91,src/client/components/Chat/util.ts,2,1,Miko Keskimäki,2023-04-24 15:56:05+03:00
+ccc62fe8db5dad813fd41d40c0502b1ccfae3b91,src/client/components/NavBar/index.tsx,1,1,Miko Keskimäki,2023-04-24 15:56:05+03:00
+ccc62fe8db5dad813fd41d40c0502b1ccfae3b91,vite.config.ts,10,15,Miko Keskimäki,2023-04-24 15:56:05+03:00
+255030b4037d49c093fc26b5ab76ed37230c87b1,vite.config.ts,15,10,Miko Keskimäki,2023-04-24 15:47:50+03:00
+bce34ed3bc37823120688b6eeb5ae0076bff3493,package-lock.json,16,0,Miko Keskimäki,2023-04-24 15:42:54+03:00
+bce34ed3bc37823120688b6eeb5ae0076bff3493,package.json,1,0,Miko Keskimäki,2023-04-24 15:42:54+03:00
+4e49b02567595c8193141c7f8d5768f5aa526778,package-lock.json,0,16,Miko Keskimäki,2023-04-24 15:40:18+03:00
+4e49b02567595c8193141c7f8d5768f5aa526778,package.json,0,1,Miko Keskimäki,2023-04-24 15:40:18+03:00
+4e49b02567595c8193141c7f8d5768f5aa526778,src/client/components/NavBar/index.tsx,13,10,Miko Keskimäki,2023-04-24 15:40:18+03:00
+19d93067f2e0b5347183c4510fac335e7f699fac,src/client/components/Chat/index.tsx,20,13,Miko Keskimäki,2023-04-24 15:12:17+03:00
+19d93067f2e0b5347183c4510fac335e7f699fac,src/client/components/NavBar/index.tsx,3,3,Miko Keskimäki,2023-04-24 15:12:17+03:00
+19d93067f2e0b5347183c4510fac335e7f699fac,src/client/locales/fi.json,1,1,Miko Keskimäki,2023-04-24 15:12:17+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,package-lock.json,30,0,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,package.json,1,0,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,src/client/App.tsx,8,5,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,src/client/components/Chat/index.tsx,17,11,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,src/client/components/Chat/util.ts,5,0,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,src/server/util/openai.ts,22,7,Miko Keskimäki,2023-04-24 15:02:54+03:00
+b6306b2ace2740e2b48ce721a2a28aad75dc34b2,src/server/util/parser.ts,2,2,Miko Keskimäki,2023-04-24 15:02:54+03:00
+cff28f430180277ffde8abc45b87139b04e14e0e,package-lock.json,6,0,Miko Keskimäki,2023-04-24 14:27:14+03:00
+cff28f430180277ffde8abc45b87139b04e14e0e,package.json,1,0,Miko Keskimäki,2023-04-24 14:27:14+03:00
+cff28f430180277ffde8abc45b87139b04e14e0e,src/server/util/tiktoken.ts,6,0,Miko Keskimäki,2023-04-24 14:27:14+03:00
+78a365a0ae8a0a806b00e6c9c15f3eb433875925,src/client/components/Chat/Conversation.tsx,9,22,Miko Keskimäki,2023-04-24 13:48:57+03:00
+78a365a0ae8a0a806b00e6c9c15f3eb433875925,src/client/components/Chat/index.tsx,21,11,Miko Keskimäki,2023-04-24 13:48:57+03:00
+78a365a0ae8a0a806b00e6c9c15f3eb433875925,src/client/components/Chat/util.ts,30,0,Miko Keskimäki,2023-04-24 13:48:57+03:00
+78a365a0ae8a0a806b00e6c9c15f3eb433875925,src/server/util/openai.ts,14,0,Miko Keskimäki,2023-04-24 13:48:57+03:00
+d7478bc7aa5c54562932e7e5101eca4f245a58db,src/client/components/Chat/Conversation.tsx,2,8,Miko Keskimäki,2023-04-24 09:54:21+03:00
+d7478bc7aa5c54562932e7e5101eca4f245a58db,src/client/components/Chat/index.tsx,5,1,Miko Keskimäki,2023-04-24 09:54:21+03:00
+fd22c4079fa0fcef9dfaa8de22e81297f4f492b5,src/client/components/Chat/Conversation.tsx,28,7,Miko Keskimäki,2023-04-24 09:43:27+03:00
+c526710725cdc0b590e7e26249f956cd957c5141,src/client/components/Chat/SystemMessage.tsx,2,4,Miko Keskimäki,2023-04-20 20:20:35+03:00
+c526710725cdc0b590e7e26249f956cd957c5141,src/client/components/Footer/index.tsx,3,0,Miko Keskimäki,2023-04-20 20:20:35+03:00
+3e33f56948ee0576fc664ed97021845168b3f22f,package-lock.json,889,0,Miko Keskimäki,2023-04-20 20:11:50+03:00
+3e33f56948ee0576fc664ed97021845168b3f22f,package.json,1,0,Miko Keskimäki,2023-04-20 20:11:50+03:00
+3e33f56948ee0576fc664ed97021845168b3f22f,src/client/components/Chat/Conversation.tsx,10,9,Miko Keskimäki,2023-04-20 20:11:50+03:00
+4d28713f6b8648321b5caf8ae4cbc1dd13687bb7,src/client/components/Chat/Conversation.tsx,23,5,Miko Keskimäki,2023-04-20 15:24:56+03:00
+78ecee493cb47f0e1a9ec8043c8533fa8673bf49,src/client/components/Chat/SendMessage.tsx,5,3,Miko Keskimäki,2023-04-20 14:36:49+03:00
+78ecee493cb47f0e1a9ec8043c8533fa8673bf49,src/client/components/Chat/SystemMessage.tsx,1,1,Miko Keskimäki,2023-04-20 14:36:49+03:00
+78ecee493cb47f0e1a9ec8043c8533fa8673bf49,src/client/theme.ts,1,1,Miko Keskimäki,2023-04-20 14:36:49+03:00
+e180a916816a53a2c98348c087e1dbd4a7039c60,src/client/components/Chat/SendMessage.tsx,4,1,Miko Keskimäki,2023-04-20 14:33:35+03:00
+e180a916816a53a2c98348c087e1dbd4a7039c60,src/client/components/Chat/SystemMessage.tsx,19,2,Miko Keskimäki,2023-04-20 14:33:35+03:00
+e180a916816a53a2c98348c087e1dbd4a7039c60,src/client/locales/en.json,3,0,Miko Keskimäki,2023-04-20 14:33:35+03:00
+e180a916816a53a2c98348c087e1dbd4a7039c60,src/client/locales/fi.json,3,0,Miko Keskimäki,2023-04-20 14:33:35+03:00
+e180a916816a53a2c98348c087e1dbd4a7039c60,src/client/locales/sv.json,3,0,Miko Keskimäki,2023-04-20 14:33:35+03:00
+79ca72a7b6b94598ec5f1532c62d5b1f399d21ea,src/client/components/Chat/SendMessage.tsx,4,1,Miko Keskimäki,2023-04-19 16:11:38+03:00
+79ca72a7b6b94598ec5f1532c62d5b1f399d21ea,src/client/components/Chat/SystemMessage.tsx,3,0,Miko Keskimäki,2023-04-19 16:11:38+03:00
+79ca72a7b6b94598ec5f1532c62d5b1f399d21ea,src/client/components/Chat/index.tsx,5,2,Miko Keskimäki,2023-04-19 16:11:38+03:00
+3d06ef196ef53758c8df24ea8674e5cee1988fe4,src/client/components/NavBar/index.tsx,3,2,Miko Keskimäki,2023-04-19 16:08:50+03:00
+5f331f8c29479b7613241e39368ef10f3ba60bd6,src/client/components/Chat/Conversation.tsx,16,0,Miko Keskimäki,2023-04-18 18:13:30+03:00
+5f331f8c29479b7613241e39368ef10f3ba60bd6,src/client/components/Chat/SendMessage.tsx,38,0,Miko Keskimäki,2023-04-18 18:13:30+03:00
+5f331f8c29479b7613241e39368ef10f3ba60bd6,src/client/components/Chat/SystemMessage.tsx,30,0,Miko Keskimäki,2023-04-18 18:13:30+03:00
+5f331f8c29479b7613241e39368ef10f3ba60bd6,src/client/components/Chat/index.tsx,11,37,Miko Keskimäki,2023-04-18 18:13:30+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,package-lock.json,1,100,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,package.json,0,1,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/components/Chat/Conversation.tsx,0,24,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/components/Chat/index.tsx,46,119,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/components/Chat/util.ts,24,7,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/index.tsx,3,10,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/types.ts,2,1,Miko Keskimäki,2023-04-18 17:57:33+03:00
+362c7592a0225a6ba2924ad30a04090cc846ba78,src/client/util/queryClient.ts,0,11,Miko Keskimäki,2023-04-18 17:57:33+03:00
+284aa294f81a30d0e940dd4afe809bf291a98118,src/client/components/Chat/Conversation.tsx,24,0,Miko Keskimäki,2023-04-18 16:46:02+03:00
+284aa294f81a30d0e940dd4afe809bf291a98118,src/client/components/Chat/index.tsx,41,12,Miko Keskimäki,2023-04-18 16:46:02+03:00
+284aa294f81a30d0e940dd4afe809bf291a98118,src/client/components/Chat/util.ts,20,1,Miko Keskimäki,2023-04-18 16:46:02+03:00
+284aa294f81a30d0e940dd4afe809bf291a98118,src/client/types.ts,7,0,Miko Keskimäki,2023-04-18 16:46:02+03:00
+c568d6733487c9199c6bb96f721f693300938451,package.json,2,1,Miko Keskimäki,2023-04-18 14:35:12+03:00
+c568d6733487c9199c6bb96f721f693300938451,src/client/components/Chat/index.tsx,94,23,Miko Keskimäki,2023-04-18 14:35:12+03:00
+c568d6733487c9199c6bb96f721f693300938451,src/client/components/Chat/util.ts,5,0,Miko Keskimäki,2023-04-18 14:35:12+03:00
+c568d6733487c9199c6bb96f721f693300938451,src/client/locales/en.json,3,2,Miko Keskimäki,2023-04-18 14:35:12+03:00
+c568d6733487c9199c6bb96f721f693300938451,src/client/locales/fi.json,3,2,Miko Keskimäki,2023-04-18 14:35:12+03:00
+c568d6733487c9199c6bb96f721f693300938451,src/client/util/queryClient.ts,11,0,Miko Keskimäki,2023-04-18 14:35:12+03:00
+1be6b991443e750bd760aee80960477ab501f50e,package-lock.json,100,1,Miko Keskimäki,2023-04-18 13:44:18+03:00
+1be6b991443e750bd760aee80960477ab501f50e,package.json,1,0,Miko Keskimäki,2023-04-18 13:44:18+03:00
+1be6b991443e750bd760aee80960477ab501f50e,src/client/index.tsx,9,3,Miko Keskimäki,2023-04-18 13:44:18+03:00
+411ddcfe39472e1407e1097a38b5a242597e9e05,src/client/components/Footer/index.tsx,18,5,Miko Keskimäki,2023-04-18 13:34:57+03:00
+411ddcfe39472e1407e1097a38b5a242597e9e05,src/client/components/NavBar/index.tsx,9,11,Miko Keskimäki,2023-04-18 13:34:57+03:00
+411ddcfe39472e1407e1097a38b5a242597e9e05,src/client/components/NavBar/styles.ts,54,0,Miko Keskimäki,2023-04-18 13:34:57+03:00
+411ddcfe39472e1407e1097a38b5a242597e9e05,src/client/index.tsx,5,1,Miko Keskimäki,2023-04-18 13:34:57+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/components/Chat/index.tsx,40,3,Miko Keskimäki,2023-04-18 13:30:30+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/index.tsx,1,1,Miko Keskimäki,2023-04-18 13:30:30+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/locales/en.json,4,0,Miko Keskimäki,2023-04-18 13:30:30+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/locales/fi.json,4,0,Miko Keskimäki,2023-04-18 13:30:30+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/locales/sv.json,4,0,Miko Keskimäki,2023-04-18 13:30:30+03:00
+88433592870285c8ce5b0c07a273d79d4c0c5c73,src/client/util/i18n.ts,29,0,Miko Keskimäki,2023-04-18 13:30:30+03:00
+c9f37f1b6dae7649684305b4b48f348077758175,src/client/components/NavBar/index.tsx,6,7,Miko Keskimäki,2023-04-18 12:58:36+03:00
+c9f37f1b6dae7649684305b4b48f348077758175,src/client/locales/en.json,2,1,Miko Keskimäki,2023-04-18 12:58:36+03:00
+c9f37f1b6dae7649684305b4b48f348077758175,src/client/locales/fi.json,2,1,Miko Keskimäki,2023-04-18 12:58:36+03:00
+c9f37f1b6dae7649684305b4b48f348077758175,src/client/locales/sv.json,2,1,Miko Keskimäki,2023-04-18 12:58:36+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/App.tsx,15,6,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/assets/toscalogo_color.svg,1,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/components/Footer/index.tsx,57,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/locales/en.json,3,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/locales/fi.json,3,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/locales/sv.json,3,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+11034d360149189ca1d5842900aef7ff78a57a84,src/client/theme.ts,88,0,Miko Keskimäki,2023-04-18 12:46:37+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,package-lock.json,28,0,Miko Keskimäki,2023-04-18 12:31:08+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,package.json,1,0,Miko Keskimäki,2023-04-18 12:31:08+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,src/client/App.tsx,3,0,Miko Keskimäki,2023-04-18 12:31:08+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,src/client/components/Admin/index.tsx,10,0,Miko Keskimäki,2023-04-18 12:31:08+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,src/client/components/Chat/index.tsx,10,0,Miko Keskimäki,2023-04-18 12:31:08+03:00
+dc86f5814b15e7368dd11219e5fae707ab32993c,src/client/index.tsx,1,1,Miko Keskimäki,2023-04-18 12:31:08+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,package-lock.json,1,1,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,package.json,1,0,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,src/client/components/NavBar/index.tsx,3,3,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,src/client/index.tsx,4,0,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,src/client/locales/en.json,5,0,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,src/client/locales/fi.json,5,0,Miko Keskimäki,2023-04-18 11:59:54+03:00
+249d069560cb28216b5fa00ac344e8edccc78675,src/client/locales/sv.json,5,0,Miko Keskimäki,2023-04-18 11:59:54+03:00
+f5d181fc0c78696d4b1388a870409c454619daf5,src/client/App.tsx,8,32,Miko Keskimäki,2023-04-18 10:54:38+03:00
+f5d181fc0c78696d4b1388a870409c454619daf5,src/client/assets/hy_logo.svg,1,0,Miko Keskimäki,2023-04-18 10:54:38+03:00
+f5d181fc0c78696d4b1388a870409c454619daf5,src/client/components/NavBar/index.tsx,136,0,Miko Keskimäki,2023-04-18 10:54:38+03:00
+e490243210fd475863e4326f8439b4055a0a38b5,package-lock.json,126,0,Miko Keskimäki,2023-04-18 10:53:24+03:00
+e490243210fd475863e4326f8439b4055a0a38b5,package.json,3,0,Miko Keskimäki,2023-04-18 10:53:24+03:00
+b4d2b43c5c152840fd0d2b303817e66ffcc0357d,Containerfile,3,0,Miko Keskimäki,2023-04-18 10:28:31+03:00
+6b4d6a26481617b1f3e4fecdc8a85d6264d9ae4b,src/config.ts,1,1,Miko Keskimäki,2023-04-18 10:23:24+03:00
+6b4d6a26481617b1f3e4fecdc8a85d6264d9ae4b,vite.config.ts,1,1,Miko Keskimäki,2023-04-18 10:23:24+03:00
+8a0e372afe1cb8e33ab0ee664c446502de53ac23,.github/workflows/production.yaml,2,0,Miko Keskimäki,2023-04-18 08:56:09+03:00
+8a0e372afe1cb8e33ab0ee664c446502de53ac23,.github/workflows/staging.yaml,1,0,Miko Keskimäki,2023-04-18 08:56:09+03:00
+8a0e372afe1cb8e33ab0ee664c446502de53ac23,vite.config.ts,3,2,Miko Keskimäki,2023-04-18 08:56:09+03:00
+4b45821a8e09f440ef322eb8a13cd816d11b4ac6,Containerfile,3,1,Miko Keskimäki,2023-04-18 08:50:06+03:00
+4b45821a8e09f440ef322eb8a13cd816d11b4ac6,package-lock.json,11,84,Miko Keskimäki,2023-04-18 08:50:06+03:00
+4b45821a8e09f440ef322eb8a13cd816d11b4ac6,package.json,4,4,Miko Keskimäki,2023-04-18 08:50:06+03:00
+4b45821a8e09f440ef322eb8a13cd816d11b4ac6,src/server/index.ts,11,1,Miko Keskimäki,2023-04-18 08:50:06+03:00
+036729f7092b5423adfde023455f746d7ff8de94,compose.yaml,1,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/config.ts,7,0,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/db/connection.ts,2,2,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/index.ts,2,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/middleware/access.ts,1,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/middleware/user.ts,1,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/util/config.ts,1,7,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/util/logger.ts,1,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+036729f7092b5423adfde023455f746d7ff8de94,src/server/util/openai.ts,2,1,Miko Keskimäki,2023-04-17 17:23:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,package-lock.json,20,4,Miko Keskimäki,2023-04-17 17:19:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,package.json,1,0,Miko Keskimäki,2023-04-17 17:19:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,src/client/App.tsx,12,2,Miko Keskimäki,2023-04-17 17:19:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,src/client/util/apiClient.ts,7,0,Miko Keskimäki,2023-04-17 17:19:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,src/server/index.ts,3,46,Miko Keskimäki,2023-04-17 17:19:19+03:00
+42bb2acb8c1d506564c52cece155583c00eb6ddf,vite.config.ts,1,1,Miko Keskimäki,2023-04-17 17:19:19+03:00
+25e26753273f5cd02ddcb38660b1b91fa2d2cb72,index.html,2,2,Miko Keskimäki,2023-04-17 16:39:21+03:00
+25e26753273f5cd02ddcb38660b1b91fa2d2cb72,public/hy_favicon.ico,0,0,Miko Keskimäki,2023-04-17 16:39:21+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,index.html,1,1,Miko Keskimäki,2023-04-17 16:31:39+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,package-lock.json,540,45,Miko Keskimäki,2023-04-17 16:31:39+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,package.json,12,0,Miko Keskimäki,2023-04-17 16:31:39+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,src/client/App.tsx,26,0,Miko Keskimäki,2023-04-17 16:31:39+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,src/client/index.tsx,9,0,Miko Keskimäki,2023-04-17 16:31:39+03:00
+bc289f7292d88db62dd6d84fb35d4475c7bff32a,src/client/vite-env.d.ts,1,0,Miko Keskimäki,2023-04-17 16:31:39+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,compose.yaml,1,0,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,index.html,13,0,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,package-lock.json,663,38,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,package.json,9,2,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,src/server/util/config.ts,1,1,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,tsconfig.json,7,2,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,tsconfig.node.json,9,0,Miko Keskimäki,2023-04-17 15:13:11+03:00
+151c4f0978fae496cd0f01116372e5de70c1f606,vite.config.ts,26,0,Miko Keskimäki,2023-04-17 15:13:11+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,package.json,2,2,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/connection.ts,57,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/migrations/20230320_00_init_users.ts,30,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/migrations/20230320_01_init_services.ts,38,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/migrations/20230320_02_init_user_service_usages.ts,39,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/migrations/20230414_00_switch_usage_limit_and_count_to_bigint.ts,31,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/models/index.ts,12,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/models/user.ts,40,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/seeders/index.ts,18,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/db/seeders/user.ts,25,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/index.ts,62,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/middleware/access.ts,40,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/middleware/shibboleth.ts,6,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/middleware/user.ts,40,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/types.ts,36,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/util/config.ts,15,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/util/hash.ts,13,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/util/logger.ts,63,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/util/openai.ts,37,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+b84683b0f95d13e0bcd95b51876ba4c4a181d6a1,src/server/util/parser.ts,5,0,Miko Keskimäki,2023-04-17 13:14:36+03:00
+4d94b0a01afd5e65a9fbc7a42dd9ccd0f55615dc,package-lock.json,0,6,Miko Keskimäki,2023-04-14 14:32:33+03:00
+4d94b0a01afd5e65a9fbc7a42dd9ccd0f55615dc,package.json,0,1,Miko Keskimäki,2023-04-14 14:32:33+03:00
+cbe3f038d2250579b7e9b53e17a868c7a9834818,package-lock.json,113,1,Miko Keskimäki,2023-04-14 13:51:58+03:00
+cbe3f038d2250579b7e9b53e17a868c7a9834818,package.json,2,1,Miko Keskimäki,2023-04-14 13:51:58+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,.gitignore,0,1,Miko Keskimäki,2023-04-14 12:53:22+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,Containerfile,0,1,Miko Keskimäki,2023-04-14 12:53:22+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,compose.yaml,0,1,Miko Keskimäki,2023-04-14 12:53:22+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,package-lock.json,98,1183,Miko Keskimäki,2023-04-14 12:53:22+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,package.json,2,19,Miko Keskimäki,2023-04-14 12:53:22+03:00
+8ddfe29842b9d95d8359e1e9c0afed5033610dcf,tsconfig.json,3,10,Miko Keskimäki,2023-04-14 12:53:22+03:00
+e314fe070a3ee86d83413d90c227e51156fa1e5b,Containerfile,1,1,Miko Keskimäki,2023-03-27 22:11:53+03:00
+4e85afe67b411d80b9fc5c341d4ffca3e272435a,package-lock.json,39,2,Miko Keskimäki,2023-03-27 06:45:41+03:00
+4e85afe67b411d80b9fc5c341d4ffca3e272435a,package.json,1,0,Miko Keskimäki,2023-03-27 06:45:41+03:00
+2fabe9ff291681b0559400aa5306c870f8e9209a,compose.yaml,1,0,Miko Keskimäki,2023-03-27 06:36:10+03:00
+210605e421f5af4cd8924c308f43280572f6d0f1,tsconfig.json,1,1,Miko Keskimäki,2023-03-26 23:12:35+03:00
+1f03b408e05128513088ed8a1d8fd9eb72ba30cb,.github/workflows/staging.yaml,0,1,Miko Keskimäki,2023-03-26 19:17:32+03:00
+d62a7310b779a1d6e31586e18e1942407637a7ac,.github/workflows/staging.yaml,1,0,Miko Keskimäki,2023-03-26 18:54:51+03:00
+d62a7310b779a1d6e31586e18e1942407637a7ac,package-lock.json,405,2,Miko Keskimäki,2023-03-26 18:54:51+03:00
+d62a7310b779a1d6e31586e18e1942407637a7ac,package.json,1,0,Miko Keskimäki,2023-03-26 18:54:51+03:00
+9612d71c5ede0a8634c3e37566cfaff975024f62,Containerfile,1,0,Miko Keskimäki,2023-03-26 18:44:13+03:00
+f6cc70188e9855de1c5019f7884deaaf46412041,.gitignore,1,0,Miko Keskimäki,2023-03-26 17:36:31+03:00
+f6cc70188e9855de1c5019f7884deaaf46412041,package-lock.json,740,95,Miko Keskimäki,2023-03-26 17:36:31+03:00
+f6cc70188e9855de1c5019f7884deaaf46412041,package.json,17,2,Miko Keskimäki,2023-03-26 17:36:31+03:00
+f6cc70188e9855de1c5019f7884deaaf46412041,tsconfig.json,10,3,Miko Keskimäki,2023-03-26 17:36:31+03:00
+3ed9245aee65a99226ea68a3e77d9efbca673f80,package-lock.json,10,0,Miko Keskimäki,2023-03-26 15:46:54+03:00
+3ed9245aee65a99226ea68a3e77d9efbca673f80,package.json,1,0,Miko Keskimäki,2023-03-26 15:46:54+03:00
+644ff49a96fd6dcba334749c4a1f9463c30ddc50,package-lock.json,13,2,Miko Keskimäki,2023-03-26 15:40:39+03:00
+644ff49a96fd6dcba334749c4a1f9463c30ddc50,package.json,1,0,Miko Keskimäki,2023-03-26 15:40:39+03:00
+22356ed1838179edbbc52f60f6dee19cf56fdb4f,README.md,52,0,Miko Keskimäki,2023-03-21 07:55:08+02:00
+22356ed1838179edbbc52f60f6dee19cf56fdb4f,package.json,1,1,Miko Keskimäki,2023-03-21 07:55:08+02:00
+31d7b9de86818e054733c8fbe5c09c864a75f6f1,package-lock.json,6,0,Miko Keskimäki,2023-03-21 07:55:03+02:00
+31d7b9de86818e054733c8fbe5c09c864a75f6f1,package.json,1,0,Miko Keskimäki,2023-03-21 07:55:03+02:00
+c0306e03d58026d62b6807b94e018e0c6d675e66,package-lock.json,6,0,Miko Keskimäki,2023-03-21 07:54:59+02:00
+c0306e03d58026d62b6807b94e018e0c6d675e66,package.json,1,0,Miko Keskimäki,2023-03-21 07:54:59+02:00
+6d7a584908044676149835c3bb6ae1d1e248e1b3,.github/workflows/production.yaml,0,3,Miko Keskimäki,2023-03-20 18:14:01+02:00
+6d7a584908044676149835c3bb6ae1d1e248e1b3,.github/workflows/staging.yaml,0,2,Miko Keskimäki,2023-03-20 18:14:01+02:00
+6d7a584908044676149835c3bb6ae1d1e248e1b3,package.json,1,1,Miko Keskimäki,2023-03-20 18:14:01+02:00
+6d7a584908044676149835c3bb6ae1d1e248e1b3,tsconfig.json,5,0,Miko Keskimäki,2023-03-20 18:14:01+02:00
+39c3d327bdf776c7c72475554a59655f85b3daaf,.github/workflows/production.yaml,33,0,Miko Keskimäki,2023-03-20 16:53:10+02:00
+39c3d327bdf776c7c72475554a59655f85b3daaf,.github/workflows/staging.yaml,35,0,Miko Keskimäki,2023-03-20 16:53:10+02:00
+39c3d327bdf776c7c72475554a59655f85b3daaf,Containerfile,3,0,Miko Keskimäki,2023-03-20 16:53:10+02:00
+39c3d327bdf776c7c72475554a59655f85b3daaf,package.json,1,1,Miko Keskimäki,2023-03-20 16:53:10+02:00
+323916f8f129f06a1f106fd21a7e3d21b19829ec,Containerfile,13,0,Miko Keskimäki,2023-03-20 16:47:55+02:00
+323916f8f129f06a1f106fd21a7e3d21b19829ec,compose.yaml,27,0,Miko Keskimäki,2023-03-20 16:47:55+02:00
+323916f8f129f06a1f106fd21a7e3d21b19829ec,dev.Containerfile,12,0,Miko Keskimäki,2023-03-20 16:47:55+02:00
+323916f8f129f06a1f106fd21a7e3d21b19829ec,package.json,1,0,Miko Keskimäki,2023-03-20 16:47:55+02:00
+484b3c3f68aee71ff358a40722f91aea6a78dab9,package-lock.json,470,20,Miko Keskimäki,2023-03-20 15:47:32+02:00
+484b3c3f68aee71ff358a40722f91aea6a78dab9,package.json,3,0,Miko Keskimäki,2023-03-20 15:47:32+02:00
+736942f0d17e5b7f30e3f373e6c94480d5693ad0,package-lock.json,74,0,Miko Keskimäki,2023-03-20 15:28:57+02:00
+736942f0d17e5b7f30e3f373e6c94480d5693ad0,package.json,2,0,Miko Keskimäki,2023-03-20 15:28:57+02:00
+3a833672be1de6df60b60295bcdb38ee5a5be675,package-lock.json,74,0,Miko Keskimäki,2023-03-20 15:26:14+02:00
+3a833672be1de6df60b60295bcdb38ee5a5be675,package.json,1,0,Miko Keskimäki,2023-03-20 15:26:14+02:00
+7a6f540642d08a8f00c276da6c64ab11f38173a3,.gitignore,1,0,Miko Keskimäki,2023-03-20 15:04:58+02:00
+7a6f540642d08a8f00c276da6c64ab11f38173a3,package-lock.json,233,6,Miko Keskimäki,2023-03-20 15:04:58+02:00
+7a6f540642d08a8f00c276da6c64ab11f38173a3,package.json,4,2,Miko Keskimäki,2023-03-20 15:04:58+02:00
+7a6f540642d08a8f00c276da6c64ab11f38173a3,tsconfig.json,1,0,Miko Keskimäki,2023-03-20 15:04:58+02:00
+a338df86bf0cf93b7ec4ab90631dd3af8579ce6b,.env.template,1,0,Miko Keskimäki,2023-03-20 15:04:17+02:00
+7002db1d4ee5745db649329f6ea885948f606197,.husky/pre-commit,4,0,Miko Keskimäki,2023-03-20 14:47:45+02:00
+7002db1d4ee5745db649329f6ea885948f606197,package-lock.json,5275,888,Miko Keskimäki,2023-03-20 14:47:45+02:00
+7002db1d4ee5745db649329f6ea885948f606197,package.json,44,1,Miko Keskimäki,2023-03-20 14:47:45+02:00
+a2ac054f8c074358ed1d27caf58a099e45d7b588,.gitignore,4,0,Miko Keskimäki,2023-03-20 14:40:36+02:00
+a2ac054f8c074358ed1d27caf58a099e45d7b588,package-lock.json,1617,0,Miko Keskimäki,2023-03-20 14:40:36+02:00
+a2ac054f8c074358ed1d27caf58a099e45d7b588,package.json,29,0,Miko Keskimäki,2023-03-20 14:40:36+02:00
+a2ac054f8c074358ed1d27caf58a099e45d7b588,tsconfig.json,16,0,Miko Keskimäki,2023-03-20 14:40:36+02:00
