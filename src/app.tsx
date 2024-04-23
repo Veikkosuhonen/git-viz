@@ -1,32 +1,21 @@
-import { createResource, type Component, Show, createEffect, createSignal } from 'solid-js';
-import { Visualization } from './Visualization';
+import { Router } from "@solidjs/router";
+import { FileRoutes } from "@solidjs/start/router";
+import { Suspense } from "solid-js";
+import Nav from "~/components/Nav";
+import "./app.css";
 
-const API_URL = 'http://localhost:8080'
-
-const App: Component = () => {
-  //const [response] = createResource<{ Hello: string }>(() => fetch(`${API_URL}`, {  }).then((res) => res.json()))
-  //const [repo, setRepo] = createSignal<string>('')
-//
-  //const submitRepo = async () => {
-  //  const res = await fetch(`${API_URL}/repos?url=${repo()}`, {
-  //    method: 'POST',
-  //  })
-  //
-  //  console.log(await res.json())
-  //}
-
+export default function App() {
   return (
-    <main style={{ margin: "2rem" }}>
-      {/* <p>
-        <Show when={!response.loading} fallback="loading...">
-          Hello, {response()?.Hello}!
-        </Show>
-        <input type="text" value={repo()} onInput={(e) => setRepo(e.currentTarget.value)} />
-        <button onClick={submitRepo}>Submit</button>
-      </p> */}
-      <Visualization />
-    </main>
+    <Router
+      base={import.meta.env.SERVER_BASE_URL}
+      root={props => (
+        <>
+          <Nav />
+          <Suspense>{props.children}</Suspense>
+        </>
+      )}
+    >
+      <FileRoutes />
+    </Router>
   );
-};
-
-export default App;
+}
