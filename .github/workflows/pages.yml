@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
   workflow_dispatch:
 
@@ -30,4 +28,3 @@ jobs:
         with:
           branch: gh-pages
           folder: .output/public
-          
