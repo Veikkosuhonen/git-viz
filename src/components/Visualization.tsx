@@ -1,13 +1,18 @@
 import { clientOnly } from '@solidjs/start';
 import {parse} from 'csv-parse/browser/esm/sync';
 import { Component, Match, Show, Switch, createEffect, createResource, createSignal, onCleanup, onMount } from 'solid-js';
+import TidyTree from './TidyTree';
 const FDG = clientOnly(() => import('./FDG'));
 const Pack = clientOnly(() => import('./Pack'));
 
+const PUBLIC_URL = `https://${import.meta.env.VERCEL_URL}` ?? "http://localhost:3000"
+
+console.log(import.meta.env)
+
 export const Visualization = () => {
-  const [data] = createResource(() => fetch('http://localhost:3000/gptwrapper_file_tree.json')
+  const [data] = createResource(() => fetch(`${PUBLIC_URL}/gptwrapper_file_tree.json`)
     .then((res) => res.json()))
-  const [adjacencyData] = createResource(() => fetch('http://localhost:3000/gptwrapper_adjacency.csv')
+  const [adjacencyData] = createResource(() => fetch(`${PUBLIC_URL}/gptwrapper_adjacency.csv`)
     .then(res => res.text())
     .then((res) => parse(res, { 
       columns: true,
@@ -37,6 +42,7 @@ export const Visualization = () => {
         <select value={type()} onChange={(e) => setType(e.currentTarget.value)}>
           <option value="pack">Pack</option>
           <option value="fdg">Force-Directed Graph</option>
+          <option value="tidy-tree">Tidy Tree</option>
         </select>
         <section style={{
           "margin-top": "2rem",
@@ -52,6 +58,9 @@ export const Visualization = () => {
               </Match>
               <Match when={type() === 'pack'}>
                 <Pack data={data()} />
+              </Match>
+              <Match when={type() === 'tidy-tree'}>
+                <TidyTree data={data()} />
               </Match>
             </Switch>
           </Show>
