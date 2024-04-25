@@ -1,23 +1,16 @@
+import { promises as fs } from 'fs';
 import { clientOnly } from '@solidjs/start';
 import {parse} from 'csv-parse/browser/esm/sync';
 import { Component, Match, Show, Switch, createEffect, createResource, createSignal, onCleanup, onMount } from 'solid-js';
 import TidyTree from './TidyTree';
+import { cache, createAsync } from '@solidjs/router';
+import { loadAdjacency, loadFileTree } from '~/lib/api';
 const FDG = clientOnly(() => import('./FDG'));
 const Pack = clientOnly(() => import('./Pack'));
 
-const PUBLIC_URL = `https://${import.meta.env.VERCEL_URL}` ?? "http://localhost:3000"
-
-console.log(import.meta.env)
-
 export const Visualization = () => {
-  const [data] = createResource(() => fetch(`${PUBLIC_URL}/gptwrapper_file_tree.json`)
-    .then((res) => res.json()))
-  const [adjacencyData] = createResource(() => fetch(`${PUBLIC_URL}/gptwrapper_adjacency.csv`)
-    .then(res => res.text())
-    .then((res) => parse(res, { 
-      columns: true,
-      skip_empty_lines: true
-    }))
+  const data = createAsync(() => loadFileTree())
+  const adjacencyData = createAsync(() => loadAdjacency()
     .then((json) => Object.fromEntries(json.map((row: any) => {
       const rowId = row[""]
       const rowData = Object.fromEntries(
