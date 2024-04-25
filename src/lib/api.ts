@@ -11,13 +11,13 @@ const readFile = async (url: string) => {
 
 export const loadFileTree = cache(async () => {
   "use server"
-  const fileTree = await readFile('data/gptwrapper_file_tree.json');
+  const fileTree = await readFile('gptwrapper_file_tree.json');
   return JSON.parse(fileTree);
 }, "fileTree")
 
 export const loadAdjacency = cache(async () => {
   "use server"
-  const adjacency = await readFile('data/gptwrapper_adjacency.csv');
+  const adjacency = await readFile('gptwrapper_adjacency.csv');
   return parse(adjacency, { 
     columns: true,
     skip_empty_lines: true
