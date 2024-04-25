@@ -37,13 +37,7 @@ export const Visualization = () => {
           <option value="fdg">Force-Directed Graph</option>
           <option value="tidy-tree">Tidy Tree</option>
         </select>
-        <section style={{
-          "margin-top": "2rem",
-          "border-radius": "3rem",
-          "box-shadow": "0 5px 1rem 0 rgba(0, 0, 1, 0.3)",
-          "border": "1px solid rgba(0, 0, 0, 0.3)",
-          "overflow": "hidden",
-        }}>
+        <section>
           <Show when={data() && adjacencyData()}>
             <Switch>
               <Match when={type() === 'fdg'}>
