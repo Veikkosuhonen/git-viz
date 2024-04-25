@@ -5,6 +5,10 @@ import { parse } from 'csv-parse/sync';
 
 const readFile = async (url: string) => {
   "use server"
+  // List files in cwd
+  const r = await fs.stat(path.join(process.cwd()));
+  console.log(r);
+
   const file = await fs.readFile(path.join(process.cwd(), url), 'utf8');
   return file
 }
