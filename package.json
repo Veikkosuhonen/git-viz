@@ -8,7 +8,7 @@
     "dev": "vinxi dev",
     "build": "vinxi build --preset vercel",
     "start": "vinxi start",
-    "api": "docker compose -f ./api/docker-compose.yml up"
+    "server": "docker compose -f ./server/docker-compose.yml up"
   },
   "license": "MIT",
   "devDependencies": {
