@@ -80,7 +80,7 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
       .attr("fill", d => d.children ? null : "#000")
       .attr("stroke", d => d.children ? null : "#fff")
       .attr("r", d => d.children?.length ? 10 : (Math.sqrt(d.data.importance + 2)))
-      .call(drag(simulation));
+      .call(drag(simulation), []);
 
   node.append("title")
       .text(d => d.data.name);
@@ -123,14 +123,17 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
     console.log("Simulation ended")
   })
 
-  const zoom = d3.zoom()
-      .scaleExtent([0.5, 32])
-      .on("zoom", event => {
-        const {transform} = event;
-        svg.attr("transform", transform);
-      });
+  function handleZoom(e) {
+    console.log(e)
+    d3.select('g').attr('transform', e.transform);
+  }
 
-  svg.call(zoom).call(zoom.transform, d3.zoomIdentity);
+  const zoom = d3.zoom()
+    .scaleExtent([0.1, 10])
+    .on('zoom', handleZoom);
+
+  d3.select('svg')
+    .call(zoom);
 
   onCleanup(() => simulation.stop());
 
