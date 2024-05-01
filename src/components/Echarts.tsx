@@ -1,7 +1,7 @@
 import { GraphSeriesOption } from "echarts";
 import { EChartsAutoSize } from "echarts-solid"
 import { Component } from "solid-js";
-import { state } from "~/state";
+import { state, setState } from "~/state";
 
 const Echarts: Component = () => {
 
@@ -12,10 +12,7 @@ const Echarts: Component = () => {
       x: 0,
       y: 0,
       symbolSize: 10 * Math.sqrt(file.importance ?? 8),
-      itemStyle: {
-        color: file.children ? "#999" : "#000",
-        borderColor: "#fff",
-      },
+      category: file.category,
     }
   })
 
@@ -25,6 +22,12 @@ const Echarts: Component = () => {
       target: link.target,
     }
   })
+
+  const onClick = (params: any) => {
+    if (params.dataType === 'node') {
+      setState("selectedId", state.selectedId === params.data.name ? null : params.data.name)
+    }
+  }
   
   return (
     <EChartsAutoSize
@@ -35,7 +38,7 @@ const Echarts: Component = () => {
         tooltip: {},
         legend: [
           {
-            
+            data: ['directory', 'file', 'code'],
           }
         ],
         series: [
@@ -45,27 +48,60 @@ const Echarts: Component = () => {
             animation: false,
             roam: true,
             scaleLimit: {
-              min: 0.04,
-              max: 0.1,
+              min: 0.001,
+              max: 0.02,
             },
-    
+            zoom: 0.003,
+            categories: [
+              {
+                name: 'directory',
+                itemStyle: {
+                  color: "#7cd9a7",
+                  borderColor: "#fff",
+                }
+              },
+              {
+                name: 'file',
+                itemStyle: {
+                  color: "#c48fdb",
+                  borderColor: "#fff",
+                }
+              },
+              {
+                name: 'code',
+                itemStyle: {
+                  color: "#fc9003",
+                  borderColor: "#fff",
+                }
+              },
+            ],
+            labelLayout: {
+              // hideOverlap: true,
+            },
+            label: {
+              // show: true,
+              position: 'right',
+              formatter: "{b}"
+            },
             data: nodes,
             links: links,
             lineStyle: {
               opacity: 0.9,
               width: 2,
-              curveness: 0
+              curveness: 0.1,
             },
             force: {
-              repulsion: 1,
-              edgeLength: 1,
-              gravity: 1,
-              friction: 0.9,
+              initLayout: 'circular',
+              repulsion: 50,
+              // edgeLength: 1,
+              gravity: 0.15,
+              friction: 0.5,
               layoutAnimation: true,
             }
           }
         ]
       }}
+      eventHandlers={{ click: onClick }}
       lazyUpdate={true}
     />
   )

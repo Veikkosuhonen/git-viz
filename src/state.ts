@@ -2,10 +2,11 @@ import { createStore } from "solid-js/store";
 import { loadAdjacency, loadFileTree } from "./lib/api";
 
 export type File = {
+  id: string
   name: string
+  category?: string
   children?: File[]
   importance?: number
-  selected?: boolean
 }
 
 export type Link = {
@@ -18,6 +19,7 @@ export const [state, setState] = createStore<{
   files: File[],
   links: Link[],
   searchText: string,
+  selectedId: string | null,
   type: string,
   data: any,
   adjacencyData: any
@@ -25,10 +27,20 @@ export const [state, setState] = createStore<{
   files: [],
   links: [],
   searchText: "",
+  selectedId: null,
   type: "echarts",
   data: null,
   adjacencyData: null,
 });
+
+const getFileCategory = (file: File) => {
+  const extension = file.name.split('.').pop()
+  if (extension && /[tj]sx?$/.test(extension)) {
+    return "code"
+  } else {
+    return "file"
+  }
+}
 
 Promise.all([
   loadFileTree(),
@@ -40,7 +52,7 @@ Promise.all([
       Object.entries(row)
       .filter(([key,]) => key !== "")
       .map(([key, value]) => [key, parseInt(value as string, 10)])
-      .filter(([,value]) => (value as number) > 5)
+      // .filter(([,value]) => (value as number) > 5)
     )
     return [rowId, rowData]
   }))
@@ -59,19 +71,23 @@ Promise.all([
           value: 1
         })
       })
+
+      node.category = "directory"
+  
     } else {
       node.importance = adjacency[node.name] 
         ? (Object.values(adjacency[node.name]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
+
+      node.category = getFileCategory(node)
     }
+    node.id = node.name
 
     files.push(node)
   }
 
   visitFiles(data)
-
-  console.log(links)
 
 
   setState("files", files);

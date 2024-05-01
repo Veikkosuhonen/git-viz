@@ -7,7 +7,7 @@ const FileList: Component = () => {
   }
 
   const setSelected = (file: File) => {
-    setState("files", (f) => f.name === file.name, "selected", (selected) => !selected)
+    setState("selectedId", state.selectedId === file.id ? null : file.id)
   }
 
   return (
@@ -26,7 +26,7 @@ const FileList: Component = () => {
               onClick={() => setSelected(file)}
               class="block text-left text-sm text-slate-600 text-nowrap rounded-md hover:bg-amber-300 active:bg-amber-400 transition-all duration-75"
               classList={{
-                "bg-amber-300 outline outline-slate-400": file.selected,
+                "bg-amber-300 outline outline-slate-400": file.id === state.selectedId,
               }}
             >
               {file.name.split("/").slice(0, -1).join(' / ').concat(' / ')}
