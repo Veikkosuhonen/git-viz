@@ -35,7 +35,7 @@ export const Visualization = () => {
         <option value="pack">Pack</option>
         <option value="fdg">Force-Directed Graph</option>
         <option value="tidy-tree">Tidy Tree</option>
-        <option value="echarts">ECharts</option>
+        <option selected value="echarts">ECharts</option>
       </select>
       <section class="flex-grow">
         <Show when={data() && adjacencyData()}>
@@ -47,10 +47,10 @@ export const Visualization = () => {
               <Pack data={data()} />
             </Match>
             <Match when={type() === 'tidy-tree'}>
-              <TidyTree data={data()} />
+              <TidyTree data={data()} adjacencyData={adjacencyData()} />
             </Match>
             <Match when={type() === 'echarts'}>
-              <Echarts data={data()} />
+              <Echarts data={data()} adjacencyData={adjacencyData()}/>
             </Match>
           </Switch>
         </Show>

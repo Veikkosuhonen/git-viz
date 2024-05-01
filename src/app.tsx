@@ -10,10 +10,10 @@ export default function App() {
     <Router
       base={import.meta.env.SERVER_BASE_URL}
       root={props => (
-        <div class="flex flex-col min-h-[100vh]">
+        <div class="flex flex-col h-[100vh]">
           <Nav />
           <Suspense>{props.children}</Suspense>
-          <footer class="mt-auto bg-slate-200 text-amber-600 text-center p-2 border-t border-slate-300">
+          <footer class="flex-[10%] bg-slate-200 text-amber-600 text-center p-2 border-t border-slate-300">
             <p>© 2024 Veikko Suhonen</p>
           </footer>
         </div>
