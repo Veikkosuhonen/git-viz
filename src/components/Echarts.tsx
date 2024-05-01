@@ -1,88 +1,72 @@
-import { EChartsOption } from "echarts";
+import { GraphSeriesOption } from "echarts";
 import { EChartsAutoSize } from "echarts-solid"
 import { Component } from "solid-js";
+import { state } from "~/state";
 
-const Echarts: Component<{
-  data: any
-  adjacencyData: any
-}> = (props) => {
+const Echarts: Component = () => {
 
-  const nodes: { name: any; x: number; y: number; symbolSize: number; itemStyle: { color: string | null; }; }[] = []
-
-  const links: { source: string; target: string; value: number; }[] = []
-
-  const mapNodes = (node: any) => {
-    if (node.children) {
-      node.children.forEach(mapNodes)
-
-      node.children.forEach((child: any) => {
-        links.push({
-          source: node.name,
-          target: child.name,
-          value: 1
-        })
-      })
-    } else {
-      node.importance = props.adjacencyData[node.name] ? Object.values(props.adjacencyData[node.name]).reduce((acc: any, curr: any) => acc + curr, 0) : 0
-    }
-
-    nodes.push({
-      name: node.name,
+  const nodes: GraphSeriesOption["data"] = state.files.map((file) => {
+    return {
+      name: file.name,
+      value: file.importance,
       x: 0,
       y: 0,
-      symbolSize: 20,
+      symbolSize: 10 * Math.sqrt(file.importance ?? 8),
       itemStyle: {
-        color: node.children ? null : "#000"
-      }
-    })
-  }
+        color: file.children ? "#999" : "#000",
+        borderColor: "#fff",
+      },
+    }
+  })
 
-  mapNodes(props.data)
-
-  const options: EChartsOption = {
-    title: {
-      
-    },
-    tooltip: {},
-    legend: [
-      {
-        
-      }
-    ],
-    series: [
-      {
-        type: 'graph',
-        layout: 'force',
-        animation: false,
-        roam: true,
-        scaleLimit: {
-          min: 0.04,
-          max: 0.06
-        },
-
-        data: nodes,
-        links,
-        lineStyle: {
-          opacity: 0.9,
-          width: 2,
-          curveness: 0
-        },
-        force: {
-          repulsion: 1,
-          edgeLength: 1,
-          gravity: 1,
-          friction: 0.9,
-          layoutAnimation: true,
-        }
-      }
-    ]
-  };
-      
-
+  const links = state.links.map((link) => {
+    return {
+      source: link.source,
+      target: link.target,
+    }
+  })
+  
   return (
     <EChartsAutoSize
-      option={options}
-      onInit={(echartsInstance) => { console.log(echartsInstance) }}
+      option={{
+        title: {
+          
+        },
+        tooltip: {},
+        legend: [
+          {
+            
+          }
+        ],
+        series: [
+          {
+            type: 'graph',
+            layout: 'force',
+            animation: false,
+            roam: true,
+            scaleLimit: {
+              min: 0.04,
+              max: 0.1,
+            },
+    
+            data: nodes,
+            links: links,
+            lineStyle: {
+              opacity: 0.9,
+              width: 2,
+              curveness: 0
+            },
+            force: {
+              repulsion: 1,
+              edgeLength: 1,
+              gravity: 1,
+              friction: 0.9,
+              layoutAnimation: true,
+            }
+          }
+        ]
+      }}
+      lazyUpdate={true}
     />
   )
 }

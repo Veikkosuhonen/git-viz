@@ -1,6 +1,7 @@
 import * as d3 from 'd3';
+import { state } from '~/state';
 
-export default function TidyTree(props) {
+export default function TidyTree() {
 
 
   // Specify the chart’s dimensions.
@@ -17,7 +18,7 @@ export default function TidyTree(props) {
       .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
 
   // Sort the tree and apply the layout.
-  const root = tree(d3.hierarchy(props.data)
+  const root = tree(d3.hierarchy(state.data)
       .sort((a, b) => d3.ascending(a.data.name, b.data.name)));
 
   // Creates the SVG container.

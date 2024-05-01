@@ -1,7 +1,8 @@
 import { Component, onCleanup } from "solid-js";
 import * as d3 from 'd3';
+import { state } from "~/state";
 
-const Pack: Component<{ data: any }> = (props) => {
+const Pack: Component = () => {
   // Specify the chart’s dimensions.
   const width = window.innerWidth * 0.9;
   const height = window.innerHeight * 0.9;
@@ -19,7 +20,7 @@ const Pack: Component<{ data: any }> = (props) => {
     (d3.hierarchy(data)
       .sum(d => d.lines ?? 0)
       .sort((a, b) => b.lines ?? 0 - a.lines ?? 0));
-  const root = pack(props.data);
+  const root = pack(state.data);
 
   // Create the SVG container.
   const svg = d3.create("svg")

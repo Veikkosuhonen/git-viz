@@ -1,23 +1,14 @@
 import { Component, onCleanup } from "solid-js";
 import * as d3 from 'd3';
+import { state } from "~/state";
 
-const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
+const FDG: Component = () => {
   // Specify the chart’s dimensions.
   const width = window.innerWidth * 0.8;
   const height = window.innerHeight * 0.8;
 
-  const mapNodes = (node: any) => {
-    if (node.children) {
-      node.children.forEach(mapNodes)
-    } else {
-      node.importance = props.adjacencyData[node.name] ? Object.values(props.adjacencyData[node.name]).reduce((acc: any, curr: any) => acc + curr, 0) : 0
-    }
-  }
-
-  mapNodes(props.data)
-
   // Compute the graph and start the force simulation.
-  const root = d3.hierarchy(props.data).sum(d => d.lines ?? 0);
+  const root = d3.hierarchy(state.data).sum(d => d.lines ?? 0);
   const links = root.links();
   const nodes = root.descendants();
 
@@ -37,7 +28,7 @@ const FDG: Component<{ data: any, adjacencyData: any }> = (props) => {
       .attr("style", "max-width: 100%; height: auto;");
 
   // Create adjacency links
-  const adjacencyLinks = Object.entries(props.adjacencyData).flatMap(([sourceId, targets]) => Object.entries(targets).map(([targetId, value]) => { 
+  const adjacencyLinks = Object.entries(state.adjacencyData).flatMap(([sourceId, targets]) => Object.entries(targets).map(([targetId, value]) => { 
     //console.log(sourceId, targetId); 
     return {
       source: nodes.find(node => node.data.name === sourceId),
