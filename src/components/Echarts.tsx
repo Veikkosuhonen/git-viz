@@ -16,12 +16,7 @@ const Echarts: Component = () => {
     }
   })
 
-  const links = state.links.map((link) => {
-    return {
-      source: link.source,
-      target: link.target,
-    }
-  })
+  const links: GraphSeriesOption["links"] = state.links
 
   const onClick = (params: any) => {
     if (params.dataType === 'node') {
@@ -45,7 +40,8 @@ const Echarts: Component = () => {
           {
             type: 'graph',
             layout: 'force',
-            animation: false,
+            animation: true,
+            
             roam: true,
             scaleLimit: {
               min: 0.001,
@@ -56,8 +52,8 @@ const Echarts: Component = () => {
               {
                 name: 'directory',
                 itemStyle: {
-                  color: "#7cd9a7",
-                  borderColor: "#fff",
+                  color: "#fff",
+                  borderColor: "#000",
                 }
               },
               {
@@ -84,7 +80,7 @@ const Echarts: Component = () => {
               formatter: "{b}"
             },
             data: nodes,
-            links: links,
+            links,
             lineStyle: {
               opacity: 0.9,
               width: 2,
@@ -95,7 +91,7 @@ const Echarts: Component = () => {
               repulsion: 50,
               // edgeLength: 1,
               gravity: 0.15,
-              friction: 0.5,
+              friction: 0.7,
               layoutAnimation: true,
             }
           }

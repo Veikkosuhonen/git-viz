@@ -1,9 +1,31 @@
 import { Component, For, createSignal } from "solid-js";
 import { File, setState, state } from "~/state";
 
+const ranks = [
+  ["S", "bg-fuchsia-600"],
+  ["A", "bg-rose-400"],
+  ["B", "bg-orange-500"],
+  ["C", "bg-amber-500"],
+  ["D", "bg-yellow-500"],
+  ["E", "bg-green-400"],
+  ["F", "bg-emerald-400"],
+  ["G", "bg-cyan-400"],
+]
+
+const getRank = (value: number) => {
+  const percentiles = state.percentiles
+  for (let i = percentiles.length; i >= 0; i--) {
+    if (value <= percentiles[i]) {
+      return ranks[Math.min(ranks.length - 1, i)]
+    }
+  }
+  return ranks[ranks.length - 1]
+}
+
 const FileList: Component = () => {
   const filteredFiles = () => {
-    return state.files?.filter(f => f.name.includes(state.searchText))
+    return state.files?.filter(f => f.name.includes(state.searchText)).toSorted((a, b) => 
+      (b.importance ?? 0) - (a.importance ?? 0))
   }
 
   const setSelected = (file: File) => {
@@ -29,6 +51,9 @@ const FileList: Component = () => {
                 "bg-amber-300 outline outline-slate-400": file.id === state.selectedId,
               }}
             >
+              <span class={`text-slate-50 px-1 mx-1 ${getRank(file.importance ?? 0)[1]}`}>
+                {getRank(file.importance ?? 0)[0]}
+              </span>
               {file.name.split("/").slice(0, -1).join(' / ').concat(' / ')}
               <span class="text-base text-slate-800 font-medium">
                 {file.name.split("/").splice(-1)}
