@@ -1,6 +1,11 @@
-import { createStore } from "solid-js/store";
+import { createStore, produce } from "solid-js/store";
 import { loadAdjacency, loadFileTree } from "./lib/api";
 import { GraphSeriesOption } from "echarts";
+import { batch, createEffect } from "solid-js";
+
+const LINK_DEFAULT_OPACITY = 0.05
+const LINK_HIGHLIGHT_OPACITY = 0.5
+const LINK_BLUR_OPACITY = 0.01
 
 export type File = {
   id: string
@@ -8,6 +13,13 @@ export type File = {
   category?: string
   children?: File[]
   importance?: number
+  blur?: boolean
+}
+
+type Adjacency = {
+  [sourceId: string]: {
+    [targetId: string]: number
+  }
 }
 
 export const [state, setState] = createStore<{
@@ -19,6 +31,8 @@ export const [state, setState] = createStore<{
   data: any,
   percentiles: number[],
   adjacencyData: any
+  adjacency: Adjacency
+  adjacencyThreshold: number
 }>({
   files: [],
   links: [],
@@ -28,6 +42,8 @@ export const [state, setState] = createStore<{
   data: null,
   percentiles: [],
   adjacencyData: null,
+  adjacency: {},
+  adjacencyThreshold: 3
 });
 
 const getFileCategory = (file: File) => {
@@ -43,16 +59,19 @@ Promise.all([
   loadFileTree(),
   loadAdjacency(),
 ]).then(([data, adjacencyJson]) => {
-  const adjacency = Object.fromEntries(adjacencyJson.map((row: any) => {
+  const adjacencyData = Object.fromEntries(adjacencyJson.map((row: any) => {
     const rowId = row[""]
     const rowData = Object.fromEntries(
       Object.entries(row)
       .filter(([key,]) => key !== "")
       .map(([key, value]) => [key, parseInt(value as string, 10)])
-      // .filter(([,value]) => (value as number) > 5)
+      .filter(([key, value]) => value as number > 0)
     )
     return [rowId, rowData]
   }))
+
+  const adjacency = {} as Adjacency
+  updateAdjacency(adjacency, adjacencyData, state.adjacencyThreshold)
 
   const files: File[] = [];
   const links: GraphSeriesOption["links"] = []
@@ -85,8 +104,8 @@ Promise.all([
       node.category = "directory"
   
     } else {
-      node.importance = adjacency[node.name] 
-        ? (Object.values(adjacency[node.name]) as number[])
+      node.importance = adjacencyData[node.name] 
+        ? (Object.values(adjacencyData[node.name]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
 
@@ -106,16 +125,16 @@ Promise.all([
     percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
 
-  Object.entries(adjacency).forEach(([sourceId, outLinks]) => {
-    Object.entries(outLinks).filter(([, value]) => value as number > 1).forEach(([targetId, value]) => {
+  Object.entries(adjacencyData).forEach(([sourceId, outLinks]) => {
+    Object.entries(outLinks).filter(([, value]) => value as number > state.adjacencyThreshold).forEach(([targetId, value]) => {
       links.push({
         source: sourceId,
         target: targetId,
         value: value as number,
         ignoreForceLayout: true,
         lineStyle: {
-          color: "#82a6e0",
-          opacity: 0.1,
+          color: "#2e448f",
+          opacity: 0.05,
           curveness: 0.3,
           width: value as number
         }
@@ -129,6 +148,31 @@ Promise.all([
   setState("percentiles", percentiles);
   setState("links", links);
   setState("data", data)
-  setState("adjacencyData", adjacency)
+  setState("adjacencyData", adjacencyData)
+  setState("adjacency", adjacency)
 })
 
+const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: number) => {
+  Object.entries(adjacencyData).forEach(([sourceId, outLinks]) => {
+    Object.entries(outLinks as any).forEach(([targetId, value]) => {
+      if (value as number >= threshold) {
+        current[sourceId] = current[sourceId] ?? {}
+        current[sourceId][targetId] = value as number
+      }
+    })
+  })
+}
+
+export const selectFile = (fileId: string) => {
+  batch(() => {
+    setState("selectedId", fileId)
+    setState("files", {}, produce((f) => {
+      f.blur = !Object.entries(state.adjacency[fileId] || {}).filter(([, v]) => v >= state.adjacencyThreshold).some(([id, ]) => f.id === id)
+        && f.id !== fileId
+    }))
+    setState("links", {}, produce((l) => {
+      l.lineStyle!.opacity = (l.source === fileId || l.target === fileId) ? LINK_HIGHLIGHT_OPACITY : LINK_BLUR_OPACITY
+    }))
+  })
+  console.log(state.adjacencyData[fileId])
+}

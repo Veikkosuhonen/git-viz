@@ -1,26 +1,32 @@
 import { GraphSeriesOption } from "echarts";
 import { EChartsAutoSize } from "echarts-solid"
 import { Component } from "solid-js";
-import { state, setState } from "~/state";
+import { produce } from "solid-js/store";
+import { state, setState, selectFile } from "~/state";
 
 const Echarts: Component = () => {
 
-  const nodes: GraphSeriesOption["data"] = state.files.map((file) => {
+  const nodes: () => GraphSeriesOption["data"] = () => state.files.map((file) => {
     return {
+      id: file.id,
       name: file.name,
       value: file.importance,
       x: 0,
       y: 0,
       symbolSize: 10 * Math.sqrt(file.importance ?? 8),
       category: file.category,
+      itemStyle: {
+        opacity: file.blur ? 0.2 : 1,
+      },
     }
   })
 
-  const links: GraphSeriesOption["links"] = state.links
+  const links: () => GraphSeriesOption["links"] = () => state.links
 
   const onClick = (params: any) => {
     if (params.dataType === 'node') {
-      setState("selectedId", state.selectedId === params.data.name ? null : params.data.name)
+      const nodeId = params.data.id as string
+      selectFile(nodeId)
     }
   }
   
@@ -79,8 +85,8 @@ const Echarts: Component = () => {
               position: 'right',
               formatter: "{b}"
             },
-            data: nodes,
-            links,
+            data: nodes(),
+            links: links(),
             lineStyle: {
               opacity: 0.9,
               width: 2,

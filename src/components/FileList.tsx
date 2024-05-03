@@ -1,5 +1,5 @@
 import { Component, For, createSignal } from "solid-js";
-import { File, setState, state } from "~/state";
+import { File, selectFile, setState, state } from "~/state";
 
 const ranks = [
   ["S", "bg-fuchsia-600"],
@@ -28,10 +28,6 @@ const FileList: Component = () => {
       (b.importance ?? 0) - (a.importance ?? 0))
   }
 
-  const setSelected = (file: File) => {
-    setState("selectedId", state.selectedId === file.id ? null : file.id)
-  }
-
   return (
     <>
       <div class="p-2 flex items-center gap-2 border-b border-slate-300 bg-slate-100">
@@ -45,10 +41,11 @@ const FileList: Component = () => {
         <For each={filteredFiles()}>
           {file => (
             <button 
-              onClick={() => setSelected(file)}
+              onClick={() => selectFile(file.id)}
               class="block text-left text-sm text-slate-600 text-nowrap rounded-md hover:bg-amber-300 active:bg-amber-400 transition-all duration-75"
               classList={{
                 "bg-amber-300 outline outline-slate-400": file.id === state.selectedId,
+                "opacity-30": file.blur,
               }}
             >
               <span class={`text-slate-50 px-1 mx-1 ${getRank(file.importance ?? 0)[1]}`}>
