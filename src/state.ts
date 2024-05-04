@@ -43,7 +43,7 @@ export const [state, setState] = createStore<{
   percentiles: [],
   adjacencyData: null,
   adjacency: {},
-  adjacencyThreshold: 1
+  adjacencyThreshold: 3
 });
 
 const getFileCategory = (file: File) => {
@@ -106,8 +106,8 @@ Promise.all([
       node.category = "directory"
   
     } else {
-      node.importance = adjacency[node.id] 
-        ? (Object.values(adjacency[node.id]) as number[])
+      node.importance = adjacencyData[node.id] 
+        ? (Object.values(adjacencyData[node.id]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
 
@@ -126,7 +126,7 @@ Promise.all([
     percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
 
-  Object.entries(adjacency).forEach(([sourceId, outLinks]) => {
+  Object.entries(adjacencyData).forEach(([sourceId, outLinks]) => {
     Object.entries(outLinks).forEach(([targetId, value]) => {
       links.push({
         source: sourceId,
@@ -137,7 +137,7 @@ Promise.all([
           color: "#2e448f",
           opacity: 0.05,
           curveness: 0.3,
-          width: value,
+          width: value as number,
         }
       })
     })
@@ -177,5 +177,17 @@ export const selectFile = (fileId: string) => {
       l.lineStyle!.opacity = isLinked ? LINK_HIGHLIGHT_OPACITY : LINK_BLUR_OPACITY
     }))
     console.log(state.adjacency)
+  })
+}
+
+export const setAdjacencyThreshold = (threshold: number) => {
+  batch(() => {
+    setState("adjacencyThreshold", threshold)
+    setState("adjacency", produce((adj) => {
+      updateAdjacency(adj, state.adjacencyData, threshold)
+    }))
+    if (state.selectedId) {
+      selectFile(state.selectedId)
+    }
   })
 }

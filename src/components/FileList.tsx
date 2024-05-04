@@ -1,5 +1,5 @@
 import { Component, For, createSignal } from "solid-js";
-import { File, selectFile, setState, state } from "~/state";
+import { File, selectFile, setAdjacencyThreshold, setState, state } from "~/state";
 
 const ranks = [
   ["S", "bg-fuchsia-600"],
@@ -36,6 +36,10 @@ const FileList: Component = () => {
           value={state.searchText}
           onInput={(e) => setState("searchText", e.currentTarget.value)}
           class="ml-auto p-1 border border-slate-300 bg-slate-200 rounded-md placeholder:text-slate-400" placeholder="Filter files" />
+        <input type="number"
+          value={state.adjacencyThreshold}
+          onInput={(e) => setAdjacencyThreshold(parseInt(e.currentTarget.value))}
+          class="p-1 border border-slate-300 bg-slate-200 rounded-md placeholder:text-slate-400" placeholder="Adjacency threshold" />
       </div>
       <div class="overflow-y-scroll overflow-x-hidden max-h-[50rem] p-2 flex flex-col items-stretch">
         <For each={filteredFiles()}>
