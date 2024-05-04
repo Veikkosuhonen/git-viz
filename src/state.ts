@@ -43,7 +43,7 @@ export const [state, setState] = createStore<{
   percentiles: [],
   adjacencyData: null,
   adjacency: {},
-  adjacencyThreshold: 3
+  adjacencyThreshold: 1
 });
 
 const getFileCategory = (file: File) => {
@@ -77,13 +77,15 @@ Promise.all([
   const links: GraphSeriesOption["links"] = []
 
   const visitFiles = (node: File) => {
+    node.id = node.name
+
     if (node.children) {
       node.children.forEach(visitFiles)
 
       node.children.forEach((child: File) => {
         links.push({
-          source: node.name,
-          target: child.name,
+          source: node.id,
+          target: child.id,
           value: 1,
           label: {
             show: false,
@@ -104,14 +106,13 @@ Promise.all([
       node.category = "directory"
   
     } else {
-      node.importance = adjacencyData[node.name] 
-        ? (Object.values(adjacencyData[node.name]) as number[])
+      node.importance = adjacency[node.id] 
+        ? (Object.values(adjacency[node.id]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
 
       node.category = getFileCategory(node)
     }
-    node.id = node.name
 
     files.push(node)
   }
@@ -125,8 +126,8 @@ Promise.all([
     percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
 
-  Object.entries(adjacencyData).forEach(([sourceId, outLinks]) => {
-    Object.entries(outLinks).filter(([, value]) => value as number > state.adjacencyThreshold).forEach(([targetId, value]) => {
+  Object.entries(adjacency).forEach(([sourceId, outLinks]) => {
+    Object.entries(outLinks).forEach(([targetId, value]) => {
       links.push({
         source: sourceId,
         target: targetId,
@@ -136,7 +137,7 @@ Promise.all([
           color: "#2e448f",
           opacity: 0.05,
           curveness: 0.3,
-          width: value as number
+          width: value,
         }
       })
     })
@@ -167,12 +168,14 @@ export const selectFile = (fileId: string) => {
   batch(() => {
     setState("selectedId", fileId)
     setState("files", {}, produce((f) => {
-      f.blur = !Object.entries(state.adjacency[fileId] || {}).filter(([, v]) => v >= state.adjacencyThreshold).some(([id, ]) => f.id === id)
+      f.blur = !Object.entries(state.adjacency[fileId] ?? {}).some(([id, value]) => value >= state.adjacencyThreshold && f.id === id)
         && f.id !== fileId
     }))
     setState("links", {}, produce((l) => {
-      l.lineStyle!.opacity = (l.source === fileId || l.target === fileId) ? LINK_HIGHLIGHT_OPACITY : LINK_BLUR_OPACITY
+      const links = state.adjacency[fileId] ?? {}
+      const isLinked = ((l.value ?? 0) >= state.adjacencyThreshold) && l.source === fileId
+      l.lineStyle!.opacity = isLinked ? LINK_HIGHLIGHT_OPACITY : LINK_BLUR_OPACITY
     }))
+    console.log(state.adjacency)
   })
-  console.log(state.adjacencyData[fileId])
 }
