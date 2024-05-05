@@ -6,6 +6,8 @@ import { state, setState, selectFile } from "~/state";
 
 const Echarts: Component = () => {
 
+  console.log(state.maxImportance)
+
   const nodes: () => GraphSeriesOption["data"] = () => state.files.map((file) => {
     return {
       id: file.id,
@@ -13,17 +15,15 @@ const Echarts: Component = () => {
       value: file.importance,
       x: 0,
       y: 0,
-      symbolSize: 10 * Math.sqrt(file.importance ?? 8),
+      symbolSize: (file.importance ?? 8) / state.maxImportance * 100,
       category: file.category,
-      itemStyle: {
-        opacity: file.blur ? 0.2 : 1,
-      },
     }
   })
 
   const links: () => GraphSeriesOption["links"] = () => state.links
 
   const onClick = (params: any) => {
+    console.log(params)
     if (params.dataType === 'node') {
       const nodeId = params.data.id as string
       selectFile(nodeId)
@@ -32,7 +32,12 @@ const Echarts: Component = () => {
   
   return (
     <EChartsAutoSize
+      onInit={(chart) => setState("chart", chart)}
+      initOptions={{
+        renderer: "canvas"
+      }}
       option={{
+        
         title: {
           
         },
@@ -53,7 +58,7 @@ const Echarts: Component = () => {
               min: 0.001,
               max: 0.02,
             },
-            zoom: 0.003,
+            zoom: 0.002,
             categories: [
               {
                 name: 'directory',
@@ -78,7 +83,7 @@ const Echarts: Component = () => {
               },
             ],
             labelLayout: {
-              // hideOverlap: true,
+              hideOverlap: true,
             },
             label: {
               // show: true,
@@ -88,9 +93,33 @@ const Echarts: Component = () => {
             data: nodes(),
             links: links(),
             lineStyle: {
-              opacity: 0.9,
-              width: 2,
-              curveness: 0.1,
+              color: "#2e448f",
+              opacity: 0.1,
+              curveness: 0.3,
+            },
+            selectedMode: 'single',
+            select: {
+              label: {
+                show: true,
+              },
+              itemStyle: {
+                borderColor: "#000",
+                borderWidth: 3,
+              },
+            },
+            blur: {
+              itemStyle: {
+                opacity: 0.2,
+              },
+              lineStyle: {
+                opacity: 0,
+              },
+            },
+            emphasis: {
+              focus: 'adjacency',
+              label: {
+                show: true,
+              },
             },
             force: {
               initLayout: 'circular',
@@ -103,7 +132,7 @@ const Echarts: Component = () => {
           }
         ]
       }}
-      eventHandlers={{ click: onClick }}
+      eventHandlers={{ click: onClick, globalout: () => selectFile(state.selectedId ?? '') }}
       lazyUpdate={true}
     />
   )

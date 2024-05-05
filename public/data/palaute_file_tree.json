@@ -1,0 +1,3619 @@
+{
+  "name": "/",
+  "children": [
+    {
+      "name": "Tietosuojaseloste.pdf",
+      "lines": 0
+    },
+    {
+      "name": ".babelrc",
+      "lines": 3
+    },
+    {
+      "name": "docker-compose.ci.yml",
+      "lines": 58
+    },
+    {
+      "name": "docker-compose.lw-dev.yml",
+      "lines": 31
+    },
+    {
+      "name": "Dockerfile",
+      "lines": 34
+    },
+    {
+      "name": "Tietosuojaseloste.md",
+      "lines": 78
+    },
+    {
+      "name": "cypress.config.js",
+      "lines": 13
+    },
+    {
+      "name": "dev-backend.Dockerfile",
+      "lines": 15
+    },
+    {
+      "name": "README.md",
+      "lines": 130
+    },
+    {
+      "name": "prettier.config.js",
+      "lines": 10
+    },
+    {
+      "name": ".env.template",
+      "lines": 2
+    },
+    {
+      "name": ".dockerignore",
+      "lines": 6
+    },
+    {
+      "name": ".gitignore",
+      "lines": 21
+    },
+    {
+      "name": "package-lock.json",
+      "lines": 39996
+    },
+    {
+      "name": "package.json",
+      "lines": 178
+    },
+    {
+      "name": "dev.Dockerfile",
+      "lines": 15
+    },
+    {
+      "name": ".gitattributes",
+      "lines": 3
+    },
+    {
+      "name": "config-overrides.js",
+      "lines": 24
+    },
+    {
+      "name": ".eslintrc.js",
+      "lines": 68
+    },
+    {
+      "name": "tsconfig.json",
+      "lines": 11
+    },
+    {
+      "name": "docker-compose.yml",
+      "lines": 80
+    },
+    {
+      "name": "docker-compose.test.yml",
+      "lines": 56
+    },
+    {
+      "name": ".eslintignore",
+      "lines": 6
+    },
+    {
+      "name": "LICENCE",
+      "lines": 21
+    },
+    {
+      "name": ".husky",
+      "children": [
+        {
+          "name": ".husky/pre-commit",
+          "lines": 4
+        }
+      ]
+    },
+    {
+      "name": "documentation",
+      "children": [
+        {
+          "name": "documentation/troubleshooting.md",
+          "lines": 15
+        },
+        {
+          "name": "documentation/oikeusryhmat.md",
+          "lines": 39
+        },
+        {
+          "name": "documentation/question_formats.md",
+          "lines": 88
+        },
+        {
+          "name": "documentation/accessibility.md",
+          "lines": 33
+        },
+        {
+          "name": "documentation/feedback_target_visibility.md",
+          "lines": 30
+        },
+        {
+          "name": "documentation/testingdocument.md",
+          "lines": 36
+        },
+        {
+          "name": "documentation/terminology.md",
+          "lines": 53
+        },
+        {
+          "name": "documentation/cronjobs.md",
+          "lines": 18
+        },
+        {
+          "name": "documentation/configuration.md",
+          "lines": 45
+        },
+        {
+          "name": "documentation/course_summary.md",
+          "lines": 52
+        },
+        {
+          "name": "documentation/translations.md",
+          "lines": 126
+        },
+        {
+          "name": "documentation/deleted_tables.md",
+          "lines": 23
+        },
+        {
+          "name": "documentation/entity_diagram.md",
+          "lines": 72
+        },
+        {
+          "name": "documentation/external_APIs",
+          "children": [
+            {
+              "name": "documentation/external_APIs/jami_swagger.json",
+              "lines": 298
+            },
+            {
+              "name": "documentation/external_APIs/README.md",
+              "lines": 9
+            },
+            {
+              "name": "documentation/external_APIs/pate_swagger.json",
+              "lines": 124
+            },
+            {
+              "name": "documentation/external_APIs/updater_swagger.json",
+              "lines": 114
+            }
+          ]
+        },
+        {
+          "name": "documentation/feature_drafts",
+          "children": [
+            {
+              "name": "documentation/feature_drafts/omat_palautekohteet.md",
+              "lines": 38
+            },
+            {
+              "name": "documentation/feature_drafts/yleistetty_kurssiyhteenveto.md",
+              "lines": 85
+            },
+            {
+              "name": "documentation/feature_drafts/opetukseni",
+              "children": [
+                {
+                  "name": "documentation/feature_drafts/opetukseni/opetukseni_rework.md",
+                  "lines": 39
+                },
+                {
+                  "name": "documentation/feature_drafts/opetukseni/opetukseni_suggestion.png",
+                  "lines": 0
+                },
+                {
+                  "name": "documentation/feature_drafts/opetukseni/2024-02-02_12-11.png",
+                  "lines": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tools",
+      "children": [
+        {
+          "name": "tools/analyzeTranslations.js",
+          "lines": 229
+        },
+        {
+          "name": "tools/queries",
+          "children": [
+            {
+              "name": "tools/queries/get_course_teachers.sql",
+              "lines": 21
+            },
+            {
+              "name": "tools/queries/queries.sql",
+              "lines": 43
+            },
+            {
+              "name": "tools/queries/20220602_00.sql",
+              "lines": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cypress",
+      "children": [
+        {
+          "name": "cypress/plugins",
+          "children": [
+            {
+              "name": "cypress/plugins/index.js",
+              "lines": 22
+            }
+          ]
+        },
+        {
+          "name": "cypress/integration",
+          "children": [
+            {
+              "name": "cypress/integration/universitySurvey.spec.js",
+              "lines": 31
+            },
+            {
+              "name": "cypress/integration/emailStatsView.spec.js",
+              "lines": 44
+            },
+            {
+              "name": "cypress/integration/continuousFeedback.spec.js",
+              "lines": 82
+            },
+            {
+              "name": "cypress/integration/teacherview.spec.js",
+              "lines": 255
+            },
+            {
+              "name": "cypress/integration/interimFeedback.spec.js",
+              "lines": 464
+            },
+            {
+              "name": "cypress/integration/programme.spec.js",
+              "lines": 73
+            },
+            {
+              "name": "cypress/integration/common.spec.js",
+              "lines": 33
+            },
+            {
+              "name": "cypress/integration/userfeedbacks.spec.js",
+              "lines": 107
+            },
+            {
+              "name": "cypress/integration/courseSummary.spec.js",
+              "lines": 36
+            },
+            {
+              "name": "cypress/integration/organisationSurvey.spec.js",
+              "lines": 839
+            }
+          ]
+        },
+        {
+          "name": "cypress/support",
+          "children": [
+            {
+              "name": "cypress/support/index.js",
+              "lines": 47
+            },
+            {
+              "name": "cypress/support/commands.js",
+              "lines": 264
+            }
+          ]
+        },
+        {
+          "name": "cypress/fixtures",
+          "children": [
+            {
+              "name": "cypress/fixtures/headers.js",
+              "lines": 121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "children": [
+        {
+          "name": "config/development.js",
+          "lines": 13
+        },
+        {
+          "name": "config/hy.js",
+          "lines": 292
+        },
+        {
+          "name": "config/default.js",
+          "lines": 293
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "children": [
+        {
+          "name": "public/index.html",
+          "lines": 39
+        },
+        {
+          "name": "public/seal.gif",
+          "lines": 0
+        },
+        {
+          "name": "public/manifest.json",
+          "lines": 15
+        },
+        {
+          "name": "public/seal.png",
+          "lines": 0
+        },
+        {
+          "name": "public/favicon-32x32.png",
+          "lines": 0
+        },
+        {
+          "name": "public/locales",
+          "children": [
+            {
+              "name": "public/locales/sv",
+              "children": [
+                {
+                  "name": "public/locales/sv/hy.json",
+                  "lines": 18
+                },
+                {
+                  "name": "public/locales/sv/translation.json",
+                  "lines": 633
+                }
+              ]
+            },
+            {
+              "name": "public/locales/fi",
+              "children": [
+                {
+                  "name": "public/locales/fi/hy.json",
+                  "lines": 18
+                },
+                {
+                  "name": "public/locales/fi/translation.json",
+                  "lines": 662
+                }
+              ]
+            },
+            {
+              "name": "public/locales/en",
+              "children": [
+                {
+                  "name": "public/locales/en/hy.json",
+                  "lines": 21
+                },
+                {
+                  "name": "public/locales/en/translation.json",
+                  "lines": 662
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scripts",
+      "children": [
+        {
+          "name": "scripts/get_prod_db.sh",
+          "lines": 72
+        },
+        {
+          "name": "scripts/get_palaute_prod_db.sh",
+          "lines": 64
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "children": [
+        {
+          "name": ".github/workflows",
+          "children": [
+            {
+              "name": ".github/workflows/staging.yml",
+              "lines": 41
+            },
+            {
+              "name": ".github/workflows/test.yml",
+              "lines": 48
+            },
+            {
+              "name": ".github/workflows/production.yml",
+              "lines": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "children": [
+        {
+          "name": "src/index.js",
+          "lines": 1
+        },
+        {
+          "name": "src/server",
+          "children": [
+            {
+              "name": "src/server/tsconfig.json",
+              "lines": 20
+            },
+            {
+              "name": "src/server/index.ts",
+              "lines": 58
+            },
+            {
+              "name": "src/server/middleware",
+              "children": [
+                {
+                  "name": "src/server/middleware/currentUserMiddleware.js",
+                  "lines": 71
+                },
+                {
+                  "name": "src/server/middleware/adminAccess.js",
+                  "lines": 9
+                },
+                {
+                  "name": "src/server/middleware/errorMiddleware.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/server/middleware/shibbolethCharsetMiddleware.js",
+                  "lines": 5
+                },
+                {
+                  "name": "src/server/middleware/accessLogger.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/server/middleware/iamGroupsMiddleware.js",
+                  "lines": 17
+                }
+              ]
+            },
+            {
+              "name": "src/server/migrations",
+              "children": [
+                {
+                  "name": "src/server/migrations/20210329_01_add_user_id_to_feedbacks.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210415_00_add_course_unit_realisation_to_feedbackarget.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210630_00_add_employee_number_to_user.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210831_00_add_surveys_feedback_target_id_index.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20221215_00_init_inactive_course_realisations.js",
+                  "lines": 55
+                },
+                {
+                  "name": "src/server/migrations/20210524_01_add_parent_id_to_organisations.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210419_02_add_question_ids_to_surveys.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20221018_02_change_tag_name_to_jsonb.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/server/migrations/20220718_01_add_cur_start_date_to_summary_cache.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20210506_00_add_feedback_response.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20220308_00_add_is_open_course_to_realisation.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210331_00_init_questions.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20221013_00_init_organisation_feedback_correspondents.js",
+                  "lines": 41
+                },
+                {
+                  "name": "src/server/migrations/20210503_00_add_student_number_to_user.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210515_01_change_string_to_text.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210521_00_add_unique_key_to_user_feedback_target.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210422_03_seed_temp_university_level_survey.js",
+                  "lines": 43
+                },
+                {
+                  "name": "src/server/migrations/20230123_00_init_course_units_tags.js",
+                  "lines": 48
+                },
+                {
+                  "name": "src/server/migrations/20231020_00_drop_summaries_start_date_index.js",
+                  "lines": 10
+                },
+                {
+                  "name": "src/server/migrations/20210609_00_add_studentlist_visible_to_organisations.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220223_00_create_feedback_summary_cache.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20230305_00_add_group_ids_to_ufbt.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210414_00_remove_surveyId_from_feedback.js",
+                  "lines": 8
+                },
+                {
+                  "name": "src/server/migrations/20220722_00_add_settings_read_by_teacher_to_feedback_target.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/server/migrations/20210426_00_revert_changes.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20210422_00_add_course_code_to_course_unit.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20210531_00_add_index_to_user_feedback_target.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20221114_00_remove_hidden_from_feedbacks.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220621_00_add_student_list_visible_course_codes_to_organisations.js",
+                  "lines": 22
+                },
+                {
+                  "name": "src/server/migrations/20220802_00_add_public_question_ids_to_org.js",
+                  "lines": 22
+                },
+                {
+                  "name": "src/server/migrations/20220211_00_add_studyright_to_user.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210524_00_add_course_units_organisations_constraint.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210426_03_add_code_to_organisations.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210425_00_add_organisations_to_course_unit.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20230320_00_add_secondaryType_to_questions.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20240226_00_add_token_enrolment_enabled.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210628_00_add_feedback_response_email_sent_to_feedback_targets.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20221115_01_add_hidden_count_to_feedback_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220303_02_add_norppa_feedback_given_to_user.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20230313_00_add_index_to_groups_on_fbt_id.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20230104_00_add_is_administrative_person_to_user_feedback_targets.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20221111_00_add_hidden_to_feedback.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20221127_01_init_banners.js",
+                  "lines": 49
+                },
+                {
+                  "name": "src/server/migrations/20210927_00_add_dates_edited_to_feedbacktarget.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220414_00_add_solved_to_norppa_feedback.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20230303_00_init_groups.js",
+                  "lines": 33
+                },
+                {
+                  "name": "src/server/migrations/20210428_00_delete_seeding.js",
+                  "lines": 49
+                },
+                {
+                  "name": "src/server/migrations/20210423_00_add_value_to_enum_in_survey.js",
+                  "lines": 6
+                },
+                {
+                  "name": "src/server/migrations/20210410_00_init_course_unit.js",
+                  "lines": 28
+                },
+                {
+                  "name": "src/server/migrations/20210422_02_remove_not_null_feedback_target_id_constraint_from_surveys.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20220104_01_update_user_feedback_targets_where_email_sent.js",
+                  "lines": 37
+                },
+                {
+                  "name": "src/server/migrations/20210802_00_add_feedback_opening_email_sent_to_feedback_targets.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220325_00_init_updater_status.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/server/migrations/20210409_03_add_feedbacktarget_id_to_survey.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20231122_00_add_group_id_to_course_unit.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210419_01_drop_table_assessment_items.js",
+                  "lines": 36
+                },
+                {
+                  "name": "src/server/migrations/20220610_00_add_last_logged_in.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20211210_00_init_course_realisations_organisations.js",
+                  "lines": 39
+                },
+                {
+                  "name": "src/server/migrations/20210408_00_add_username.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/server/migrations/20210507_00_add_public_ids_to_feedback_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210420_00_add_question_type_to_questions.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20221006_00_add_send_in_digest_email_to_continuous_feedback.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210420_02_remove_course_realisation_id_from_questions.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20230119_00_init_course_units_tags.js",
+                  "lines": 41
+                },
+                {
+                  "name": "src/server/migrations/20211214_00_add_course_realisations_organisations_constraint.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210410_01_add_course_unit_id_to_feedbacktarget.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220602_00_add_feedback_count_to_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220404_00_add_teaching_language_to_course_realisation.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210603_00_add_feedback_targets_course_unit_id_index.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20221013_01_migrate_feedback_correspondents.js",
+                  "lines": 60
+                },
+                {
+                  "name": "src/server/migrations/20210420_01_add_required_to_questions.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210329_00_init_users.js",
+                  "lines": 33
+                },
+                {
+                  "name": "src/server/migrations/20220922_00_add_continuous_feedback_enabled_to_feedback_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210421_00_add_startdate_to_realisation.js",
+                  "lines": 15
+                },
+                {
+                  "name": "src/server/migrations/20231120_00_add_student_list_visible_by_course_to_organisations.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210419_03_add_question_ids_default_to_surveys.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210331_01_add_course_realisations_to_questions.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220530_00_init_feedback_target_log.js",
+                  "lines": 39
+                },
+                {
+                  "name": "src/server/migrations/20221116_00_add_response_email_sent_to_continuous_feedback.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20240126_00_add_extra_org_ids_to_summaries.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/server/migrations/20220120_00_add_education_urn_to_course_realisations.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210422_01_remove_data_from_surveys.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210426_02_init_course_units_organisations.js",
+                  "lines": 39
+                },
+                {
+                  "name": "src/server/migrations/20221018_01_init_tags.js",
+                  "lines": 72
+                },
+                {
+                  "name": "src/server/migrations/20210327_00_init_feedbacks.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20230824_00_init_summaries.js",
+                  "lines": 38
+                },
+                {
+                  "name": "src/server/migrations/20210409_02_init_feedbacktarget.js",
+                  "lines": 49
+                },
+                {
+                  "name": "src/server/migrations/20220629_00_change_feedback_reminder_sent_to_date.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20210520_00_add_feedback_visibility.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20230921_00_add_user_created_to_multiple_tables.js",
+                  "lines": 32
+                },
+                {
+                  "name": "src/server/migrations/20221115_00_add_response_to_continuous_feedback.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20220826_00_delete_feedback_summary_cache.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20220601_00_add_responsible_user_id_to_organisations.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20221202_00_add_index_to_ufbt_on_fbt_id.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210406_00_add_user_language.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210330_01_add_course_realisations_to_feedback.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210330_00_init_course_realisations.js",
+                  "lines": 32
+                },
+                {
+                  "name": "src/server/migrations/20220603_00_populate_feedback_count.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20210416_00_add_hidden_to_feedbacktargets.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20230209_00_remove_iam_groups_from_users.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20210515_00_change_text_to_string.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20221005_00_add_send_continuous_feedback_digest_email_to_feedback_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210528_00_add_organisations_code_constraint.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/server/migrations/20210426_01_init_organisations.js",
+                  "lines": 27
+                },
+                {
+                  "name": "src/server/migrations/20220104_00_add_email_sent_to_user_feedback_target.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20211122_00_add_feedback_response_reminder_email_sent_to_feedbacktarget.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220303_00_feedback_summary_cache_indexes.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20220925_00_add_index_based_on_username_to_user.js",
+                  "lines": 10
+                },
+                {
+                  "name": "src/server/migrations/20210419_00_create_table_questions.js",
+                  "lines": 37
+                },
+                {
+                  "name": "src/server/migrations/20220124_00_add_reminder_email_to_students_sent.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20220303_01_init_norppa_feedback.js",
+                  "lines": 38
+                },
+                {
+                  "name": "src/server/migrations/20220527_00_init_organisation_log.js",
+                  "lines": 39
+                },
+                {
+                  "name": "src/server/migrations/20220301_00_add_secondary_email_to_user.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20210623_00_add_disabled_course_codes_to_organisations.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210831_01_add_feedback_targets_course_realisation_id_index.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20220608_00_add_iam_group_to_user.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210601_00_add_course_units_course_code_index.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20210407_00_init_assessment_items.js",
+                  "lines": 36
+                },
+                {
+                  "name": "src/server/migrations/20210422_00_add_type_typeId_to_surveys.js",
+                  "lines": 18
+                },
+                {
+                  "name": "src/server/migrations/20210628_01_update_disabled_course_codes.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/server/migrations/20220309_00_change_realisation_open_course_name.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/server/migrations/20220919_01_update_user_id_to_be_nullable_in_norppa_feedback.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/server/migrations/20220211_01_add_studyright_info_to_feedback.js",
+                  "lines": 13
+                },
+                {
+                  "name": "src/server/migrations/20220920_00_init_continuous_feedback.js",
+                  "lines": 39
+                },
+                {
+                  "name": "src/server/migrations/20231130_00_delete_bad_feedback_target_logs.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210409_01_init_surveys.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/migrations/20210630_01_add_feedback_open_email_sent_to_feedback_targets.js",
+                  "lines": 14
+                },
+                {
+                  "name": "src/server/migrations/20210413_00_init_user_feedback_target.js",
+                  "lines": 43
+                },
+                {
+                  "name": "src/server/migrations/20221008_00_add_type_to_updater_status.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/server/migrations/20210409_00_change_feedback_field_name.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/server/migrations/20231013_00_add_summaries_uniq_index.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/server/migrations/20231208_00_set_summaries_to_logged.js",
+                  "lines": 6
+                }
+              ]
+            },
+            {
+              "name": "src/server/test",
+              "children": [
+                {
+                  "name": "src/server/test/testingController.js",
+                  "lines": 178
+                },
+                {
+                  "name": "src/server/test/index.js",
+                  "lines": 1
+                },
+                {
+                  "name": "src/server/test/seedSummary.js",
+                  "lines": 144
+                },
+                {
+                  "name": "src/server/test/seedFeedbackTargets.js",
+                  "lines": 53
+                },
+                {
+                  "name": "src/server/test/utils.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/server/test/seed.js",
+                  "lines": 165
+                },
+                {
+                  "name": "src/server/test/testIds.js",
+                  "lines": 13
+                }
+              ]
+            },
+            {
+              "name": "src/server/util",
+              "children": [
+                {
+                  "name": "src/server/util/languages.json",
+                  "lines": 1861
+                },
+                {
+                  "name": "src/server/util/logger.js",
+                  "lines": 68
+                },
+                {
+                  "name": "src/server/util/lastRestart.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/server/util/jami.js",
+                  "lines": 88
+                },
+                {
+                  "name": "src/server/util/customErrors.js",
+                  "lines": 61
+                },
+                {
+                  "name": "src/server/util/feedbackValidator.js",
+                  "lines": 72
+                },
+                {
+                  "name": "src/server/util/config.js",
+                  "lines": 119
+                },
+                {
+                  "name": "src/server/util/questions.json",
+                  "lines": 69
+                },
+                {
+                  "name": "src/server/util/updaterClient.js",
+                  "lines": 25
+                },
+                {
+                  "name": "src/server/util/sentry.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/server/util/common.js",
+                  "lines": 77
+                },
+                {
+                  "name": "src/server/util/i18n.js",
+                  "lines": 25
+                },
+                {
+                  "name": "src/server/util/redisClient.js",
+                  "lines": 56
+                },
+                {
+                  "name": "src/server/util/languageUtils.js",
+                  "lines": 18
+                },
+                {
+                  "name": "src/server/util/cron",
+                  "children": [
+                    {
+                      "name": "src/server/util/cron/scheduleCronJobs.js",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/server/util/cron/schedule.js",
+                      "lines": 12
+                    },
+                    {
+                      "name": "src/server/util/cron/summariesCron.js",
+                      "lines": 19
+                    },
+                    {
+                      "name": "src/server/util/cron/precacheFeedbackTargetsCron.js",
+                      "lines": 55
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/server/mailer",
+              "children": [
+                {
+                  "name": "src/server/mailer/scheduleCronJobs.js",
+                  "lines": 56
+                },
+                {
+                  "name": "src/server/mailer/pateClient.js",
+                  "lines": 113
+                },
+                {
+                  "name": "src/server/mailer/index.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/server/mailer/mails",
+                  "children": [
+                    {
+                      "name": "src/server/mailer/mails/sendFeedbackSummaryReminderToStudents.js",
+                      "lines": 65
+                    },
+                    {
+                      "name": "src/server/mailer/mails/util.js",
+                      "lines": 115
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendAutomaticReminderOnFeedbackToStudents.js",
+                      "lines": 58
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendEmailReminderAboutSurveyOpeningToTeachers.js",
+                      "lines": 142
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendFeedbackReminderToStudents.js",
+                      "lines": 72
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendEmailAboutSurveyOpeningToStudents.js",
+                      "lines": 138
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendContinuousFeedbackResponseToStudent.js",
+                      "lines": 92
+                    },
+                    {
+                      "name": "src/server/mailer/mails/index.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendEmailReminderAboutFeedbackResponseToTeacher.js",
+                      "lines": 140
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendEmailContinuousFeedbackDigestToTeachers.js",
+                      "lines": 164
+                    },
+                    {
+                      "name": "src/server/mailer/mails/stats.js",
+                      "lines": 133
+                    },
+                    {
+                      "name": "src/server/mailer/mails/sendEmailToStudentsWhenOpeningImmediately.js",
+                      "lines": 86
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/server/models",
+              "children": [
+                {
+                  "name": "src/server/models/organisation.js",
+                  "lines": 81
+                },
+                {
+                  "name": "src/server/models/feedback.js",
+                  "lines": 48
+                },
+                {
+                  "name": "src/server/models/courseRealisationsTag.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/server/models/modelExtensions.js",
+                  "lines": 124
+                },
+                {
+                  "name": "src/server/models/updaterStatus.js",
+                  "lines": 36
+                },
+                {
+                  "name": "src/server/models/feedbackTarget.js",
+                  "lines": 403
+                },
+                {
+                  "name": "src/server/models/organisationFeedbackCorrespondent.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/server/models/question.js",
+                  "lines": 36
+                },
+                {
+                  "name": "src/server/models/userFeedbackTarget.js",
+                  "lines": 72
+                },
+                {
+                  "name": "src/server/models/courseUnit.js",
+                  "lines": 72
+                },
+                {
+                  "name": "src/server/models/user.js",
+                  "lines": 155
+                },
+                {
+                  "name": "src/server/models/survey.js",
+                  "lines": 67
+                },
+                {
+                  "name": "src/server/models/summary.ts",
+                  "lines": 115
+                },
+                {
+                  "name": "src/server/models/courseUnitsTag.js",
+                  "lines": 35
+                },
+                {
+                  "name": "src/server/models/inactiveCourseRealisation.js",
+                  "lines": 54
+                },
+                {
+                  "name": "src/server/models/norppaFeedback.js",
+                  "lines": 43
+                },
+                {
+                  "name": "src/server/models/feedbackTargetLog.js",
+                  "lines": 34
+                },
+                {
+                  "name": "src/server/models/courseRealisation.js",
+                  "lines": 53
+                },
+                {
+                  "name": "src/server/models/tag.js",
+                  "lines": 52
+                },
+                {
+                  "name": "src/server/models/banner.js",
+                  "lines": 64
+                },
+                {
+                  "name": "src/server/models/index.ts",
+                  "lines": 281
+                },
+                {
+                  "name": "src/server/models/courseRealisationsOrganisation.js",
+                  "lines": 33
+                },
+                {
+                  "name": "src/server/models/organisationLog.js",
+                  "lines": 34
+                },
+                {
+                  "name": "src/server/models/continuousFeedback.js",
+                  "lines": 47
+                },
+                {
+                  "name": "src/server/models/group.js",
+                  "lines": 35
+                },
+                {
+                  "name": "src/server/models/courseUnitsOrganisation.js",
+                  "lines": 33
+                }
+              ]
+            },
+            {
+              "name": "src/server/db",
+              "children": [
+                {
+                  "name": "src/server/db/postgresFunctions.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/server/db/dbConnection.js",
+                  "lines": 56
+                }
+              ]
+            },
+            {
+              "name": "src/server/routes",
+              "children": [
+                {
+                  "name": "src/server/routes/index.js",
+                  "lines": 1
+                },
+                {
+                  "name": "src/server/routes/routes.js",
+                  "lines": 60
+                },
+                {
+                  "name": "src/server/routes/misc",
+                  "children": [
+                    {
+                      "name": "src/server/routes/misc/coursesPageController.js",
+                      "lines": 22
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/norppaFeedback",
+                  "children": [
+                    {
+                      "name": "src/server/routes/norppaFeedback/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/server/routes/norppaFeedback/norppaFeedbackController.js",
+                      "lines": 83
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/courseUnits",
+                  "children": [
+                    {
+                      "name": "src/server/routes/courseUnits/courseUnitController.js",
+                      "lines": 233
+                    },
+                    {
+                      "name": "src/server/routes/courseUnits/index.js",
+                      "lines": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/noad",
+                  "children": [
+                    {
+                      "name": "src/server/routes/noad/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/server/routes/noad/noadRoutes.js",
+                      "lines": 13
+                    },
+                    {
+                      "name": "src/server/routes/noad/noAdUserController.js",
+                      "lines": 57
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/courseSummary",
+                  "children": [
+                    {
+                      "name": "src/server/routes/courseSummary/index.js",
+                      "lines": 3
+                    },
+                    {
+                      "name": "src/server/routes/courseSummary/courseSummaryController.js",
+                      "lines": 256
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/admin",
+                  "children": [
+                    {
+                      "name": "src/server/routes/admin/index.js",
+                      "lines": 3
+                    },
+                    {
+                      "name": "src/server/routes/admin/adminController.js",
+                      "lines": 615
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/myTeaching",
+                  "children": [
+                    {
+                      "name": "src/server/routes/myTeaching/index.js",
+                      "lines": 3
+                    },
+                    {
+                      "name": "src/server/routes/myTeaching/myTeachingController.js",
+                      "lines": 26
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/feedbackTargets",
+                  "children": [
+                    {
+                      "name": "src/server/routes/feedbackTargets/feedbackTargetController.js",
+                      "lines": 263
+                    },
+                    {
+                      "name": "src/server/routes/feedbackTargets/interimFeedbackController.js",
+                      "lines": 73
+                    },
+                    {
+                      "name": "src/server/routes/feedbackTargets/index.js",
+                      "lines": 6
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/tags",
+                  "children": [
+                    {
+                      "name": "src/server/routes/tags/tags.js",
+                      "lines": 200
+                    },
+                    {
+                      "name": "src/server/routes/tags/index.js",
+                      "lines": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/organisations",
+                  "children": [
+                    {
+                      "name": "src/server/routes/organisations/util.js",
+                      "lines": 34
+                    },
+                    {
+                      "name": "src/server/routes/organisations/feedbackCorrespondentController.js",
+                      "lines": 79
+                    },
+                    {
+                      "name": "src/server/routes/organisations/getOpenFeedbackByOrganisation.js",
+                      "lines": 96
+                    },
+                    {
+                      "name": "src/server/routes/organisations/organisationController.js",
+                      "lines": 176
+                    },
+                    {
+                      "name": "src/server/routes/organisations/index.js",
+                      "lines": 3
+                    },
+                    {
+                      "name": "src/server/routes/organisations/organisationSurveyController.js",
+                      "lines": 139
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/users",
+                  "children": [
+                    {
+                      "name": "src/server/routes/users/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/server/routes/users/userController.js",
+                      "lines": 150
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/feedbacks",
+                  "children": [
+                    {
+                      "name": "src/server/routes/feedbacks/index.js",
+                      "lines": 6
+                    },
+                    {
+                      "name": "src/server/routes/feedbacks/feedbacksController.js",
+                      "lines": 130
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/continuousFeedback",
+                  "children": [
+                    {
+                      "name": "src/server/routes/continuousFeedback/continuousFeedbackController.js",
+                      "lines": 142
+                    },
+                    {
+                      "name": "src/server/routes/continuousFeedback/index.js",
+                      "lines": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/routes/surveys",
+                  "children": [
+                    {
+                      "name": "src/server/routes/surveys/surveysController.js",
+                      "lines": 143
+                    },
+                    {
+                      "name": "src/server/routes/surveys/index.js",
+                      "lines": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/server/services",
+              "children": [
+                {
+                  "name": "src/server/services/myTeaching",
+                  "children": [
+                    {
+                      "name": "src/server/services/myTeaching/tabCountService.js",
+                      "lines": 132
+                    },
+                    {
+                      "name": "src/server/services/myTeaching/myTeachingService.js",
+                      "lines": 216
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/feedbackTargets",
+                  "children": [
+                    {
+                      "name": "src/server/services/feedbackTargets/getStudentTokens.js",
+                      "lines": 38
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getForCourseRealisation.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getErrorViewDetails.js",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getStudents.js",
+                      "lines": 99
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getFeedbackTargetContext.js",
+                      "lines": 44
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/enrollByToken.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/cache.js",
+                      "lines": 92
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/Access.js",
+                      "lines": 215
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getFeedbacks.js",
+                      "lines": 198
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getByOrganisation.js",
+                      "lines": 134
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/update.js",
+                      "lines": 200
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getLogs.js",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/updateFeedbackResponse.js",
+                      "lines": 40
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/index.js",
+                      "lines": 39
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getAccess.js",
+                      "lines": 26
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/remindStudentsOnFeedback.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getForCourseUnit.js",
+                      "lines": 116
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/deleteTeacher.js",
+                      "lines": 32
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getEnrolmentToken.js",
+                      "lines": 27
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getOneForUser.js",
+                      "lines": 211
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/interimFeedbacks.js",
+                      "lines": 266
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/hideFeedback.js",
+                      "lines": 118
+                    },
+                    {
+                      "name": "src/server/services/feedbackTargets/getForStudent.js",
+                      "lines": 86
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/organisations",
+                  "children": [
+                    {
+                      "name": "src/server/services/organisations/validator.js",
+                      "lines": 26
+                    },
+                    {
+                      "name": "src/server/services/organisations/organisationSurveys.js",
+                      "lines": 458
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/users",
+                  "children": [
+                    {
+                      "name": "src/server/services/users/preferences.js",
+                      "lines": 124
+                    },
+                    {
+                      "name": "src/server/services/users/cache.js",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/server/services/users/index.js",
+                      "lines": 7
+                    },
+                    {
+                      "name": "src/server/services/users/getByName.js",
+                      "lines": 28
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/surveys",
+                  "children": [
+                    {
+                      "name": "src/server/services/surveys/universitySurvey.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "src/server/services/surveys/index.js",
+                      "lines": 10
+                    },
+                    {
+                      "name": "src/server/services/surveys/teacherSurvey.js",
+                      "lines": 73
+                    },
+                    {
+                      "name": "src/server/services/surveys/programmeSurvey.js",
+                      "lines": 58
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/organisationAccess",
+                  "children": [
+                    {
+                      "name": "src/server/services/organisationAccess/index.js",
+                      "lines": 7
+                    },
+                    {
+                      "name": "src/server/services/organisationAccess/organisationAccess.js",
+                      "lines": 105
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/summary",
+                  "children": [
+                    {
+                      "name": "src/server/services/summary/getCourseUnitGroupSummary.js",
+                      "lines": 110
+                    },
+                    {
+                      "name": "src/server/services/summary/exportXLSX.js",
+                      "lines": 202
+                    },
+                    {
+                      "name": "src/server/services/summary/getUserOrganisationSummary.js",
+                      "lines": 68
+                    },
+                    {
+                      "name": "src/server/services/summary/access.js",
+                      "lines": 39
+                    },
+                    {
+                      "name": "src/server/services/summary/utils.ts",
+                      "lines": 124
+                    },
+                    {
+                      "name": "src/server/services/summary/index.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "src/server/services/summary/getOrganisationSummary.js",
+                      "lines": 364
+                    },
+                    {
+                      "name": "src/server/services/summary/buildSummaries.js",
+                      "lines": 545
+                    },
+                    {
+                      "name": "src/server/services/summary/getTeacherSummary.js",
+                      "lines": 109
+                    },
+                    {
+                      "name": "src/server/services/summary/courseRealisationSummary.js",
+                      "lines": 88
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/auditLog",
+                  "children": [
+                    {
+                      "name": "src/server/services/auditLog/organisationLogs.js",
+                      "lines": 140
+                    },
+                    {
+                      "name": "src/server/services/auditLog/feedbackTargetLogs.js",
+                      "lines": 123
+                    },
+                    {
+                      "name": "src/server/services/auditLog/index.js",
+                      "lines": 10
+                    }
+                  ]
+                },
+                {
+                  "name": "src/server/services/questions",
+                  "children": [
+                    {
+                      "name": "src/server/services/questions/index.js",
+                      "lines": 5
+                    },
+                    {
+                      "name": "src/server/services/questions/summaryQuestions.js",
+                      "lines": 31
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "src/client",
+          "children": [
+            {
+              "name": "src/client/index.tsx",
+              "lines": 46
+            },
+            {
+              "name": "src/client/tsconfig.json",
+              "lines": 20
+            },
+            {
+              "name": "src/client/theme.ts",
+              "lines": 182
+            },
+            {
+              "name": "src/client/types",
+              "children": [
+                {
+                  "name": "src/client/types/User.ts",
+                  "lines": 6
+                }
+              ]
+            },
+            {
+              "name": "src/client/util",
+              "children": [
+                {
+                  "name": "src/client/util/formatDate.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/client/util/printStyle.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/client/util/queryClient.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/client/util/apiClient.js",
+                  "lines": 24
+                },
+                {
+                  "name": "src/client/util/feedbackTargetIsOld.js",
+                  "lines": 5
+                },
+                {
+                  "name": "src/client/util/resizeObserverPolyfill.js",
+                  "lines": 5
+                },
+                {
+                  "name": "src/client/util/mockHeaders.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/util/feedbackTargetIsOpen.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/client/util/tableUtils.js",
+                  "lines": 38
+                },
+                {
+                  "name": "src/client/util/normaliseOrganisationCode.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/util/sentry.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/util/getDateRangeString.js",
+                  "lines": 33
+                },
+                {
+                  "name": "src/client/util/resultColors.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/client/util/feedbackTargetCourseIsOngoing.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/client/util/errorMessage.js",
+                  "lines": 44
+                },
+                {
+                  "name": "src/client/util/common.js",
+                  "lines": 80
+                },
+                {
+                  "name": "src/client/util/startOfStudyYear.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/util/courseIdentifiers.js",
+                  "lines": 44
+                },
+                {
+                  "name": "src/client/util/yearSemesterUtils.js",
+                  "lines": 42
+                },
+                {
+                  "name": "src/client/util/reactQuery.js",
+                  "lines": 11
+                },
+                {
+                  "name": "src/client/util/i18n.js",
+                  "lines": 34
+                },
+                {
+                  "name": "src/client/util/randomColor.js",
+                  "lines": 48
+                },
+                {
+                  "name": "src/client/util/feedbackTargetIsEnded.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/util/languageUtils.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/client/util/chipStyles.js",
+                  "lines": 87
+                }
+              ]
+            },
+            {
+              "name": "src/client/config",
+              "children": [
+                {
+                  "name": "src/client/config/example-custom-ui.js",
+                  "lines": 71
+                }
+              ]
+            },
+            {
+              "name": "src/client/components",
+              "children": [
+                {
+                  "name": "src/client/components/LocalizationProvider.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/components/CustomUiConfigProvider.js",
+                  "lines": 9
+                },
+                {
+                  "name": "src/client/components/Footer-default.js",
+                  "lines": 96
+                },
+                {
+                  "name": "src/client/components/ErrorBoundary.js",
+                  "lines": 41
+                },
+                {
+                  "name": "src/client/components/Footer.js",
+                  "lines": 12
+                },
+                {
+                  "name": "src/client/components/NavBar",
+                  "children": [
+                    {
+                      "name": "src/client/components/NavBar/NavBar.js",
+                      "lines": 310
+                    },
+                    {
+                      "name": "src/client/components/NavBar/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/components/NavBar/useWaitingFeedbackCount.js",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/client/components/NavBar/UserPermissionsWindow.js",
+                      "lines": 114
+                    },
+                    {
+                      "name": "src/client/components/NavBar/utils.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/components/NavBar/Logo.js",
+                      "lines": 61
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/SummaryResultItem",
+                  "children": [
+                    {
+                      "name": "src/client/components/SummaryResultItem/ResultItemBase.js",
+                      "lines": 31
+                    },
+                    {
+                      "name": "src/client/components/SummaryResultItem/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/components/SummaryResultItem/LikertResultItem.js",
+                      "lines": 36
+                    },
+                    {
+                      "name": "src/client/components/SummaryResultItem/WorkloadResultItem.js",
+                      "lines": 75
+                    },
+                    {
+                      "name": "src/client/components/SummaryResultItem/SummaryResultItem.js",
+                      "lines": 19
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/common",
+                  "children": [
+                    {
+                      "name": "src/client/components/common/MultiSelect.js",
+                      "lines": 66
+                    },
+                    {
+                      "name": "src/client/components/common/StatusTabs.js",
+                      "lines": 76
+                    },
+                    {
+                      "name": "src/client/components/common/ExternalLink.js",
+                      "lines": 19
+                    },
+                    {
+                      "name": "src/client/components/common/TeacherChip.tsx",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/client/components/common/FormikSwitch.js",
+                      "lines": 27
+                    },
+                    {
+                      "name": "src/client/components/common/LinkChip.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "src/client/components/common/CardSection.js",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/client/components/common/FixedContainer.js",
+                      "lines": 33
+                    },
+                    {
+                      "name": "src/client/components/common/ExportButton.js",
+                      "lines": 70
+                    },
+                    {
+                      "name": "src/client/components/common/TabGroup.js",
+                      "lines": 52
+                    },
+                    {
+                      "name": "src/client/components/common/InstructionAccordion.js",
+                      "lines": 33
+                    },
+                    {
+                      "name": "src/client/components/common/PaperTooltip.js",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/client/components/common/FormikLocalesFieldEditor.js",
+                      "lines": 40
+                    },
+                    {
+                      "name": "src/client/components/common/TooltipButton.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/components/common/FormikCheckbox.js",
+                      "lines": 29
+                    },
+                    {
+                      "name": "src/client/components/common/ErrorDetails.js",
+                      "lines": 115
+                    },
+                    {
+                      "name": "src/client/components/common/ErrorView.js",
+                      "lines": 53
+                    },
+                    {
+                      "name": "src/client/components/common/QuestionPublicityToggle.js",
+                      "lines": 60
+                    },
+                    {
+                      "name": "src/client/components/common/FormikRadioButtons.js",
+                      "lines": 26
+                    },
+                    {
+                      "name": "src/client/components/common/InfoBox.js",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/client/components/common/YearSemesterSelector.js",
+                      "lines": 198
+                    },
+                    {
+                      "name": "src/client/components/common/LanguageSelect.js",
+                      "lines": 41
+                    },
+                    {
+                      "name": "src/client/components/common/TextField.js",
+                      "lines": 6
+                    },
+                    {
+                      "name": "src/client/components/common/AlertLink.js",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/client/components/common/FormikSelect.js",
+                      "lines": 33
+                    },
+                    {
+                      "name": "src/client/components/common/Title.js",
+                      "lines": 10
+                    },
+                    {
+                      "name": "src/client/components/common/FormikTextField.js",
+                      "lines": 33
+                    },
+                    {
+                      "name": "src/client/components/common/FormikDatePicker.js",
+                      "lines": 51
+                    },
+                    {
+                      "name": "src/client/components/common/RouterTabs.js",
+                      "lines": 98
+                    },
+                    {
+                      "name": "src/client/components/common/LinkButton.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/components/common/SeasonalEmoji.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "src/client/components/common/RenderProfiler.js",
+                      "lines": 22
+                    },
+                    {
+                      "name": "src/client/components/common/Banner.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "src/client/components/common/ProtectedRoute.js",
+                      "lines": 17
+                    },
+                    {
+                      "name": "src/client/components/common/TagChip.js",
+                      "lines": 21
+                    },
+                    {
+                      "name": "src/client/components/common/LoadingProgress.js",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/client/components/common/Markdown.js",
+                      "lines": 41
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/Logs",
+                  "children": [
+                    {
+                      "name": "src/client/components/Logs/LogItem.js",
+                      "lines": 18
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/DevTools",
+                  "children": [
+                    {
+                      "name": "src/client/components/DevTools/index.js",
+                      "lines": 14
+                    },
+                    {
+                      "name": "src/client/components/DevTools/AdminLoggedInAsBanner.js",
+                      "lines": 34
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/OpenFeedback",
+                  "children": [
+                    {
+                      "name": "src/client/components/OpenFeedback/OpenFeedback.js",
+                      "lines": 60
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/components/QuestionEditor",
+                  "children": [
+                    {
+                      "name": "src/client/components/QuestionEditor/QuestionEditor.js",
+                      "lines": 225
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/OrderButtons.js",
+                      "lines": 32
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/GroupingQuestionSettings.js",
+                      "lines": 149
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/OpenEditor.js",
+                      "lines": 64
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/QuestionEditorActions.js",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/OpenPreview.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/QuestionCard.js",
+                      "lines": 255
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/UniversitySurvey.js",
+                      "lines": 62
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/TextEditor.js",
+                      "lines": 53
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/LikertPreview.js",
+                      "lines": 51
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/SingleChoicePreview.js",
+                      "lines": 29
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/index.js",
+                      "lines": 5
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/LikertEditor.js",
+                      "lines": 49
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/TeacherSurvey.js",
+                      "lines": 69
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/ChoiceEditor.js",
+                      "lines": 89
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/getFormInitialValues.js",
+                      "lines": 50
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/MultipleChoicePreview.js",
+                      "lines": 29
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/utils.js",
+                      "lines": 122
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/MarkdownPreviewBase.js",
+                      "lines": 32
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/OptionEditor.js",
+                      "lines": 98
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/CopyFromCourseDialog.js",
+                      "lines": 172
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/TextPreview.js",
+                      "lines": 12
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/ProgrammeSurvey.js",
+                      "lines": 93
+                    },
+                    {
+                      "name": "src/client/components/QuestionEditor/PreviewBase.js",
+                      "lines": 30
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "src/client/hooks",
+              "children": [
+                {
+                  "name": "src/client/hooks/useFeedbackTargetContinuousFeedbacks.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/client/hooks/useUserOrganisationAccess.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/client/hooks/useUniversitySurvey.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useCourseRealisationSummaries.js",
+                  "lines": 26
+                },
+                {
+                  "name": "src/client/hooks/useNoadUser.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useQuery.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTargetsForStudent.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/client/hooks/usePinger.js",
+                  "lines": 29
+                },
+                {
+                  "name": "src/client/hooks/useOrganisationLogs.js",
+                  "lines": 25
+                },
+                {
+                  "name": "src/client/hooks/useUserDetails.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useInactiveCourseRealisations.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/client/hooks/useEmailsToBeSent.js",
+                  "lines": 32
+                },
+                {
+                  "name": "src/client/hooks/useOrganisationData.js",
+                  "lines": 27
+                },
+                {
+                  "name": "src/client/hooks/useRandomColor.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useQuestionPublicityMutation.js",
+                  "lines": 28
+                },
+                {
+                  "name": "src/client/hooks/useProgrammeOpenQuestions.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useIsMobile.js",
+                  "lines": 9
+                },
+                {
+                  "name": "src/client/hooks/useCourseRealisationFeedbackTargets.js",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useInteractiveMutation.js",
+                  "lines": 31
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTargetLogs.js",
+                  "lines": 25
+                },
+                {
+                  "name": "src/client/hooks/useURLSearchParams.js",
+                  "lines": 16
+                },
+                {
+                  "name": "src/client/hooks/useUpdateTeacherSurvey.js",
+                  "lines": 32
+                },
+                {
+                  "name": "src/client/hooks/useAuthorizedUser.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useNorppaFeedbackCount.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/client/hooks/useTeacherCourseUnits.js",
+                  "lines": 30
+                },
+                {
+                  "name": "src/client/hooks/useOrganisation.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useUpdaterStatuses.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useNoadfeedbackTargets.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTargetFeedbacks.js",
+                  "lines": 26
+                },
+                {
+                  "name": "src/client/hooks/useStudentsWithFeedback.js",
+                  "lines": 22
+                },
+                {
+                  "name": "src/client/hooks/useLocalStorageState.js",
+                  "lines": 23
+                },
+                {
+                  "name": "src/client/hooks/useOrganisationCourseUnits.js",
+                  "lines": 24
+                },
+                {
+                  "name": "src/client/hooks/useCourseUnitFeedbackTargets.js",
+                  "lines": 65
+                },
+                {
+                  "name": "src/client/hooks/useOrganisations.js",
+                  "lines": 27
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTargetErrorViewDetails.js",
+                  "lines": 19
+                },
+                {
+                  "name": "src/client/hooks/useAllUserAccess.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useCustomUiConfig.js",
+                  "lines": 17
+                },
+                {
+                  "name": "src/client/hooks/useProgrammeSurvey.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/client/hooks/useOrganisationAccess.js",
+                  "lines": 15
+                },
+                {
+                  "name": "src/client/hooks/useNorppaFeedbacks.js",
+                  "lines": 20
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTarget.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/client/hooks/useFeedbackTargetUsers.js",
+                  "lines": 21
+                },
+                {
+                  "name": "src/client/hooks/useHistoryState.js",
+                  "lines": 25
+                },
+                {
+                  "name": "src/client/hooks/useId.js",
+                  "lines": 20
+                }
+              ]
+            },
+            {
+              "name": "src/client/assets",
+              "children": [
+                {
+                  "name": "src/client/assets/toscalogo_white.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/hy_logo.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/toscalogo_grayscale.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/toscalogo_color.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/custom.scss",
+                  "lines": 27
+                },
+                {
+                  "name": "src/client/assets/toscalogo_black.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/hy_logo_black.svg",
+                  "lines": 1
+                },
+                {
+                  "name": "src/client/assets/norppa_holy_smoke.png",
+                  "lines": 0
+                },
+                {
+                  "name": "src/client/assets/custom.module.scss",
+                  "lines": 4
+                }
+              ]
+            },
+            {
+              "name": "src/client/pages",
+              "children": [
+                {
+                  "name": "src/client/pages/App.tsx",
+                  "lines": 46
+                },
+                {
+                  "name": "src/client/pages/AdUser.js",
+                  "lines": 46
+                },
+                {
+                  "name": "src/client/pages/Router.js",
+                  "lines": 65
+                },
+                {
+                  "name": "src/client/pages/NorppaFeedback",
+                  "children": [
+                    {
+                      "name": "src/client/pages/NorppaFeedback/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/NorppaFeedback/NorppaFeedback.js",
+                      "lines": 123
+                    },
+                    {
+                      "name": "src/client/pages/NorppaFeedback/utils.js",
+                      "lines": 13
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/CourseRealisation",
+                  "children": [
+                    {
+                      "name": "src/client/pages/CourseRealisation/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/CourseRealisation/CourseRealisation.js",
+                      "lines": 35
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/CourseSummary",
+                  "children": [
+                    {
+                      "name": "src/client/pages/CourseSummary/University.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/MyCourses.js",
+                      "lines": 39
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/GenerateReport.js",
+                      "lines": 129
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/ForOrganisation.js",
+                      "lines": 49
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/context.js",
+                      "lines": 215
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/utils.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/Summary.js",
+                      "lines": 123
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/api.js",
+                      "lines": 161
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/MyOrganisations.js",
+                      "lines": 75
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/ForCourseUnitGroup.js",
+                      "lines": 39
+                    },
+                    {
+                      "name": "src/client/pages/CourseSummary/components",
+                      "children": [
+                        {
+                          "name": "src/client/pages/CourseSummary/components/OrganisationRow.js",
+                          "lines": 196
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/Sort.js",
+                          "lines": 72
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/SummaryRow.js",
+                          "lines": 182
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/FeedbackResponseIndicator.js",
+                          "lines": 72
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/RowHeader.js",
+                          "lines": 92
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/ExtraOrganisationModeSelector.js",
+                          "lines": 38
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/Labels.js",
+                          "lines": 148
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/CourseUnitGroupRow.js",
+                          "lines": 45
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/PercentageCell.js",
+                          "lines": 38
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/CensoredCount.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/SummaryScrollContainer.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/SorterRow.js",
+                          "lines": 87
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/TeacherOrganisationRow.js",
+                          "lines": 65
+                        },
+                        {
+                          "name": "src/client/pages/CourseSummary/components/OrganisationLink.js",
+                          "lines": 40
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/Admin",
+                  "children": [
+                    {
+                      "name": "src/client/pages/Admin/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/Admin/Admin.js",
+                      "lines": 91
+                    },
+                    {
+                      "name": "src/client/pages/Admin/CrashDebug.js",
+                      "lines": 24
+                    },
+                    {
+                      "name": "src/client/pages/Admin/utils.js",
+                      "lines": 79
+                    },
+                    {
+                      "name": "src/client/pages/Admin/tabs",
+                      "children": [
+                        {
+                          "name": "src/client/pages/Admin/tabs/Misc",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/Misc/EditUniversitySurveyAccordion.js",
+                              "lines": 34
+                            },
+                            {
+                              "name": "src/client/pages/Admin/tabs/Misc/ConfigDebug.js",
+                              "lines": 66
+                            },
+                            {
+                              "name": "src/client/pages/Admin/tabs/Misc/EmailAccordion.js",
+                              "lines": 105
+                            },
+                            {
+                              "name": "src/client/pages/Admin/tabs/Misc/MiscTab.js",
+                              "lines": 40
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/NorppaFeedback",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/NorppaFeedback/NorppaFeedbackView.js",
+                              "lines": 106
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/EnableCourses",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/EnableCourses/EnableCourses.js",
+                              "lines": 119
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/FeedbackCorrescpondents",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/FeedbackCorrescpondents/FeedbackCorrespondents.js",
+                              "lines": 41
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/OrganisationSurveyInspector",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/OrganisationSurveyInspector/OrganisationSurveyInspector.js",
+                              "lines": 71
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/Updater",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/Updater/UpdaterView.js",
+                              "lines": 157
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/Banners",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/Banners/BannersView.js",
+                              "lines": 268
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/Users",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/Users/LoginAsSelector.js",
+                              "lines": 75
+                            },
+                            {
+                              "name": "src/client/pages/Admin/tabs/Users/UsersTab.js",
+                              "lines": 11
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/NorppaStatistics",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/NorppaStatistics/NorppaStatisticsView.js",
+                              "lines": 119
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/OrganisationAccess",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/OrganisationAccess/OrganisationAccess.js",
+                              "lines": 140
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/Admin/tabs/FeedbackTargetInspector",
+                          "children": [
+                            {
+                              "name": "src/client/pages/Admin/tabs/FeedbackTargetInspector/FeedbackTargetInspector.js",
+                              "lines": 59
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/pages/Admin/Inspector",
+                      "children": [
+                        {
+                          "name": "src/client/pages/Admin/Inspector/LocalesSearchField.js",
+                          "lines": 34
+                        },
+                        {
+                          "name": "src/client/pages/Admin/Inspector/InspectorResults.js",
+                          "lines": 19
+                        },
+                        {
+                          "name": "src/client/pages/Admin/Inspector/FeedbackTargetItem.js",
+                          "lines": 224
+                        },
+                        {
+                          "name": "src/client/pages/Admin/Inspector/TextSearchField.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "src/client/pages/Admin/Inspector/utils.js",
+                          "lines": 11
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/pages/Admin/UserAccordion",
+                      "children": [
+                        {
+                          "name": "src/client/pages/Admin/UserAccordion/UserAccordion.js",
+                          "lines": 160
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/MyTeaching",
+                  "children": [
+                    {
+                      "name": "src/client/pages/MyTeaching/GroupAccordion.js",
+                      "lines": 55
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/CourseUnitAccordion.js",
+                      "lines": 123
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/FeedbackTargetItem.js",
+                      "lines": 110
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/InterimFeedbackChip.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/MyTeaching.js",
+                      "lines": 66
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/FeedbackTargetList.js",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/FeedbackResponseChip.js",
+                      "lines": 76
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/utils.js",
+                      "lines": 74
+                    },
+                    {
+                      "name": "src/client/pages/MyTeaching/V2",
+                      "children": [
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/useMyTeachingTabCounts.js",
+                          "lines": 22
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/MyTeaching.js",
+                          "lines": 204
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/useTeacherCourseUnits.js",
+                          "lines": 52
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/useCourseUnitGridColumns.js",
+                          "lines": 24
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/FeedbackTargetList",
+                          "children": [
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/FeedbackTargetList/FeedbackTargetList.js",
+                              "lines": 42
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/FeedbackTargetList/FeedbackTargetListItem.js",
+                              "lines": 131
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/chips",
+                          "children": [
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/chips/InterimFeedbackChip.js",
+                              "lines": 28
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/utils",
+                          "children": [
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/utils/utils.js",
+                              "lines": 22
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/utils/styles.js",
+                              "lines": 10
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup",
+                          "children": [
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/DisabledCourseWarning.js",
+                              "lines": 17
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitGroupTitle.js",
+                              "lines": 42
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitAccordion.js",
+                              "lines": 83
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitItem.js",
+                              "lines": 49
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitGroupGrid.js",
+                              "lines": 11
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/ExpandableCourseUnitGroup.js",
+                              "lines": 61
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitGroup.js",
+                              "lines": 20
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitGroupGridColumn.js",
+                              "lines": 11
+                            },
+                            {
+                              "name": "src/client/pages/MyTeaching/V2/CourseUnitGroup/CourseUnitItemContainer.js",
+                              "lines": 16
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/GuestUser",
+                  "children": [
+                    {
+                      "name": "src/client/pages/GuestUser/GuestFeedbackTargetItem.js",
+                      "lines": 142
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestRouter.js",
+                      "lines": 46
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestFeedbackTargetResults.js",
+                      "lines": 124
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestUser.js",
+                      "lines": 15
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestFeedbackTargetView.js",
+                      "lines": 164
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestFooter.js",
+                      "lines": 50
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestCourses.js",
+                      "lines": 89
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/utils.js",
+                      "lines": 47
+                    },
+                    {
+                      "name": "src/client/pages/GuestUser/GuestFeedbackView.js",
+                      "lines": 227
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/Organisation",
+                  "children": [
+                    {
+                      "name": "src/client/pages/Organisation/FeedbackCorrespondent.js",
+                      "lines": 233
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/Organisation.js",
+                      "lines": 163
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/OrganisationLogs.js",
+                      "lines": 98
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/useOrganisationSurveyMutation.js",
+                      "lines": 73
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/ProgrammeOpenQuestions.js",
+                      "lines": 168
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/OrganisationSurveyItem.js",
+                      "lines": 158
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/Tags.js",
+                      "lines": 28
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/useUpdateCourseRealisationTags.js",
+                      "lines": 21
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/CourseSettings.js",
+                      "lines": 287
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/TagSelector.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/EditSurvey.js",
+                      "lines": 42
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/OrganisationSurveys.js",
+                      "lines": 145
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/useUpdateCourseUnitTags.js",
+                      "lines": 24
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/SemesterOverview.js",
+                      "lines": 722
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/utils.js",
+                      "lines": 94
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/CourseUnitTagSelector.js",
+                      "lines": 47
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/useOrganisationSurveys.js",
+                      "lines": 34
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/GeneralSettings.js",
+                      "lines": 132
+                    },
+                    {
+                      "name": "src/client/pages/Organisation/OrganisationSurveyEditor.js",
+                      "lines": 333
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/MyFeedbacks",
+                  "children": [
+                    {
+                      "name": "src/client/pages/MyFeedbacks/CourseRealisationItem.js",
+                      "lines": 27
+                    },
+                    {
+                      "name": "src/client/pages/MyFeedbacks/FeedbackTargetItem.js",
+                      "lines": 250
+                    },
+                    {
+                      "name": "src/client/pages/MyFeedbacks/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/MyFeedbacks/utils.js",
+                      "lines": 72
+                    },
+                    {
+                      "name": "src/client/pages/MyFeedbacks/MyFeedbacks.js",
+                      "lines": 91
+                    }
+                  ]
+                },
+                {
+                  "name": "src/client/pages/FeedbackTarget",
+                  "children": [
+                    {
+                      "name": "src/client/pages/FeedbackTarget/FeedbackTargetContent.js",
+                      "lines": 299
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/useFeedbackTargetId.js",
+                      "lines": 8
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/FeedbackTargetContext.js",
+                      "lines": 63
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/FeedbackTarget.js",
+                      "lines": 45
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/FeedbackTargetInformation.js",
+                      "lines": 175
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/index.js",
+                      "lines": 1
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/Error.js",
+                      "lines": 7
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/utils.js",
+                      "lines": 5
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/FeedbackTargetLinks.js",
+                      "lines": 135
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/tabs",
+                      "children": [
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/PrivacyDialog.js",
+                              "lines": 36
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackView.js",
+                              "lines": 279
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/utils.js",
+                              "lines": 182
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/Toolbar.js",
+                              "lines": 37
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/ContinuousFeedback.js",
+                              "lines": 89
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm",
+                              "children": [
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/QuestionBase.js",
+                                  "lines": 34
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/SingleChoiceQuestion.js",
+                                  "lines": 54
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/index.js",
+                                  "lines": 1
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/LikertQuestion.js",
+                                  "lines": 75
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/OpenQuestion.js",
+                                  "lines": 29
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/FeedbackForm.js",
+                                  "lines": 49
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/MultipleChoiceQuestion.js",
+                                  "lines": 62
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/utils.js",
+                                  "lines": 18
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/FeedbackView/FeedbackForm/Text.js",
+                                  "lines": 14
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/Settings",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Settings/useUpdateSettingsRead.js",
+                              "lines": 20
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Settings/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Settings/Settings.js",
+                              "lines": 29
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Settings/EditFeedbackTarget",
+                              "children": [
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Settings/EditFeedbackTarget/EditFeedbackTarget.js",
+                                  "lines": 80
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Settings/EditFeedbackTarget/index.js",
+                                  "lines": 1
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Settings/EditFeedbackTarget/utils.js",
+                                  "lines": 42
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Settings/EditFeedbackTarget/Toolbar.js",
+                                  "lines": 41
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/Results",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/ExportFeedbacksMenu.js",
+                              "lines": 127
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/Results.js",
+                              "lines": 205
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/FeedbackResponse.js",
+                              "lines": 75
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/GroupSelector.tsx",
+                              "lines": 139
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/utils.js",
+                              "lines": 58
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults",
+                              "children": [
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/OpenResults.js",
+                                  "lines": 102
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/QuestionItem.js",
+                                  "lines": 131
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/SingleChoiceResults.js",
+                                  "lines": 16
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/LikertResults.js",
+                                  "lines": 16
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/QuestionResults.js",
+                                  "lines": 163
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/index.js",
+                                  "lines": 1
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/useDeleteOpenFeedback.js",
+                                  "lines": 51
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/FeedbackChart.js",
+                                  "lines": 277
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/useChartConfig.js",
+                                  "lines": 26
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/MultipleChoiceResults.js",
+                                  "lines": 16
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/AverageResult.js",
+                                  "lines": 92
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/useUpdateOpenFeedbackVisibility.js",
+                                  "lines": 56
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/ResultsContent.js",
+                                  "lines": 11
+                                },
+                                {
+                                  "name": "src/client/pages/FeedbackTarget/tabs/Results/QuestionResults/utils.js",
+                                  "lines": 149
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/Logs",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Logs/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Logs/Logs.js",
+                              "lines": 118
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/Links",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Links/Links.js",
+                              "lines": 37
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Links/index.js",
+                              "lines": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/ResponseForm.js",
+                              "lines": 81
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/useDeleteContinuousFeedback.js",
+                              "lines": 47
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/ContinuousFeedbackSettings.js",
+                              "lines": 87
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/utils.js",
+                              "lines": 16
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/ContinuousFeedback/ContinuousFeedback.js",
+                              "lines": 177
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/StudentsWithFeedback",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/StudentsWithFeedback/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/StudentsWithFeedback/DropZone.js",
+                              "lines": 150
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/StudentsWithFeedback/StudentTable.js",
+                              "lines": 193
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/StudentsWithFeedback/StudentsWithFeedback.js",
+                              "lines": 44
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/EditFeedbackResponse",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/EditFeedbackResponse/useUpdateFeedbackResponse.js",
+                              "lines": 20
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/EditFeedbackResponse/EditFeedbackResponse.js",
+                              "lines": 136
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/EditFeedbackResponse/ResponseEmailButton.js",
+                              "lines": 72
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/EditFeedbackResponse/index.js",
+                              "lines": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/InterimFeedback.js",
+                              "lines": 102
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/InterimFeedbackModal.js",
+                              "lines": 78
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/index.js",
+                              "lines": 2
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/useInterimFeedbackMutation.js",
+                              "lines": 59
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/utils.js",
+                              "lines": 80
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/InterimFeedbackItem.js",
+                              "lines": 176
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/useInterimFeedbacks.js",
+                              "lines": 32
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/InterimFeedback/InterimFeedbackEditor.js",
+                              "lines": 101
+                            }
+                          ]
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/tabs/Share",
+                          "children": [
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Share/index.js",
+                              "lines": 1
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Share/ReminderEmailModal.js",
+                              "lines": 115
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Share/utils.js",
+                              "lines": 3
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Share/api.js",
+                              "lines": 21
+                            },
+                            {
+                              "name": "src/client/pages/FeedbackTarget/tabs/Share/Share.js",
+                              "lines": 134
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/Dates",
+                      "children": [
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/EditFeedbackTarget.js",
+                          "lines": 36
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/OpenFeedbackImmediatelyDialog.js",
+                          "lines": 26
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/Dates.js",
+                          "lines": 63
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/utils.js",
+                          "lines": 66
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/FeedbackPeriodForm.js",
+                          "lines": 154
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Dates/api.js",
+                          "lines": 60
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/Edit",
+                      "children": [
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Edit/EditOrganisationSurvey.js",
+                          "lines": 109
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Edit/FeedbackTargetEdit.js",
+                          "lines": 19
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/Edit/EditInterimFeedback.js",
+                          "lines": 80
+                        }
+                      ]
+                    },
+                    {
+                      "name": "src/client/pages/FeedbackTarget/TeacherList",
+                      "children": [
+                        {
+                          "name": "src/client/pages/FeedbackTarget/TeacherList/TeacherList.js",
+                          "lines": 56
+                        },
+                        {
+                          "name": "src/client/pages/FeedbackTarget/TeacherList/api.js",
+                          "lines": 5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

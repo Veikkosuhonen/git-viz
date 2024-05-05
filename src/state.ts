@@ -1,7 +1,8 @@
 import { createStore, produce } from "solid-js/store";
 import { loadAdjacency, loadFileTree } from "./lib/api";
-import { GraphSeriesOption } from "echarts";
-import { batch, createEffect } from "solid-js";
+import { EChartsType, GraphSeriesOption } from "echarts";
+import { batch, createEffect, createMemo } from "solid-js";
+import { memo } from "solid-js/web";
 
 const LINK_DEFAULT_OPACITY = 0.05
 const LINK_HIGHLIGHT_OPACITY = 0.5
@@ -33,6 +34,8 @@ export const [state, setState] = createStore<{
   adjacencyData: any
   adjacency: Adjacency
   adjacencyThreshold: number
+  maxImportance: number
+  chart: EChartsType|null
 }>({
   files: [],
   links: [],
@@ -43,7 +46,9 @@ export const [state, setState] = createStore<{
   percentiles: [],
   adjacencyData: null,
   adjacency: {},
-  adjacencyThreshold: 3
+  adjacencyThreshold: 1,
+  maxImportance: 0,
+  chart: null,
 });
 
 const getFileCategory = (file: File) => {
@@ -73,6 +78,7 @@ Promise.all([
   const adjacency = {} as Adjacency
   updateAdjacency(adjacency, adjacencyData, state.adjacencyThreshold)
 
+  let maxImportance = 0
   const files: File[] = [];
   const links: GraphSeriesOption["links"] = []
 
@@ -87,19 +93,9 @@ Promise.all([
           source: node.id,
           target: child.id,
           value: 1,
-          label: {
-            show: false,
-          },
-          tooltip: {
-            show: false,
-          },
           emphasis: {
             disabled: true,
           },
-          lineStyle: {
-            
-          },
-
         })
       })
 
@@ -110,6 +106,10 @@ Promise.all([
         ? (Object.values(adjacencyData[node.id]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
+
+      if (node.importance > maxImportance) {
+        maxImportance = node.importance
+      }
 
       node.category = getFileCategory(node)
     }
@@ -126,31 +126,48 @@ Promise.all([
     percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
 
-  Object.entries(adjacencyData).forEach(([sourceId, outLinks]) => {
-    Object.entries(outLinks).forEach(([targetId, value]) => {
-      links.push({
-        source: sourceId,
-        target: targetId,
-        value: value as number,
-        ignoreForceLayout: true,
-        lineStyle: {
-          color: "#2e448f",
-          opacity: 0.05,
-          curveness: 0.3,
-          width: value as number,
-        }
-      })
+  const N_LINKS = 1000
+  const visited = new Set<string>()
+  let allLinks = []
+  for (const [sourceId, outLinks] of Object.entries(adjacencyData)) {
+    for (const [targetId, value] of Object.entries(outLinks)) {
+      if (visited.has(`${targetId}-${sourceId}`)) {
+        continue
+      }
+      allLinks.push([sourceId, targetId, value as number])
+      visited.add(`${sourceId}-${targetId}`)
+    }
+  }
+  allLinks.sort((a, b) => b[2] as number - (a[2] as number))
+  const dedupedLinks = allLinks.slice(0, N_LINKS)
+
+  const adjacencyThreshold = dedupedLinks[N_LINKS - 1][2] as number
+
+  for (const l of dedupedLinks) {
+    links.push({
+      source: l[0],
+      target: l[1],
+      ignoreForceLayout: true,
+      lineStyle: {
+        width: l[2] as number,
+      },
+      emphasis: {
+        disabled: true,
+      },
     })
-  })  
+  }
+  
   console.log(percentiles)
 
 
   setState("files", files);
+  setState("maxImportance", maxImportance);
   setState("percentiles", percentiles);
   setState("links", links);
   setState("data", data)
   setState("adjacencyData", adjacencyData)
   setState("adjacency", adjacency)
+  setState("adjacencyThreshold", adjacencyThreshold)
 })
 
 const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: number) => {
@@ -165,18 +182,28 @@ const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: numb
 }
 
 export const selectFile = (fileId: string) => {
-  batch(() => {
-    setState("selectedId", fileId)
-    setState("files", {}, produce((f) => {
-      f.blur = !Object.entries(state.adjacency[fileId] ?? {}).some(([id, value]) => value >= state.adjacencyThreshold && f.id === id)
-        && f.id !== fileId
-    }))
-    setState("links", {}, produce((l) => {
-      const links = state.adjacency[fileId] ?? {}
-      const isLinked = ((l.value ?? 0) >= state.adjacencyThreshold) && l.source === fileId
-      l.lineStyle!.opacity = isLinked ? LINK_HIGHLIGHT_OPACITY : LINK_BLUR_OPACITY
-    }))
-    console.log(state.adjacency)
+  setState("selectedId", fileId)
+  const highlighted = Object.entries(state.adjacency[fileId] ?? {}).filter(([_, value]) => value >= state.adjacencyThreshold).map(([id, _]) => id)
+  const blurred = state.files.map(f => f.id).filter(id => !highlighted.includes(id))
+  // state.chart?.dispatchAction({
+  //   type: "unselect",
+  //   seriesIndex: 0,
+  //   name: blurred,
+  // })
+  // state.chart?.dispatchAction({
+  //   type: "downplay",
+  //   seriesIndex: 0,
+  //   name: blurred,
+  // })
+  state.chart?.dispatchAction({
+    type: "select",
+    seriesIndex: 0,
+    name: fileId,
+  })
+  state.chart?.dispatchAction({
+    type: "highlight",
+    seriesIndex: 0,
+    name: fileId,
   })
 }
 

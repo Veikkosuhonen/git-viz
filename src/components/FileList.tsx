@@ -1,26 +1,7 @@
 import { Component, For, createSignal } from "solid-js";
 import { File, selectFile, setAdjacencyThreshold, setState, state } from "~/state";
-
-const ranks = [
-  ["S", "bg-fuchsia-600"],
-  ["A", "bg-rose-400"],
-  ["B", "bg-orange-500"],
-  ["C", "bg-amber-500"],
-  ["D", "bg-yellow-500"],
-  ["E", "bg-green-400"],
-  ["F", "bg-emerald-400"],
-  ["G", "bg-cyan-400"],
-]
-
-const getRank = (value: number) => {
-  const percentiles = state.percentiles
-  for (let i = percentiles.length; i >= 0; i--) {
-    if (value <= percentiles[i]) {
-      return ranks[Math.min(ranks.length - 1, i)]
-    }
-  }
-  return ranks[ranks.length - 1]
-}
+import { getRank } from "~/util/getRank";
+import Rank from "./Rank";
 
 const FileList: Component = () => {
   const filteredFiles = () => {
@@ -52,9 +33,7 @@ const FileList: Component = () => {
                 "opacity-30": file.blur,
               }}
             >
-              <span class={`text-slate-50 px-1 mx-1 ${getRank(file.importance ?? 0)[1]}`}>
-                {getRank(file.importance ?? 0)[0]}
-              </span>
+              <Rank importance={file.importance} />
               {file.name.split("/").slice(0, -1).join(' / ').concat(' / ')}
               <span class="text-base text-slate-800 font-medium">
                 {file.name.split("/").splice(-1)}

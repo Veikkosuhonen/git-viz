@@ -7,13 +7,13 @@ const baseUrl = process.env.NODE_ENV === 'development'
 
 export const loadFileTree = cache(async () => {
   "use server"
-  const res = await fetch(`${baseUrl}/public/data/gptwrapper_file_tree.json`);
+  const res = await fetch(`${baseUrl}/public/data/palaute_file_tree.json`);
   return res.json();
 }, "fileTree")
 
 export const loadAdjacency = cache(async () => {
   "use server"
-  const res = await fetch(`${baseUrl}/public/data/gptwrapper_adjacency.csv`);
+  const res = await fetch(`${baseUrl}/public/data/palaute_adjacency.csv`);
   const adjacency = await res.text();
 
   return parse(adjacency, { 
