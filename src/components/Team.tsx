@@ -10,9 +10,9 @@ const Team = () => {
   return (
     <>
       <div class="p-2 flex items-center gap-2 border-b border-slate-300 bg-slate-100">
-        <h2>Toggle team members</h2>
+        <h2>Filter team members</h2>
       </div>
-      <div class="overflow-y-scroll overflow-x-hidden max-h-[10rem] p-2 flex flex-col items-stretch">
+      <div class="overflow-y-scroll overflow-x-hidden max-h-[20rem] p-2 flex flex-col items-stretch">
         <For each={state.teamMembers}>
           {member => (
             <button onClick={() => toggleTeamMember(member.name)}

@@ -3,6 +3,7 @@ import { loadAdjacency, loadChanges, loadFileTree } from "./lib/api";
 import { EChartsType, GraphSeriesOption } from "echarts";
 import { batch, createEffect, createMemo } from "solid-js";
 import { memo } from "solid-js/web";
+import { computeGiniCoefficient } from "./util/giniCoeff";
 
 const LINK_DEFAULT_OPACITY = 0.05
 const LINK_HIGHLIGHT_OPACITY = 0.5
@@ -25,6 +26,7 @@ export type File = {
   importance?: number
   blur?: boolean
   contributors?: Contributors
+  gini?: number
 }
 
 type Adjacency = {
@@ -40,7 +42,8 @@ export const [state, setState] = createStore<{
   selectedId: string | null,
   type: string,
   data: any,
-  percentiles: number[],
+  importancePercentiles: number[],
+  giniPercentiles: number[],
   adjacencyData: any
   adjacency: Adjacency
   adjacencyThreshold: number
@@ -54,7 +57,8 @@ export const [state, setState] = createStore<{
   selectedId: null,
   type: "echarts",
   data: null,
-  percentiles: [],
+  importancePercentiles: [],
+  giniPercentiles: [],
   adjacencyData: null,
   adjacency: {},
   adjacencyThreshold: 1,
@@ -134,9 +138,9 @@ Promise.all([
 
   files.sort((a, b) => (b.importance ?? 0) - (a.importance ?? 0))
 
-  const percentiles = []
+  const importancePercentiles: number[] = []
   for (let i = 0; i < 10; i++) {
-    percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
+    importancePercentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
 
   // contributors
@@ -153,7 +157,15 @@ Promise.all([
 
   files.forEach(file => {
     file.contributors = fileContributorsMap[file.id] ?? {}
+    file.gini = file.contributors ? computeGiniCoefficient(Object.values(file.contributors)) : 0
   })
+
+  files.sort((a, b) => (b.gini ?? 0) - (a.gini ?? 0))
+
+  const giniPercentiles: number[] = []
+  for (let i = 0; i < 10; i++) {
+    giniPercentiles.push(files[Math.floor(i * files.length / 10)].gini ?? 0)
+  }
 
   const N_LINKS = 1000
   const visited = new Set<string>()
@@ -186,15 +198,18 @@ Promise.all([
     })
   }
 
-  setState("files", files);
-  setState("maxImportance", maxImportance);
-  setState("percentiles", percentiles);
-  setState("links", links);
-  setState("data", fileJson)
-  setState("adjacencyData", adjacencyData)
-  setState("adjacency", adjacency)
-  setState("adjacencyThreshold", adjacencyThreshold)
-  setState("teamMembers", Object.values(teamMembers))
+  batch(() => {
+    setState("files", files);
+    setState("maxImportance", maxImportance);
+    setState("importancePercentiles", importancePercentiles);
+    setState("giniPercentiles", giniPercentiles);
+    setState("links", links);
+    setState("data", fileJson)
+    setState("adjacencyData", adjacencyData)
+    setState("adjacency", adjacency)
+    setState("adjacencyThreshold", adjacencyThreshold)
+    setState("teamMembers", Object.values(teamMembers))
+  })
 })
 
 const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: number) => {
@@ -208,7 +223,21 @@ const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: numb
   })
 }
 
-export const selectFile = (fileId: string) => {
+export const selectFile = (fileId: string|null) => {
+  if (!fileId) {
+    setState("selectedId", null)
+    state.chart?.dispatchAction({
+      type: "unselect",
+      seriesIndex: 0,
+      name: fileId,
+    })
+    state.chart?.dispatchAction({
+      type: "downplay",
+      seriesIndex: 0,
+    })
+    return
+  }
+
   setState("selectedId", fileId)
   const highlighted = Object.entries(state.adjacency[fileId] ?? {}).filter(([_, value]) => value >= state.adjacencyThreshold).map(([id, _]) => id)
   const blurred = state.files.map(f => f.id).filter(id => !highlighted.includes(id))

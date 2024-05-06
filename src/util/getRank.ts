@@ -11,8 +11,7 @@ const ranks = [
   ["G", "bg-cyan-400"],
 ]
 
-export const getRank = (value: number) => {
-  const percentiles = state.percentiles
+export const getRank = (value: number, percentiles: number[]) => {
   for (let i = percentiles.length; i >= 0; i--) {
     if (value <= percentiles[i]) {
       return ranks[Math.min(ranks.length - 1, i)]

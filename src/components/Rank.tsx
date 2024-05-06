@@ -1,4 +1,5 @@
 import { Component } from "solid-js"
+import { state } from "~/state"
 import { getRank } from "~/util/getRank"
 
 const Rank: Component<{
@@ -6,8 +7,8 @@ const Rank: Component<{
 }> = (props) => {
 
   return (
-    <span class={`text-slate-50 px-1 mx-1 ${getRank(props.importance ?? 0)[1]}`}>
-      {getRank(props.importance ?? 0)[0]}
+    <span class={`text-slate-50 px-1 mx-1 ${getRank(props.importance ?? 0, state.importancePercentiles)[1]}`}>
+      {getRank(props.importance ?? 0, state.importancePercentiles)[0]}
     </span>
   )
 }

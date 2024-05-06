@@ -23,10 +23,12 @@ const Echarts: Component = () => {
   const links: () => GraphSeriesOption["links"] = () => state.links
 
   const onClick = (params: any) => {
-    console.log(params)
     if (params.dataType === 'node') {
       const nodeId = params.data.id as string
-      selectFile(nodeId)
+      console.log(nodeId, state.selectedId)
+      selectFile(nodeId !== state.selectedId ? nodeId : null)
+    } else {
+      selectFile(null)
     }
   }
   

@@ -1,9 +1,10 @@
 import { For, Show, createEffect, createMemo, createSignal } from "solid-js"
 import { state } from "~/state"
 import Rank from "./Rank"
-import { getPercentageRank } from "~/util/getRank"
+import { getPercentageRank, getRank } from "~/util/getRank"
 import { EChartsAutoSize } from "echarts-solid"
 import Team from "./Team"
+import Dismiss from "solid-dismiss"
 
 const Details = () => {
   const [showTeam, setShowTeam] = createSignal(false)
@@ -25,8 +26,10 @@ const Details = () => {
     return contributors
       .filter(([name,]) => state.teamMembers.some(t => t.enabled && t.name === name))
       .toSorted((a, b) => b[1] - a[1])
-      .slice(0, 5)
+      .slice(0, 6)
   })
+
+  let btnElement: HTMLButtonElement | undefined = undefined
 
   return (
     <>
@@ -37,7 +40,8 @@ const Details = () => {
             <p class="text-sm mb-1">Importance: <Rank importance={selected()?.importance} /></p>
             <div class="flex relative">
               <p class="text-sm">Contributors</p>
-              <button onClick={() => setShowTeam(!showTeam())}
+              <button
+                ref={btnElement}
                 class="text-xs ml-8 text-slate-800 px-2 py-1 rounded-md shadow shadow-slate-700/50 bg-slate-50 transition-all duration-150"
                 classList={{
                   "bg-amber-200": showTeam(),
@@ -45,11 +49,9 @@ const Details = () => {
               >
                 Filter team members
               </button>
-              <Show when={showTeam()}>
-                <div class="absolute mt-6 z-10 bg-slate-200/60 backdrop-blur-md rounded shadow-lg shadow-slate-800/50">
-                  <Team />
-                </div>
-              </Show>
+              <Dismiss menuButton={btnElement} open={showTeam} setOpen={setShowTeam} class="absolute mt-6 z-10 bg-slate-200/60 backdrop-blur-md rounded shadow-lg shadow-slate-800/50">
+                <Team />
+              </Dismiss>
             </div>
             
             <div class="h-[20rem]">
@@ -77,9 +79,14 @@ const Details = () => {
                 }}
               />
             </div>
+            <p class="text-sm mb-1">Ownership distribution (gini coeff): 
+              <span class={`font-mono text-black px-1 rounded ${getRank(1 - (selected()?.gini ?? 0), state.giniPercentiles)[1]} transition-colors duration-500`}>
+                {selected()?.gini?.toFixed(2)}
+              </span>
+            </p>
             <p class="text-sm">Related:</p>
           </div>
-          <div class="overflow-y-scroll overflow-x-hidden max-h-[30rem] p-2">
+          <div class="overflow-y-scroll overflow-x-hidden max-h-[25rem] p-2">
             <For each={relatedFiles()}>
               {([id, weight]) => (
                 <p class="text-xs flex flex-nowrap mb-1">

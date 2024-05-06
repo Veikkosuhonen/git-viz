@@ -26,7 +26,7 @@ const FileList: Component = () => {
         <For each={filteredFiles()}>
           {file => (
             <button 
-              onClick={() => selectFile(file.id)}
+              onClick={() => selectFile(file.id !== state.selectedId ? file.id : null)}
               class="block text-left text-sm text-slate-600 text-nowrap rounded-md hover:bg-amber-300 active:bg-amber-400 transition-all duration-75"
               classList={{
                 "bg-amber-300 outline outline-slate-400": file.id === state.selectedId,
