@@ -21,3 +21,14 @@ export const loadAdjacency = cache(async () => {
     skip_empty_lines: true
   });
 }, "adjacency")
+
+export const loadChanges = cache(async () => {
+  "use server"
+  const res = await fetch(`${baseUrl}/public/data/palaute_changes.csv`);
+  const changes = await res.text();
+
+  return parse(changes, { 
+    columns: true,
+    skip_empty_lines: true
+  });
+}, "changes")

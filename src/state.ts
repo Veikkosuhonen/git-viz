@@ -1,5 +1,5 @@
 import { createStore, produce } from "solid-js/store";
-import { loadAdjacency, loadFileTree } from "./lib/api";
+import { loadAdjacency, loadChanges, loadFileTree } from "./lib/api";
 import { EChartsType, GraphSeriesOption } from "echarts";
 import { batch, createEffect, createMemo } from "solid-js";
 import { memo } from "solid-js/web";
@@ -8,6 +8,15 @@ const LINK_DEFAULT_OPACITY = 0.05
 const LINK_HIGHLIGHT_OPACITY = 0.5
 const LINK_BLUR_OPACITY = 0.01
 
+type TeamMember = {
+  name: string,
+  enabled: boolean,
+}
+
+type Contributors = {
+  [id: string]: number
+}
+
 export type File = {
   id: string
   name: string
@@ -15,6 +24,7 @@ export type File = {
   children?: File[]
   importance?: number
   blur?: boolean
+  contributors?: Contributors
 }
 
 type Adjacency = {
@@ -36,6 +46,7 @@ export const [state, setState] = createStore<{
   adjacencyThreshold: number
   maxImportance: number
   chart: EChartsType|null
+  teamMembers: TeamMember[]
 }>({
   files: [],
   links: [],
@@ -49,6 +60,7 @@ export const [state, setState] = createStore<{
   adjacencyThreshold: 1,
   maxImportance: 0,
   chart: null,
+  teamMembers: []
 });
 
 const getFileCategory = (file: File) => {
@@ -63,7 +75,8 @@ const getFileCategory = (file: File) => {
 Promise.all([
   loadFileTree(),
   loadAdjacency(),
-]).then(([data, adjacencyJson]) => {
+  loadChanges()
+]).then(([fileJson, adjacencyJson, changes]) => {
   const adjacencyData = Object.fromEntries(adjacencyJson.map((row: any) => {
     const rowId = row[""]
     const rowData = Object.fromEntries(
@@ -117,7 +130,7 @@ Promise.all([
     files.push(node)
   }
 
-  visitFiles(data)
+  visitFiles(fileJson)
 
   files.sort((a, b) => (b.importance ?? 0) - (a.importance ?? 0))
 
@@ -125,6 +138,22 @@ Promise.all([
   for (let i = 0; i < 10; i++) {
     percentiles.push(files[Math.floor(i * files.length / 10)].importance ?? 0)
   }
+
+  // contributors
+  const fileContributorsMap = {} as { [file: string]: Contributors }
+  const teamMembers = {} as { [name: string]: TeamMember }
+  for (const change of changes) {
+    const file = change.file
+    const contributor = change.author
+    teamMembers[contributor] = teamMembers[contributor] ?? { name: contributor, enabled: true }
+    fileContributorsMap[file] = fileContributorsMap[file] ?? {}
+    fileContributorsMap[file][contributor] = fileContributorsMap[file][contributor] ?? 0
+    fileContributorsMap[file][contributor] += 1 // parseInt(change.insertions, 10) + parseInt(change.deletions, 10)
+  }
+
+  files.forEach(file => {
+    file.contributors = fileContributorsMap[file.id] ?? {}
+  })
 
   const N_LINKS = 1000
   const visited = new Set<string>()
@@ -156,15 +185,12 @@ Promise.all([
       },
     })
   }
-  
-  console.log(percentiles)
-
 
   setState("files", files);
   setState("maxImportance", maxImportance);
   setState("percentiles", percentiles);
   setState("links", links);
-  setState("data", data)
+  setState("data", fileJson)
   setState("adjacencyData", adjacencyData)
   setState("adjacency", adjacency)
   setState("adjacencyThreshold", adjacencyThreshold)

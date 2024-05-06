@@ -5,7 +5,7 @@ import Rank from "./Rank";
 
 const FileList: Component = () => {
   const filteredFiles = () => {
-    return state.files?.filter(f => f.name.includes(state.searchText)).toSorted((a, b) => 
+    return state.files?.filter(f => (!f.children) && f.name.includes(state.searchText)).toSorted((a, b) => 
       (b.importance ?? 0) - (a.importance ?? 0))
   }
 
