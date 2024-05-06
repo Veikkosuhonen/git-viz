@@ -10,8 +10,8 @@ export const Visualization = () => {
     <>
       <h1>Visualization</h1>
       <select value={state.type} onChange={(e) => setState("type", e.target.value)}>
-        <option value="scatter">Scatter</option>
-        <option selected value="graph">Graph</option>
+        <option selected value="scatter">Scatter</option>
+        <option value="graph">Graph</option>
       </select>
       <section class="flex-grow">
         <Show when={state.data && state.adjacencyData}>

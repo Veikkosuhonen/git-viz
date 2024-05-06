@@ -1,6 +1,6 @@
 import { GraphSeriesOption } from "echarts";
 import { EChartsAutoSize } from "echarts-solid"
-import { Component } from "solid-js";
+import { Component, onCleanup } from "solid-js";
 import { produce } from "solid-js/store";
 import { state, setState, selectFile } from "~/state";
 
@@ -31,10 +31,16 @@ const Echarts: Component = () => {
       selectFile(null)
     }
   }
+
+  onCleanup(() => {
+    setState("charts", produce(charts => {
+      delete charts.graph
+    }))
+  })
   
   return (
     <EChartsAutoSize
-      onInit={(chart) => setState("chart", chart)}
+      onInit={(chart) => setState("charts", "graph", chart)}
       initOptions={{
         renderer: "canvas"
       }}

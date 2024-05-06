@@ -5,7 +5,7 @@ const baseUrl = process.env.NODE_ENV === 'development'
 ? 'http://localhost:3000'
 : 'https://raw.githubusercontent.com/Veikkosuhonen/git-viz/master/'
 
-const repoName = "gptwrapper"
+const repoName = "palaute"
 
 export const loadFileTree = cache(async () => {
   "use server"

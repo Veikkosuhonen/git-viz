@@ -1,42 +1,93 @@
-import { GraphSeriesOption } from "echarts";
+import { GraphSeriesOption, ScatterSeriesOption } from "echarts";
 import { EChartsAutoSize } from "echarts-solid"
-import { Component } from "solid-js";
+import { Component, onCleanup } from "solid-js";
+import { produce } from "solid-js/store";
 import { state, setState, selectFile } from "~/state";
 
 const Scatter: Component = () => {
 
-  const nodes: () => GraphSeriesOption["data"] = () => state.files.map((file) => {
+  const nodes: () => ScatterSeriesOption["data"] = () => state.files.map((file) => {
     return {
       id: file.id,
       name: file.name,
-      value: file.importance,
-      x: 0,
-      y: 0,
-      symbolSize: (file.importance ?? 8) / state.maxImportance * 100,
-      category: file.category,
+      value: [file.importance, file.gini],
+      symbolSize: Math.sqrt(
+        (file.importance ?
+        file.importance / state.maxImportance 
+        : 0.1
+        ) * 800
+      ),
+      // category: file.category,
     }
   })
 
-  const links: () => GraphSeriesOption["links"] = () => state.links
-
   const onClick = (params: any) => {
-    if (params.dataType === 'node') {
-      const nodeId = params.data.id as string
-      console.log(nodeId, state.selectedId)
-      selectFile(nodeId !== state.selectedId ? nodeId : null)
-    } else {
-      selectFile(null)
-    }
+    const nodeId = params.data.id as string
+    selectFile(nodeId !== state.selectedId ? nodeId : null)
   }
+
+  onCleanup(() => {
+    setState("charts", produce(charts => {
+      delete charts.scatter
+    }))
+  })
   
   return (
     <EChartsAutoSize
-      onInit={(chart) => setState("chart", chart)}
+      onInit={(chart) => setState("charts", "scatter", chart)}
       initOptions={{
         renderer: "canvas"
       }}
       option={{
-        
+        legend: [
+          {
+            // data: ['directory', 'file', 'code'],
+          }
+        ],
+        xAxis: {
+          type: 'value',
+          name: 'Importance',
+        },
+        yAxis: {
+          type: 'value',
+          name: 'Gini coefficient',
+        },
+        tooltip: {
+          // trigger: 'axis',
+          showDelay: 0,
+          formatter: function (params) {
+            return params?.name
+          },
+          axisPointer: {
+            show: true,
+            type: 'cross',
+            lineStyle: {
+              type: 'dashed',
+              width: 1
+            }
+          }
+        },
+        series: [
+          {
+            type: "scatter",
+            data: nodes(),
+            selectedMode: 'single',
+            itemStyle: {
+              borderWidth: 1,
+              borderType: "solid",
+              borderColor: "#fff",
+            },
+            select: {
+              label: {
+                show: true,
+              },
+              itemStyle: {
+                borderColor: "#000",
+                borderWidth: 4,
+              },
+            },
+          }
+        ]
         
       }}
       eventHandlers={{ click: onClick, globalout: () => selectFile(state.selectedId ?? '') }}

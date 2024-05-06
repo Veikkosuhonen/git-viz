@@ -47,14 +47,14 @@ export const [state, setState] = createStore<{
   adjacency: Adjacency
   adjacencyThreshold: number
   maxImportance: number
-  chart: EChartsType|null
+  charts: { [key: string]: EChartsType }
   teamMembers: TeamMember[]
 }>({
   files: [],
   links: [],
   searchText: "",
   selectedId: null,
-  type: "graph",
+  type: "scatter",
   data: null,
   importancePercentiles: [],
   giniPercentiles: [],
@@ -62,7 +62,7 @@ export const [state, setState] = createStore<{
   adjacency: {},
   adjacencyThreshold: 1,
   maxImportance: 0,
-  chart: null,
+  charts: {},
   teamMembers: []
 });
 
@@ -225,14 +225,16 @@ const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: numb
 export const selectFile = (fileId: string|null) => {
   if (!fileId) {
     setState("selectedId", null)
-    state.chart?.dispatchAction({
-      type: "unselect",
-      seriesIndex: 0,
-      name: fileId,
-    })
-    state.chart?.dispatchAction({
-      type: "downplay",
-      seriesIndex: 0,
+    Object.values(state.charts).forEach(chart => {
+      chart.dispatchAction({
+        type: "unselect",
+        seriesIndex: 0,
+        name: fileId,
+      })
+      chart.dispatchAction({
+        type: "downplay",
+        seriesIndex: 0,
+      })
     })
     return
   }
@@ -250,15 +252,17 @@ export const selectFile = (fileId: string|null) => {
   //   seriesIndex: 0,
   //   name: blurred,
   // })
-  state.chart?.dispatchAction({
-    type: "select",
-    seriesIndex: 0,
-    name: fileId,
-  })
-  state.chart?.dispatchAction({
-    type: "highlight",
-    seriesIndex: 0,
-    name: fileId,
+  Object.values(state.charts).forEach(chart => {
+    chart.dispatchAction({
+      type: "select",
+      seriesIndex: 0,
+      name: fileId,
+    })
+    chart.dispatchAction({
+      type: "highlight",
+      seriesIndex: 0,
+      name: fileId,
+    })
   })
 }
 
