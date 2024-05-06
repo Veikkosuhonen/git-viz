@@ -1,3 +1,4 @@
+import { Match, Switch, createSignal } from "solid-js";
 import { Panel, PanelGroup, ResizeHandle } from "solid-resizable-panels";
 import Details from "~/components/Details";
 import FileList from "~/components/FileList";
@@ -5,6 +6,7 @@ import Team from "~/components/Team";
 import { Visualization } from "~/components/Visualization";
 
 export default function Home() {
+
   return (
     <PanelGroup direction="row" class="flex-[90%] flex w-[100vw] justify-between">
       <Panel id="left" class="basis-1/4 bg-slate-200 shadow-lg text-slate-700 flex flex-col">

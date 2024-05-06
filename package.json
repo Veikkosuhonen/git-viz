@@ -23,6 +23,7 @@
     "d3": "^7.9.0",
     "echarts": "^5.5.0",
     "echarts-solid": "^0.1.0",
+    "gini": "^1.1.7",
     "postcss": "^8.4.38",
     "solid-dismiss": "^1.8.1",
     "solid-js": "^1.8.16",

@@ -1,8 +1,7 @@
 import { createStore, produce } from "solid-js/store";
 import { loadAdjacency, loadChanges, loadFileTree } from "./lib/api";
 import { EChartsType, GraphSeriesOption } from "echarts";
-import { batch, createEffect, createMemo } from "solid-js";
-import { memo } from "solid-js/web";
+import { batch } from "solid-js";
 import { computeGiniCoefficient } from "./util/giniCoeff";
 
 const LINK_DEFAULT_OPACITY = 0.05
@@ -55,7 +54,7 @@ export const [state, setState] = createStore<{
   links: [],
   searchText: "",
   selectedId: null,
-  type: "echarts",
+  type: "graph",
   data: null,
   importancePercentiles: [],
   giniPercentiles: [],

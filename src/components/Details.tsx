@@ -5,6 +5,7 @@ import { getPercentageRank, getRank } from "~/util/getRank"
 import { EChartsAutoSize } from "echarts-solid"
 import Team from "./Team"
 import Dismiss from "solid-dismiss"
+import InfoButton from "./InfoButton"
 
 const Details = () => {
   const [showTeam, setShowTeam] = createSignal(false)
@@ -79,12 +80,15 @@ const Details = () => {
                 }}
               />
             </div>
-            <p class="text-sm mb-1">Ownership distribution (gini coeff): 
-              <span class={`font-mono text-black px-1 rounded ${getRank(1 - (selected()?.gini ?? 0), state.giniPercentiles)[1]} transition-colors duration-500`}>
+            <p class="text-sm mb-1">Ownership distribution: 
+              <span class={`font-mono text-white px-1 rounded ${getRank((selected()?.gini ?? 0), state.giniPercentiles)[1]} transition-colors duration-500`}>
                 {selected()?.gini?.toFixed(2)}
               </span>
+              <InfoButton text="Ownership distribution is measured by the Gini-coefficient of the contributors. 0.0 means perfectly distributed ownership (good), while 1.0 means perfectly inequal ownership (bad)" />
             </p>
-            <p class="text-sm">Related:</p>
+            <p class="text-sm">Related files:
+              <InfoButton text="Relative value between 0 and 100 describing how often a file appears in a commit with this file, compared to all other files" />
+            </p>
           </div>
           <div class="overflow-y-scroll overflow-x-hidden max-h-[25rem] p-2">
             <For each={relatedFiles()}>

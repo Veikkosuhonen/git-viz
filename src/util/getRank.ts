@@ -12,12 +12,15 @@ const ranks = [
 ]
 
 export const getRank = (value: number, percentiles: number[]) => {
+  let result = ranks[ranks.length - 1]
   for (let i = percentiles.length; i >= 0; i--) {
     if (value <= percentiles[i]) {
-      return ranks[Math.min(ranks.length - 1, i)]
+      result = ranks[Math.min(ranks.length - 1, i)]
+      break
     }
   }
-  return ranks[ranks.length - 1]
+  // console.log(value, percentiles, result)
+  return result
 }
 
 export const getPercentageRank = (value: number) => {
