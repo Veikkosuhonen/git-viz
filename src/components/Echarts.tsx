@@ -15,7 +15,7 @@ const Echarts: Component = () => {
       value: file.importance,
       x: 0,
       y: 0,
-      symbolSize: (file.importance ?? 8) / state.maxImportance * 100,
+      symbolSize: (file.importance ? ((file.importance) / state.maxImportance) : 0.1) * 200,
       category: file.category,
     }
   })
@@ -102,7 +102,7 @@ const Echarts: Component = () => {
             links: links(),
             lineStyle: {
               color: "#2e448f",
-              opacity: 0.1,
+              opacity: 0.2,
               curveness: 0.3,
             },
             selectedMode: 'single',

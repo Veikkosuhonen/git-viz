@@ -10,12 +10,12 @@ const Scatter: Component = () => {
     return {
       id: file.id,
       name: file.name,
-      value: [file.importance, file.gini],
+      value: [file.importance ?? 1, file.gini],
       symbolSize: Math.sqrt(
         (file.importance ?
         file.importance / state.maxImportance 
         : 0.1
-        ) * 800
+        ) * 1000
       ),
       // category: file.category,
     }
@@ -23,6 +23,7 @@ const Scatter: Component = () => {
 
   const onClick = (params: any) => {
     const nodeId = params.data.id as string
+    console.log(params)
     selectFile(nodeId !== state.selectedId ? nodeId : null)
   }
 

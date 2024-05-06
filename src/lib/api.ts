@@ -1,20 +1,20 @@
 import { cache } from '@solidjs/router';
-import { parse } from 'csv-parse/sync';
+import { parse } from 'csv-parse/browser/esm/sync';
 
 const baseUrl = process.env.NODE_ENV === 'development'
 ? 'http://localhost:3000'
 : 'https://raw.githubusercontent.com/Veikkosuhonen/git-viz/master/'
 
+const ignoredFiles = ["package-lock.json"]
+
 const repoName = "palaute"
 
 export const loadFileTree = cache(async () => {
-  "use server"
   const res = await fetch(`${baseUrl}/public/data/${repoName}_file_tree.json`);
   return res.json();
 }, "fileTree")
 
 export const loadAdjacency = cache(async () => {
-  "use server"
   const res = await fetch(`${baseUrl}/public/data/${repoName}_adjacency.csv`);
   const adjacency = await res.text();
 
@@ -24,13 +24,47 @@ export const loadAdjacency = cache(async () => {
   });
 }, "adjacency")
 
-export const loadChanges = cache(async () => {
-  "use server"
+export const loadChangesAndAdjacency = cache(async () => {
   const res = await fetch(`${baseUrl}/public/data/${repoName}_changes.csv`);
-  const changes = await res.text();
+  const csv = await res.text();
 
-  return parse(changes, { 
+  const changes = parse(csv, { 
     columns: true,
     skip_empty_lines: true
   });
+
+  const adjacency: { [src: string]: { [tgt: string]: number } } = {}
+
+  const files = []
+  let hash = changes[0]["commit"]
+  for (let i = 0; i < changes.length; i++) {
+    if (ignoredFiles.includes(changes[i].file)) {
+      continue
+    }
+  
+    const row = changes[i]
+    
+    if (row["commit"] !== hash) {
+      const changeValue = 1 / files.length
+      for (const file of files) {
+        if (!adjacency[file]) {
+          adjacency[file] = {}
+        }
+        for (const otherFile of files) {
+          if (file !== otherFile) {
+            if (!adjacency[file][otherFile]) {
+              adjacency[file][otherFile] = 0
+            }
+            adjacency[file][otherFile] += changeValue
+          }
+        }
+      }
+      hash = row["commit"]
+      files.length = 0
+    }
+
+    files.push(row.file)
+  }
+
+  return { changes, adjacency }
 }, "changes")

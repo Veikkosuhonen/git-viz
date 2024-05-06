@@ -1,5 +1,5 @@
 import { createStore, produce } from "solid-js/store";
-import { loadAdjacency, loadChanges, loadFileTree } from "./lib/api";
+import { loadChangesAndAdjacency, loadFileTree } from "./lib/api";
 import { EChartsType, GraphSeriesOption } from "echarts";
 import { batch } from "solid-js";
 import { computeGiniCoefficient } from "./util/giniCoeff";
@@ -43,7 +43,7 @@ export const [state, setState] = createStore<{
   data: any,
   importancePercentiles: number[],
   giniPercentiles: number[],
-  adjacencyData: any
+  adjacencyData: Adjacency
   adjacency: Adjacency
   adjacencyThreshold: number
   maxImportance: number
@@ -58,7 +58,7 @@ export const [state, setState] = createStore<{
   data: null,
   importancePercentiles: [],
   giniPercentiles: [],
-  adjacencyData: null,
+  adjacencyData: {},
   adjacency: {},
   adjacencyThreshold: 1,
   maxImportance: 0,
@@ -77,22 +77,10 @@ const getFileCategory = (file: File) => {
 
 Promise.all([
   loadFileTree(),
-  loadAdjacency(),
-  loadChanges()
-]).then(([fileJson, adjacencyJson, changes]) => {
-  const adjacencyData = Object.fromEntries(adjacencyJson.map((row: any) => {
-    const rowId = row[""]
-    const rowData = Object.fromEntries(
-      Object.entries(row)
-      .filter(([key,]) => key !== "")
-      .map(([key, value]) => [key, parseInt(value as string, 10)])
-      .filter(([key, value]) => value as number > 0)
-    )
-    return [rowId, rowData]
-  }))
-
+  loadChangesAndAdjacency(),
+]).then(([fileJson, { adjacency: adjacencyJson, changes }]) => {
   const adjacency = {} as Adjacency
-  updateAdjacency(adjacency, adjacencyData, state.adjacencyThreshold)
+  updateAdjacency(adjacency, adjacencyJson, state.adjacencyThreshold)
 
   let maxImportance = 0
   const files: File[] = [];
@@ -118,8 +106,8 @@ Promise.all([
       node.category = "directory"
   
     } else {
-      node.importance = adjacencyData[node.id] 
-        ? (Object.values(adjacencyData[node.id]) as number[])
+      node.importance = adjacencyJson[node.id] 
+        ? (Object.values(adjacencyJson[node.id]) as number[])
           .reduce((acc: number, curr: number) => acc + curr, 0) 
         : 0
 
@@ -169,7 +157,7 @@ Promise.all([
   const N_LINKS = 1000
   const visited = new Set<string>()
   let allLinks = []
-  for (const [sourceId, outLinks] of Object.entries(adjacencyData)) {
+  for (const [sourceId, outLinks] of Object.entries(adjacencyJson)) {
     for (const [targetId, value] of Object.entries(outLinks)) {
       if (visited.has(`${targetId}-${sourceId}`)) {
         continue
@@ -189,7 +177,7 @@ Promise.all([
       target: l[1],
       ignoreForceLayout: true,
       lineStyle: {
-        width: l[2] as number,
+        width: l[2] as number * 2,
       },
       emphasis: {
         disabled: true,
@@ -204,7 +192,7 @@ Promise.all([
     setState("giniPercentiles", giniPercentiles);
     setState("links", links);
     setState("data", fileJson)
-    setState("adjacencyData", adjacencyData)
+    setState("adjacencyData", adjacencyJson)
     setState("adjacency", adjacency)
     setState("adjacencyThreshold", adjacencyThreshold)
     setState("teamMembers", Object.values(teamMembers))
