@@ -194,6 +194,7 @@ Promise.all([
   setState("adjacencyData", adjacencyData)
   setState("adjacency", adjacency)
   setState("adjacencyThreshold", adjacencyThreshold)
+  setState("teamMembers", Object.values(teamMembers))
 })
 
 const updateAdjacency = (current: Adjacency, adjacencyData: any, threshold: number) => {

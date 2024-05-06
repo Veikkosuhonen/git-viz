@@ -1,6 +1,7 @@
 import { Panel, PanelGroup, ResizeHandle } from "solid-resizable-panels";
 import Details from "~/components/Details";
 import FileList from "~/components/FileList";
+import Team from "~/components/Team";
 import { Visualization } from "~/components/Visualization";
 
 export default function Home() {

@@ -12,7 +12,7 @@ const FileList: Component = () => {
   return (
     <>
       <div class="p-2 flex items-center gap-2 border-b border-slate-300 bg-slate-100">
-        <h2 class="text-xl">File list</h2>
+        <h2>File list</h2>
         <input type="text" 
           value={state.searchText}
           onInput={(e) => setState("searchText", e.currentTarget.value)}
