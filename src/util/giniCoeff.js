@@ -9,3 +9,10 @@ export function computeGiniCoefficient(data) {
     return 0
   }
 }
+
+export function computeKnowledgeAtRisk(data) {
+  const sorted = data.toSorted((a, b) => b - a)
+  const sum = data.reduce((v, acc) => v + acc, 0)
+  const greatest = sorted[0]
+  return greatest / sum
+}

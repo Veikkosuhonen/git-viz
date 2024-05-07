@@ -10,7 +10,7 @@ const Scatter: Component = () => {
     return {
       id: file.id,
       name: file.name,
-      value: [file.importance ?? 1, file.gini],
+      value: [file.importance ?? 1, file.kar],
       symbolSize: Math.sqrt(
         (file.importance ?
         file.importance / state.maxImportance 
@@ -51,7 +51,7 @@ const Scatter: Component = () => {
         },
         yAxis: {
           type: 'value',
-          name: 'Gini coefficient',
+          name: 'Knowledge at risk',
         },
         tooltip: {
           // trigger: 'axis',

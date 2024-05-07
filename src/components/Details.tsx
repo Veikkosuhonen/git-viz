@@ -80,11 +80,11 @@ const Details = () => {
                 }}
               />
             </div>
-            <p class="text-sm mb-1">Ownership distribution: 
-              <span class={`font-mono text-white px-1 rounded ${getRank((selected()?.gini ?? 0), state.giniPercentiles)[1]} transition-colors duration-500`}>
-                {selected()?.gini?.toFixed(2)}
+            <p class="text-sm mb-1">Knowledge at risk:
+              <span class={`font-mono text-white px-1 rounded ${getRank((selected()?.kar ?? 0), state.karPercentiles)[1]} transition-colors duration-500`}>
+                {selected()?.kar?.toFixed(2)}
               </span>
-              <InfoButton text="Ownership distribution is measured by the Gini-coefficient of the contributors. 0.0 means perfectly distributed ownership (good), while 1.0 means perfectly inequal ownership (bad)" />
+              <InfoButton text="Measured by the portion of the knowledge of the top contributor, eg. how much would be lost if the top contributor quit" />
             </p>
             <p class="text-sm">Related files:
               <InfoButton text="Relative value between 0 and 100 describing how often a file appears in a commit with this file, compared to all other files" />

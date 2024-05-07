@@ -2,7 +2,7 @@ import { createStore, produce } from "solid-js/store";
 import { loadChangesAndAdjacency, loadFileTree } from "./lib/api";
 import { EChartsType, GraphSeriesOption } from "echarts";
 import { batch } from "solid-js";
-import { computeGiniCoefficient } from "./util/giniCoeff";
+import { computeGiniCoefficient, computeKnowledgeAtRisk } from "./util/giniCoeff";
 
 const LINK_DEFAULT_OPACITY = 0.05
 const LINK_HIGHLIGHT_OPACITY = 0.5
@@ -25,7 +25,7 @@ export type File = {
   importance?: number
   blur?: boolean
   contributors?: Contributors
-  gini?: number
+  kar?: number
 }
 
 type Adjacency = {
@@ -42,7 +42,7 @@ export const [state, setState] = createStore<{
   type: string,
   data: any,
   importancePercentiles: number[],
-  giniPercentiles: number[],
+  karPercentiles: number[],
   adjacencyData: Adjacency
   adjacency: Adjacency
   adjacencyThreshold: number
@@ -57,7 +57,7 @@ export const [state, setState] = createStore<{
   type: "scatter",
   data: null,
   importancePercentiles: [],
-  giniPercentiles: [],
+  karPercentiles: [],
   adjacencyData: {},
   adjacency: {},
   adjacencyThreshold: 1,
@@ -144,14 +144,15 @@ Promise.all([
 
   files.forEach(file => {
     file.contributors = fileContributorsMap[file.id] ?? {}
-    file.gini = file.contributors ? computeGiniCoefficient(Object.values(file.contributors)) : 0
+    const cvalues = Object.values(file.contributors)
+    file.kar = computeKnowledgeAtRisk(cvalues)
   })
 
-  files.sort((a, b) => (b.gini ?? 0) - (a.gini ?? 0))
+  files.sort((a, b) => (b.kar ?? 0) - (a.kar ?? 0))
 
-  const giniPercentiles: number[] = []
+  const karPercentiles: number[] = []
   for (let i = 0; i < 10; i++) {
-    giniPercentiles.push(files[Math.floor(i * files.length / 10)].gini ?? 0)
+    karPercentiles.push(files[Math.floor(i * files.length / 10)].kar ?? 0)
   }
 
   const N_LINKS = 1000
@@ -189,7 +190,7 @@ Promise.all([
     setState("files", files);
     setState("maxImportance", maxImportance);
     setState("importancePercentiles", importancePercentiles);
-    setState("giniPercentiles", giniPercentiles);
+    setState("karPercentiles", karPercentiles);
     setState("links", links);
     setState("data", fileJson)
     setState("adjacencyData", adjacencyJson)
