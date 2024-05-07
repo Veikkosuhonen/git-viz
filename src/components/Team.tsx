@@ -5,11 +5,11 @@ import { computeKnowledgeAtRisk } from "~/util/giniCoeff"
 const Team = () => {
 
   const toggleTeamMember = (name: string) => {
-      setState("teamMembers", t => t.name === name, "enabled", (e) => !e)
-      setState("files", {}, (f) => ({ ...f, kar: computeKnowledgeAtRisk(
-        Object.entries(f.contributors ?? {}).filter(([k, v]) => state.teamMembers.some(tm => tm.name === k && tm.enabled)).map(([,v]) => v)
-      )
-       }))
+    setState("teamMembers", t => t.name === name, "enabled", (e) => !e)
+    setState("files", {}, (f) => ({ ...f, kar: computeKnowledgeAtRisk(
+      Object.entries(f.contributors ?? {}).filter(([k, v]) => state.teamMembers.some(tm => tm.name === k && tm.enabled)).map(([,v]) => v)
+      )}
+    ))
   }
 
   return (

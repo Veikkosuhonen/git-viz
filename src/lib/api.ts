@@ -5,9 +5,9 @@ const baseUrl = process.env.NODE_ENV === 'development'
 ? 'http://localhost:3000'
 : 'https://raw.githubusercontent.com/Veikkosuhonen/git-viz/master/'
 
-const ignoredFiles = ["package-lock.json"]
+const ignoredFiles = ["package-lock.json", "package.json"]
 
-const repoName = "palaute"
+const repoName = "oodikone"
 
 export const loadFileTree = cache(async () => {
   const res = await fetch(`${baseUrl}/public/data/${repoName}_file_tree.json`);
@@ -38,7 +38,7 @@ export const loadChangesAndAdjacency = cache(async () => {
   const files = []
   let hash = changes[0]["commit"]
   for (let i = 0; i < changes.length; i++) {
-    if (ignoredFiles.includes(changes[i].file)) {
+    if (ignoredFiles.some((f) => changes[i].file.includes(f))) {
       continue
     }
   

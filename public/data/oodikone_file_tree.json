@@ -1,0 +1,3913 @@
+{
+  "name": "/",
+  "children": [
+    {
+      "name": "cli.sh",
+      "lines": 88
+    },
+    {
+      "name": "docker-compose.real.yml",
+      "lines": 22
+    },
+    {
+      "name": "LICENSE",
+      "lines": 19
+    },
+    {
+      "name": "docker-compose.ci.yml",
+      "lines": 166
+    },
+    {
+      "name": "cypress.config.js",
+      "lines": 20
+    },
+    {
+      "name": ".lintstagedrc.js",
+      "lines": 27
+    },
+    {
+      "name": "run.sh",
+      "lines": 91
+    },
+    {
+      "name": "README.md",
+      "lines": 211
+    },
+    {
+      "name": ".stylelintrc",
+      "lines": 6
+    },
+    {
+      "name": ".env.template",
+      "lines": 6
+    },
+    {
+      "name": ".gitignore",
+      "lines": 48
+    },
+    {
+      "name": "package-lock.json",
+      "lines": 6792
+    },
+    {
+      "name": "package.json",
+      "lines": 59
+    },
+    {
+      "name": ".prettierrc",
+      "lines": 10
+    },
+    {
+      "name": "docker-compose.yml",
+      "lines": 211
+    },
+    {
+      "name": "nginx.conf",
+      "lines": 20
+    },
+    {
+      "name": ".eslintrc.json",
+      "lines": 47
+    },
+    {
+      "name": "tietosuoja.md",
+      "lines": 3
+    },
+    {
+      "name": ".husky",
+      "children": [
+        {
+          "name": ".husky/.gitignore",
+          "lines": 1
+        },
+        {
+          "name": ".husky/pre-commit",
+          "lines": 12
+        }
+      ]
+    },
+    {
+      "name": "documentation",
+      "children": [
+        {
+          "name": "documentation/Oodikone.png",
+          "lines": 0
+        },
+        {
+          "name": "documentation/Oodikone.svg",
+          "lines": 4
+        },
+        {
+          "name": "documentation/numeric_types.md",
+          "lines": 48
+        },
+        {
+          "name": "documentation/combined_programme.md",
+          "lines": 96
+        },
+        {
+          "name": "documentation/masterplan.jpeg",
+          "lines": 0
+        }
+      ]
+    },
+    {
+      "name": "cypress",
+      "children": [
+        {
+          "name": "cypress/.gitignore",
+          "lines": 2
+        },
+        {
+          "name": "cypress/plugins",
+          "children": [
+            {
+              "name": "cypress/plugins/index.js",
+              "lines": 22
+            }
+          ]
+        },
+        {
+          "name": "cypress/support",
+          "children": [
+            {
+              "name": "cypress/support/commands.js",
+              "lines": 154
+            },
+            {
+              "name": "cypress/support/e2e.js",
+              "lines": 26
+            }
+          ]
+        },
+        {
+          "name": "cypress/fixtures",
+          "children": [
+            {
+              "name": "cypress/fixtures/studyGuidanceGroups.json",
+              "lines": 28
+            },
+            {
+              "name": "cypress/fixtures/customPopulations.json",
+              "lines": 4
+            },
+            {
+              "name": "cypress/fixtures/completedCoursesData.json",
+              "lines": 4
+            },
+            {
+              "name": "cypress/fixtures/openUniPopulation.json",
+              "lines": 4
+            }
+          ]
+        },
+        {
+          "name": "cypress/e2e",
+          "children": [
+            {
+              "name": "cypress/e2e/Teachers.js",
+              "lines": 44
+            },
+            {
+              "name": "cypress/e2e/Faculty_statistics.js",
+              "lines": 297
+            },
+            {
+              "name": "cypress/e2e/Study_guidance_groups.js",
+              "lines": 171
+            },
+            {
+              "name": "cypress/e2e/Course_statistics.js",
+              "lines": 510
+            },
+            {
+              "name": "cypress/e2e/Custom_population.js",
+              "lines": 195
+            },
+            {
+              "name": "cypress/e2e/Language_center.js",
+              "lines": 65
+            },
+            {
+              "name": "cypress/e2e/Population_statistics.js",
+              "lines": 261
+            },
+            {
+              "name": "cypress/e2e/Users.js",
+              "lines": 54
+            },
+            {
+              "name": "cypress/e2e/Students.js",
+              "lines": 108
+            },
+            {
+              "name": "cypress/e2e/Studyprogramme_overview.js",
+              "lines": 453
+            },
+            {
+              "name": "cypress/e2e/Filters.js",
+              "lines": 414
+            },
+            {
+              "name": "cypress/e2e/Completed_courses.js",
+              "lines": 153
+            },
+            {
+              "name": "cypress/e2e/Openuni.js",
+              "lines": 116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "updater",
+      "children": [
+        {
+          "name": "updater/sis-updater-scheduler",
+          "children": [
+            {
+              "name": "updater/sis-updater-scheduler/Dockerfile",
+              "lines": 19
+            },
+            {
+              "name": "updater/sis-updater-scheduler/README.md",
+              "lines": 34
+            },
+            {
+              "name": "updater/sis-updater-scheduler/.dockerignore",
+              "lines": 5
+            },
+            {
+              "name": "updater/sis-updater-scheduler/package-lock.json",
+              "lines": 2120
+            },
+            {
+              "name": "updater/sis-updater-scheduler/package.json",
+              "lines": 31
+            },
+            {
+              "name": "updater/sis-updater-scheduler/dev.Dockerfile",
+              "lines": 13
+            },
+            {
+              "name": "updater/sis-updater-scheduler/src",
+              "children": [
+                {
+                  "name": "updater/sis-updater-scheduler/src/purge.js",
+                  "lines": 168
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/server.js",
+                  "lines": 135
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/index.js",
+                  "lines": 141
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/config.js",
+                  "lines": 28
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/scheduler.js",
+                  "lines": 307
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/utils",
+                  "children": [
+                    {
+                      "name": "updater/sis-updater-scheduler/src/utils/cron.js",
+                      "lines": 7
+                    },
+                    {
+                      "name": "updater/sis-updater-scheduler/src/utils/stan.js",
+                      "lines": 25
+                    },
+                    {
+                      "name": "updater/sis-updater-scheduler/src/utils/logger.js",
+                      "lines": 81
+                    },
+                    {
+                      "name": "updater/sis-updater-scheduler/src/utils/redis.js",
+                      "lines": 34
+                    }
+                  ]
+                },
+                {
+                  "name": "updater/sis-updater-scheduler/src/db",
+                  "children": [
+                    {
+                      "name": "updater/sis-updater-scheduler/src/db/connection.js",
+                      "lines": 47
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "updater/sis-updater-worker",
+          "children": [
+            {
+              "name": "updater/sis-updater-worker/Dockerfile",
+              "lines": 17
+            },
+            {
+              "name": "updater/sis-updater-worker/README.md",
+              "lines": 16
+            },
+            {
+              "name": "updater/sis-updater-worker/.dockerignore",
+              "lines": 4
+            },
+            {
+              "name": "updater/sis-updater-worker/package-lock.json",
+              "lines": 1515
+            },
+            {
+              "name": "updater/sis-updater-worker/package.json",
+              "lines": 30
+            },
+            {
+              "name": "updater/sis-updater-worker/dev.Dockerfile",
+              "lines": 11
+            },
+            {
+              "name": "updater/sis-updater-worker/src",
+              "children": [
+                {
+                  "name": "updater/sis-updater-worker/src/postUpdate.js",
+                  "lines": 78
+                },
+                {
+                  "name": "updater/sis-updater-worker/src/index.js",
+                  "lines": 158
+                },
+                {
+                  "name": "updater/sis-updater-worker/src/config.js",
+                  "lines": 20
+                },
+                {
+                  "name": "updater/sis-updater-worker/src/utils",
+                  "children": [
+                    {
+                      "name": "updater/sis-updater-worker/src/utils/stan.js",
+                      "lines": 24
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/utils/logger.js",
+                      "lines": 81
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/utils/index.js",
+                      "lines": 56
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/utils/redis.js",
+                      "lines": 48
+                    }
+                  ]
+                },
+                {
+                  "name": "updater/sis-updater-worker/src/updater",
+                  "children": [
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/mapper.js",
+                      "lines": 502
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/purge.js",
+                      "lines": 95
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/index.js",
+                      "lines": 52
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/updateMeta.js",
+                      "lines": 166
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/shared.js",
+                      "lines": 274
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/updateProgrammeModules",
+                      "children": [
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateProgrammeModules/resolver.js",
+                          "lines": 132
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateProgrammeModules/updateProgrammeModules.js",
+                          "lines": 83
+                        }
+                      ]
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/updater/updateStudents",
+                      "children": [
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/excludedPartialAttainments.csv",
+                          "lines": 176780
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/varhaiskasvatusFixer.js",
+                          "lines": 91
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/studentProgrammeModuleFixer.js",
+                          "lines": 94
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/studyPlans.js",
+                          "lines": 250
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/attainments.js",
+                          "lines": 330
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/index.js",
+                          "lines": 345
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/studyRightUpdaters.js",
+                          "lines": 480
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/updater/updateStudents/excludedPartialAttainments.js",
+                          "lines": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "updater/sis-updater-worker/src/db",
+                  "children": [
+                    {
+                      "name": "updater/sis-updater-worker/src/db/index.js",
+                      "lines": 78
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/db/connection.js",
+                      "lines": 102
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/db/migrations",
+                      "children": [
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200129_00_init_organization.js",
+                          "lines": 25
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200211_00_init_credit_teachers.js",
+                          "lines": 37
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220228_00_init_enrollment.js",
+                          "lines": 61
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20211209_01_add_sis_person_ids_to_student_table.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200213_00_init_studyright_extents.js",
+                          "lines": 22
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200310_00_fix_faculty_code_constraint.js",
+                          "lines": 19
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200525_00_add_order_to_programme_modules.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210623_00_add_column_substitutions_to_course.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20221110_00_add_open_uni_dicsclosure_column.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200204_00_init_course_types.js",
+                          "lines": 22
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230420_00_remove_dissemination_info_allowed.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230929_00_add_studyright_to_credit.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20211124_00_add_language_to_credits.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220505_00_organization_yearly_credits_view.js",
+                          "lines": 65
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230929_01_add_studyright_to_enrollment.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200306_00_fix_constraints.js",
+                          "lines": 76
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20221020_00_add_secondary_email_column.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220609_00_add_main_course_column.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230721_01_add_group_id_to_modules.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200226_00_course_index_and_course_id_to_credit.js",
+                          "lines": 16
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200205_01_init_course_providers.js",
+                          "lines": 39
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200514_00_recreate_programme_module_children.js",
+                          "lines": 37
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200220_00_add_indexes.js",
+                          "lines": 20
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20201204_00_create_cds_functions.js",
+                          "lines": 159
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210114_00_update_first_semester.js",
+                          "lines": 21
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200306_01_foreign_key_indexes.js",
+                          "lines": 14
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20240111_00_add_isBaMa_to_studyright.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200207_00_init_teacher.js",
+                          "lines": 22
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230330_00_add_cancelled_column_studyright.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200205_00_init_student.js",
+                          "lines": 30
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200213_02_init_studyright_elements.js",
+                          "lines": 46
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200504_00_init_programme_module_child.js",
+                          "lines": 33
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230330_01_add_sisu_id_column_studyplan.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200205_02_init_semesters.js",
+                          "lines": 40
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20231003_00_add_actual_id_to_studyright.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20240116_00_add_semester_enrollments_to_studyright.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230329_02_refactor_studyplan_table.js",
+                          "lines": 52
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200320_00_reset_studyright_elements.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230721_00_add_validity_to_modules.js",
+                          "lines": 16
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220405_00_remove_canceldate_from_studyright.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20211208_00_add_course_unit_type_to_courses.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200429_00_init_programme_modules.js",
+                          "lines": 28
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20211209_00_remove_garbage_field_from_student.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230803_00_remove_programme_child_foreign_constraint.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220314_00_init_studyplan.js",
+                          "lines": 43
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210902_01_add_parent_org_to_organisations.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20231212_00_add_shares_to_course_provider.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200224_00_add_semestercomposite_to_credit.js",
+                          "lines": 14
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200219_00_add_column_abbreviatedname_to_students.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20230831_00_add_curriculum_periods_to_modules.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200213_01_init_studyrights.js",
+                          "lines": 58
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20211213_00_add_isOpen_to_credit.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20240416_00_add_curriculum_period_id_to_studyplan.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210902_00_add_organization_id_to_programme_module.js",
+                          "lines": 16
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20221124_00_add_phonenumber_column.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210716_00_add_column_admission_type_to_studyright.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220309_00_add_active_to_studyright.js",
+                          "lines": 12
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220606_00_add_completed_credits_to_study_plan.js",
+                          "lines": 14
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200130_00_init_course.js",
+                          "lines": 46
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200207_01_init_credit_types.js",
+                          "lines": 22
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200212_00_init_element_details.js",
+                          "lines": 19
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200210_00_init_credit.js",
+                          "lines": 67
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20220601_00_refactor_studyplan_table.js",
+                          "lines": 38
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200318_00_init_transfers.js",
+                          "lines": 62
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20200206_00_term_index_and_start_year_to_semesters_and_init_semester_enrollments.js",
+                          "lines": 54
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20201217_00_generate_semesters.js",
+                          "lines": 56
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/migrations/20210819_00_add_study_levels_to_programme_modules.js",
+                          "lines": 8
+                        }
+                      ]
+                    },
+                    {
+                      "name": "updater/sis-updater-worker/src/db/models",
+                      "children": [
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/studyplan.js",
+                          "lines": 64
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/semesterEnrollment.js",
+                          "lines": 58
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/studyrightElement.js",
+                          "lines": 60
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/organization.js",
+                          "lines": 40
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/creditTeacher.js",
+                          "lines": 45
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/programmeModule.js",
+                          "lines": 61
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/studyrightExtent.js",
+                          "lines": 29
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/creditType.js",
+                          "lines": 30
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/programmeModuleChild.js",
+                          "lines": 37
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/index.js",
+                          "lines": 139
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/course.js",
+                          "lines": 66
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/semester.js",
+                          "lines": 54
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/teacher.js",
+                          "lines": 30
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/elementDetail.js",
+                          "lines": 25
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/student.js",
+                          "lines": 45
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/courseType.js",
+                          "lines": 30
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/studyright.js",
+                          "lines": 84
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/credit.js",
+                          "lines": 97
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/transfer.js",
+                          "lines": 66
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/enrollment.js",
+                          "lines": 73
+                        },
+                        {
+                          "name": "updater/sis-updater-worker/src/db/models/courseProvider.js",
+                          "lines": 54
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scripts",
+      "children": [
+        {
+          "name": "scripts/utils.sh",
+          "lines": 43
+        },
+        {
+          "name": "scripts/functions_for_setup.sh",
+          "lines": 258
+        },
+        {
+          "name": "scripts/assets",
+          "children": [
+            {
+              "name": "scripts/assets/mopo.txt",
+              "lines": 38
+            },
+            {
+              "name": "scripts/assets/logo.txt",
+              "lines": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".github",
+      "children": [
+        {
+          "name": ".github/dependabot.yml",
+          "lines": 78
+        },
+        {
+          "name": ".github/workflows",
+          "children": [
+            {
+              "name": ".github/workflows/staging.yaml",
+              "lines": 127
+            },
+            {
+              "name": ".github/workflows/updater.yaml",
+              "lines": 166
+            },
+            {
+              "name": ".github/workflows/test.yaml",
+              "lines": 220
+            },
+            {
+              "name": ".github/workflows/production.yaml",
+              "lines": 149
+            },
+            {
+              "name": ".github/workflows/pull_request.yaml",
+              "lines": 73
+            }
+          ]
+        },
+        {
+          "name": ".github/actions",
+          "children": [
+            {
+              "name": ".github/actions/run-tests",
+              "children": [
+                {
+                  "name": ".github/actions/run-tests/action.yaml",
+                  "lines": 47
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".vscode",
+      "children": [
+        {
+          "name": ".vscode/extensions.json",
+          "lines": 9
+        }
+      ]
+    },
+    {
+      "name": "adminer-plugins",
+      "children": [
+        {
+          "name": "adminer-plugins/login-password-less.php",
+          "lines": 9
+        },
+        {
+          "name": "adminer-plugins/login-servers.php",
+          "lines": 15
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "children": [
+        {
+          "name": "services/frontend",
+          "children": [
+            {
+              "name": "services/frontend/jsconfig.json",
+              "lines": 9
+            },
+            {
+              "name": "services/frontend/index.html",
+              "lines": 17
+            },
+            {
+              "name": "services/frontend/Dockerfile",
+              "lines": 32
+            },
+            {
+              "name": "services/frontend/vite.config.js",
+              "lines": 34
+            },
+            {
+              "name": "services/frontend/.dockerignore",
+              "lines": 6
+            },
+            {
+              "name": "services/frontend/.gitignore",
+              "lines": 6
+            },
+            {
+              "name": "services/frontend/package-lock.json",
+              "lines": 2262
+            },
+            {
+              "name": "services/frontend/package.json",
+              "lines": 43
+            },
+            {
+              "name": "services/frontend/dev.Dockerfile",
+              "lines": 13
+            },
+            {
+              "name": "services/frontend/.eslintrc.json",
+              "lines": 68
+            },
+            {
+              "name": "services/frontend/public",
+              "children": [
+                {
+                  "name": "services/frontend/public/favicon.png",
+                  "lines": 0
+                },
+                {
+                  "name": "services/frontend/public/manifest.json",
+                  "lines": 15
+                }
+              ]
+            },
+            {
+              "name": "services/frontend/src",
+              "children": [
+                {
+                  "name": "services/frontend/src/conf.js",
+                  "lines": 24
+                },
+                {
+                  "name": "services/frontend/src/main.jsx",
+                  "lines": 30
+                },
+                {
+                  "name": "services/frontend/src/util",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/util/sentry.js",
+                      "lines": 16
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/apiConnection",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/apiConnection/index.js",
+                      "lines": 121
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/constants",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/constants/types.js",
+                      "lines": 18
+                    },
+                    {
+                      "name": "services/frontend/src/constants/index.js",
+                      "lines": 17
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/styles",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/styles/custom.css",
+                      "lines": 68
+                    },
+                    {
+                      "name": "services/frontend/src/styles/colors",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/styles/colors/index.js",
+                          "lines": 34
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/components",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/components/PopulationCourseStats",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/populationCourseStats.css",
+                          "lines": 35
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/CourseFilterToggle.jsx",
+                          "lines": 38
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/PopulationCourseContext.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/index.jsx",
+                          "lines": 177
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/PopulationCourseStatsFlat.jsx",
+                          "lines": 210
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/GradeDistribution",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationCourseStats/GradeDistribution/index.jsx",
+                              "lines": 161
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/PassFailEnrollments",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationCourseStats/PassFailEnrollments/passFailEnrollments.css",
+                              "lines": 19
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationCourseStats/PassFailEnrollments/index.jsx",
+                              "lines": 246
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/Students",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationCourseStats/Students/index.jsx",
+                              "lines": 191
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationCourseStats/PassingSemesters",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationCourseStats/PassingSemesters/index.jsx",
+                              "lines": 165
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CloseToGraduation",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CloseToGraduation/index.jsx",
+                          "lines": 317
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/SearchHistory",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/SearchHistory/index.jsx",
+                          "lines": 75
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/RightsNotification",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/RightsNotification/index.jsx",
+                          "lines": 26
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/PopulationStatistics",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationStatistics/index.jsx",
+                          "lines": 226
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationStatistics/DataExport.jsx",
+                          "lines": 275
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CustomOpenUniPopulation",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CustomOpenUniPopulation/CustomOpenUniSearch.jsx",
+                          "lines": 237
+                        },
+                        {
+                          "name": "services/frontend/src/components/CustomOpenUniPopulation/index.jsx",
+                          "lines": 54
+                        },
+                        {
+                          "name": "services/frontend/src/components/CustomOpenUniPopulation/OpenUniPopulationResults",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CustomOpenUniPopulation/OpenUniPopulationResults/index.jsx",
+                              "lines": 245
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/PopulationDetails",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationDetails/index.jsx",
+                          "lines": 148
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationDetails/CurriculumPicker.jsx",
+                          "lines": 136
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationDetails/AgeStats.jsx",
+                          "lines": 158
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationDetails/CreditGainStats",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/CreditDistributionDevelopment.jsx",
+                              "lines": 283
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/ExternalCreditFilterToggle.jsx",
+                              "lines": 27
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/StatisticsTab.jsx",
+                              "lines": 56
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/CollapsibleCreditRow.jsx",
+                              "lines": 77
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/CreditsGainedTable.jsx",
+                              "lines": 135
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/CreditsGainedTab.jsx",
+                              "lines": 74
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/index.jsx",
+                              "lines": 94
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/StatisticsTable.jsx",
+                              "lines": 51
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/CreditGainStats/creditGainStats.css",
+                              "lines": 37
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationDetails/PopulationCourses",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/PopulationCourses/FilterDegreeCoursesModal.jsx",
+                              "lines": 37
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationDetails/PopulationCourses/index.jsx",
+                              "lines": 97
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/TagPopulation",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/TagPopulation/index.jsx",
+                          "lines": 103
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/StudentStatistics",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/StudentStatistics/index.jsx",
+                          "lines": 27
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudentStatistics/StudentSearch",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentSearch/index.jsx",
+                              "lines": 170
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudentStatistics/StudentDetails",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/TagsTable.jsx",
+                              "lines": 54
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/StudentGraphs.jsx",
+                              "lines": 272
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/CourseParticipationTable.jsx",
+                              "lines": 112
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/StudyrightsTable.jsx",
+                              "lines": 251
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/index.jsx",
+                              "lines": 166
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentDetails/BachelorHonours.jsx",
+                              "lines": 169
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudentStatistics/StudentInfoCard",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentInfoCard/EnrollmentAccordion.jsx",
+                              "lines": 167
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentInfoCard/studentInfoCard.css",
+                              "lines": 43
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentInfoCard/index.jsx",
+                              "lines": 52
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudentStatistics/StudentCourseTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudentStatistics/StudentCourseTable/index.jsx",
+                              "lines": 73
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/App",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/App/app.css",
+                          "lines": 22
+                        },
+                        {
+                          "name": "services/frontend/src/components/App/index.jsx",
+                          "lines": 49
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/ErrorBoundary",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/ErrorBoundary/index.jsx",
+                          "lines": 62
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/PopulationStudents",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationStudents/populationStudents.css",
+                          "lines": 21
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationStudents/index.jsx",
+                          "lines": 255
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationStudents/CheckStudentList.jsx",
+                          "lines": 98
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationStudents/StudentTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/PopulationStudents/StudentTable/CourseTab.jsx",
+                              "lines": 337
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationStudents/StudentTable/ProgressTab",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/PopulationStudents/StudentTable/ProgressTab/index.jsx",
+                                  "lines": 542
+                                }
+                              ]
+                            },
+                            {
+                              "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/index.jsx",
+                                  "lines": 156
+                                },
+                                {
+                                  "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/GeneralTab.jsx",
+                                  "lines": 657
+                                },
+                                {
+                                  "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/columnHelpers",
+                                  "children": [
+                                    {
+                                      "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/columnHelpers/createMaps.js",
+                                      "lines": 55
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/columnHelpers/semestersPresent.jsx",
+                                      "lines": 179
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/PopulationStudents/StudentTable/GeneralTab/columnHelpers/studyProgramme.jsx",
+                                      "lines": 160
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/StudyProgramme",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/NoDataMessage.jsx",
+                          "lines": 9
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/studyprogramme.css",
+                          "lines": 143
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/Toggle.jsx",
+                          "lines": 18
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/BreakdownBarChart.jsx",
+                          "lines": 95
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/index.jsx",
+                          "lines": 166
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/MedianTimeBarChart.jsx",
+                          "lines": 145
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/BasicDataTable.jsx",
+                              "lines": 50
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/PopulationLink.jsx",
+                              "lines": 78
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/BarChart.jsx",
+                              "lines": 70
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/StudytrackDataTable.jsx",
+                              "lines": 417
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/StudytrackSelector.jsx",
+                              "lines": 38
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudytrackOverview/index.jsx",
+                              "lines": 205
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/ProgrammeCourses",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/ProgrammeCourses/CourseYearFilter.jsx",
+                              "lines": 51
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/ProgrammeCourses/index.jsx",
+                              "lines": 49
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/ProgrammeCourses/OverallStatsTable.jsx",
+                              "lines": 377
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/StudyProgrammeSelector",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/StudyProgrammeSelector/index.jsx",
+                              "lines": 206
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/DegreeCourses",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/DegreeCourses/DegreeCourseTableView.jsx",
+                              "lines": 332
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/DegreeCourses/CreditCriteriaForm.jsx",
+                              "lines": 83
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/DegreeCourses/index.jsx",
+                              "lines": 130
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/Tags",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/Tags/index.jsx",
+                              "lines": 187
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/TagModal",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/TagModal/index.jsx",
+                              "lines": 91
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/BasicOverview",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/BasicOverview/DataTable.jsx",
+                              "lines": 36
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/BasicOverview/BarChart.jsx",
+                              "lines": 57
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/BasicOverview/LineGraph.jsx",
+                              "lines": 55
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/BasicOverview/index.jsx",
+                              "lines": 246
+                            },
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/BasicOverview/StackedBarChart.jsx",
+                              "lines": 67
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyProgramme/UpdateView",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/StudyProgramme/UpdateView/index.jsx",
+                              "lines": 50
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/FilterView",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/FilterView/FilterToggle.jsx",
+                          "lines": 34
+                        },
+                        {
+                          "name": "services/frontend/src/components/FilterView/index.jsx",
+                          "lines": 125
+                        },
+                        {
+                          "name": "services/frontend/src/components/FilterView/useFilters.js",
+                          "lines": 25
+                        },
+                        {
+                          "name": "services/frontend/src/components/FilterView/FilterViewContext.js",
+                          "lines": 23
+                        },
+                        {
+                          "name": "services/frontend/src/components/FilterView/FilterTray.jsx",
+                          "lines": 85
+                        },
+                        {
+                          "name": "services/frontend/src/components/FilterView/filters",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/graduatedFromProgramme.jsx",
+                              "lines": 92
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/createFilter.jsx",
+                              "lines": 148
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/startYearAtUni.jsx",
+                              "lines": 64
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/admissionType.jsx",
+                              "lines": 84
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/enrollmentStatus.jsx",
+                              "lines": 112
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/studyrightStatus.jsx",
+                              "lines": 131
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/citizenship.jsx",
+                              "lines": 67
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/tags.jsx",
+                              "lines": 65
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/creditsEarned.jsx",
+                              "lines": 66
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/index.js",
+                              "lines": 20
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/gender.jsx",
+                              "lines": 58
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/age.jsx",
+                              "lines": 67
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/studyrightType.jsx",
+                              "lines": 68
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/hops.jsx",
+                              "lines": 227
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/studyTrack.jsx",
+                              "lines": 100
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/studentNumber.jsx",
+                              "lines": 236
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/curriculumPeriod.jsx",
+                              "lines": 64
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/programmes.jsx",
+                              "lines": 269
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/grade.jsx",
+                              "lines": 123
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/transferredToProgramme.jsx",
+                              "lines": 69
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/date",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/date/creditDateFilter.css",
+                                  "lines": 3
+                                },
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/date/index.jsx",
+                                  "lines": 70
+                                }
+                              ]
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/common",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/common/FilterCard.jsx",
+                                  "lines": 95
+                                },
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/common/FilterCard.css",
+                                  "lines": 8
+                                }
+                              ]
+                            },
+                            {
+                              "name": "services/frontend/src/components/FilterView/filters/courses",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/courses/CourseCard.jsx",
+                                  "lines": 74
+                                },
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/courses/filterType.js",
+                                  "lines": 6
+                                },
+                                {
+                                  "name": "services/frontend/src/components/FilterView/filters/courses/index.jsx",
+                                  "lines": 120
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/LanguagePicker",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/LanguagePicker/index.jsx",
+                          "lines": 32
+                        },
+                        {
+                          "name": "services/frontend/src/components/LanguagePicker/useLanguage.jsx",
+                          "lines": 59
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/StudentNameVisibilityToggle",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/StudentNameVisibilityToggle/index.jsx",
+                          "lines": 30
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/SortableTable",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/SortableTable/FigureContainer.jsx",
+                          "lines": 93
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/ExportModal.jsx",
+                          "lines": 154
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/columnHeader.jsx",
+                          "lines": 615
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/style.css",
+                          "lines": 181
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/index.jsx",
+                          "lines": 261
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/columnContent.jsx",
+                          "lines": 227
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/PaginatedSortableTable.jsx",
+                          "lines": 32
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/common.js",
+                          "lines": 78
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/filters",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/SortableTable/filters/multiSelectFilter.jsx",
+                              "lines": 83
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/filters/defaultFilter.jsx",
+                              "lines": 212
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/filters/dateFilter.jsx",
+                              "lines": 52
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/filters/rangeFilter.jsx",
+                              "lines": 90
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/SortableTable/visitors",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/SortableTable/visitors/ValueVisitor.js",
+                              "lines": 37
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/visitors/ExportVisitor.js",
+                              "lines": 21
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/visitors/DataVisitor.js",
+                              "lines": 81
+                            },
+                            {
+                              "name": "services/frontend/src/components/SortableTable/visitors/SortingFilteringVisitor.js",
+                              "lines": 86
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CourseStatistics",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/courseStatistics.css",
+                          "lines": 39
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/courseStatisticsUtils.js",
+                          "lines": 36
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/index.jsx",
+                          "lines": 163
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/SingleCourseStats",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SingleCourseStats/index.jsx",
+                              "lines": 549
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SingleCourseStats/countTotalStats.js",
+                              "lines": 153
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/SingleCourseTab",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SingleCourseTab/index.jsx",
+                              "lines": 62
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/AttemptsTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/AttemptsTable/foldableRow.css",
+                              "lines": 19
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/AttemptsTable/index.jsx",
+                              "lines": 41
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/AttemptsTable/foldableRow.jsx",
+                              "lines": 70
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/CourseTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/CourseTable/courseTable.css",
+                              "lines": 9
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/CourseTable/index.jsx",
+                              "lines": 75
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/SearchForm",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SearchForm/index.jsx",
+                              "lines": 392
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SearchForm/YearFilter",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/SearchForm/YearFilter/index.jsx",
+                                  "lines": 46
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/ResultTabs",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ResultTabs/resultTabs.css",
+                              "lines": 30
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ResultTabs/index.jsx",
+                              "lines": 70
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes",
+                              "children": [
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/util.js",
+                                  "lines": 183
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/StudentsPane.jsx",
+                                  "lines": 17
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/Pane.jsx",
+                                  "lines": 179
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/AttemptsPane.jsx",
+                                  "lines": 17
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings",
+                                  "children": [
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/TableSettings.jsx",
+                                      "lines": 64
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/ChartSettings.jsx",
+                                      "lines": 27
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/common",
+                                      "children": [
+                                        {
+                                          "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/common/ProviderOrganization.jsx",
+                                          "lines": 54
+                                        },
+                                        {
+                                          "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/common/Setting.jsx",
+                                          "lines": 19
+                                        },
+                                        {
+                                          "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/settings/common/DirectionToggle.jsx",
+                                          "lines": 15
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/tables",
+                                  "children": [
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/tables/StudentsTable.jsx",
+                                      "lines": 246
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/tables/AttemptsTable.jsx",
+                                      "lines": 205
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/charts",
+                                  "children": [
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/charts/GradeDistributionChart.jsx",
+                                      "lines": 155
+                                    },
+                                    {
+                                      "name": "services/frontend/src/components/CourseStatistics/ResultTabs/panes/charts/PassRateChart.jsx",
+                                      "lines": 166
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/SummaryTab",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SummaryTab/index.jsx",
+                              "lines": 115
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/SummaryTab/DataExport.jsx",
+                              "lines": 38
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/FacultyLevelStatistics",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/FacultyLevelStatistics/index.jsx",
+                              "lines": 157
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CourseStatistics/ProgrammeDropdown",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ProgrammeDropdown/DropdownItem.jsx",
+                              "lines": 56
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ProgrammeDropdown/ClearableItem.jsx",
+                              "lines": 44
+                            },
+                            {
+                              "name": "services/frontend/src/components/CourseStatistics/ProgrammeDropdown/index.jsx",
+                              "lines": 51
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Timeout",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Timeout/index.jsx",
+                          "lines": 43
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/DateTimeSelector",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/DateTimeSelector/style.css",
+                          "lines": 3
+                        },
+                        {
+                          "name": "services/frontend/src/components/DateTimeSelector/index.jsx",
+                          "lines": 129
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Teachers",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Teachers/index.jsx",
+                          "lines": 54
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherLeaderBoard",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherLeaderBoard/LeaderForm.jsx",
+                              "lines": 75
+                            },
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherLeaderBoard/index.jsx",
+                              "lines": 81
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherDetails",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherDetails/index.jsx",
+                              "lines": 61
+                            },
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherDetails/CoursesTab.jsx",
+                              "lines": 131
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherStatistics",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherStatistics/index.jsx",
+                              "lines": 192
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherSearchTab",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherSearchTab/index.jsx",
+                              "lines": 18
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherStatisticsTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherStatisticsTable/index.jsx",
+                              "lines": 104
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Teachers/TeacherSearch",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherSearch/teacherSearch.css",
+                              "lines": 24
+                            },
+                            {
+                              "name": "services/frontend/src/components/Teachers/TeacherSearch/index.jsx",
+                              "lines": 77
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Updater",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Updater/index.jsx",
+                          "lines": 187
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/ProgressBar",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/ProgressBar/progressBar.css",
+                          "lines": 29
+                        },
+                        {
+                          "name": "services/frontend/src/components/ProgressBar/index.jsx",
+                          "lines": 53
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/NavigationBar",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/NavigationBar/navigationBar.css",
+                          "lines": 25
+                        },
+                        {
+                          "name": "services/frontend/src/components/NavigationBar/index.jsx",
+                          "lines": 202
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/StudyGuidanceGroups",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/StudyGuidanceGroupOverview.css",
+                          "lines": 4
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/common.jsx",
+                          "lines": 18
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/StudyGuidanceGroupPopulationCourses.jsx",
+                          "lines": 63
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/SingleStudyGuidanceGroup.jsx",
+                          "lines": 340
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/index.jsx",
+                          "lines": 31
+                        },
+                        {
+                          "name": "services/frontend/src/components/StudyGuidanceGroups/StudyGuidanceGroupOverview.jsx",
+                          "lines": 290
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Feedback",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Feedback/index.jsx",
+                          "lines": 97
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/LanguageCenterView",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/LanguageCenterView/index.jsx",
+                          "lines": 15
+                        },
+                        {
+                          "name": "services/frontend/src/components/LanguageCenterView/InfoBox.jsx",
+                          "lines": 59
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Info",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Info/InfoWithHelpTooltip",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Info/InfoWithHelpTooltip/index.jsx",
+                              "lines": 48
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/Info/InfoBox",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/Info/InfoBox/InfoBoxButton.jsx",
+                              "lines": 19
+                            },
+                            {
+                              "name": "services/frontend/src/components/Info/InfoBox/infoBox.css",
+                              "lines": 60
+                            },
+                            {
+                              "name": "services/frontend/src/components/Info/InfoBox/index.jsx",
+                              "lines": 60
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CustomPopulation",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CustomPopulation/CustomPopulationSearch.jsx",
+                          "lines": 157
+                        },
+                        {
+                          "name": "services/frontend/src/components/CustomPopulation/index.jsx",
+                          "lines": 227
+                        },
+                        {
+                          "name": "services/frontend/src/components/CustomPopulation/UnihowDataExport.jsx",
+                          "lines": 44
+                        },
+                        {
+                          "name": "services/frontend/src/components/CustomPopulation/CustomPopulationProgrammeDist",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CustomPopulation/CustomPopulationProgrammeDist/searchResultsTable.css",
+                              "lines": 7
+                            },
+                            {
+                              "name": "services/frontend/src/components/CustomPopulation/CustomPopulationProgrammeDist/SearchResultTable.jsx",
+                              "lines": 57
+                            },
+                            {
+                              "name": "services/frontend/src/components/CustomPopulation/CustomPopulationProgrammeDist/index.jsx",
+                              "lines": 188
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/TagStudent",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/TagStudent/index.jsx",
+                          "lines": 59
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/EvaluationOverview",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/FacultyGraduations.jsx",
+                          "lines": 61
+                        },
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/UniversityView.jsx",
+                          "lines": 163
+                        },
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/FacultyView.jsx",
+                          "lines": 155
+                        },
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/ProgrammeView.jsx",
+                          "lines": 202
+                        },
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/index.jsx",
+                          "lines": 27
+                        },
+                        {
+                          "name": "services/frontend/src/components/EvaluationOverview/FacultyProgress.jsx",
+                          "lines": 157
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/common",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/common/DateRangeSelector.jsx",
+                          "lines": 21
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/StudentInfoItem.jsx",
+                          "lines": 24
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/CreditsProduced.jsx",
+                          "lines": 123
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/FilterToggleIcon.jsx",
+                          "lines": 17
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/RangeSelector.jsx",
+                          "lines": 123
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/CommonContext.jsx",
+                          "lines": 5
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/filterToggleIcon.css",
+                          "lines": 12
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/HoverableHelpPopup.jsx",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/SisuLinkItem.jsx",
+                          "lines": 11
+                        },
+                        {
+                          "name": "services/frontend/src/components/common/PanelView.jsx",
+                          "lines": 66
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/AutoSubmitSearchInput",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/AutoSubmitSearchInput/index.jsx",
+                          "lines": 97
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/TagList",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/TagList/index.jsx",
+                          "lines": 67
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CompletedCoursesSearch",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CompletedCoursesSearch/index.jsx",
+                          "lines": 39
+                        },
+                        {
+                          "name": "services/frontend/src/components/CompletedCoursesSearch/CompletedCoursesSearch.jsx",
+                          "lines": 233
+                        },
+                        {
+                          "name": "services/frontend/src/components/CompletedCoursesSearch/CompletedCoursesSearchResults.jsx",
+                          "lines": 182
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Users",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Users/AccessGroups.jsx",
+                          "lines": 46
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/EmailPreview.jsx",
+                          "lines": 64
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/EmailNotification.jsx",
+                          "lines": 70
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/AccessRights.jsx",
+                          "lines": 182
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/index.jsx",
+                          "lines": 21
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/UserSearchList.jsx",
+                          "lines": 166
+                        },
+                        {
+                          "name": "services/frontend/src/components/Users/UserPage.jsx",
+                          "lines": 94
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/PopulationSearch",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationSearch/FilterActiveNote.jsx",
+                          "lines": 28
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationSearch/populationSearch.css",
+                          "lines": 35
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationSearch/PopulationSearchHistory.jsx",
+                          "lines": 211
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationSearch/index.jsx",
+                          "lines": 81
+                        },
+                        {
+                          "name": "services/frontend/src/components/PopulationSearch/PopulationSearchForm.jsx",
+                          "lines": 485
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Frontpage",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Frontpage/Changelog.jsx",
+                          "lines": 72
+                        },
+                        {
+                          "name": "services/frontend/src/components/Frontpage/index.jsx",
+                          "lines": 124
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/PopulationQueryCard",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/PopulationQueryCard/index.jsx",
+                          "lines": 69
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/FacultyStatistics",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/facultyHelpers.js",
+                          "lines": 47
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/index.jsx",
+                          "lines": 122
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/faculty.css",
+                          "lines": 102
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/xlsxFileDownloadHelper.js",
+                          "lines": 201
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/TimesAndPaths",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/TimesAndPaths/BreakdownBarChart.jsx",
+                              "lines": 137
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/TimesAndPaths/MedianBarChart.jsx",
+                              "lines": 212
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/TimesAndPaths/GraduationTimes.jsx",
+                              "lines": 175
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/TimesAndPaths/index.jsx",
+                              "lines": 132
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/FacultySelector",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultySelector/index.jsx",
+                              "lines": 114
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview/FacultyBarChart.jsx",
+                              "lines": 64
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview/FacultyProgressTable.jsx",
+                              "lines": 70
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview/ProgrammeProgressChart.jsx",
+                              "lines": 76
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview/index.jsx",
+                              "lines": 420
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/FacultyProgrammeOverview/FacultyStudentDataTable.jsx",
+                              "lines": 270
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/InteractiveDataView",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/InteractiveDataView/CollapsedStackedBar.jsx",
+                              "lines": 168
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/InteractiveDataView/index.jsx",
+                              "lines": 192
+                            },
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/InteractiveDataView/ExpandableRow.jsx",
+                              "lines": 35
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/BasicOverview",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/BasicOverview/index.jsx",
+                              "lines": 470
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/FacultyStatistics/UpdateView",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/FacultyStatistics/UpdateView/index.jsx",
+                              "lines": 56
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/SegmentDimmer",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/SegmentDimmer/index.jsx",
+                          "lines": 8
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/ColorizedCoursesTable",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/selectorComponents.jsx",
+                          "lines": 129
+                        },
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/common.jsx",
+                          "lines": 99
+                        },
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/index.css",
+                          "lines": 37
+                        },
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/index.jsx",
+                          "lines": 98
+                        },
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/SemestersTab",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/ColorizedCoursesTable/SemestersTab/logic.js",
+                              "lines": 40
+                            },
+                            {
+                              "name": "services/frontend/src/components/ColorizedCoursesTable/SemestersTab/index.jsx",
+                              "lines": 57
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/ColorizedCoursesTable/FacultiesTab",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/ColorizedCoursesTable/FacultiesTab/logic.js",
+                              "lines": 57
+                            },
+                            {
+                              "name": "services/frontend/src/components/ColorizedCoursesTable/FacultiesTab/index.jsx",
+                              "lines": 91
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CoursePopulation",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CoursePopulation/index.jsx",
+                          "lines": 287
+                        },
+                        {
+                          "name": "services/frontend/src/components/CoursePopulation/CoursePopulationLanguageDist",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CoursePopulation/CoursePopulationLanguageDist/index.jsx",
+                              "lines": 57
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CoursePopulation/CoursePopulationCreditGainTable",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CoursePopulation/CoursePopulationCreditGainTable/index.jsx",
+                              "lines": 149
+                            }
+                          ]
+                        },
+                        {
+                          "name": "services/frontend/src/components/CoursePopulation/CoursePopulationGradeDist",
+                          "children": [
+                            {
+                              "name": "services/frontend/src/components/CoursePopulation/CoursePopulationGradeDist/ExternalGradeFilterToggle.jsx",
+                              "lines": 22
+                            },
+                            {
+                              "name": "services/frontend/src/components/CoursePopulation/CoursePopulationGradeDist/index.jsx",
+                              "lines": 81
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/Routes",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/Routes/ProtectedRoute.jsx",
+                          "lines": 44
+                        },
+                        {
+                          "name": "services/frontend/src/components/Routes/index.jsx",
+                          "lines": 133
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/CreditAccumulationGraphHighCharts",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/CreditAccumulationGraphHighCharts/creditAccumulationGraphHC.css",
+                          "lines": 11
+                        },
+                        {
+                          "name": "services/frontend/src/components/CreditAccumulationGraphHighCharts/creditGraphTooltip.css",
+                          "lines": 35
+                        },
+                        {
+                          "name": "services/frontend/src/components/CreditAccumulationGraphHighCharts/index.jsx",
+                          "lines": 581
+                        },
+                        {
+                          "name": "services/frontend/src/components/CreditAccumulationGraphHighCharts/CreditGraphTooltip.jsx",
+                          "lines": 78
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/frontend/src/components/AccessDenied",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/components/AccessDenied/index.jsx",
+                          "lines": 98
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/common",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/common/hooks.js",
+                      "lines": 263
+                    },
+                    {
+                      "name": "services/frontend/src/common/query.js",
+                      "lines": 16
+                    },
+                    {
+                      "name": "services/frontend/src/common/index.js",
+                      "lines": 529
+                    },
+                    {
+                      "name": "services/frontend/src/common/columns.jsx",
+                      "lines": 148
+                    },
+                    {
+                      "name": "services/frontend/src/common/InfoToolTips",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/populationStatistics.js",
+                          "lines": 225
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/studyprogramme.js",
+                          "lines": 169
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/users.js",
+                          "lines": 23
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/index.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/courseStatistics.js",
+                          "lines": 55
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/students.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/faculty.js",
+                          "lines": 126
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/filters.js",
+                          "lines": 31
+                        },
+                        {
+                          "name": "services/frontend/src/common/InfoToolTips/coursePopulation.js",
+                          "lines": 11
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/static",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/static/oodi.txt",
+                      "lines": 519
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/assets",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/assets/toska.svg",
+                      "lines": 1
+                    },
+                    {
+                      "name": "services/frontend/src/assets/irtomikko.png",
+                      "lines": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/redux",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/redux/populationSelectedStudentCourses.js",
+                      "lines": 80
+                    },
+                    {
+                      "name": "services/frontend/src/redux/feedback.js",
+                      "lines": 16
+                    },
+                    {
+                      "name": "services/frontend/src/redux/teachers.js",
+                      "lines": 33
+                    },
+                    {
+                      "name": "services/frontend/src/redux/semesters.js",
+                      "lines": 13
+                    },
+                    {
+                      "name": "services/frontend/src/redux/coursesearch.js",
+                      "lines": 60
+                    },
+                    {
+                      "name": "services/frontend/src/redux/customPopulationSearch.js",
+                      "lines": 46
+                    },
+                    {
+                      "name": "services/frontend/src/redux/auth.js",
+                      "lines": 83
+                    },
+                    {
+                      "name": "services/frontend/src/redux/openUniPopulations.js",
+                      "lines": 47
+                    },
+                    {
+                      "name": "services/frontend/src/redux/tags.js",
+                      "lines": 49
+                    },
+                    {
+                      "name": "services/frontend/src/redux/populations.js",
+                      "lines": 149
+                    },
+                    {
+                      "name": "services/frontend/src/redux/languageCenterView.js",
+                      "lines": 11
+                    },
+                    {
+                      "name": "services/frontend/src/redux/studyProgramme.js",
+                      "lines": 57
+                    },
+                    {
+                      "name": "services/frontend/src/redux/users.js",
+                      "lines": 58
+                    },
+                    {
+                      "name": "services/frontend/src/redux/index.js",
+                      "lines": 36
+                    },
+                    {
+                      "name": "services/frontend/src/redux/coursestats.js",
+                      "lines": 28
+                    },
+                    {
+                      "name": "services/frontend/src/redux/coursesSummaryForm.js",
+                      "lines": 8
+                    },
+                    {
+                      "name": "services/frontend/src/redux/students.js",
+                      "lines": 16
+                    },
+                    {
+                      "name": "services/frontend/src/redux/courseExclusions.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "services/frontend/src/redux/closeToGraduation.js",
+                      "lines": 11
+                    },
+                    {
+                      "name": "services/frontend/src/redux/populationCourses.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/frontend/src/redux/elementdetails.js",
+                      "lines": 60
+                    },
+                    {
+                      "name": "services/frontend/src/redux/filters.js",
+                      "lines": 57
+                    },
+                    {
+                      "name": "services/frontend/src/redux/studyGuidanceGroups.js",
+                      "lines": 44
+                    },
+                    {
+                      "name": "services/frontend/src/redux/facultyStats.js",
+                      "lines": 61
+                    },
+                    {
+                      "name": "services/frontend/src/redux/studyProgrammePins.js",
+                      "lines": 34
+                    },
+                    {
+                      "name": "services/frontend/src/redux/changelog.js",
+                      "lines": 11
+                    },
+                    {
+                      "name": "services/frontend/src/redux/providers.js",
+                      "lines": 12
+                    },
+                    {
+                      "name": "services/frontend/src/redux/singleCourseStats.js",
+                      "lines": 41
+                    },
+                    {
+                      "name": "services/frontend/src/redux/programmeProgressCriteria.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "services/frontend/src/redux/settings.js",
+                      "lines": 23
+                    },
+                    {
+                      "name": "services/frontend/src/redux/actionHistory.js",
+                      "lines": 13
+                    },
+                    {
+                      "name": "services/frontend/src/redux/completedCoursesSearch.js",
+                      "lines": 47
+                    },
+                    {
+                      "name": "services/frontend/src/redux/common",
+                      "children": [
+                        {
+                          "name": "services/frontend/src/redux/common/listreducer.js",
+                          "lines": 61
+                        },
+                        {
+                          "name": "services/frontend/src/redux/common/formreducer.js",
+                          "lines": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "services/frontend/src/selectors",
+                  "children": [
+                    {
+                      "name": "services/frontend/src/selectors/courseStats.js",
+                      "lines": 215
+                    },
+                    {
+                      "name": "services/frontend/src/selectors/courses.js",
+                      "lines": 62
+                    },
+                    {
+                      "name": "services/frontend/src/selectors/populationDetails.js",
+                      "lines": 28
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "services/backend",
+          "children": [
+            {
+              "name": "services/backend/Dockerfile",
+              "lines": 28
+            },
+            {
+              "name": "services/backend/index.js",
+              "lines": 6
+            },
+            {
+              "name": "services/backend/.dockerignore",
+              "lines": 3
+            },
+            {
+              "name": "services/backend/package-lock.json",
+              "lines": 2504
+            },
+            {
+              "name": "services/backend/package.json",
+              "lines": 41
+            },
+            {
+              "name": "services/backend/dev.Dockerfile",
+              "lines": 16
+            },
+            {
+              "name": "services/backend/config",
+              "children": [
+                {
+                  "name": "services/backend/config/programmeCodes.js",
+                  "lines": 141
+                }
+              ]
+            },
+            {
+              "name": "services/backend/assets",
+              "children": [
+                {
+                  "name": "services/backend/assets/toska.png",
+                  "lines": 0
+                }
+              ]
+            },
+            {
+              "name": "services/backend/src",
+              "children": [
+                {
+                  "name": "services/backend/src/events.js",
+                  "lines": 149
+                },
+                {
+                  "name": "services/backend/src/conf-backend.js",
+                  "lines": 76
+                },
+                {
+                  "name": "services/backend/src/routes.js",
+                  "lines": 84
+                },
+                {
+                  "name": "services/backend/src/app.js",
+                  "lines": 36
+                },
+                {
+                  "name": "services/backend/src/middleware",
+                  "children": [
+                    {
+                      "name": "services/backend/src/middleware/currentUserMiddleware.js",
+                      "lines": 70
+                    },
+                    {
+                      "name": "services/backend/src/middleware/errorMiddleware.js",
+                      "lines": 19
+                    },
+                    {
+                      "name": "services/backend/src/middleware/shibbolethCharsetMiddleware.js",
+                      "lines": 5
+                    },
+                    {
+                      "name": "services/backend/src/middleware/auth.js",
+                      "lines": 17
+                    },
+                    {
+                      "name": "services/backend/src/middleware/accessLogger.js",
+                      "lines": 45
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/database",
+                  "children": [
+                    {
+                      "name": "services/backend/src/database/connection.js",
+                      "lines": 115
+                    },
+                    {
+                      "name": "services/backend/src/database/migrations_user",
+                      "children": [
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210823_00_add_moar_special_programmes.js",
+                          "lines": 34
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20191021_00_access_group_foreignkeys_and_primarykeys.js",
+                          "lines": 16
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20201019_00_add_coursestats_access.js",
+                          "lines": 11
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20220712_00_add_iam_groups.js",
+                          "lines": 14
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20211227_00_drop_affiliations.js",
+                          "lines": 9
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210818_00_add_new_special_programmes_to_faculties.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20191021_01_remove_oodilearn_access_group.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20190925_02_populate_db.js",
+                          "lines": 244
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20190925_01_init_db_schema.js",
+                          "lines": 664
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210831_00_remove_usage_and_coursegroups.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210816_00_remove_faculty_access_group.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20220831_00_add_facultystats_access.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210829_00_add_sisu_person_id.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210922_00_add_last_login.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210829_01_add_studyguidance_groups.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20211020_00_drop_faculty_programmes.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210910_00_remove_moar_access_groups.js",
+                          "lines": 10
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20200416_00_add_cooldata_access.js",
+                          "lines": 11
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20221026_00_add_open_uni_dojo_access.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20220112_00_drop_hy_groups.js",
+                          "lines": 9
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20211013_00_add_lisensiaatti_to_elainlaakis.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_user/20210817_00_remove_user_unit.js",
+                          "lines": 6
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/backend/src/database/migrations_kone",
+                      "children": [
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20191016_00_create_table_custom_population_search.js",
+                          "lines": 26
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20200622_00_add_order_to_programme_modules.js",
+                          "lines": 13
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210816_00_remove_course_groups.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20230412_00_add_columns_criteria.js",
+                          "lines": 23
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210817_01_remove_usagestats.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20230202_00_create_table_progress_criteria.js",
+                          "lines": 33
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210816_01_remove_course_group_sequences.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20200519_00_create_programme_modules.js",
+                          "lines": 54
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20230714_01_remove_mandatory_course_sequences.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20211029_00_add_study_guidance_group_tags.js",
+                          "lines": 34
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210817_02_remove_unit_tags.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210817_03_remove_course_duplicates.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190902_00_add_column_to_tag_table.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20230714_00_remove_mandatory_courses.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190917_00_add_personal_tag_id.js",
+                          "lines": 8
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210823_00_remove_programme_modules_and_programme_module_children.js",
+                          "lines": 7
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20240503_00_add_study_programme_pins.js",
+                          "lines": 18
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20210817_00_remove_filters.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190701_00_Initialize_database.js",
+                          "lines": 134
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20220307_00_remove_thesis_courses.js",
+                          "lines": 6
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20230919_00_add_curriculum_versions_to_kone_db.js",
+                          "lines": 17
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190706_01_fix_sequence_out_of_sync.js",
+                          "lines": 29
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190703_00_add_usage_table.js",
+                          "lines": 24
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20190821_00_tag_student_foreignkeys_and_primarykeys_refactor.js",
+                          "lines": 25
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20200623_00_create_excluded_courses_table.js",
+                          "lines": 36
+                        },
+                        {
+                          "name": "services/backend/src/database/migrations_kone/20221111_00_create_table_open_uni_population_search.js",
+                          "lines": 26
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/util",
+                  "children": [
+                    {
+                      "name": "services/backend/src/util/logger.js",
+                      "lines": 47
+                    },
+                    {
+                      "name": "services/backend/src/util/jami.js",
+                      "lines": 78
+                    },
+                    {
+                      "name": "services/backend/src/util/customErrors.js",
+                      "lines": 26
+                    },
+                    {
+                      "name": "services/backend/src/util/index.js",
+                      "lines": 5
+                    },
+                    {
+                      "name": "services/backend/src/util/semester.js",
+                      "lines": 71
+                    },
+                    {
+                      "name": "services/backend/src/util/importerClient.js",
+                      "lines": 22
+                    },
+                    {
+                      "name": "services/backend/src/util/sentry.js",
+                      "lines": 18
+                    },
+                    {
+                      "name": "services/backend/src/util/utils.js",
+                      "lines": 73
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/models",
+                  "children": [
+                    {
+                      "name": "services/backend/src/models/studyplan.js",
+                      "lines": 64
+                    },
+                    {
+                      "name": "services/backend/src/models/semesterEnrollment.js",
+                      "lines": 58
+                    },
+                    {
+                      "name": "services/backend/src/models/studyrightElement.js",
+                      "lines": 60
+                    },
+                    {
+                      "name": "services/backend/src/models/organization.js",
+                      "lines": 40
+                    },
+                    {
+                      "name": "services/backend/src/models/models_user.js",
+                      "lines": 85
+                    },
+                    {
+                      "name": "services/backend/src/models/creditTeacher.js",
+                      "lines": 45
+                    },
+                    {
+                      "name": "services/backend/src/models/programmeModule.js",
+                      "lines": 61
+                    },
+                    {
+                      "name": "services/backend/src/models/studyrightExtent.js",
+                      "lines": 29
+                    },
+                    {
+                      "name": "services/backend/src/models/models_kone.js",
+                      "lines": 215
+                    },
+                    {
+                      "name": "services/backend/src/models/creditType.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/models/programmeModuleChild.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "services/backend/src/models/index.js",
+                      "lines": 145
+                    },
+                    {
+                      "name": "services/backend/src/models/course.js",
+                      "lines": 66
+                    },
+                    {
+                      "name": "services/backend/src/models/semester.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "services/backend/src/models/teacher.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/models/elementDetail.js",
+                      "lines": 25
+                    },
+                    {
+                      "name": "services/backend/src/models/student.js",
+                      "lines": 45
+                    },
+                    {
+                      "name": "services/backend/src/models/courseType.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/models/studyright.js",
+                      "lines": 84
+                    },
+                    {
+                      "name": "services/backend/src/models/credit.js",
+                      "lines": 101
+                    },
+                    {
+                      "name": "services/backend/src/models/transfer.js",
+                      "lines": 66
+                    },
+                    {
+                      "name": "services/backend/src/models/enrollment.js",
+                      "lines": 77
+                    },
+                    {
+                      "name": "services/backend/src/models/courseProvider.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "services/backend/src/models/excludedCourse.js",
+                      "lines": 37
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/worker",
+                  "children": [
+                    {
+                      "name": "services/backend/src/worker/processor.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/worker/worker.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "services/backend/src/worker/queue.js",
+                      "lines": 39
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/rapodiff",
+                  "children": [
+                    {
+                      "name": "services/backend/src/rapodiff/conf.js",
+                      "lines": 28
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/esimerkki.md",
+                      "lines": 50
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/creditsDiff.js",
+                      "lines": 177
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/rapodiff.js",
+                      "lines": 37
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/studyrightDiff.js",
+                      "lines": 332
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/README.md",
+                      "lines": 21
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/.gitignore",
+                      "lines": 2
+                    },
+                    {
+                      "name": "services/backend/src/rapodiff/helpers.js",
+                      "lines": 20
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/routes",
+                  "children": [
+                    {
+                      "name": "services/backend/src/routes/population.js",
+                      "lines": 415
+                    },
+                    {
+                      "name": "services/backend/src/routes/feedback.js",
+                      "lines": 19
+                    },
+                    {
+                      "name": "services/backend/src/routes/teachers.js",
+                      "lines": 85
+                    },
+                    {
+                      "name": "services/backend/src/routes/semesters.js",
+                      "lines": 9
+                    },
+                    {
+                      "name": "services/backend/src/routes/updater.js",
+                      "lines": 120
+                    },
+                    {
+                      "name": "services/backend/src/routes/programmeModules.js",
+                      "lines": 21
+                    },
+                    {
+                      "name": "services/backend/src/routes/languageCenterData.js",
+                      "lines": 13
+                    },
+                    {
+                      "name": "services/backend/src/routes/university.js",
+                      "lines": 196
+                    },
+                    {
+                      "name": "services/backend/src/routes/customPopulationSearch.js",
+                      "lines": 62
+                    },
+                    {
+                      "name": "services/backend/src/routes/tags.js",
+                      "lines": 144
+                    },
+                    {
+                      "name": "services/backend/src/routes/studyProgramme.js",
+                      "lines": 235
+                    },
+                    {
+                      "name": "services/backend/src/routes/users.js",
+                      "lines": 68
+                    },
+                    {
+                      "name": "services/backend/src/routes/students.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "services/backend/src/routes/courseExclusions.js",
+                      "lines": 26
+                    },
+                    {
+                      "name": "services/backend/src/routes/faculties.js",
+                      "lines": 169
+                    },
+                    {
+                      "name": "services/backend/src/routes/closeToGraduation.js",
+                      "lines": 10
+                    },
+                    {
+                      "name": "services/backend/src/routes/login.js",
+                      "lines": 19
+                    },
+                    {
+                      "name": "services/backend/src/routes/studyProgrammeCriteria.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/routes/courses.js",
+                      "lines": 71
+                    },
+                    {
+                      "name": "services/backend/src/routes/elementdetails.js",
+                      "lines": 14
+                    },
+                    {
+                      "name": "services/backend/src/routes/studyGuidanceGroups.js",
+                      "lines": 39
+                    },
+                    {
+                      "name": "services/backend/src/routes/studyProgrammePins.js",
+                      "lines": 35
+                    },
+                    {
+                      "name": "services/backend/src/routes/changelog.js",
+                      "lines": 24
+                    },
+                    {
+                      "name": "services/backend/src/routes/providers.js",
+                      "lines": 9
+                    },
+                    {
+                      "name": "services/backend/src/routes/language.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "services/backend/src/routes/customOpenUniSearch.js",
+                      "lines": 74
+                    },
+                    {
+                      "name": "services/backend/src/routes/completedCoursesSearch.js",
+                      "lines": 105
+                    }
+                  ]
+                },
+                {
+                  "name": "services/backend/src/services",
+                  "children": [
+                    {
+                      "name": "services/backend/src/services/userService.js",
+                      "lines": 426
+                    },
+                    {
+                      "name": "services/backend/src/services/mailservice.js",
+                      "lines": 105
+                    },
+                    {
+                      "name": "services/backend/src/services/teachers.js",
+                      "lines": 276
+                    },
+                    {
+                      "name": "services/backend/src/services/semesters.js",
+                      "lines": 48
+                    },
+                    {
+                      "name": "services/backend/src/services/topteachers.js",
+                      "lines": 157
+                    },
+                    {
+                      "name": "services/backend/src/services/programmeModules.js",
+                      "lines": 122
+                    },
+                    {
+                      "name": "services/backend/src/services/languageCenterData.js",
+                      "lines": 254
+                    },
+                    {
+                      "name": "services/backend/src/services/customPopulationSearch.js",
+                      "lines": 45
+                    },
+                    {
+                      "name": "services/backend/src/services/organisations.js",
+                      "lines": 54
+                    },
+                    {
+                      "name": "services/backend/src/services/tags.js",
+                      "lines": 85
+                    },
+                    {
+                      "name": "services/backend/src/services/encrypt.js",
+                      "lines": 30
+                    },
+                    {
+                      "name": "services/backend/src/services/studyrights.js",
+                      "lines": 339
+                    },
+                    {
+                      "name": "services/backend/src/services/students.js",
+                      "lines": 453
+                    },
+                    {
+                      "name": "services/backend/src/services/statMerger.js",
+                      "lines": 106
+                    },
+                    {
+                      "name": "services/backend/src/services/excludedCourses.js",
+                      "lines": 20
+                    },
+                    {
+                      "name": "services/backend/src/services/graduationHelpers.js",
+                      "lines": 72
+                    },
+                    {
+                      "name": "services/backend/src/services/studyGuidanceGroups.js",
+                      "lines": 74
+                    },
+                    {
+                      "name": "services/backend/src/services/sisUpdaterService.js",
+                      "lines": 103
+                    },
+                    {
+                      "name": "services/backend/src/services/redis.js",
+                      "lines": 14
+                    },
+                    {
+                      "name": "services/backend/src/services/studyProgrammePins.js",
+                      "lines": 45
+                    },
+                    {
+                      "name": "services/backend/src/services/providers.js",
+                      "lines": 35
+                    },
+                    {
+                      "name": "services/backend/src/services/analyticsService.js",
+                      "lines": 122
+                    },
+                    {
+                      "name": "services/backend/src/services/providerCredits.js",
+                      "lines": 164
+                    },
+                    {
+                      "name": "services/backend/src/services/completedCoursesSearch.js",
+                      "lines": 165
+                    },
+                    {
+                      "name": "services/backend/src/services/faculty",
+                      "children": [
+                        {
+                          "name": "services/backend/src/services/faculty/facultyThesisWriters.js",
+                          "lines": 118
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyBasics.js",
+                          "lines": 491
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyGraduationTimes.js",
+                          "lines": 372
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyStudents.js",
+                          "lines": 246
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyHelpers.js",
+                          "lines": 162
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyCredits.js",
+                          "lines": 36
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyStudentProgress.js",
+                          "lines": 292
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyService.js",
+                          "lines": 175
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/faculty.js",
+                          "lines": 429
+                        },
+                        {
+                          "name": "services/backend/src/services/faculty/facultyUpdates.js",
+                          "lines": 187
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/backend/src/services/populations",
+                      "children": [
+                        {
+                          "name": "services/backend/src/services/populations/bottlenecksOf.js",
+                          "lines": 205
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/optimizedStatisticsOf.js",
+                          "lines": 83
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/index.js",
+                          "lines": 15
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/studentnumbersWithAllStudyrightElements.js",
+                          "lines": 243
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/closeToGraduation.js",
+                          "lines": 176
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/getStudentsIncludeCoursesBetween.js",
+                          "lines": 270
+                        },
+                        {
+                          "name": "services/backend/src/services/populations/shared.js",
+                          "lines": 615
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/backend/src/services/studyprogramme",
+                      "children": [
+                        {
+                          "name": "services/backend/src/services/studyprogramme/creditGetters.js",
+                          "lines": 154
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyprogrammeBasics.js",
+                          "lines": 261
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyrightFinders.js",
+                          "lines": 298
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studytrackStats.js",
+                          "lines": 500
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studentGetters.js",
+                          "lines": 311
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyprogrammeUpdates.js",
+                          "lines": 117
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/index.js",
+                          "lines": 209
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyProgrammeCriteria.js",
+                          "lines": 148
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyprogrammeGraduations.js",
+                          "lines": 366
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyprogrammeHelpers.js",
+                          "lines": 365
+                        },
+                        {
+                          "name": "services/backend/src/services/studyprogramme/studyprogrammeCourses.js",
+                          "lines": 337
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/backend/src/services/openUni",
+                      "children": [
+                        {
+                          "name": "services/backend/src/services/openUni/openUniSearches.js",
+                          "lines": 136
+                        },
+                        {
+                          "name": "services/backend/src/services/openUni/openUniStats.js",
+                          "lines": 110
+                        },
+                        {
+                          "name": "services/backend/src/services/openUni/openUniHelpers.js",
+                          "lines": 46
+                        },
+                        {
+                          "name": "services/backend/src/services/openUni/openUniManageSearches.js",
+                          "lines": 65
+                        }
+                      ]
+                    },
+                    {
+                      "name": "services/backend/src/services/courses",
+                      "children": [
+                        {
+                          "name": "services/backend/src/services/courses/creditsAndEnrollmentsOfCourse.js",
+                          "lines": 143
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/courseFinders.js",
+                          "lines": 95
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/parseEnrollments.js",
+                          "lines": 43
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/index.js",
+                          "lines": 280
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/course_stats_counter.js",
+                          "lines": 227
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/parseCredits.js",
+                          "lines": 63
+                        },
+                        {
+                          "name": "services/backend/src/services/courses/course_yearly_stats_counter.js",
+                          "lines": 317
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anonyymioodi",
+      "children": [
+        {
+          "name": "anonyymioodi/enrich_sampledata.sql",
+          "lines": 133
+        },
+        {
+          "name": "anonyymioodi/create_container_from_dump.sh",
+          "lines": 64
+        },
+        {
+          "name": "anonyymioodi/commit_and_push_to_toska_hub.sh",
+          "lines": 48
+        },
+        {
+          "name": "anonyymioodi/README.md",
+          "lines": 18
+        },
+        {
+          "name": "anonyymioodi/.gitignore",
+          "lines": 2
+        },
+        {
+          "name": "anonyymioodi/old_readme.md",
+          "lines": 71
+        },
+        {
+          "name": "anonyymioodi/docker-compose.yml",
+          "lines": 46
+        }
+      ]
+    }
+  ]
+}
