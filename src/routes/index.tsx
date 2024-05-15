@@ -13,7 +13,7 @@ export default function Home() {
         <FileList />
       </Panel>
       <ResizeHandle />
-      <Panel id="center" class="basis-1/2 p-2 flex flex-col" initialSize={50}>
+      <Panel id="center" class="basis-1/2 flex flex-col" initialSize={50}>
         <Visualization />
       </Panel>
       <ResizeHandle />
