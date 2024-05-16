@@ -8,7 +8,7 @@ const FileList: Component = () => {
 
   return (
     <>
-      <div class="overflow-y-scroll overflow-x-hidden max-h-[50rem] p-2 flex flex-col items-stretch">
+      <div class="overflow-y-scroll overflow-x-hidden max-h-[55rem] p-2 flex flex-col items-stretch">
         <ul>
           <Show when={state.root}>
             <FileTree file={state.root!!} initiallyOpen />

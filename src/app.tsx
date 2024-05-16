@@ -13,7 +13,7 @@ export default function App() {
         <div class="flex flex-col h-[100vh]">
           <Nav />
           <Suspense>{props.children}</Suspense>
-          <footer class="flex-[5%] bg-slate-200 text-amber-600 text-center p-2 border-t border-slate-300">
+          <footer class="flex-[2%] bg-slate-200 text-amber-600 text-center p-2 border-t border-slate-300">
             <p>© 2024 Veikko Suhonen</p>
           </footer>
         </div>
