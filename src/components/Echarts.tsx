@@ -8,17 +8,22 @@ const Echarts: Component = () => {
 
   console.log(state.maxImportance)
 
-  const nodes: () => GraphSeriesOption["data"] = () => state.files.map((file) => {
-    return {
-      id: file.id,
-      name: file.name,
-      value: file.importance,
-      x: 0,
-      y: 0,
-      symbolSize: (file.importance ? ((file.importance) / state.maxImportance) : 0.1) * 200,
-      category: file.category,
-    }
-  })
+  const nodes: () => GraphSeriesOption["data"] = () => {
+    const nodes = state.files.map((file) => {
+      return {
+        id: file.id,
+        name: file.name,
+        value: file.importance,
+        x: 0,
+        y: 0,
+        symbolSize: (file.importance ? ((file.importance) / state.maxImportance) : 0.1) * 200,
+        category: file.category,
+      }
+    })
+    const highlightedDirId = state.highlightedDirId
+    if (highlightedDirId) return nodes.filter(node => node.id.startsWith(highlightedDirId))
+    return nodes
+  }
 
   const links: () => GraphSeriesOption["links"] = () => state.links
 

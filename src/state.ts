@@ -36,6 +36,8 @@ type Adjacency = {
 
 export const [state, setState] = createStore<{
   files: File[],
+  root: File|null,
+  highlightedDirId: string | null,
   links: GraphSeriesOption["links"],
   searchText: string,
   selectedId: string | null,
@@ -51,6 +53,8 @@ export const [state, setState] = createStore<{
   teamMembers: TeamMember[]
 }>({
   files: [],
+  root: null,
+  highlightedDirId: null,
   links: [],
   searchText: "",
   selectedId: null,
@@ -123,6 +127,8 @@ Promise.all([
 
   visitFiles(fileJson)
 
+  const root = fileJson
+
   files.sort((a, b) => (b.importance ?? 0) - (a.importance ?? 0))
 
   const importancePercentiles: number[] = []
@@ -188,6 +194,7 @@ Promise.all([
 
   batch(() => {
     setState("files", files);
+    setState("root", root);
     setState("maxImportance", maxImportance);
     setState("importancePercentiles", importancePercentiles);
     setState("karPercentiles", karPercentiles);

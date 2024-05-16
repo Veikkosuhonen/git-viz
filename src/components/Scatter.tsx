@@ -6,20 +6,24 @@ import { state, setState, selectFile } from "~/state";
 
 const Scatter: Component = () => {
 
-  const nodes: () => ScatterSeriesOption["data"] = () => state.files.map((file) => {
-    return {
-      id: file.id,
-      name: file.name,
-      value: [file.importance ?? 1, file.kar],
-      symbolSize: Math.sqrt(
-        (file.importance ?
-        file.importance / state.maxImportance 
-        : 0.1
-        ) * 1000
-      ),
-      // category: file.category,
-    }
-  })
+  const nodes: () => ScatterSeriesOption["data"] = () => {
+    const nodes = state.files.map((file) => {
+      return {
+        id: file.id,
+        name: file.name,
+        value: [file.importance ?? 1, file.kar],
+        symbolSize: Math.sqrt(
+          (file.importance ?
+          file.importance / state.maxImportance 
+          : 0.1
+          ) * 1000
+        ),
+      }
+    })
+    const highlightedDirId = state.highlightedDirId
+    if (highlightedDirId) return nodes.filter(node => node.id.startsWith(highlightedDirId))
+    return nodes
+  }
 
   const onClick = (params: any) => {
     const nodeId = params.data.id as string
